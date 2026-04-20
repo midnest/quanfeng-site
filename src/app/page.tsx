@@ -1,5 +1,5 @@
-import { QuanfengHomePage } from "@/quanfeng/components/home-page";
+import { SimplePage } from "@/quanfeng/components/simple-page";
 
 export default function Home() {
-  return <QuanfengHomePage locale="en" />;
+  return <SimplePage initialLocale="zh" />;
 }
