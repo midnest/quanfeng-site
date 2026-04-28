@@ -72,57 +72,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
         </div>
       </div>
 
-      {/* Compare Mode Toggle */}
-      <div className="compare-toolbar">
-        <button 
-          className={`compare-toggle ${compareMode ? 'active' : ''}`}
-          onClick={() => {
-            setCompareMode(!compareMode);
-            if (compareMode) {
-              setCompareList([]);
-            }
-          }}
-        >
-          {locale === 'zh' ? '型号对比' : 
-           locale === 'en' ? 'Compare Models' :
-           locale === 'vi' ? 'So Sánh Mẫu' :
-           locale === 'th' ? 'เปรียบเทียบรุ่น' :
-           locale === 'ms' ? 'Bandingkan Model' :
-           locale === 'tr' ? 'Model Karşılaştır' :
-           'مقارنة النماذج'}
-        </button>
-        {compareList.length > 0 && (
-          <>
-            <span className="compare-count">
-              {compareList.length} {locale === 'zh' ? '个已选' : 
-                locale === 'en' ? 'selected' :
-                locale === 'vi' ? 'đã chọn' :
-                locale === 'th' ? 'ที่เลือก' :
-                locale === 'ms' ? 'dipilih' :
-                locale === 'tr' ? 'seçildi' :
-                'مختار'}
-            </span>
-            <button className="compare-view-btn" onClick={() => setShowCompareModal(true)}>
-              {locale === 'zh' ? '查看对比' : 
-               locale === 'en' ? 'View Compare' :
-               locale === 'vi' ? 'Xem So Sánh' :
-               locale === 'th' ? 'ดูการเปรียบเทียบ' :
-               locale === 'ms' ? 'Lihat Perbandingan' :
-               locale === 'tr' ? 'Karşılaştırmayı Gör' :
-               'عرض المقارنة'}
-            </button>
-            <button className="compare-clear-btn" onClick={clearCompare}>
-              {locale === 'zh' ? '清除' : 
-               locale === 'en' ? 'Clear' :
-               locale === 'vi' ? 'Xóa' :
-               locale === 'th' ? 'ล้าง' :
-               locale === 'ms' ? 'Padam' :
-               locale === 'tr' ? 'Temizle' :
-               'مسح'}
-            </button>
-          </>
-        )}
-      </div>
+
 
       {/* Product Detail Card */}
       <div className="product-detail-card">
@@ -149,7 +99,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
           ))}
         </div>
 
-        {/* Specifications Table */}
+        {/* Specifications Table - Transposed Layout for Mobile Friendliness */}
         <div className="product-specs-section">
           <h4 className="specs-title">
             {locale === 'zh' ? '技术参数表' : 
@@ -160,46 +110,231 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
              locale === 'tr' ? 'Teknik Özellikler Tablosu' :
              'جدول المواصفات الفنية'}
           </h4>
-          <div className="specs-table-wrapper">
-            <table className="specs-table">
+          
+          {/* Compare Mode Toggle */}
+          <div className="specs-compare-toggle">
+            <label className="compare-checkbox-label">
+              <input 
+                type="checkbox" 
+                checked={compareMode}
+                onChange={() => {
+                  setCompareMode(!compareMode);
+                  if (compareMode) {
+                    setCompareList([]);
+                  }
+                }}
+              />
+              <span>
+                {locale === 'zh' ? '启用型号对比' : 
+                 locale === 'en' ? 'Enable Model Comparison' :
+                 locale === 'vi' ? 'Bật So Sánh Mẫu' :
+                 locale === 'th' ? 'เปิดใช้งานการเปรียบเทียบรุ่น' :
+                 locale === 'ms' ? 'Dayakan Perbandingan Model' :
+                 locale === 'tr' ? 'Model Karşılaştırmayı Etkinleştir' :
+                 'تمكين مقارنة النماذج'}
+              </span>
+            </label>
+            {compareList.length > 0 && (
+              <span className="specs-compare-count">
+                {compareList.length} {locale === 'zh' ? '个已选' : 
+                  locale === 'en' ? 'selected' :
+                  locale === 'vi' ? 'đã chọn' :
+                  locale === 'th' ? 'ที่เลือก' :
+                  locale === 'ms' ? 'dipilih' :
+                  locale === 'tr' ? 'seçildi' :
+                  'مختار'}
+              </span>
+            )}
+          </div>
+
+          {/* Desktop View - Transposed Table */}
+          <div className="specs-table-wrapper desktop-table">
+            <table className="specs-table specs-table-transposed">
               <thead>
                 <tr>
-                  {compareMode && <th>{locale === 'zh' ? '对比' : 'Compare'}</th>}
-                  {headers.map((header, idx) => (
-                    <th key={idx}>{header}</th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {currentSeries.variants.map((variant, idx) => (
-                  <tr key={idx} className={compareList.includes(variant.model) ? 'selected' : ''}>
-                    {compareMode && (
-                      <td>
+                  <th className="param-header">
+                    {locale === 'zh' ? '参数' : 
+                     locale === 'en' ? 'Parameter' :
+                     locale === 'vi' ? 'Thông Số' :
+                     locale === 'th' ? 'พารามิเตอร์' :
+                     locale === 'ms' ? 'Parameter' :
+                     locale === 'tr' ? 'Parametre' :
+                     'المعلمة'}
+                  </th>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <th key={idx} className={`model-header ${compareList.includes(variant.model) ? 'selected' : ''}`}>
+                      {compareMode && (
                         <input 
                           type="checkbox" 
                           checked={compareList.includes(variant.model)}
                           onChange={() => toggleCompare(variant.model)}
                           disabled={!compareList.includes(variant.model) && compareList.length >= 4}
                         />
-                      </td>
-                    )}
-                    <td className="model-cell">{variant.model}</td>
-                    <td>{locale === 'zh' ? variant.bearing : features[variant.bearingType]}</td>
-                    <td>{variant.voltage}</td>
-                    <td>{variant.power}</td>
-                    <td>{variant.frequency}</td>
-                    <td>{variant.current}</td>
-                    <td>{variant.speed}</td>
-                    <td>{variant.airflow}</td>
-                    <td>{variant.noise}</td>
-                    <td>{variant.insulation}</td>
-                    <td>{variant.dielectricStrength}</td>
-                    <td>{variant.weight}</td>
-                  </tr>
-                ))}
+                      )}
+                      <span>{variant.model}</span>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="param-label">{headers[1]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{locale === 'zh' ? variant.bearing : features[variant.bearingType]}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[2]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.voltage}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[3]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.power}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[4]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.frequency}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[5]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.current}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[6]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.speed}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[7]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.airflow}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[8]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.noise}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[9]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.insulation}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[10]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.dielectricStrength}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[11]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.weight}</td>
+                  ))}
+                </tr>
               </tbody>
             </table>
           </div>
+
+          {/* Mobile View - Card Layout */}
+          <div className="mobile-specs-list">
+            {currentSeries.variants.map((variant, vidx) => (
+              <div key={vidx} className={`mobile-spec-card ${compareList.includes(variant.model) ? 'selected' : ''}`}>
+                <div className="mobile-spec-header">
+                  {compareMode && (
+                    <input 
+                      type="checkbox" 
+                      checked={compareList.includes(variant.model)}
+                      onChange={() => toggleCompare(variant.model)}
+                      disabled={!compareList.includes(variant.model) && compareList.length >= 4}
+                    />
+                  )}
+                  <h5>{variant.model}</h5>
+                </div>
+                <div className="mobile-spec-rows">
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[1]}</span>
+                    <span className="mobile-spec-value">{locale === 'zh' ? variant.bearing : features[variant.bearingType]}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[2]}</span>
+                    <span className="mobile-spec-value">{variant.voltage}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[3]}</span>
+                    <span className="mobile-spec-value">{variant.power}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[4]}</span>
+                    <span className="mobile-spec-value">{variant.frequency}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[5]}</span>
+                    <span className="mobile-spec-value">{variant.current}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[6]}</span>
+                    <span className="mobile-spec-value">{variant.speed}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[7]}</span>
+                    <span className="mobile-spec-value">{variant.airflow}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[8]}</span>
+                    <span className="mobile-spec-value">{variant.noise}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[9]}</span>
+                    <span className="mobile-spec-value">{variant.insulation}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[10]}</span>
+                    <span className="mobile-spec-value">{variant.dielectricStrength}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[11]}</span>
+                    <span className="mobile-spec-value">{variant.weight}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Compare Button for Mobile */}
+          {compareList.length > 0 && (
+            <div className="mobile-compare-actions">
+              <button className="mobile-view-compare-btn" onClick={() => setShowCompareModal(true)}>
+                {locale === 'zh' ? '查看对比 (' : 
+                 locale === 'en' ? 'View Compare (' :
+                 locale === 'vi' ? 'Xem So Sánh (' :
+                 locale === 'th' ? 'ดูการเปรียบเทียบ (' :
+                 locale === 'ms' ? 'Lihat Perbandingan (' :
+                 locale === 'tr' ? 'Karşılaştırmayı Gör (' :
+                 'عرض المقارنة ('}{compareList.length})
+              </button>
+              <button className="mobile-clear-compare-btn" onClick={clearCompare}>
+                {locale === 'zh' ? '清除' : 
+                 locale === 'en' ? 'Clear' :
+                 locale === 'vi' ? 'Xóa' :
+                 locale === 'th' ? 'ล้าง' :
+                 locale === 'ms' ? 'Padam' :
+                 locale === 'tr' ? 'Temizle' :
+                 'مسح'}
+              </button>
+            </div>
+          )}
         </div>
       </div>
 
