@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { withBasePath } from "@/quanfeng/lib/base-path";
 import { locales, translations, type Locale } from "@/quanfeng/lib/i18n";
+import { ProductShowcase } from "./ProductShowcase";
 
 const heroSlides = [
   { image: "/images/quanfeng/hero/slide-1.jpg", alt: "工厂实景" },
@@ -245,76 +246,8 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
             <h2>{t.products.title}</h2>
             <p className="simple-section-subtitle">{(t.products as any).subtitle}</p>
           </div>
-          <div className="simple-products-grid-v2">
-            {t.products.items.map((product: any, i) => (
-              <div key={i} className="simple-product-card-v2">
-                <div className="simple-product-image-v2">
-                  <img
-                    src={withBasePath(product.image || `/images/quanfeng/${locale === "zh" ? "cn/" : ""}services/icon-${i + 1}.jpg`)}
-                    alt={product.name}
-                  />
-                </div>
-                <h3>{product.name}</h3>
-                <p>{product.desc}</p>
-                <p className="simple-product-specs">{product.specs}</p>
-              </div>
-            ))}
-          </div>
-          {/* Applications */}
-          {(t.products as any).applications && (
-            <div className="simple-applications">
-              <h3>{(t.products as any).applications.title}</h3>
-              <p className="simple-applications-desc">{(t.products as any).applications.description}</p>
-              <div className="simple-applications-grid">
-                {(t.products as any).applications.items.map((app: any, i: number) => (
-                  <div key={i} className="simple-application-card">
-                    <h4>{app.name}</h4>
-                    <p>{app.desc}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-          {/* Product Table */}
-          {(t.products as any).productTable && (
-            <div className="simple-product-table-section">
-              <h3>{(t.products as any).productTable.title}</h3>
-              <p className="simple-product-table-desc">{(t.products as any).productTable.description}</p>
-              <div className="simple-product-table-wrapper">
-                <table className="simple-product-table">
-                  <thead>
-                    <tr>
-                      {(t.products as any).productTable.headers.map((header: string, i: number) => (
-                        <th key={i}>{header}</th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {(t.products as any).productTable.products.map((product: any, i: number) => (
-                      <tr key={i}>
-                        <td className="model-cell">{product.model}</td>
-                        <td>{product.voltage}</td>
-                        <td>{product.frequency}</td>
-                        <td>{product.current}</td>
-                        <td>{product.power}</td>
-                        <td>{product.speed}</td>
-                        <td>{product.airflow}</td>
-                        <td>{product.noise}</td>
-                        <td>{product.bearing}</td>
-                        <td>{product.size}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-              <div className="simple-product-table-notes">
-                {(t.products as any).productTable.notes.map((note: string, i: number) => (
-                  <p key={i}>{note}</p>
-                ))}
-              </div>
-            </div>
-          )}
-          <div className="simple-center">
+          <ProductShowcase locale={locale} />
+          <div className="simple-center" style={{ marginTop: '40px' }}>
             <button
               onClick={() => setShowPdfModal(true)}
               className="simple-btn-primary"
