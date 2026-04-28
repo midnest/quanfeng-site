@@ -735,6 +735,40 @@
   text-decoration: underline;
 }
 
+/* Distributor Coming Soon */
+.distributor-coming-soon {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 40px 30px;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px dashed var(--accent);
+}
+
+.coming-soon-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.distributor-coming-soon h4 {
+  color: var(--primary);
+  font-size: 22px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.distributor-coming-soon p {
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}
+
 /* Mobile Menu Toggle */
 .simple-mobile-menu-toggle {
   display: none;

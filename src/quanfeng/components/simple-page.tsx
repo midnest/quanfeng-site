@@ -537,38 +537,10 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                   ))}
                 </ul>
               </div>
-              <div className="distributor-contact">
-                <h4>📞 {t.distributor.contactTitle}</h4>
-                <div className="contact-grid">
-                  <div className="contact-item">
-                    <span className="contact-icon">✉️</span>
-                    <div>
-                      <label>Email</label>
-                      <a href={`mailto:${t.distributor.email}`}>{t.distributor.email}</a>
-                    </div>
-                  </div>
-                  <div className="contact-item">
-                    <span className="contact-icon">📞</span>
-                    <div>
-                      <label>Tel</label>
-                      <a href={`tel:${t.distributor.phone}`}>{t.distributor.phone}</a>
-                    </div>
-                  </div>
-                  <div className="contact-item">
-                    <span className="contact-icon">💬</span>
-                    <div>
-                      <label>WhatsApp</label>
-                      <a href={`https://wa.me/${t.distributor.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer">{t.distributor.whatsapp}</a>
-                    </div>
-                  </div>
-                  <div className="contact-item">
-                    <span className="contact-icon">💬</span>
-                    <div>
-                      <label>WeChat</label>
-                      <span>{t.distributor.wechat}</span>
-                    </div>
-                  </div>
-                </div>
+              <div className="distributor-coming-soon">
+                <div className="coming-soon-icon">🚀</div>
+                <h4>{locale === 'vi' ? 'Sắp Ra Mắt' : locale === 'th' ? 'เร็ว ๆ นี้' : locale === 'ms' ? 'Akan Datang' : locale === 'tr' ? 'Yakında' : locale === 'ar' ? 'قريباً' : 'Coming Soon'}</h4>
+                <p>{locale === 'vi' ? 'Hệ thống đăng ký đại lý đang được phát triển. Vui lòng quay lại sau!' : locale === 'th' ? 'ระบบลงทะเบียนตัวแทนจำหน่ายกำลังอยู่ในระหว่างการพัฒนา โปรดกลับมาตรวจสอบในภายหลัง!' : locale === 'ms' ? 'Sistem pendaftaran pengedar sedang dalam pembangunan. Sila semak semula nanti!' : locale === 'tr' ? 'Distribütör kayıt sistemi geliştirme aşamasındadır. Lütfen daha sonra tekrar kontrol edin!' : locale === 'ar' ? 'نظام تسجيل الموزعين قيد التطوير. يرجى التحقق مرة أخرى لاحقاً!' : 'Distributor registration system is under development. Please check back later!'}</p>
               </div>
             </div>
           </div>
