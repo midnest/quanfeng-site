@@ -463,12 +463,15 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
               <p className="simple-footer-tagline">{t.companyName}</p>
               <p className="simple-footer-honors">{(t.company as any).footerHonors}</p>
             </div>
+            {/* Contact info hidden - will be available after official launch */}
+            {/*
             <div className="simple-footer-contact">
               <h4>{t.footer.contact}</h4>
               <p>{t.footer.address}</p>
               <p>{t.footer.phone}</p>
               <p>{t.footer.email}</p>
             </div>
+            */}
           </div>
           <div className="simple-footer-bottom">
             <p>{t.footer.copyright}</p>
