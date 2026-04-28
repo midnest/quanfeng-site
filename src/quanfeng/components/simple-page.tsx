@@ -17,8 +17,12 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
   const [showPdfModal, setShowPdfModal] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [showDistributorModal, setShowDistributorModal] = useState(false);
   const t = translations[locale];
   const isRTL = locale === "ar";
+
+  // Determine if we should show distributor button (non zh/en languages)
+  const showDistributorBtn = locale !== "zh" && locale !== "en";
 
   // Lock body scroll when mobile menu is open
   useEffect(() => {
@@ -96,6 +100,15 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
               ))}
             </select>
           </div>
+          {/* Distributor Recruitment Button - Only for non zh/en */}
+          {showDistributorBtn && (
+            <button
+              className="simple-distributor-btn"
+              onClick={() => setShowDistributorModal(true)}
+            >
+              {t.distributor.btnText}
+            </button>
+          )}
           {/* Mobile Menu Toggle */}
           <button
             className="simple-mobile-menu-toggle"
@@ -491,6 +504,72 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
               >
                 📥 {t.catalog.download}
               </a>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Distributor Recruitment Modal */}
+      {showDistributorModal && (
+        <div className="simple-modal distributor-modal" onClick={() => setShowDistributorModal(false)}>
+          <div className="simple-modal-content distributor-modal-content" onClick={(e) => e.stopPropagation()}>
+            <div className="simple-modal-header distributor-modal-header">
+              <div>
+                <h3>{t.distributor.title}</h3>
+                <p className="distributor-subtitle">{t.distributor.subtitle}</p>
+              </div>
+              <button
+                className="simple-modal-close"
+                onClick={() => setShowDistributorModal(false)}
+              >
+                ×
+              </button>
+            </div>
+            <div className="simple-modal-body distributor-modal-body">
+              <div className="distributor-intro">
+                <p>{t.distributor.description}</p>
+              </div>
+              <div className="distributor-benefits">
+                <h4>✨ {locale === 'vi' ? 'Lợi Ích' : locale === 'th' ? 'สิทธิประโยชน์' : locale === 'ms' ? 'Faedah' : locale === 'tr' ? 'Avantajlar' : locale === 'ar' ? 'الفوائد' : 'Benefits'}</h4>
+                <ul>
+                  {t.distributor.benefits.map((benefit, idx) => (
+                    <li key={idx}>✓ {benefit}</li>
+                  ))}
+                </ul>
+              </div>
+              <div className="distributor-contact">
+                <h4>📞 {t.distributor.contactTitle}</h4>
+                <div className="contact-grid">
+                  <div className="contact-item">
+                    <span className="contact-icon">✉️</span>
+                    <div>
+                      <label>Email</label>
+                      <a href={`mailto:${t.distributor.email}`}>{t.distributor.email}</a>
+                    </div>
+                  </div>
+                  <div className="contact-item">
+                    <span className="contact-icon">📞</span>
+                    <div>
+                      <label>Tel</label>
+                      <a href={`tel:${t.distributor.phone}`}>{t.distributor.phone}</a>
+                    </div>
+                  </div>
+                  <div className="contact-item">
+                    <span className="contact-icon">💬</span>
+                    <div>
+                      <label>WhatsApp</label>
+                      <a href={`https://wa.me/${t.distributor.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer">{t.distributor.whatsapp}</a>
+                    </div>
+                  </div>
+                  <div className="contact-item">
+                    <span className="contact-icon">💬</span>
+                    <div>
+                      <label>WeChat</label>
+                      <span>{t.distributor.wechat}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -551,6 +551,190 @@
   color: #fff;
 }
 
+/* Distributor Recruitment Button */
+.simple-distributor-btn {
+  background: linear-gradient(135deg, var(--accent) 0%, #d4a84b 100%);
+  color: #1a365d;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(201, 162, 39, 0.4);
+  white-space: nowrap;
+  margin-left: 12px;
+}
+
+.simple-distributor-btn:hover {
+  background: linear-gradient(135deg, #d4a84b 0%, var(--accent) 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(201, 162, 39, 0.5);
+}
+
+.simple-header.scrolled .simple-distributor-btn {
+  background: linear-gradient(135deg, var(--primary) 0%, #1a4a7a 100%);
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(26, 54, 93, 0.4);
+}
+
+.simple-header.scrolled .simple-distributor-btn:hover {
+  background: linear-gradient(135deg, #1a4a7a 0%, var(--primary) 100%);
+  box-shadow: 0 6px 20px rgba(26, 54, 93, 0.5);
+}
+
+/* Distributor Modal Styles */
+.distributor-modal-content {
+  max-width: 600px;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.distributor-modal-header {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color: #fff;
+  padding: 24px 30px;
+}
+
+.distributor-modal-header h3 {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.distributor-subtitle {
+  color: var(--accent);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.distributor-modal-body {
+  padding: 30px;
+}
+
+.distributor-intro {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  border-left: 4px solid var(--accent);
+}
+
+.distributor-intro p {
+  margin: 0;
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.distributor-benefits {
+  margin-bottom: 24px;
+}
+
+.distributor-benefits h4 {
+  color: var(--primary);
+  font-size: 18px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.distributor-benefits ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.distributor-benefits li {
+  background: #f8f9fa;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.distributor-benefits li::before {
+  content: '✓';
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.distributor-contact {
+  background: linear-gradient(135deg, #f0f7ff 0%, #e6f0ff 100%);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid #d0e3ff;
+}
+
+.distributor-contact h4 {
+  color: var(--primary);
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  padding: 14px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.contact-item div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-item label {
+  font-size: 12px;
+  color: #6c757d;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.contact-item a,
+.contact-item span {
+  font-size: 14px;
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 /* Mobile Menu Toggle */
 .simple-mobile-menu-toggle {
   display: none;
@@ -1390,6 +1574,48 @@ body.menu-locked {
   .simple-products-grid-v2,
   .simple-features-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Distributor Button Mobile */
+  .simple-distributor-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+
+  /* Distributor Modal Mobile */
+  .distributor-modal-content {
+    max-width: 95vw;
+    max-height: 90vh;
+    margin: 20px;
+  }
+
+  .distributor-modal-header {
+    padding: 20px;
+  }
+
+  .distributor-modal-header h3 {
+    font-size: 20px;
+  }
+
+  .distributor-subtitle {
+    font-size: 14px;
+  }
+
+  .distributor-modal-body {
+    padding: 20px;
+  }
+
+  .distributor-benefits ul {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-item {
+    padding: 12px;
   }
 }
 
