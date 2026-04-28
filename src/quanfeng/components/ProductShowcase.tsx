@@ -1,24 +1,22 @@
-"use client";
+'use client';
 
-import { useState, useMemo } from "react";
-import { withBasePath } from "@/quanfeng/lib/base-path";
-import { productSeries, tableHeaders, featureTranslations, type ProductSeries, type ProductVariant } from "@/quanfeng/lib/productData";
-import type { Locale } from "@/quanfeng/lib/i18n";
+import { useState, useMemo } from 'react';
+import { productSeries, tableHeaders, featureTranslations } from '../lib/productData';
+import { withBasePath } from '@/quanfeng/lib/base-path';
 
 interface ProductShowcaseProps {
-  locale: Locale;
+  locale: string;
 }
 
 export function ProductShowcase({ locale }: ProductShowcaseProps) {
   const [selectedSeries, setSelectedSeries] = useState<string>(productSeries[0].id);
-  const [activeImageTab, setActiveImageTab] = useState<'main' | 'side' | 'back'>('main');
   const [compareMode, setCompareMode] = useState(false);
   const [compareList, setCompareList] = useState<string[]>([]);
   const [showCompareModal, setShowCompareModal] = useState(false);
-  
-  const headers = tableHeaders[locale] || tableHeaders.zh;
-  const features = featureTranslations[locale] || featureTranslations.zh;
-  
+
+  const headers = tableHeaders[locale as keyof typeof tableHeaders] || tableHeaders.zh;
+  const features = featureTranslations[locale as keyof typeof featureTranslations] || featureTranslations.zh;
+
   const currentSeries = useMemo(() => 
     productSeries.find(s => s.id === selectedSeries) || productSeries[0],
     [selectedSeries]
@@ -32,15 +30,18 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     }
   };
 
-  const getCompareProducts = (): ProductVariant[] => {
-    const allVariants = productSeries.flatMap(s => s.variants);
-    return compareList.map(model => allVariants.find(v => v.model === model)).filter(Boolean) as ProductVariant[];
-  };
-
   const clearCompare = () => {
     setCompareList([]);
-    setShowCompareModal(false);
+    setCompareMode(false);
   };
+
+  const getCompareProducts = () => {
+    const allVariants = productSeries.flatMap(s => s.variants);
+    return compareList.map(model => allVariants.find(v => v.model === model)).filter(Boolean) as typeof allVariants;
+  };
+
+  // Get PDF page for current series
+  const getPdfPage = (pageNum: number) => withBasePath(`/pdf_pages/page_${pageNum}.png`);
 
   return (
     <div className="product-showcase">
@@ -52,7 +53,8 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
            locale === 'vi' ? 'Dòng Sản Phẩm' :
            locale === 'th' ? 'ซีรีส์สินค้า' :
            locale === 'ms' ? 'Siri Produk' :
-           locale === 'tr' ? 'Ürün Serisi' : 'سلسلة المنتجات'}
+           locale === 'tr' ? 'Ürün Serisi' :
+           'سلسلة المنتجات'}
         </h3>
         <div className="series-tabs">
           {productSeries.map((series) => (
@@ -61,7 +63,6 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
               className={`series-tab ${selectedSeries === series.id ? 'active' : ''}`}
               onClick={() => {
                 setSelectedSeries(series.id);
-                setActiveImageTab('main');
               }}
             >
               <span className="series-tab-name">{series.name}</span>
@@ -87,18 +88,37 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
            locale === 'vi' ? 'So Sánh Mẫu' :
            locale === 'th' ? 'เปรียบเทียบรุ่น' :
            locale === 'ms' ? 'Bandingkan Model' :
-           locale === 'tr' ? 'Modelleri Karşılaştır' : 'مقارنة النماذج'}
+           locale === 'tr' ? 'Model Karşılaştır' :
+           'مقارنة النماذج'}
         </button>
         {compareList.length > 0 && (
           <>
             <span className="compare-count">
-              {compareList.length} {locale === 'zh' ? '个已选' : 'selected'}
+              {compareList.length} {locale === 'zh' ? '个已选' : 
+                locale === 'en' ? 'selected' :
+                locale === 'vi' ? 'đã chọn' :
+                locale === 'th' ? 'ที่เลือก' :
+                locale === 'ms' ? 'dipilih' :
+                locale === 'tr' ? 'seçildi' :
+                'مختار'}
             </span>
             <button className="compare-view-btn" onClick={() => setShowCompareModal(true)}>
-              {locale === 'zh' ? '查看对比' : 'View Compare'}
+              {locale === 'zh' ? '查看对比' : 
+               locale === 'en' ? 'View Compare' :
+               locale === 'vi' ? 'Xem So Sánh' :
+               locale === 'th' ? 'ดูการเปรียบเทียบ' :
+               locale === 'ms' ? 'Lihat Perbandingan' :
+               locale === 'tr' ? 'Karşılaştırmayı Gör' :
+               'عرض المقارنة'}
             </button>
             <button className="compare-clear-btn" onClick={clearCompare}>
-              {locale === 'zh' ? '清除' : 'Clear'}
+              {locale === 'zh' ? '清除' : 
+               locale === 'en' ? 'Clear' :
+               locale === 'vi' ? 'Xóa' :
+               locale === 'th' ? 'ล้าง' :
+               locale === 'ms' ? 'Padam' :
+               locale === 'tr' ? 'Temizle' :
+               'مسح'}
             </button>
           </>
         )}
@@ -113,55 +133,13 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
           <p className="product-detail-desc">{currentSeries.description}</p>
         </div>
 
-        {/* Images Section */}
-        <div className="product-images-section">
-          {/* Main Product Image */}
-          <div className="product-main-image">
-            <div className="product-image-tabs">
-              <button 
-                className={activeImageTab === 'main' ? 'active' : ''}
-                onClick={() => setActiveImageTab('main')}
-              >
-                {locale === 'zh' ? '正面' : 'Front'}
-              </button>
-              <button 
-                className={activeImageTab === 'side' ? 'active' : ''}
-                onClick={() => setActiveImageTab('side')}
-              >
-                {locale === 'zh' ? '侧面' : 'Side'}
-              </button>
-              <button 
-                className={activeImageTab === 'back' ? 'active' : ''}
-                onClick={() => setActiveImageTab('back')}
-              >
-                {locale === 'zh' ? '背面' : 'Back'}
-              </button>
-            </div>
-            <div className="product-image-display">
-              <img 
-                src={withBasePath(currentSeries.images[activeImageTab])} 
-                alt={`${currentSeries.name} ${activeImageTab}`}
-              />
-            </div>
-          </div>
-
-          {/* Dimension Drawing */}
-          <div className="product-dimension-image">
-            <h4>
-              {locale === 'zh' ? '尺寸规格图' : 
-               locale === 'en' ? 'Dimension Drawing' :
-               locale === 'vi' ? 'Bản Vẽ Kích Thước' :
-               locale === 'th' ? 'แผนภาพขนาด' :
-               locale === 'ms' ? 'Lukisan Dimensi' :
-               locale === 'tr' ? 'Boyut Çizimi' : 'رسم الأبعاد'}
-            </h4>
-            <div className="dimension-image-display">
-              <img 
-                src={withBasePath(currentSeries.images.dimension)} 
-                alt={`${currentSeries.name} dimension`}
-              />
-            </div>
-          </div>
+        {/* PDF Page Display */}
+        <div className="product-pdf-display">
+          <img 
+            src={getPdfPage(currentSeries.pdfPage)} 
+            alt={`${currentSeries.name} catalog page`}
+            className="pdf-page-image"
+          />
         </div>
 
         {/* Features Tags */}
@@ -179,7 +157,8 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
              locale === 'vi' ? 'Bảng Thông Số Kỹ Thuật' :
              locale === 'th' ? 'ตารางข้อมูลจำเพาะทางเทคนิค' :
              locale === 'ms' ? 'Jadual Spesifikasi Teknikal' :
-             locale === 'tr' ? 'Teknik Özellikler Tablosu' : 'جدول المواصفات التقنية'}
+             locale === 'tr' ? 'Teknik Özellikler Tablosu' :
+             'جدول المواصفات الفنية'}
           </h4>
           <div className="specs-table-wrapper">
             <table className="specs-table">
@@ -206,16 +185,16 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                     )}
                     <td className="model-cell">{variant.model}</td>
                     <td>{locale === 'zh' ? variant.bearing : features[variant.bearingType]}</td>
-                    <td>{variant.voltage}V</td>
-                    <td>{variant.power}W</td>
+                    <td>{variant.voltage}</td>
+                    <td>{variant.power}</td>
                     <td>{variant.frequency}</td>
-                    <td>{variant.current}A</td>
-                    <td>{variant.speed}RPM</td>
-                    <td>{variant.airflow}m³/min</td>
-                    <td>{variant.noise}dB</td>
+                    <td>{variant.current}</td>
+                    <td>{variant.speed}</td>
+                    <td>{variant.airflow}</td>
+                    <td>{variant.noise}</td>
                     <td>{variant.insulation}</td>
-                    <td>{variant.dielectricStrength}V</td>
-                    <td>{variant.weight}kg</td>
+                    <td>{variant.dielectricStrength}</td>
+                    <td>{variant.weight}</td>
                   </tr>
                 ))}
               </tbody>
@@ -230,7 +209,13 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
           <div className="compare-modal" onClick={e => e.stopPropagation()}>
             <div className="compare-modal-header">
               <h3>
-                {locale === 'zh' ? '型号对比' : 'Model Comparison'}
+                {locale === 'zh' ? '型号对比' : 
+                 locale === 'en' ? 'Model Comparison' :
+                 locale === 'vi' ? 'So Sánh Mẫu' :
+                 locale === 'th' ? 'การเปรียบเทียบรุ่น' :
+                 locale === 'ms' ? 'Perbandingan Model' :
+                 locale === 'tr' ? 'Model Karşılaştırması' :
+                 'مقارنة النماذج'}
               </h3>
               <button className="close-btn" onClick={() => setShowCompareModal(false)}>×</button>
             </div>
@@ -238,7 +223,13 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
               <table className="compare-table">
                 <thead>
                   <tr>
-                    <th>{locale === 'zh' ? '参数' : 'Parameter'}</th>
+                    <th>{locale === 'zh' ? '参数' : 
+                         locale === 'en' ? 'Parameter' :
+                         locale === 'vi' ? 'Thông Số' :
+                         locale === 'th' ? 'พารามิเตอร์' :
+                         locale === 'ms' ? 'Parameter' :
+                         locale === 'tr' ? 'Parametre' :
+                         'المعلمة'}</th>
                     {getCompareProducts().map((p, i) => (
                       <th key={i} className="compare-model-header">{p.model}</th>
                     ))}
@@ -254,13 +245,13 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   <tr>
                     <td>{headers[2]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.voltage}V</td>
+                      <td key={i}>{p.voltage}</td>
                     ))}
                   </tr>
                   <tr>
                     <td>{headers[3]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.power}W</td>
+                      <td key={i}>{p.power}</td>
                     ))}
                   </tr>
                   <tr>
@@ -272,25 +263,25 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   <tr>
                     <td>{headers[5]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.current}A</td>
+                      <td key={i}>{p.current}</td>
                     ))}
                   </tr>
                   <tr>
                     <td>{headers[6]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.speed}RPM</td>
+                      <td key={i}>{p.speed}</td>
                     ))}
                   </tr>
                   <tr>
                     <td>{headers[7]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.airflow}m³/min</td>
+                      <td key={i}>{p.airflow}</td>
                     ))}
                   </tr>
                   <tr>
                     <td>{headers[8]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.noise}dB</td>
+                      <td key={i}>{p.noise}</td>
                     ))}
                   </tr>
                   <tr>
@@ -302,13 +293,13 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   <tr>
                     <td>{headers[10]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.dielectricStrength}V</td>
+                      <td key={i}>{p.dielectricStrength}</td>
                     ))}
                   </tr>
                   <tr>
                     <td>{headers[11]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.weight}kg</td>
+                      <td key={i}>{p.weight}</td>
                     ))}
                   </tr>
                 </tbody>

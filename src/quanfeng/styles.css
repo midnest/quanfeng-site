@@ -2533,7 +2533,21 @@ body.menu-locked {
   margin: 0;
 }
 
-/* Product Images Section */
+/* Product PDF Display */
+.product-pdf-display {
+  padding: 30px;
+  border-bottom: 1px solid var(--border);
+  background: #f8fafc;
+}
+
+.pdf-page-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Images Section - Keep for compatibility */
 .product-images-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
