@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { productSeries, tableHeaders, featureTranslations } from '../lib/productData';
+import { productSeries, tableHeaders, featureTranslations, getProductDescription, getProductFeatures } from '../lib/productData';
 import { withBasePath } from '@/quanfeng/lib/base-path';
 
 interface ProductShowcaseProps {
@@ -130,7 +130,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
         <div className="product-detail-header">
           <h3 className="product-detail-title">{currentSeries.name}</h3>
           <span className="product-detail-size">{currentSeries.size}</span>
-          <p className="product-detail-desc">{currentSeries.description}</p>
+          <p className="product-detail-desc">{getProductDescription(currentSeries.id, locale)}</p>
         </div>
 
         {/* PDF Page Display */}
@@ -144,7 +144,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
 
         {/* Features Tags */}
         <div className="product-features">
-          {currentSeries.features.map((feature, idx) => (
+          {getProductFeatures(currentSeries.id, locale).map((feature, idx) => (
             <span key={idx} className="feature-tag">{feature}</span>
           ))}
         </div>
