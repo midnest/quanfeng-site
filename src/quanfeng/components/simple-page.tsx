@@ -71,9 +71,7 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
         <div className="simple-header-inner">
           <div className="simple-logo">
             <img
-              src={withBasePath(
-                locale === "zh" ? "/images/quanfeng/cn/logo.png" : "/images/quanfeng/logo.png"
-              )}
+              src={withBasePath("/images/quanfeng/logo.png")}
               alt={t.companyName}
               className="simple-header-logo-img"
             />
