@@ -333,23 +333,91 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
             <p className="simple-section-subtitle">{t.technology.subtitle}</p>
           </div>
           
-          {/* Certifications List */}
+          {/* Certifications Grid with SVG Logos */}
           {(t.technology as any).certifications && (
             <div className="simple-cert-list-section">
               <h3 className="simple-cert-section-title">
                 <span className="simple-cert-title-icon">📜</span>
                 {(t.technology as any).certifications.title}
               </h3>
-              <div className="simple-cert-cards">
-                {(t.technology as any).certifications.items.map((cert: any, i: number) => (
-                  <div key={i} className="simple-cert-card">
-                    <div className="simple-cert-card-header">
-                      <span className="simple-cert-card-num">{String(i + 1).padStart(2, '0')}</span>
-                      <span className="simple-cert-card-name">{cert.name}</span>
-                    </div>
-                    <p className="simple-cert-card-desc">{cert.desc}</p>
+              <div className="simple-cert-grid">
+                {/* ISO 9001 */}
+                <div className="simple-cert-item">
+                  <div className="simple-cert-logo">
+                    <svg viewBox="0 0 100 100" className="cert-svg iso9001">
+                      <circle cx="50" cy="50" r="45" fill="none" stroke="#0066cc" strokeWidth="3"/>
+                      <text x="50" y="38" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#0066cc">ISO</text>
+                      <text x="50" y="58" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#0066cc">9001</text>
+                      <path d="M30 70 Q50 80 70 70" fill="none" stroke="#0066cc" strokeWidth="2"/>
+                    </svg>
                   </div>
-                ))}
+                  <span className="simple-cert-name">ISO 9001</span>
+                  <span className="simple-cert-desc">{(t.technology as any).certifications.items[0]?.desc}</span>
+                </div>
+
+                {/* CCC */}
+                <div className="simple-cert-item">
+                  <div className="simple-cert-logo">
+                    <svg viewBox="0 0 100 100" className="cert-svg ccc">
+                      <ellipse cx="50" cy="50" rx="45" ry="30" fill="none" stroke="#cc0000" strokeWidth="3"/>
+                      <text x="50" y="45" textAnchor="middle" fontSize="20" fontWeight="bold" fill="#cc0000">CCC</text>
+                      <text x="50" y="62" textAnchor="middle" fontSize="8" fill="#cc0000">中国强制认证</text>
+                    </svg>
+                  </div>
+                  <span className="simple-cert-name">CCC</span>
+                  <span className="simple-cert-desc">{(t.technology as any).certifications.items[1]?.desc}</span>
+                </div>
+
+                {/* UL */}
+                <div className="simple-cert-item">
+                  <div className="simple-cert-logo">
+                    <svg viewBox="0 0 100 100" className="cert-svg ul">
+                      <circle cx="50" cy="50" r="45" fill="none" stroke="#d4af37" strokeWidth="4"/>
+                      <text x="50" y="45" textAnchor="middle" fontSize="28" fontWeight="bold" fill="#d4af37">UL</text>
+                      <text x="50" y="62" textAnchor="middle" fontSize="8" fill="#d4af37">LISTED</text>
+                    </svg>
+                  </div>
+                  <span className="simple-cert-name">UL</span>
+                  <span className="simple-cert-desc">{(t.technology as any).certifications.items[2]?.desc}</span>
+                </div>
+
+                {/* C-UL */}
+                <div className="simple-cert-item">
+                  <div className="simple-cert-logo">
+                    <svg viewBox="0 0 100 100" className="cert-svg cul">
+                      <rect x="10" y="20" width="80" height="60" rx="5" fill="none" stroke="#d4af37" strokeWidth="3"/>
+                      <text x="50" y="45" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#d4af37">C-UL</text>
+                      <text x="50" y="62" textAnchor="middle" fontSize="7" fill="#d4af37">US • CA</text>
+                    </svg>
+                  </div>
+                  <span className="simple-cert-name">C-UL</span>
+                  <span className="simple-cert-desc">{(t.technology as any).certifications.items[3]?.desc}</span>
+                </div>
+
+                {/* CE */}
+                <div className="simple-cert-item">
+                  <div className="simple-cert-logo">
+                    <svg viewBox="0 0 100 100" className="cert-svg ce">
+                      <text x="50" y="58" textAnchor="middle" fontSize="36" fontWeight="bold" fill="#003399" fontFamily="Arial">CE</text>
+                      <path d="M22 35 L30 35 M22 50 L28 50 M22 65 L30 65" stroke="#003399" strokeWidth="4" strokeLinecap="round"/>
+                    </svg>
+                  </div>
+                  <span className="simple-cert-name">CE</span>
+                  <span className="simple-cert-desc">{(t.technology as any).certifications.items[4]?.desc}</span>
+                </div>
+
+                {/* RoHS */}
+                <div className="simple-cert-item">
+                  <div className="simple-cert-logo">
+                    <svg viewBox="0 0 100 100" className="cert-svg rohs">
+                      <circle cx="50" cy="50" r="45" fill="none" stroke="#228b22" strokeWidth="3"/>
+                      <path d="M50 20 Q65 35 65 50 Q65 70 50 80 Q35 70 35 50 Q35 35 50 20" fill="#228b22" opacity="0.8"/>
+                      <text x="50" y="55" textAnchor="middle" fontSize="12" fontWeight="bold" fill="white">RoHS</text>
+                    </svg>
+                  </div>
+                  <span className="simple-cert-name">RoHS</span>
+                  <span className="simple-cert-desc">{(t.technology as any).certifications.items[5]?.desc}</span>
+                </div>
               </div>
             </div>
           )}
