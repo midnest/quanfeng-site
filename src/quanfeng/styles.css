@@ -3723,6 +3723,32 @@ body.menu-locked {
   border-radius: 4px;
 }
 
+/* Technical Drawing Section */
+.modal-drawing-section {
+  margin-top: 20px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.modal-drawing-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.modal-drawing-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+}
+
 .modal-specs-section {
   overflow-x: auto;
 }

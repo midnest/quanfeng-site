@@ -123,6 +123,21 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     return '';
   };
 
+  // Get technical drawing image (2.jpeg)
+  const getTechnicalDrawing = (seriesId: string) => {
+    const folderMap: Record<string, string> = {
+      'qa8025': '8025', 'qa9225': '9225', 'qa11025': '11025', 'qa12025': '12025',
+      'qa12038': '12038', 'qa13538': '13538', 'qa15050': '15050', 'qa17250': '17250',
+      'qa18060': '18060', 'qa20060': '20060', 'qa20060y': '20060Y',
+      'qa22090y': '22090Y', 'qa22580': '22580', 'qa28080': '28080',
+    };
+    const folder = folderMap[seriesId];
+    if (folder) {
+      return withBasePath(`/extracted_docx_images/${folder}/2.jpeg`);
+    }
+    return '';
+  };
+
   // Translations
   const t = {
     title: locale === 'zh' ? '产品选型' : 
@@ -335,6 +350,28 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   src={getProductImage(currentSeries.id)} 
                   alt={currentSeries.name}
                   className="modal-pdf-image"
+                />
+              </div>
+              
+              {/* Technical Drawing */}
+              <div className="modal-drawing-section">
+                <h4 className="modal-drawing-title">
+                  {locale === 'zh' ? '技术图纸' : 
+                   locale === 'en' ? 'Technical Drawing' :
+                   locale === 'vi' ? 'Bản Vẽ Kỹ Thuật' :
+                   locale === 'th' ? 'แบบเบื้องต้นทางเทคนิค' :
+                   locale === 'ms' ? 'Lukisan Teknikal' :
+                   locale === 'tr' ? 'Teknik Çizim' :
+                   'الرسم الفني'}
+                </h4>
+                <img 
+                  src={getTechnicalDrawing(currentSeries.id)} 
+                  alt={`${currentSeries.name} - Technical Drawing`}
+                  className="modal-drawing-image"
+                  onError={(e) => {
+                    // Hide the entire section if technical drawing doesn't exist
+                    (e.currentTarget.parentElement as HTMLElement).style.display = 'none';
+                  }}
                 />
               </div>
               
