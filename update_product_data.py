@@ -110,9 +110,13 @@ def main():
             'speed': format_value(row.iloc[5]),
             'airflow': format_value(row.iloc[6]),
             'noise': format_value(row.iloc[7]),
+            'insulationClass': format_value(row.iloc[8]),
             'insulation': format_value(row.iloc[9]),
             'dielectricStrength': format_value(row.iloc[10]).replace('V/min', '').replace('V', ''),
             'weight': format_value(row.iloc[11]),
+            'coilMaterial': format_value(row.iloc[13]),
+            'housingMaterial': format_value(row.iloc[14]),
+            'bladeMaterial': format_value(row.iloc[15]),
         }
         
         series_groups[series_id]['variants'].append(variant)
@@ -151,9 +155,13 @@ export interface ProductVariant {
   speed: string;
   airflow: string;
   noise: string;
+  insulationClass: string;
   insulation: string;
   dielectricStrength: string;
   weight: string;
+  coilMaterial: string;
+  housingMaterial: string;
+  bladeMaterial: string;
 }
 
 export interface ProductSeries {
@@ -217,7 +225,7 @@ export const productSeries: ProductSeries[] = [
     variants: [
 '''
         for v in data['variants']:
-            ts += f"      {{ model: '{v['model']}', bearing: '{v['bearing']}', bearingType: '{v['bearingType']}', voltage: '{v['voltage']}', power: '{v['power']}', frequency: '{v['frequency']}', current: '{v['current']}', speed: '{v['speed']}', airflow: '{v['airflow']}', noise: '{v['noise']}', insulation: '{v['insulation']}', dielectricStrength: '{v['dielectricStrength']}', weight: '{v['weight']}' }},\n"
+            ts += f"      {{ model: '{v['model']}', bearing: '{v['bearing']}', bearingType: '{v['bearingType']}', voltage: '{v['voltage']}', power: '{v['power']}', frequency: '{v['frequency']}', current: '{v['current']}', speed: '{v['speed']}', airflow: '{v['airflow']}', noise: '{v['noise']}', insulationClass: '{v['insulationClass']}', insulation: '{v['insulation']}', dielectricStrength: '{v['dielectricStrength']}', weight: '{v['weight']}', coilMaterial: '{v['coilMaterial']}', housingMaterial: '{v['housingMaterial']}', bladeMaterial: '{v['bladeMaterial']}' }},\n"
         
         ts += '''    ],
   },
@@ -355,7 +363,7 @@ def generate_descriptions(series_groups):
             'tr': 'FZY Mini Eksenel Fan, 200mm Yuvarlak Alüminyum Gövde, 60mm Kalınlık, Yüksek Hız',
             'ar': 'مروحة محورية صغيرة FZY، إطار ألومنيوم دائري 200 مم، سماكة 60 مم، سرعة عالية',
         },
-        'QA22090Y': {
+        'QA22090': {
             'zh': 'FZY小型轴流风机，220mm圆形铝合金框架，90mm厚度，高转速版',
             'en': 'FZY Mini Axial Fan, 220mm Round Aluminum Frame, 90mm Thickness, High Speed',
             'vi': 'Quạt Trục Mini FZY, Khung Nhôm Tròn 220mm, Độ Dày 90mm, Tốc Độ Cao',

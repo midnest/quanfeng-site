@@ -263,6 +263,30 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                     <td key={idx}>{variant.weight}</td>
                   ))}
                 </tr>
+                <tr>
+                  <td className="param-label">{headers[12]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.insulationClass}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[13]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.coilMaterial}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[14]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.housingMaterial}</td>
+                  ))}
+                </tr>
+                <tr>
+                  <td className="param-label">{headers[15]}</td>
+                  {currentSeries.variants.map((variant, idx) => (
+                    <td key={idx}>{variant.bladeMaterial}</td>
+                  ))}
+                </tr>
               </tbody>
             </table>
           </div>
@@ -326,6 +350,22 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   <div className="mobile-spec-row">
                     <span className="mobile-spec-label">{headers[11]}</span>
                     <span className="mobile-spec-value">{variant.weight}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[12]}</span>
+                    <span className="mobile-spec-value">{variant.insulationClass}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[13]}</span>
+                    <span className="mobile-spec-value">{variant.coilMaterial}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[14]}</span>
+                    <span className="mobile-spec-value">{variant.housingMaterial}</span>
+                  </div>
+                  <div className="mobile-spec-row">
+                    <span className="mobile-spec-label">{headers[15]}</span>
+                    <span className="mobile-spec-value">{variant.bladeMaterial}</span>
                   </div>
                 </div>
               </div>
@@ -455,6 +495,30 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                     <td>{headers[11]}</td>
                     {getCompareProducts().map((p, i) => (
                       <td key={i}>{p.weight}</td>
+                    ))}
+                  </tr>
+                  <tr>
+                    <td>{headers[12]}</td>
+                    {getCompareProducts().map((p, i) => (
+                      <td key={i}>{p.insulationClass}</td>
+                    ))}
+                  </tr>
+                  <tr>
+                    <td>{headers[13]}</td>
+                    {getCompareProducts().map((p, i) => (
+                      <td key={i}>{p.coilMaterial}</td>
+                    ))}
+                  </tr>
+                  <tr>
+                    <td>{headers[14]}</td>
+                    {getCompareProducts().map((p, i) => (
+                      <td key={i}>{p.housingMaterial}</td>
+                    ))}
+                  </tr>
+                  <tr>
+                    <td>{headers[15]}</td>
+                    {getCompareProducts().map((p, i) => (
+                      <td key={i}>{p.bladeMaterial}</td>
                     ))}
                   </tr>
                 </tbody>
