@@ -3708,6 +3708,15 @@ body.menu-locked {
   overflow-y: auto;
 }
 
+/* Left Column - Product Images */
+.modal-images-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  max-height: calc(80vh - 140px);
+}
+
 .modal-pdf-section {
   display: flex;
   align-items: flex-start;
@@ -3833,8 +3842,16 @@ body.menu-locked {
     grid-template-columns: 1fr;
   }
   
+  .modal-images-column {
+    max-height: 400px;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
   .modal-pdf-section {
     max-height: 300px;
+    min-width: 250px;
   }
   
   .modal-specs-table {

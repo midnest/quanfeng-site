@@ -353,22 +353,24 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
             
             {/* Modal Content */}
             <div className="detail-modal-content">
-              {/* Product Images - Display all images in order */}
-              {getAllProductImages(currentSeries.id).map((imageUrl, index) => (
-                <div key={index} className="modal-pdf-section">
-                  <img 
-                    src={imageUrl} 
-                    alt={`${currentSeries.name} - Image ${index + 1}`}
-                    className="modal-pdf-image"
-                    onError={(e) => {
-                      // Hide this image if it doesn't exist
-                      (e.currentTarget.parentElement as HTMLElement).style.display = 'none';
-                    }}
-                  />
-                </div>
-              ))}
+              {/* Left Side - Product Images */}
+              <div className="modal-images-column">
+                {getAllProductImages(currentSeries.id).map((imageUrl, index) => (
+                  <div key={index} className="modal-pdf-section">
+                    <img 
+                      src={imageUrl} 
+                      alt={`${currentSeries.name} - Image ${index + 1}`}
+                      className="modal-pdf-image"
+                      onError={(e) => {
+                        // Hide this image if it doesn't exist
+                        (e.currentTarget.parentElement as HTMLElement).style.display = 'none';
+                      }}
+                    />
+                  </div>
+                ))}
+              </div>
               
-              {/* Specifications Table */}
+              {/* Right Side - Specifications Table */}
               <div className="modal-specs-section">
                 <h4 className="modal-specs-title">
                   {locale === 'zh' ? '技术参数表' : 
