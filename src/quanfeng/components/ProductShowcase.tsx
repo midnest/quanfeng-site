@@ -141,7 +141,13 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
   const getAllProductImages = useCallback((seriesId: string): string[] => {
     const folder = FOLDER_MAP[seriesId];
     if (!folder) return [];
-    return [1, 2, 3, 4, 5, 6].map(num => withBasePath(`/extracted_docx_images/${folder}/${num}.jpg`));
+    // Generate paths for both .jpg and .jpeg formats
+    const paths: string[] = [];
+    [1, 2, 3, 4, 5, 6].forEach(num => {
+      paths.push(withBasePath(`/extracted_docx_images/${folder}/${num}.jpg`));
+      paths.push(withBasePath(`/extracted_docx_images/${folder}/${num}.jpeg`));
+    });
+    return paths;
   }, []);
 
   // Memoized translations
