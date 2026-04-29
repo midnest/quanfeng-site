@@ -98,9 +98,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     if (folder) {
       // Use thumbnail for table, full image for detail modal
       const imageName = useThumbnail ? 'thumb.jpg' : '1.png';
-      const path = withBasePath(`/extracted_docx_images/${folder}/${imageName}`);
-      console.log('Loading image:', seriesId, path);
-      return path;
+      return withBasePath(`/extracted_docx_images/${folder}/${imageName}`);
     }
     // Fallback to PDF page if no folder mapping
     const series = productSeries.find(s => s.id === seriesId);
@@ -303,17 +301,14 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                       alt={series.name}
                       width="80"
                       height="60"
+                      loading="lazy"
+                      decoding="async"
                       onError={(e) => {
                         const failedSrc = e.currentTarget.src;
-                        console.error('Image failed to load:', series.id, failedSrc);
                         // Try GitHub Raw URL as fallback
                         if (!failedSrc.includes('raw.githubusercontent.com')) {
                           const rawUrl = getGitHubRawImage(series.id, true);
-                          console.log('Trying GitHub Raw URL:', rawUrl);
                           e.currentTarget.src = rawUrl;
-                        } else {
-                          // Last fallback to original image
-                          e.currentTarget.src = getGitHubRawImage(series.id, false);
                         }
                       }}
                     />
@@ -361,6 +356,8 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                       src={imageUrl} 
                       alt={`${currentSeries.name} - Image ${index + 1}`}
                       className="modal-pdf-image"
+                      loading={index === 0 ? "eager" : "lazy"}
+                      decoding="async"
                       onError={(e) => {
                         // Hide this image if it doesn't exist
                         (e.currentTarget.parentElement as HTMLElement).style.display = 'none';
