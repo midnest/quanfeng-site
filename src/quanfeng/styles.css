@@ -3968,7 +3968,7 @@ body.menu-locked {
   right: 0;
   background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
   color: white;
-  padding: 16px 24px;
+  padding: 12px 24px;
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
   z-index: 1000;
   animation: slideUp 0.3s ease-out;
@@ -3992,30 +3992,78 @@ body.menu-locked {
   gap: 20px;
 }
 
-.fixed-compare-info {
+.fixed-compare-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.fixed-compare-header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-size: 16px;
+  gap: 8px;
+  font-size: 14px;
 }
 
 .fixed-compare-icon {
-  font-size: 24px;
+  font-size: 20px;
 }
 
-.fixed-compare-count {
+.fixed-compare-title {
   font-weight: 600;
 }
 
 .fixed-compare-max {
-  font-size: 13px;
-  opacity: 0.8;
+  font-size: 12px;
+  opacity: 0.7;
   color: #fbbf24;
+}
+
+.fixed-compare-models {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fixed-compare-model-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 4px 10px;
+  border-radius: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.fixed-compare-remove-btn {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: all 0.2s;
+}
+
+.fixed-compare-remove-btn:hover {
+  background: rgba(220, 38, 38, 0.9);
 }
 
 .fixed-compare-actions {
   display: flex;
   gap: 12px;
+  flex-shrink: 0;
 }
 
 .fixed-compare-view-btn {
@@ -4029,6 +4077,7 @@ body.menu-locked {
   cursor: pointer;
   transition: all 0.2s;
   box-shadow: 0 2px 8px rgba(251, 191, 36, 0.3);
+  white-space: nowrap;
 }
 
 .fixed-compare-view-btn:hover {
@@ -4046,6 +4095,7 @@ body.menu-locked {
   font-size: 15px;
   cursor: pointer;
   transition: all 0.2s;
+  white-space: nowrap;
 }
 
 .fixed-compare-clear-btn:hover {
@@ -4055,21 +4105,25 @@ body.menu-locked {
 
 @media (max-width: 768px) {
   .fixed-compare-bar {
-    padding: 12px 16px;
+    padding: 10px 16px;
   }
   
   .fixed-compare-content {
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
   }
   
-  .fixed-compare-info {
-    font-size: 14px;
-    justify-content: center;
+  .fixed-compare-header {
+    font-size: 13px;
   }
   
   .fixed-compare-icon {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  
+  .fixed-compare-model-tag {
+    font-size: 12px;
+    padding: 3px 8px;
   }
   
   .fixed-compare-actions {

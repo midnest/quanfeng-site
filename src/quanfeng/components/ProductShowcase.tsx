@@ -528,18 +528,34 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
       {compareList.length > 0 && (
         <div className="fixed-compare-bar">
           <div className="fixed-compare-content">
-            <div className="fixed-compare-info">
-              <span className="fixed-compare-icon">📊</span>
-              <span className="fixed-compare-count">
-                {locale === 'zh' ? `已选择 ${compareList.length} 个型号对比` :
-                 locale === 'en' ? `${compareList.length} models selected for comparison` :
-                 locale === 'vi' ? `Đã chọn ${compareList.length} mẫu để so sánh` :
-                 locale === 'th' ? `เลือก ${compareList.length} รุ่นเพื่อเปรียบเทียบ` :
-                 locale === 'ms' ? `${compareList.length} model dipilih untuk perbandingan` :
-                 locale === 'tr' ? `Karşılaştırma için ${compareList.length} model seçildi` :
-                 `تم اختيار ${compareList.length} نموذج للمقارنة`}
-              </span>
-              <span className="fixed-compare-max">(max 6)</span>
+            <div className="fixed-compare-left">
+              <div className="fixed-compare-header">
+                <span className="fixed-compare-icon">📊</span>
+                <span className="fixed-compare-title">
+                  {locale === 'zh' ? '已选择对比型号' :
+                   locale === 'en' ? 'Selected Models' :
+                   locale === 'vi' ? 'Mẫu đã chọn' :
+                   locale === 'th' ? 'รุ่นที่เลือก' :
+                   locale === 'ms' ? 'Model dipilih' :
+                   locale === 'tr' ? 'Seçilen Modeller' :
+                   'النماذج المختارة'}
+                </span>
+                <span className="fixed-compare-max">(max 6)</span>
+              </div>
+              <div className="fixed-compare-models">
+                {compareList.map((model) => (
+                  <span key={model} className="fixed-compare-model-tag">
+                    {model}
+                    <button 
+                      className="fixed-compare-remove-btn"
+                      onClick={() => toggleCompare(model)}
+                      title={locale === 'zh' ? '移除' : 'Remove'}
+                    >
+                      ×
+                    </button>
+                  </span>
+                ))}
+              </div>
             </div>
             <div className="fixed-compare-actions">
               <button className="fixed-compare-view-btn" onClick={() => setShowCompareModal(true)}>
