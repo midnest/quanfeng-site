@@ -178,65 +178,53 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
         )}
       </div>
 
-      {/* Product Grid */}
-      <div className="product-grid">
-        {productSeries.map((series) => {
-          const summary = getSeriesSummary(series);
-          return (
-            <div 
-              key={series.id} 
-              className="product-card"
-              onClick={() => setSelectedSeries(series.id)}
-            >
-              {/* Product Image */}
-              <div className="product-card-image">
-                <img 
-                  src={getPdfPage(series.pdfPage)} 
-                  alt={series.name}
-                  loading="lazy"
-                />
-              </div>
-              
-              {/* Product Info */}
-              <div className="product-card-content">
-                <h4 className="product-card-name">{series.name}</h4>
-                <p className="product-card-size">{series.size}</p>
-                
-                {/* Key Parameters */}
-                <div className="product-card-params">
-                  <div className="param-row">
-                    <span className="param-label">{t.voltage}:</span>
-                    <span className="param-value">{summary.voltageRange}</span>
-                  </div>
-                  <div className="param-row">
-                    <span className="param-label">{t.power}:</span>
-                    <span className="param-value">{summary.powerRange}</span>
-                  </div>
-                  <div className="param-row">
-                    <span className="param-label">{t.airflow}:</span>
-                    <span className="param-value">{summary.airflowRange} m³/min</span>
-                  </div>
-                  <div className="param-row">
-                    <span className="param-label">{t.noise}:</span>
-                    <span className="param-value">{summary.noiseRange}</span>
-                  </div>
-                </div>
-                
-                {/* Features Tags */}
-                <div className="product-card-features">
-                  {getProductFeatures(series.id, locale).slice(0, 2).map((feature, idx) => (
-                    <span key={idx} className="feature-tag-mini">{feature}</span>
-                  ))}
-                </div>
-              </div>
-              
-              {/* Hover Overlay */}
-              <div className="product-card-overlay">
-                <span className="view-details-text">{t.viewDetails}</span>
-              </div>
-            </div>
-          );
-        })}
+      {/* Product Table */}
+      <div className="product-table-wrapper">
+        <table className="product-table">
+          <thead>
+            <tr>
+              <th>{locale === 'zh' ? '产品图片' : locale === 'en' ? 'Image' : locale === 'vi' ? 'Hình ảnh' : locale === 'th' ? 'รูปภาพ' : locale === 'ms' ? 'Gambar' : locale === 'tr' ? 'Görsel' : 'الصورة'}</th>
+              <th>{locale === 'zh' ? '系列名称' : locale === 'en' ? 'Series' : locale === 'vi' ? 'Dòng sản phẩm' : locale === 'th' ? 'ซีรี่ส์' : locale === 'ms' ? 'Siri' : locale === 'tr' ? 'Seri' : 'السلسلة'}</th>
+              <th>{locale === 'zh' ? '尺寸' : locale === 'en' ? 'Size' : locale === 'vi' ? 'Kích thước' : locale === 'th' ? 'ขนาด' : locale === 'ms' ? 'Saiz' : locale === 'tr' ? 'Boyut' : 'الحجم'}</th>
+              <th>{t.voltage}</th>
+              <th>{t.power}</th>
+              <th>{t.airflow}</th>
+              <th>{t.noise}</th>
+              <th>{locale === 'zh' ? '操作' : locale === 'en' ? 'Action' : locale === 'vi' ? 'Thao tác' : locale === 'th' ? 'การดำเนินการ' : locale === 'ms' ? 'Tindakan' : locale === 'tr' ? 'İşlem' : 'الإجراء'}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {productSeries.map((series) => {
+              const summary = getSeriesSummary(series);
+              return (
+                <tr 
+                  key={series.id} 
+                  className="product-table-row"
+                  onClick={() => setSelectedSeries(series.id)}
+                >
+                  <td className="table-cell-image">
+                    <img 
+                      src={getPdfPage(series.pdfPage)} 
+                      alt={series.name}
+                      loading="lazy"
+                    />
+                  </td>
+                  <td className="table-cell-name">{series.name}</td>
+                  <td className="table-cell-size">{series.size}</td>
+                  <td className="table-cell-param">{summary.voltageRange}</td>
+                  <td className="table-cell-param">{summary.powerRange}</td>
+                  <td className="table-cell-param">{summary.airflowRange} m³/min</td>
+                  <td className="table-cell-param">{summary.noiseRange}</td>
+                  <td className="table-cell-action">
+                    <button className="view-detail-btn" onClick={(e) => { e.stopPropagation(); setSelectedSeries(series.id); }}>
+                      {t.viewDetails}
+                    </button>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
       </div>
 
       {/* Detail Modal */}
