@@ -100,53 +100,22 @@ function LazyImage({
   );
 }
 
-// Modal image component - handles multiple images with non-blocking load
+// Modal image component - simple and reliable
 function ModalImage({ 
   imageUrl, 
-  alt, 
-  priority = false 
+  alt
 }: { 
   imageUrl: string; 
   alt: string;
-  priority?: boolean;
 }) {
-  const [shouldLoad, setShouldLoad] = useState(priority);
   const [hasError, setHasError] = useState(false);
   const [hasLoaded, setHasLoaded] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    if (priority) return;
-
-    // Use Intersection Observer to detect when image enters viewport
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          // Defer loading to avoid blocking
-          if ('requestIdleCallback' in window) {
-            window.requestIdleCallback(() => setShouldLoad(true), { timeout: 200 });
-          } else {
-            setTimeout(() => setShouldLoad(true), 50);
-          }
-          observer.disconnect();
-        }
-      },
-      { rootMargin: '200px', threshold: 0 }
-    );
-
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, [priority]);
-
-  // Don't render container if image failed to load
+  // Don't render if image failed to load
   if (hasError) return null;
 
   return (
     <div 
-      ref={containerRef}
       className="modal-pdf-section"
       style={{ 
         minHeight: '200px',
@@ -156,20 +125,19 @@ function ModalImage({
         justifyContent: 'center'
       }}
     >
-      {shouldLoad && (
-        <img 
-          src={imageUrl} 
-          alt={alt}
-          className="modal-pdf-image"
-          decoding="async"
-          style={{ 
-            opacity: hasLoaded ? 1 : 0,
-            transition: 'opacity 0.3s ease-in-out'
-          }}
-          onLoad={() => setHasLoaded(true)}
-          onError={() => setHasError(true)}
-        />
-      )}
+      <img 
+        src={imageUrl} 
+        alt={alt}
+        className="modal-pdf-image"
+        loading="lazy"
+        decoding="async"
+        style={{ 
+          opacity: hasLoaded ? 1 : 0,
+          transition: 'opacity 0.3s ease-in-out'
+        }}
+        onLoad={() => setHasLoaded(true)}
+        onError={() => setHasError(true)}
+      />
     </div>
   );
 }
@@ -512,7 +480,6 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                     key={index}
                     imageUrl={imageUrl}
                     alt={`${currentSeries.name} - Image ${index + 1}`}
-                    priority={index === 0}
                   />
                 ))}
               </div>
