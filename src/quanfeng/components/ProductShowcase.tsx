@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useRef } from 'react';
 import { productSeries, tableHeaders, featureTranslations, materialTranslations, getProductDescription } from '../lib/productData';
 import { withBasePath } from '@/quanfeng/lib/base-path';
 
@@ -35,7 +35,7 @@ function LazyImage({ src, alt }: { src: string; alt: string }) {
   );
 }
 
-// Modal image component
+// Modal image component with zoom
 function ModalImage({ 
   imageUrl, 
   alt
@@ -44,19 +44,60 @@ function ModalImage({
   alt: string;
 }) {
   const [hidden, setHidden] = useState(false);
+  const [showZoom, setShowZoom] = useState(false);
+  const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
+  const imgRef = useRef<HTMLImageElement>(null);
   
   if (hidden) return null;
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!imgRef.current) return;
+    const rect = imgRef.current.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    setZoomPosition({ x: Math.max(0, Math.min(100, x)), y: Math.max(0, Math.min(100, y)) });
+  };
   
   return (
     <div className="modal-pdf-section">
-      <img 
-        src={imageUrl} 
-        alt={alt}
-        className="modal-pdf-image"
-        loading="lazy"
-        decoding="async"
-        onError={() => setHidden(true)}
-      />
+      <div 
+        className="zoomable-image-wrapper"
+        onMouseEnter={() => setShowZoom(true)}
+        onMouseLeave={() => setShowZoom(false)}
+        onMouseMove={handleMouseMove}
+      >
+        <img 
+          ref={imgRef}
+          src={imageUrl} 
+          alt={alt}
+          className="modal-pdf-image"
+          loading="lazy"
+          decoding="async"
+          onError={() => setHidden(true)}
+        />
+        {showZoom && (
+          <div className="zoom-lens" style={{
+            left: `${zoomPosition.x}%`,
+            top: `${zoomPosition.y}%`,
+          }} />
+        )}
+        {showZoom && (
+          <div className="zoom-result">
+            <img 
+              src={imageUrl}
+              alt={alt}
+              style={{
+                position: 'absolute',
+                left: `${-zoomPosition.x * 2}%`,
+                top: `${-zoomPosition.y * 2}%`,
+                width: '300%',
+                height: '300%',
+                objectFit: 'cover',
+              }}
+            />
+          </div>
+        )}
+      </div>
     </div>
   );
 }
