@@ -169,16 +169,30 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
   }, []);
 
   // Get all product images
+  // Static mapping of actual image files in each folder
+  const FOLDER_IMAGES: Record<string, string[]> = {
+    '11025': ['1.jpg', '2.jpeg'],
+    '12025': ['1.jpg', '2.jpeg'],
+    '12038': ['1.jpg', '2.jpeg'],
+    '13538': ['1.jpg', '2.jpeg'],
+    '15050': ['1.jpg', '2.jpeg'],
+    '17250': ['1.jpg', '2.jpeg'],
+    '18060': ['1.jpg', '2.jpeg'],
+    '20060': ['1.jpg', '2.jpeg'],
+    '20060Y': ['1.jpg', '2.jpeg'],
+    '22090Y': ['1.jpg', '2.jpeg', '3.jpg', '4.jpeg'],
+    '22580': ['1.jpg', '2.jpg', '3.jpg'],
+    '28080': ['1.jpg', '2.jpg'],
+    '8025': ['1.jpg', '2.jpeg'],
+    '9225': ['1.jpg', '2.jpeg'],
+  };
+
   const getAllProductImages = useCallback((seriesId: string): string[] => {
     const folder = FOLDER_MAP[seriesId];
     if (!folder) return [];
-    // Generate paths for both .jpg and .jpeg formats
-    const paths: string[] = [];
-    [1, 2, 3, 4, 5, 6].forEach(num => {
-      paths.push(withBasePath(`/extracted_docx_images/${folder}/${num}.jpg`));
-      paths.push(withBasePath(`/extracted_docx_images/${folder}/${num}.jpeg`));
-    });
-    return paths;
+    // Use static mapping of actual files
+    const files = FOLDER_IMAGES[folder] || ['1.jpg'];
+    return files.map(file => withBasePath(`/extracted_docx_images/${folder}/${file}`));
   }, []);
 
   // Memoized translations
