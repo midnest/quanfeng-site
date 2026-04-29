@@ -25,5 +25,5 @@
     </div>
 </div>
 
-      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/784","url":"http://quanfeng.com/cn/show/784","title":"可承接铝合金压铸加工_网站公告_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/784"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"j3i3h59cGYmDDRWttELvV"}
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/784","url":"http://quanfeng.com/cn/show/784","title":"可承接铝合金压铸加工_网站公告_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/784"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FQfDXcntOTRoiBM2v2x0f"}
 6:null

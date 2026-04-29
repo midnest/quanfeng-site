@@ -67,6 +67,6 @@
     </div>
 </div>
 
-      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/704","url":"http://quanfeng.com/en/show/704","title":"QF-110_Protective net_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/704"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],"$L4"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"j3i3h59cGYmDDRWttELvV"}
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/704","url":"http://quanfeng.com/en/show/704","title":"QF-110_Protective net_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/704"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],"$L4"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FQfDXcntOTRoiBM2v2x0f"}
 4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
 7:null

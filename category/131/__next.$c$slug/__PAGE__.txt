@@ -57,5 +57,5 @@
 	<span style="font-size:14px;">Those who are able to go down, those who are mediocre will give up, and those who are mediocre will go down</span>
 </p>
                 </div>
-            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/131","url":"http://quanfeng.com/en/category/131","title":"Corporate culture_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/131"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"j3i3h59cGYmDDRWttELvV"}
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/131","url":"http://quanfeng.com/en/category/131","title":"Corporate culture_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/131"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FQfDXcntOTRoiBM2v2x0f"}
 6:null

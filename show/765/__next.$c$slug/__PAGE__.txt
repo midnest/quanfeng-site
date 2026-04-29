@@ -27,5 +27,5 @@
     </div>
 </div>
 
-      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/765","url":"http://quanfeng.com/en/show/765","title":"About the anti-counterfeiting QR code can not be recognized notice_Notice_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/765"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"j3i3h59cGYmDDRWttELvV"}
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/765","url":"http://quanfeng.com/en/show/765","title":"About the anti-counterfeiting QR code can not be recognized notice_Notice_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/765"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FQfDXcntOTRoiBM2v2x0f"}
 6:null
