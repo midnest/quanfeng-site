@@ -297,10 +297,11 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
                     <svg viewBox="0 0 100 100" className="cert-svg iso9001">
-                      <circle cx="50" cy="50" r="45" fill="none" stroke="#000000" strokeWidth="3"/>
-                      <text x="50" y="38" textAnchor="middle" fontSize="14" fontWeight="bold" fill="#000000">ISO</text>
-                      <text x="50" y="58" textAnchor="middle" fontSize="16" fontWeight="bold" fill="#000000">9001</text>
-                      <path d="M30 70 Q50 80 70 70" fill="none" stroke="#000000" strokeWidth="2"/>
+                      <circle cx="50" cy="50" r="44" fill="none" stroke="#1a1a1a" strokeWidth="5"/>
+                      <circle cx="50" cy="50" r="38" fill="none" stroke="#1a1a1a" strokeWidth="2"/>
+                      <text x="50" y="36" textAnchor="middle" fontSize="13" fontWeight="800" fill="#1a1a1a" fontFamily="Arial, Helvetica, sans-serif" letterSpacing="1">ISO</text>
+                      <text x="50" y="56" textAnchor="middle" fontSize="17" fontWeight="900" fill="#1a1a1a" fontFamily="Arial, Helvetica, sans-serif">9001</text>
+                      <path d="M28 72 Q50 84 72 72" fill="none" stroke="#1a1a1a" strokeWidth="3" strokeLinecap="round"/>
                     </svg>
                   </div>
                   <span className="simple-cert-name">ISO 9001</span>
@@ -311,9 +312,10 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
                     <svg viewBox="0 0 100 100" className="cert-svg ccc">
-                      <ellipse cx="50" cy="50" rx="45" ry="30" fill="none" stroke="#000000" strokeWidth="3"/>
-                      <text x="50" y="45" textAnchor="middle" fontSize="20" fontWeight="bold" fill="#000000">CCC</text>
-                      <text x="50" y="62" textAnchor="middle" fontSize="8" fill="#000000">中国强制认证</text>
+                      <ellipse cx="50" cy="50" rx="46" ry="32" fill="none" stroke="#1a1a1a" strokeWidth="5"/>
+                      <ellipse cx="50" cy="50" rx="39" ry="26" fill="none" stroke="#1a1a1a" strokeWidth="2"/>
+                      <text x="50" y="46" textAnchor="middle" fontSize="22" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="2">CCC</text>
+                      <text x="50" y="64" textAnchor="middle" fontSize="7" fontWeight="600" fill="#1a1a1a" fontFamily="Arial, sans-serif" letterSpacing="0.5">中国强制认证</text>
                     </svg>
                   </div>
                   <span className="simple-cert-name">CCC</span>
@@ -324,9 +326,10 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
                     <svg viewBox="0 0 100 100" className="cert-svg ul">
-                      <circle cx="50" cy="50" r="45" fill="none" stroke="#000000" strokeWidth="4"/>
-                      <text x="50" y="45" textAnchor="middle" fontSize="28" fontWeight="bold" fill="#000000">UL</text>
-                      <text x="50" y="62" textAnchor="middle" fontSize="8" fill="#000000">LISTED</text>
+                      <circle cx="50" cy="50" r="44" fill="none" stroke="#1a1a1a" strokeWidth="5"/>
+                      <circle cx="50" cy="50" r="37" fill="none" stroke="#1a1a1a" strokeWidth="2"/>
+                      <text x="50" y="46" textAnchor="middle" fontSize="30" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="1">UL</text>
+                      <text x="50" y="64" textAnchor="middle" fontSize="8" fontWeight="700" fill="#1a1a1a" fontFamily="Arial, sans-serif" letterSpacing="1.5">LISTED</text>
                     </svg>
                   </div>
                   <span className="simple-cert-name">UL</span>
@@ -337,9 +340,10 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
                     <svg viewBox="0 0 100 100" className="cert-svg cul">
-                      <rect x="10" y="20" width="80" height="60" rx="5" fill="none" stroke="#000000" strokeWidth="3"/>
-                      <text x="50" y="45" textAnchor="middle" fontSize="24" fontWeight="bold" fill="#000000">C-UL</text>
-                      <text x="50" y="62" textAnchor="middle" fontSize="7" fill="#000000">US • CA</text>
+                      <rect x="8" y="18" width="84" height="64" rx="6" fill="none" stroke="#1a1a1a" strokeWidth="5"/>
+                      <rect x="14" y="24" width="72" height="52" rx="3" fill="none" stroke="#1a1a1a" strokeWidth="2"/>
+                      <text x="50" y="46" textAnchor="middle" fontSize="22" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="1">C-UL</text>
+                      <text x="50" y="64" textAnchor="middle" fontSize="8" fontWeight="700" fill="#1a1a1a" fontFamily="Arial, sans-serif" letterSpacing="1">US • CA</text>
                     </svg>
                   </div>
                   <span className="simple-cert-name">C-UL</span>
@@ -350,8 +354,9 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
                     <svg viewBox="0 0 100 100" className="cert-svg ce">
-                      <text x="50" y="58" textAnchor="middle" fontSize="36" fontWeight="bold" fill="#000000" fontFamily="Arial">CE</text>
-                      <path d="M22 35 L30 35 M22 50 L28 50 M22 65 L30 65" stroke="#000000" strokeWidth="4" strokeLinecap="round"/>
+                      <text x="52" y="60" textAnchor="middle" fontSize="40" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif">CE</text>
+                      <path d="M18 32 L28 32 M18 50 L26 50 M18 68 L28 68" stroke="#1a1a1a" strokeWidth="5" strokeLinecap="round"/>
+                      <path d="M18 32 Q12 50 18 68" fill="none" stroke="#1a1a1a" strokeWidth="4" strokeLinecap="round"/>
                     </svg>
                   </div>
                   <span className="simple-cert-name">CE</span>
@@ -362,9 +367,10 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
                     <svg viewBox="0 0 100 100" className="cert-svg rohs">
-                      <circle cx="50" cy="50" r="45" fill="none" stroke="#000000" strokeWidth="3"/>
-                      <path d="M50 20 Q65 35 65 50 Q65 70 50 80 Q35 70 35 50 Q35 35 50 20" fill="#000000" opacity="0.15"/>
-                      <text x="50" y="55" textAnchor="middle" fontSize="12" fontWeight="bold" fill="#000000">RoHS</text>
+                      <circle cx="50" cy="50" r="44" fill="none" stroke="#1a1a1a" strokeWidth="5"/>
+                      <circle cx="50" cy="50" r="38" fill="none" stroke="#1a1a1a" strokeWidth="2"/>
+                      <path d="M50 18 Q68 35 68 52 Q68 72 50 82 Q32 72 32 52 Q32 35 50 18" fill="#1a1a1a" opacity="0.12"/>
+                      <text x="50" y="56" textAnchor="middle" fontSize="14" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="0.5">RoHS</text>
                     </svg>
                   </div>
                   <span className="simple-cert-name">RoHS</span>
