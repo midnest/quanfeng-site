@@ -98,11 +98,29 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     if (folder) {
       // Use thumbnail for table, full image for detail modal
       const imageName = useThumbnail ? 'thumb.jpg' : '1.png';
-      return withBasePath(`/extracted_docx_images/${folder}/${imageName}`);
+      const path = withBasePath(`/extracted_docx_images/${folder}/${imageName}`);
+      console.log('Loading image:', seriesId, path);
+      return path;
     }
     // Fallback to PDF page if no folder mapping
     const series = productSeries.find(s => s.id === seriesId);
     return series ? getPdfPage(series.pdfPage) : '';
+  };
+
+  // Get GitHub Raw URL as fallback
+  const getGitHubRawImage = (seriesId: string, useThumbnail: boolean = false) => {
+    const folderMap: Record<string, string> = {
+      'qa8025': '8025', 'qa9225': '9225', 'qa11025': '11025', 'qa12025': '12025',
+      'qa12038': '12038', 'qa13538': '13538', 'qa15050': '15050', 'qa17250': '17250',
+      'qa18060': '18060', 'qa20060': '20060', 'qa20060y': '20060Y',
+      'qa22090y': '22090Y', 'qa22580': '22580', 'qa28080': '28080',
+    };
+    const folder = folderMap[seriesId];
+    if (folder) {
+      const imageName = useThumbnail ? 'thumb.jpg' : '1.png';
+      return `https://raw.githubusercontent.com/midnest/quanfeng-site/main/public/extracted_docx_images/${folder}/${imageName}`;
+    }
+    return '';
   };
 
   // Translations
@@ -262,9 +280,17 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                       width="80"
                       height="60"
                       onError={(e) => {
-                        console.error('Image failed to load:', series.id, e.currentTarget.src);
-                        // Fallback to original image if thumbnail fails
-                        e.currentTarget.src = getProductImage(series.id, false);
+                        const failedSrc = e.currentTarget.src;
+                        console.error('Image failed to load:', series.id, failedSrc);
+                        // Try GitHub Raw URL as fallback
+                        if (!failedSrc.includes('raw.githubusercontent.com')) {
+                          const rawUrl = getGitHubRawImage(series.id, true);
+                          console.log('Trying GitHub Raw URL:', rawUrl);
+                          e.currentTarget.src = rawUrl;
+                        } else {
+                          // Last fallback to original image
+                          e.currentTarget.src = getGitHubRawImage(series.id, false);
+                        }
                       }}
                     />
                   </td>
