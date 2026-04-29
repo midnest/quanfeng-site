@@ -35,15 +35,22 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
   // Get aggregated data for each series
   const getSeriesSummary = (series: typeof productSeries[0]) => {
     const voltages = series.variants.map(v => v.voltage);
-    const powers = series.variants.map(v => v.power);
+    const speeds = series.variants.map(v => v.speed);
     const airflows = series.variants.map(v => v.airflow);
     const noises = series.variants.map(v => v.noise);
     
+    // Get bearing types (unique)
+    const bearingTypes = [...new Set(series.variants.map(v => v.bearingType))];
+    const bearingDisplay = bearingTypes.length === 1 
+      ? features[bearingTypes[0]] 
+      : bearingTypes.map(t => features[t]).join('/');
+    
     return {
       voltageRange: voltages.join('/'),
-      powerRange: getRange(powers) + 'W',
+      speedRange: getRange(speeds) + 'RPM',
       airflowRange: getRange(airflows),
       noiseRange: getRange(noises) + 'dB',
+      bearingType: bearingDisplay,
     };
   };
 
@@ -111,6 +118,20 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
            locale === 'ms' ? 'Bunyi' :
            locale === 'tr' ? 'Gürültü' :
            'الضوضاء',
+    speed: locale === 'zh' ? '转速' : 
+           locale === 'en' ? 'Speed' :
+           locale === 'vi' ? 'Tốc độ' :
+           locale === 'th' ? 'ความเร็ว' :
+           locale === 'ms' ? 'Kelajuan' :
+           locale === 'tr' ? 'Hız' :
+           'السرعة',
+    bearing: locale === 'zh' ? '轴承' : 
+             locale === 'en' ? 'Bearing' :
+             locale === 'vi' ? 'Ổ bi' :
+             locale === 'th' ? 'ลูกปืน' :
+             locale === 'ms' ? 'Bearing' :
+             locale === 'tr' ? 'Rulman' :
+             'المحمل',
     viewDetails: locale === 'zh' ? '查看详情' : 
                  locale === 'en' ? 'View Details' :
                  locale === 'vi' ? 'Xem chi tiết' :
@@ -187,9 +208,10 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
               <th>{locale === 'zh' ? '系列名称' : locale === 'en' ? 'Series' : locale === 'vi' ? 'Dòng sản phẩm' : locale === 'th' ? 'ซีรี่ส์' : locale === 'ms' ? 'Siri' : locale === 'tr' ? 'Seri' : 'السلسلة'}</th>
               <th>{locale === 'zh' ? '尺寸' : locale === 'en' ? 'Size' : locale === 'vi' ? 'Kích thước' : locale === 'th' ? 'ขนาด' : locale === 'ms' ? 'Saiz' : locale === 'tr' ? 'Boyut' : 'الحجم'}</th>
               <th>{t.voltage}</th>
-              <th>{t.power}</th>
+              <th>{t.speed}</th>
               <th>{t.airflow}</th>
               <th>{t.noise}</th>
+              <th>{t.bearing}</th>
               <th>{locale === 'zh' ? '操作' : locale === 'en' ? 'Action' : locale === 'vi' ? 'Thao tác' : locale === 'th' ? 'การดำเนินการ' : locale === 'ms' ? 'Tindakan' : locale === 'tr' ? 'İşlem' : 'الإجراء'}</th>
             </tr>
           </thead>
@@ -212,9 +234,10 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   <td className="table-cell-name">{series.name}</td>
                   <td className="table-cell-size">{series.size}</td>
                   <td className="table-cell-param">{summary.voltageRange}</td>
-                  <td className="table-cell-param">{summary.powerRange}</td>
+                  <td className="table-cell-param">{summary.speedRange}</td>
                   <td className="table-cell-param">{summary.airflowRange} m³/min</td>
                   <td className="table-cell-param">{summary.noiseRange}</td>
+                  <td className="table-cell-param">{summary.bearingType}</td>
                   <td className="table-cell-action">
                     <button className="view-detail-btn" onClick={(e) => { e.stopPropagation(); setSelectedSeries(series.id); }}>
                       {t.viewDetails}
