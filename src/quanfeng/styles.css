@@ -3902,26 +3902,36 @@ body.menu-locked {
 /* Responsive */
 @media (max-width: 768px) {
   .product-table {
-    font-size: 13px;
+    font-size: 12px;
   }
   
   .product-table thead th,
   .product-table tbody td {
-    padding: 10px 8px;
+    padding: 10px 6px;
+  }
+  
+  /* Hide less important columns on tablet */
+  .product-table thead th:nth-child(6),  /* Speed */
+  .product-table tbody td:nth-child(6),
+  .product-table thead th:nth-child(9),  /* Blade Material */
+  .product-table tbody td:nth-child(9) {
+    display: none;
   }
   
   .table-cell-image {
-    width: 80px;
+    width: 60px;
+    min-width: 60px;
   }
   
   .table-cell-image img {
-    width: 60px;
-    height: 45px;
+    width: 50px;
+    height: 38px;
   }
   
   .view-detail-btn {
-    padding: 5px 10px;
-    font-size: 12px;
+    padding: 6px 10px;
+    font-size: 11px;
+    white-space: nowrap;
   }
   
   .detail-modal-content {
@@ -3952,26 +3962,42 @@ body.menu-locked {
 
 @media (max-width: 480px) {
   .product-table {
-    font-size: 12px;
+    font-size: 11px;
   }
   
   .product-table thead th,
   .product-table tbody td {
-    padding: 8px 6px;
+    padding: 8px 4px;
+  }
+  
+  /* Hide more columns on mobile - keep: image, series, size, voltage, airflow, noise, action */
+  .product-table thead th:nth-child(6),  /* Speed */
+  .product-table tbody td:nth-child(6),
+  .product-table thead th:nth-child(9),  /* Blade Material */
+  .product-table tbody td:nth-child(9) {
+    display: none;
   }
   
   .table-cell-image {
-    width: 60px;
+    width: 50px;
+    min-width: 50px;
+    padding: 4px !important;
   }
   
   .table-cell-image img {
-    width: 50px;
-    height: 38px;
+    width: 40px;
+    height: 30px;
+  }
+  
+  .table-cell-name {
+    font-size: 11px;
+    font-weight: 600;
   }
   
   .view-detail-btn {
-    padding: 4px 8px;
-    font-size: 11px;
+    padding: 5px 8px;
+    font-size: 10px;
+    border-radius: 4px;
   }
   
   .detail-modal {
@@ -3981,6 +4007,23 @@ body.menu-locked {
   
   .detail-modal-content {
     padding: 16px;
+  }
+  
+  /* Make table horizontally scrollable hint */
+  .product-table-wrapper {
+    position: relative;
+  }
+  
+  .product-table-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    background: linear-gradient(to right, transparent, rgba(0,0,0,0.1));
+    pointer-events: none;
+    opacity: 0.5;
   }
 }
 
