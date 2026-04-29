@@ -75,7 +75,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
   const getPdfPage = (pageNum: number) => withBasePath(`/pdf_pages/page_${pageNum}.png`);
 
   // Get product image from extracted_docx_images folder
-  const getProductImage = (seriesId: string) => {
+  const getProductImage = (seriesId: string, useThumbnail: boolean = false) => {
     // Map series id to folder name
     const folderMap: Record<string, string> = {
       'qa8025': '8025',
@@ -93,10 +93,12 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
       'qa22580': '22580',
       'qa28080': '28080',
     };
-    
+
     const folder = folderMap[seriesId];
     if (folder) {
-      return withBasePath(`/extracted_docx_images/${folder}/1.png`);
+      // Use thumbnail for table, full image for detail modal
+      const imageName = useThumbnail ? 'thumb.jpg' : '1.png';
+      return withBasePath(`/extracted_docx_images/${folder}/${imageName}`);
     }
     // Fallback to PDF page if no folder mapping
     const series = productSeries.find(s => s.id === seriesId);
@@ -254,10 +256,12 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   onClick={() => setSelectedSeries(series.id)}
                 >
                   <td className="table-cell-image">
-                    <img 
-                      src={getProductImage(series.id)} 
+                    <img
+                      src={getProductImage(series.id, true)}
                       alt={series.name}
                       loading="lazy"
+                      width="80"
+                      height="60"
                     />
                   </td>
                   <td className="table-cell-name">{series.name}</td>
