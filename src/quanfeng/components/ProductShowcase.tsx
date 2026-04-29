@@ -55,19 +55,15 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
            locale === 'ms' ? 'Siri Produk' :
            locale === 'tr' ? 'Ürün Serisi' :
            'سلسلة المنتجات'}
-          <span style={{ marginLeft: '10px', fontSize: '14px', color: '#ff0000' }}>
-            (共 {productSeries.length} 个系列)
-          </span>
         </h3>
         <div className="series-tabs">
-          {productSeries.map((series, index) => (
+          {productSeries.map((series) => (
             <button
               key={series.id}
               className={`series-tab ${selectedSeries === series.id ? 'active' : ''}`}
               onClick={() => {
                 setSelectedSeries(series.id);
               }}
-              title={`#${index + 1} ${series.name}`}
             >
               <span className="series-tab-name">{series.name}</span>
               <span className="series-tab-size">{series.size}</span>

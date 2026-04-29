@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import { withBasePath } from "@/quanfeng/lib/base-path";
 import { locales, translations, type Locale } from "@/quanfeng/lib/i18n";
 import { ProductShowcase } from "./ProductShowcase";
-import { TestProductSeries } from "./TestProductSeries";
 
 const heroSlides = [
   { image: "/images/quanfeng/hero/slide-1.jpg", alt: "工厂实景" },
@@ -266,8 +265,6 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
             <h2>{t.products.title}</h2>
             <p className="simple-section-subtitle">{(t.products as any).subtitle}</p>
           </div>
-          {/* 测试组件：显示所有产品系列 */}
-          <TestProductSeries />
           <ProductShowcase locale={locale} />
           <div className="simple-center" style={{ marginTop: '40px' }}>
             <button
