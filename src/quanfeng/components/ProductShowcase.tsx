@@ -35,68 +35,57 @@ function LazyImage({ src, alt }: { src: string; alt: string }) {
   );
 }
 
-// Modal image component with zoom
+// Modal image component - click to view full size
 function ModalImage({ 
   imageUrl, 
-  alt
+  alt,
+  onClick
 }: { 
   imageUrl: string; 
   alt: string;
+  onClick?: () => void;
 }) {
   const [hidden, setHidden] = useState(false);
-  const [showZoom, setShowZoom] = useState(false);
-  const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
-  const imgRef = useRef<HTMLImageElement>(null);
   
   if (hidden) return null;
-
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (!imgRef.current) return;
-    const rect = imgRef.current.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width) * 100;
-    const y = ((e.clientY - rect.top) / rect.height) * 100;
-    setZoomPosition({ x: Math.max(0, Math.min(100, x)), y: Math.max(0, Math.min(100, y)) });
-  };
   
   return (
-    <div className="modal-pdf-section">
-      <div 
-        className="zoomable-image-wrapper"
-        onMouseEnter={() => setShowZoom(true)}
-        onMouseLeave={() => setShowZoom(false)}
-        onMouseMove={handleMouseMove}
-      >
-        <img 
-          ref={imgRef}
-          src={imageUrl} 
-          alt={alt}
-          className="modal-pdf-image"
-          loading="lazy"
-          decoding="async"
-          onError={() => setHidden(true)}
-        />
-        {showZoom && (
-          <div className="zoom-lens" style={{
-            left: `${zoomPosition.x}%`,
-            top: `${zoomPosition.y}%`,
-          }} />
-        )}
-        {showZoom && (
-          <div className="zoom-result">
-            <img 
-              src={imageUrl}
-              alt={alt}
-              style={{
-                position: 'absolute',
-                left: `${-zoomPosition.x * 2}%`,
-                top: `${-zoomPosition.y * 2}%`,
-                width: '300%',
-                height: '300%',
-                objectFit: 'cover',
-              }}
-            />
-          </div>
-        )}
+    <div className="modal-pdf-section" onClick={onClick} style={{ cursor: onClick ? 'zoom-in' : 'default' }}>
+      <img 
+        src={imageUrl} 
+        alt={alt}
+        className="modal-pdf-image"
+        loading="lazy"
+        decoding="async"
+        onError={() => setHidden(true)}
+      />
+    </div>
+  );
+}
+
+// Full screen image viewer
+function ImageViewer({
+  imageUrl,
+  alt,
+  onClose
+}: {
+  imageUrl: string;
+  alt: string;
+  onClose: () => void;
+}) {
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleEsc);
+    return () => window.removeEventListener('keydown', handleEsc);
+  }, [onClose]);
+
+  return (
+    <div className="image-viewer-overlay" onClick={onClose}>
+      <div className="image-viewer-content" onClick={(e) => e.stopPropagation()}>
+        <button className="image-viewer-close" onClick={onClose}>×</button>
+        <img src={imageUrl} alt={alt} className="image-viewer-img" />
       </div>
     </div>
   );
@@ -116,6 +105,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
   const [selectedSeries, setSelectedSeries] = useState<string | null>(null);
   const [compareList, setCompareList] = useState<string[]>([]);
   const [showCompareModal, setShowCompareModal] = useState(false);
+  const [viewerImage, setViewerImage] = useState<{ url: string; alt: string } | null>(null);
 
   // Memoized values
   const headers = useMemo(() => tableHeaders[locale as keyof typeof tableHeaders] || tableHeaders.zh, [locale]);
@@ -377,6 +367,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                     key={index}
                     imageUrl={imageUrl}
                     alt={`${currentSeries.name} - ${index + 1}`}
+                    onClick={() => setViewerImage({ url: imageUrl, alt: `${currentSeries.name} - ${index + 1}` })}
                   />
                 ))}
               </div>
@@ -579,6 +570,15 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
             </div>
           </div>
         </div>
+      )}
+
+      {/* Full Screen Image Viewer */}
+      {viewerImage && (
+        <ImageViewer
+          imageUrl={viewerImage.url}
+          alt={viewerImage.alt}
+          onClose={() => setViewerImage(null)}
+        />
       )}
     </div>
   );
