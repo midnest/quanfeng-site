@@ -67,7 +67,8 @@ def format_value(val):
         if val == int(val):
             return str(int(val))
         return str(val)
-    return str(val).strip()
+    # 移除换行符并替换为空格
+    return str(val).strip().replace('\n', ' ').replace('\r', '')
 
 def main():
     # 读取Excel文件

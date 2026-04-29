@@ -89,18 +89,9 @@ export const productSeries: ProductSeries[] = [
     dimensions: '110×110×25mm',
     pdfPage: 2,
     variants: [
-      { model: 'QA11025HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '17', frequency: '50/60', current: '0.2', speed: '2200', airflow: '1.25', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.29', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA11025HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '17', frequency: '50/60', current: '0.1', speed: '2200', airflow: '1.25', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.29', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA11025HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '17', frequency: '50/60', current: '0.06', speed: '2200', airflow: '1.25', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.29', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA11025HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '17', frequency: '50/60', current: '0.2', speed: '2200', airflow: '1.25', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.29', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA11025HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '17', frequency: '50/60', current: '0.1', speed: '2200', airflow: '1.25', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.29', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA11025HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '17', frequency: '50/60', current: '0.06', speed: '2200', airflow: '1.25', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.29', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
     ],
   },
   {
@@ -111,18 +102,9 @@ Aluminum Alloy', bladeMaterial: 'PBT
     dimensions: '120×120×25mm',
     pdfPage: 2,
     variants: [
-      { model: 'QA12025HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '17', frequency: '50/60', current: '0.2', speed: '2200', airflow: '1.6', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.3', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA12025HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '17', frequency: '50/60', current: '0.1', speed: '2200', airflow: '1.6', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.3', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA12025HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '17', frequency: '50/60', current: '0.06', speed: '2200', airflow: '1.6', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.3', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA12025HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '17', frequency: '50/60', current: '0.2', speed: '2200', airflow: '1.6', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.3', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA12025HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '17', frequency: '50/60', current: '0.1', speed: '2200', airflow: '1.6', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.3', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA12025HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '17', frequency: '50/60', current: '0.06', speed: '2200', airflow: '1.6', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.3', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
     ],
   },
   {
@@ -133,18 +115,9 @@ Aluminum Alloy', bladeMaterial: 'PBT
     dimensions: '120×120×38mm',
     pdfPage: 3,
     variants: [
-      { model: 'QA12038HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '21', frequency: '50/60', current: '0.28', speed: '2500', airflow: '2.3', noise: '48', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.53', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA12038HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '21', frequency: '50/60', current: '0.14', speed: '2500', airflow: '2.3', noise: '48', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.53', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA12038HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '21', frequency: '50/60', current: '0.11', speed: '2500', airflow: '2.3', noise: '48', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.53', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA12038HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '21', frequency: '50/60', current: '0.28', speed: '2500', airflow: '2.3', noise: '48', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.53', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA12038HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '21', frequency: '50/60', current: '0.14', speed: '2500', airflow: '2.3', noise: '48', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.53', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA12038HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '21', frequency: '50/60', current: '0.11', speed: '2500', airflow: '2.3', noise: '48', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.53', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
     ],
   },
   {
@@ -155,18 +128,9 @@ Aluminum Alloy', bladeMaterial: 'PBT
     dimensions: '135×135×38mm',
     pdfPage: 3,
     variants: [
-      { model: 'QA13538HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '23', frequency: '50/60', current: '0.3', speed: '2500', airflow: '3', noise: '55', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.55', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA13538HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '23', frequency: '50/60', current: '0.15', speed: '2500', airflow: '3', noise: '55', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.55', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA13538HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '23', frequency: '50/60', current: '0.12', speed: '2500', airflow: '3', noise: '55', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.55', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA13538HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '23', frequency: '50/60', current: '0.3', speed: '2500', airflow: '3', noise: '55', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.55', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA13538HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '23', frequency: '50/60', current: '0.15', speed: '2500', airflow: '3', noise: '55', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.55', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA13538HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '23', frequency: '50/60', current: '0.12', speed: '2500', airflow: '3', noise: '55', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.55', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
     ],
   },
   {
@@ -177,18 +141,9 @@ Aluminum Alloy', bladeMaterial: 'PBT
     dimensions: '150×150×50mm',
     pdfPage: 4,
     variants: [
-      { model: 'QA15050HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '36', frequency: '50/60', current: '0.5', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA15050HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '36', frequency: '50/60', current: '0.25', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA15050HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '36', frequency: '50/60', current: '0.19', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA15050HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '36', frequency: '50/60', current: '0.5', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA15050HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '36', frequency: '50/60', current: '0.25', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA15050HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '36', frequency: '50/60', current: '0.19', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
     ],
   },
   {
@@ -199,18 +154,9 @@ Aluminum Alloy', bladeMaterial: 'PBT
     dimensions: '172×150×50mm',
     pdfPage: 4,
     variants: [
-      { model: 'QA17250HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '36', frequency: '50/60', current: '0.5', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA17250HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '36', frequency: '50/60', current: '0.25', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA17250HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '36', frequency: '50/60', current: '0.19', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA17250HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '36', frequency: '50/60', current: '0.5', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA17250HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '36', frequency: '50/60', current: '0.25', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA17250HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '36', frequency: '50/60', current: '0.19', speed: '2500', airflow: '5', noise: '60', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.88', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
     ],
   },
   {
@@ -221,18 +167,9 @@ Aluminum Alloy', bladeMaterial: 'PBT
     dimensions: '180×180×60mm',
     pdfPage: 5,
     variants: [
-      { model: 'QA18060HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '50', frequency: '50/60', current: '0.7', speed: '2600', airflow: '7.8', noise: '65', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.35', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA18060HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '50', frequency: '50/60', current: '0.35', speed: '2600', airflow: '7.8', noise: '65', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.35', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA18060HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '50', frequency: '50/60', current: '0.27', speed: '2600', airflow: '7.8', noise: '65', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.35', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA18060HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '50', frequency: '50/60', current: '0.7', speed: '2600', airflow: '7.8', noise: '65', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.35', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA18060HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '50', frequency: '50/60', current: '0.35', speed: '2600', airflow: '7.8', noise: '65', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.35', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA18060HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '50', frequency: '50/60', current: '0.27', speed: '2600', airflow: '7.8', noise: '65', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.35', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
     ],
   },
   {
@@ -243,30 +180,12 @@ Aluminum Alloy', bladeMaterial: 'PBT
     dimensions: '200×200×60mm',
     pdfPage: 6,
     variants: [
-      { model: 'QA20060HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '65', frequency: '50/60', current: '0.9', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.45', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA20060HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '65', frequency: '50/60', current: '0.45', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.45', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA20060HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '65', frequency: '50/60', current: '0.3', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.45', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA20060YHBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '65', frequency: '50/60', current: '0.9', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.4', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA20060YHBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '65', frequency: '50/60', current: '0.45', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.4', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA20060YHBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '65', frequency: '50/60', current: '0.3', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.4', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA20060HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '65', frequency: '50/60', current: '0.9', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.45', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA20060HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '65', frequency: '50/60', current: '0.45', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.45', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA20060HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '65', frequency: '50/60', current: '0.3', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.45', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA20060YHBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '65', frequency: '50/60', current: '0.9', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.4', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA20060YHBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '65', frequency: '50/60', current: '0.45', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.4', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA20060YHBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '65', frequency: '50/60', current: '0.3', speed: '2600', airflow: '9.8', noise: '70', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.4', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
     ],
   },
   {
@@ -277,14 +196,8 @@ Aluminum Alloy', bladeMaterial: 'PBT
     dimensions: '220×220×90mm',
     pdfPage: 1,
     variants: [
-      { model: 'QA22090YHBL2D', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '75', frequency: '50/60', current: '0.35', speed: '2600', airflow: '20', noise: '72', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: '铁片
-Iron' },
-      { model: 'QA22090YHBL3D', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '75', frequency: '50/60', current: '0.16', speed: '2600', airflow: '20', noise: '72', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: '铁片
-Iron' },
+      { model: 'QA22090YHBL2D', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '75', frequency: '50/60', current: '0.35', speed: '2600', airflow: '20', noise: '72', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: '铁片 Iron' },
+      { model: 'QA22090YHBL3D', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '75', frequency: '50/60', current: '0.16', speed: '2600', airflow: '20', noise: '72', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: '铁片 Iron' },
     ],
   },
   {
@@ -295,14 +208,8 @@ Iron' },
     dimensions: '225×225×80mm',
     pdfPage: 7,
     variants: [
-      { model: 'QA22580HBL2D', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '90', frequency: '50/60', current: '0.45', speed: '2600', airflow: '16', noise: '65', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.85', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: '铁片
-Iron' },
-      { model: 'QA22580HBL3D', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '90', frequency: '50/60', current: '0.2', speed: '2600', airflow: '16', noise: '65', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.85', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: '铁片
-Iron' },
+      { model: 'QA22580HBL2D', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '90', frequency: '50/60', current: '0.45', speed: '2600', airflow: '16', noise: '65', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.85', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: '铁片 Iron' },
+      { model: 'QA22580HBL3D', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '90', frequency: '50/60', current: '0.2', speed: '2600', airflow: '16', noise: '65', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '1.85', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: '铁片 Iron' },
     ],
   },
   {
@@ -313,14 +220,8 @@ Iron' },
     dimensions: '280×280×80mm',
     pdfPage: 8,
     variants: [
-      { model: 'QA28080HBL2D', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '100', frequency: '50/60', current: '0.6', speed: '2600', airflow: '28', noise: '70', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2.6', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: '铁片
-Iron' },
-      { model: 'QA28080HBL3D', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '100', frequency: '50/60', current: '0.25', speed: '2600', airflow: '28', noise: '70', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2.6', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: '铁片
-Iron' },
+      { model: 'QA28080HBL2D', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '100', frequency: '50/60', current: '0.6', speed: '2600', airflow: '28', noise: '70', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2.6', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: '铁片 Iron' },
+      { model: 'QA28080HBL3D', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '100', frequency: '50/60', current: '0.25', speed: '2600', airflow: '28', noise: '70', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2.6', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: '铁片 Iron' },
     ],
   },
   {
@@ -331,18 +232,9 @@ Iron' },
     dimensions: '80×80×25mm',
     pdfPage: 1,
     variants: [
-      { model: 'QA8025HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '13', frequency: '50/60', current: '0.14', speed: '2200', airflow: '0.4', noise: '38', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.24', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA8025HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '13', frequency: '50/60', current: '0.07', speed: '2200', airflow: '0.4', noise: '38', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.24', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA8025HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '13', frequency: '50/60', current: '0.05', speed: '2200', airflow: '0.4', noise: '38', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.24', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA8025HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '13', frequency: '50/60', current: '0.14', speed: '2200', airflow: '0.4', noise: '38', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.24', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA8025HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '13', frequency: '50/60', current: '0.07', speed: '2200', airflow: '0.4', noise: '38', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.24', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA8025HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '13', frequency: '50/60', current: '0.05', speed: '2200', airflow: '0.4', noise: '38', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.24', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
     ],
   },
   {
@@ -353,18 +245,9 @@ Aluminum Alloy', bladeMaterial: 'PBT
     dimensions: '92×92×25mm',
     pdfPage: 1,
     variants: [
-      { model: 'QA9225HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '13', frequency: '50/60', current: '0.14', speed: '2200', airflow: '0.65', noise: '40', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.25', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA9225HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '13', frequency: '50/60', current: '0.07', speed: '2200', airflow: '0.65', noise: '40', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.25', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
-      { model: 'QA9225HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '13', frequency: '50/60', current: '0.05', speed: '2200', airflow: '0.65', noise: '40', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.25', coilMaterial: '铜线
-Enameled Copper Wire', housingMaterial: '铝合金
-Aluminum Alloy', bladeMaterial: 'PBT
-（V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA9225HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '13', frequency: '50/60', current: '0.14', speed: '2200', airflow: '0.65', noise: '40', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.25', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA9225HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '13', frequency: '50/60', current: '0.07', speed: '2200', airflow: '0.65', noise: '40', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.25', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
+      { model: 'QA9225HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '13', frequency: '50/60', current: '0.05', speed: '2200', airflow: '0.65', noise: '40', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.25', coilMaterial: '铜线 Enameled Copper Wire', housingMaterial: '铝合金 Aluminum Alloy', bladeMaterial: 'PBT （V0级阻燃/UL94 V-0 rated）' },
     ],
   },
 ];
