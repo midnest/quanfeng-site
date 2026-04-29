@@ -1,11 +1,81 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import { productSeries, tableHeaders, featureTranslations, materialTranslations, getProductDescription, getProductFeatures } from '../lib/productData';
 import { withBasePath } from '@/quanfeng/lib/base-path';
 
 interface ProductShowcaseProps {
   locale: string;
+}
+
+// Lazy loading image component with Intersection Observer
+function LazyImage({ 
+  src, 
+  alt, 
+  width, 
+  height, 
+  onError 
+}: { 
+  src: string; 
+  alt: string; 
+  width: number; 
+  height: number;
+  onError?: (e: React.SyntheticEvent<HTMLImageElement>) => void;
+}) {
+  const [isVisible, setIsVisible] = useState(false);
+  const [hasLoaded, setHasLoaded] = useState(false);
+  const imgRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { 
+        rootMargin: '50px', // Start loading 50px before entering viewport
+        threshold: 0 
+      }
+    );
+
+    if (imgRef.current) {
+      observer.observe(imgRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div 
+      ref={imgRef} 
+      style={{ 
+        width, 
+        height, 
+        backgroundColor: hasLoaded ? 'transparent' : '#f0f0f0',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}
+    >
+      {isVisible && (
+        <img
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          decoding="async"
+          style={{ 
+            opacity: hasLoaded ? 1 : 0,
+            transition: 'opacity 0.2s ease-in-out'
+          }}
+          onLoad={() => setHasLoaded(true)}
+          onError={onError}
+        />
+      )}
+    </div>
+  );
 }
 
 // Helper to get range from array of values
@@ -289,19 +359,17 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   onClick={() => setSelectedSeries(series.id)}
                 >
                   <td className="table-cell-image">
-                    <img
+                    <LazyImage
                       src={getProductImage(series.id, true)}
                       alt={series.name}
-                      width="80"
-                      height="60"
-                      loading="lazy"
-                      decoding="async"
+                      width={80}
+                      height={60}
                       onError={(e) => {
-                        const failedSrc = e.currentTarget.src;
+                        const failedSrc = (e.target as HTMLImageElement).src;
                         // Try GitHub Raw URL as fallback
                         if (!failedSrc.includes('raw.githubusercontent.com')) {
                           const rawUrl = getGitHubRawImage(series.id, true);
-                          e.currentTarget.src = rawUrl;
+                          (e.target as HTMLImageElement).src = rawUrl;
                         }
                       }}
                     />
