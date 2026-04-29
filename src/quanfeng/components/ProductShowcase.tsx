@@ -1,142 +1,79 @@
 'use client';
 
-import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
-import { productSeries, tableHeaders, featureTranslations, materialTranslations, getProductDescription, getProductFeatures } from '../lib/productData';
+import { useState, useMemo, useCallback } from 'react';
+import { productSeries, tableHeaders, featureTranslations, materialTranslations, getProductDescription } from '../lib/productData';
 import { withBasePath } from '@/quanfeng/lib/base-path';
 
 interface ProductShowcaseProps {
   locale: string;
 }
 
-// Lazy loading image component with Intersection Observer - non-blocking
-function LazyImage({ 
-  src, 
-  alt, 
-  width, 
-  height, 
-  onError,
-  priority = false
-}: { 
-  src: string; 
-  alt: string; 
-  width: number; 
-  height: number;
-  onError?: (e: React.SyntheticEvent<HTMLImageElement>) => void;
-  priority?: boolean;
-}) {
-  const [isVisible, setIsVisible] = useState(priority);
-  const [hasLoaded, setHasLoaded] = useState(false);
-  const imgRef = useRef<HTMLDivElement>(null);
+// Static folder mapping - defined once
+const FOLDER_MAP: Record<string, string> = {
+  'qa8025': '8025', 'qa9225': '9225', 'qa11025': '11025', 'qa12025': '12025',
+  'qa12038': '12038', 'qa13538': '13538', 'qa15050': '15050', 'qa17250': '17250',
+  'qa18060': '18060', 'qa20060': '20060', 'qa20060y': '20060Y',
+  'qa22090y': '22090Y', 'qa22580': '22580', 'qa28080': '28080',
+};
 
-  useEffect(() => {
-    if (priority) return;
-
-    const scheduleObservation = () => {
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          if (entry.isIntersecting) {
-            // Use requestIdleCallback to avoid blocking main thread
-            if ('requestIdleCallback' in window) {
-              window.requestIdleCallback(() => setIsVisible(true), { timeout: 100 });
-            } else {
-              setTimeout(() => setIsVisible(true), 0);
-            }
-            observer.disconnect();
-          }
-        },
-        { 
-          rootMargin: '100px',
-          threshold: 0 
-        }
-      );
-
-      if (imgRef.current) {
-        observer.observe(imgRef.current);
-      }
-
-      return observer;
-    };
-
-    // Defer observer setup to avoid blocking initial render
-    if ('requestIdleCallback' in window) {
-      const id = window.requestIdleCallback(scheduleObservation, { timeout: 50 });
-      return () => {
-        window.cancelIdleCallback(id);
-      };
-    } else {
-      const timeoutId = setTimeout(scheduleObservation, 0);
-      return () => clearTimeout(timeoutId);
-    }
-  }, [priority]);
-
+// Simple lazy image component - minimal overhead
+function LazyImage({ src, alt }: { src: string; alt: string }) {
   return (
-    <div 
-      ref={imgRef} 
-      style={{ 
-        width, 
-        height, 
-        backgroundColor: hasLoaded ? 'transparent' : '#f0f0f0',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
+    <img
+      src={src}
+      alt={alt}
+      width={80}
+      height={60}
+      loading="lazy"
+      decoding="async"
+      style={{ objectFit: 'contain' }}
+      onError={(e) => {
+        // Hide broken images
+        (e.target as HTMLImageElement).style.display = 'none';
       }}
-    >
-      {isVisible && (
-        <img
-          src={src}
-          alt={alt}
-          width={width}
-          height={height}
-          decoding="async"
-          style={{ 
-            opacity: hasLoaded ? 1 : 0,
-            transition: 'opacity 0.2s ease-in-out'
-          }}
-          onLoad={() => setHasLoaded(true)}
-          onError={onError}
-        />
-      )}
-    </div>
+    />
   );
 }
 
-// Modal image component - simple and reliable
+// Modal image with staggered loading
 function ModalImage({ 
   imageUrl, 
-  alt
+  alt,
+  index 
 }: { 
   imageUrl: string; 
   alt: string;
+  index: number;
 }) {
-  const [hasError, setHasError] = useState(false);
-  const [hasLoaded, setHasLoaded] = useState(false);
-
-  // Don't render if image failed to load
-  if (hasError) return null;
-
+  const [loaded, setLoaded] = useState(false);
+  const [error, setError] = useState(false);
+  
+  if (error) return null;
+  
+  // First image loads immediately, others lazy
+  const loading = index === 0 ? "eager" : "lazy";
+  
   return (
     <div 
-      className="modal-pdf-section"
+      className="modal-img-wrapper"
       style={{ 
-        minHeight: '200px',
-        backgroundColor: hasLoaded ? 'transparent' : '#f5f5f5',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
+        minHeight: index === 0 ? 300 : 200,
+        backgroundColor: loaded ? 'transparent' : '#f0f0f0',
       }}
     >
       <img 
         src={imageUrl} 
         alt={alt}
-        className="modal-pdf-image"
-        loading="lazy"
+        loading={loading}
         decoding="async"
         style={{ 
-          opacity: hasLoaded ? 1 : 0,
-          transition: 'opacity 0.3s ease-in-out'
+          width: '100%',
+          height: 'auto',
+          opacity: loaded ? 1 : 0,
+          transition: 'opacity 0.3s'
         }}
-        onLoad={() => setHasLoaded(true)}
-        onError={() => setHasError(true)}
+        onLoad={() => setLoaded(true)}
+        onError={() => setError(true)}
       />
     </div>
   );
@@ -157,23 +94,29 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
   const [compareList, setCompareList] = useState<string[]>([]);
   const [showCompareModal, setShowCompareModal] = useState(false);
 
-  const headers = tableHeaders[locale as keyof typeof tableHeaders] || tableHeaders.zh;
-  const features = featureTranslations[locale as keyof typeof featureTranslations] || featureTranslations.zh;
-  const materials = materialTranslations[locale as keyof typeof materialTranslations] || materialTranslations.zh;
+  // Memoized values
+  const headers = useMemo(() => tableHeaders[locale as keyof typeof tableHeaders] || tableHeaders.zh, [locale]);
+  const features = useMemo(() => featureTranslations[locale as keyof typeof featureTranslations] || featureTranslations.zh, [locale]);
+  const materials = useMemo(() => materialTranslations[locale as keyof typeof materialTranslations] || materialTranslations.zh, [locale]);
 
   const currentSeries = useMemo(() => 
     selectedSeries ? productSeries.find(s => s.id === selectedSeries) || null : null,
     [selectedSeries]
   );
 
-  // Get aggregated data for each series
-  const getSeriesSummary = (series: typeof productSeries[0]) => {
+  // Get compare products - memoized
+  const compareProducts = useMemo(() => {
+    const allVariants = productSeries.flatMap(s => s.variants);
+    return compareList.map(model => allVariants.find(v => v.model === model)).filter(Boolean) as typeof allVariants;
+  }, [compareList]);
+
+  // Static helper functions
+  const getSeriesSummary = useCallback((series: typeof productSeries[0]) => {
     const voltages = series.variants.map(v => v.voltage);
     const speeds = series.variants.map(v => v.speed);
     const airflows = series.variants.map(v => v.airflow);
     const noises = series.variants.map(v => v.noise);
     
-    // Get bearing types (unique)
     const bearingTypes = [...new Set(series.variants.map(v => v.bearingType))];
     const bearingDisplay = bearingTypes.length === 1 
       ? features[bearingTypes[0]] 
@@ -186,94 +129,41 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
       noiseRange: getRange(noises) + 'dB',
       bearingType: bearingDisplay,
     };
-  };
+  }, [features]);
 
-  const toggleCompare = (model: string) => {
-    if (compareList.includes(model)) {
-      setCompareList(compareList.filter(m => m !== model));
-    } else if (compareList.length < 6) {
-      setCompareList([...compareList, model]);
-    }
-  };
+  const toggleCompare = useCallback((model: string) => {
+    setCompareList(prev => {
+      if (prev.includes(model)) {
+        return prev.filter(m => m !== model);
+      } else if (prev.length < 6) {
+        return [...prev, model];
+      }
+      return prev;
+    });
+  }, []);
 
-  const clearCompare = () => {
+  const clearCompare = useCallback(() => {
     setCompareList([]);
-  };
+  }, []);
 
-  const getCompareProducts = () => {
-    const allVariants = productSeries.flatMap(s => s.variants);
-    return compareList.map(model => allVariants.find(v => v.model === model)).filter(Boolean) as typeof allVariants;
-  };
-
-  // Get PDF page for series
-  const getPdfPage = (pageNum: number) => withBasePath(`/pdf_pages/page_${pageNum}.png`);
-
-  // Get product image from extracted_docx_images folder
-  const getProductImage = (seriesId: string, useThumbnail: boolean = false) => {
-    // Map series id to folder name
-    const folderMap: Record<string, string> = {
-      'qa8025': '8025',
-      'qa9225': '9225',
-      'qa11025': '11025',
-      'qa12025': '12025',
-      'qa12038': '12038',
-      'qa13538': '13538',
-      'qa15050': '15050',
-      'qa17250': '17250',
-      'qa18060': '18060',
-      'qa20060': '20060',
-      'qa20060y': '20060Y',
-      'qa22090y': '22090Y',
-      'qa22580': '22580',
-      'qa28080': '28080',
-    };
-
-    const folder = folderMap[seriesId];
+  // Get product image
+  const getProductImage = useCallback((seriesId: string) => {
+    const folder = FOLDER_MAP[seriesId];
     if (folder) {
-      // Use thumbnail for table, JPEG for detail modal (smaller file size)
-      const imageName = useThumbnail ? 'thumb.jpg' : '1.jpg';
-      return withBasePath(`/extracted_docx_images/${folder}/${imageName}`);
-    }
-    // Fallback to PDF page if no folder mapping
-    const series = productSeries.find(s => s.id === seriesId);
-    return series ? getPdfPage(series.pdfPage) : '';
-  };
-
-  // Get GitHub Raw URL as fallback
-  const getGitHubRawImage = (seriesId: string, useThumbnail: boolean = false) => {
-    const folderMap: Record<string, string> = {
-      'qa8025': '8025', 'qa9225': '9225', 'qa11025': '11025', 'qa12025': '12025',
-      'qa12038': '12038', 'qa13538': '13538', 'qa15050': '15050', 'qa17250': '17250',
-      'qa18060': '18060', 'qa20060': '20060', 'qa20060y': '20060Y',
-      'qa22090y': '22090Y', 'qa22580': '22580', 'qa28080': '28080',
-    };
-    const folder = folderMap[seriesId];
-    if (folder) {
-      const imageName = useThumbnail ? 'thumb.jpg' : '1.jpg';
-      return `https://raw.githubusercontent.com/midnest/quanfeng-site/main/public/extracted_docx_images/${folder}/${imageName}`;
+      return withBasePath(`/extracted_docx_images/${folder}/thumb.jpg`);
     }
     return '';
-  };
+  }, []);
 
-  // Get all product images (excluding thumbnail), sorted by number
-  // Only use JPEG format (compressed, smaller file size)
-  const getAllProductImages = (seriesId: string): string[] => {
-    const folderMap: Record<string, string> = {
-      'qa8025': '8025', 'qa9225': '9225', 'qa11025': '11025', 'qa12025': '12025',
-      'qa12038': '12038', 'qa13538': '13538', 'qa15050': '15050', 'qa17250': '17250',
-      'qa18060': '18060', 'qa20060': '20060', 'qa20060y': '20060Y',
-      'qa22090y': '22090Y', 'qa22580': '22580', 'qa28080': '28080',
-    };
-    const folder = folderMap[seriesId];
+  // Get all product images
+  const getAllProductImages = useCallback((seriesId: string): string[] => {
+    const folder = FOLDER_MAP[seriesId];
     if (!folder) return [];
+    return [1, 2, 3, 4, 5, 6].map(num => withBasePath(`/extracted_docx_images/${folder}/${num}.jpg`));
+  }, []);
 
-    // Only use JPEG format (compressed)
-    const imageNumbers = [1, 2, 3, 4, 5, 6];
-    return imageNumbers.map(num => withBasePath(`/extracted_docx_images/${folder}/${num}.jpg`));
-  };
-
-  // Translations
-  const t = {
+  // Memoized translations
+  const t = useMemo(() => ({
     title: locale === 'zh' ? '产品选型' : 
            locale === 'en' ? 'Product Selection' :
            locale === 'vi' ? 'Chọn Sản Phẩm' :
@@ -295,13 +185,13 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
              locale === 'ms' ? 'Voltan' :
              locale === 'tr' ? 'Voltaj' :
              'الجهد',
-    power: locale === 'zh' ? '功率' : 
-           locale === 'en' ? 'Power' :
-           locale === 'vi' ? 'Công suất' :
-           locale === 'th' ? 'กำลัง' :
-           locale === 'ms' ? 'Kuasa' :
-           locale === 'tr' ? 'Güç' :
-           'القوة',
+    speed: locale === 'zh' ? '转速' : 
+           locale === 'en' ? 'Speed' :
+           locale === 'vi' ? 'Tốc độ' :
+           locale === 'th' ? 'ความเร็ว' :
+           locale === 'ms' ? 'Kelajuan' :
+           locale === 'tr' ? 'Hız' :
+           'السرعة',
     airflow: locale === 'zh' ? '风量' : 
              locale === 'en' ? 'Airflow' :
              locale === 'vi' ? 'Lưu lượng' :
@@ -316,13 +206,6 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
            locale === 'ms' ? 'Bunyi' :
            locale === 'tr' ? 'Gürültü' :
            'الضوضاء',
-    speed: locale === 'zh' ? '转速' : 
-           locale === 'en' ? 'Speed' :
-           locale === 'vi' ? 'Tốc độ' :
-           locale === 'th' ? 'ความเร็ว' :
-           locale === 'ms' ? 'Kelajuan' :
-           locale === 'tr' ? 'Hız' :
-           'السرعة',
     bearing: locale === 'zh' ? '轴承' : 
              locale === 'en' ? 'Bearing' :
              locale === 'vi' ? 'Ổ bi' :
@@ -337,20 +220,6 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                  locale === 'ms' ? 'Lihat butiran' :
                  locale === 'tr' ? 'Detayları Gör' :
                  'عرض التفاصيل',
-    close: locale === 'zh' ? '关闭' : 
-           locale === 'en' ? 'Close' :
-           locale === 'vi' ? 'Đóng' :
-           locale === 'th' ? 'ปิด' :
-           locale === 'ms' ? 'Tutup' :
-           locale === 'tr' ? 'Kapat' :
-           'إغلاق',
-    compare: locale === 'zh' ? '对比' : 
-             locale === 'en' ? 'Compare' :
-             locale === 'vi' ? 'So sánh' :
-             locale === 'th' ? 'เปรียบเทียบ' :
-             locale === 'ms' ? 'Banding' :
-             locale === 'tr' ? 'Karşılaştır' :
-             'قارن',
     viewCompare: locale === 'zh' ? '查看对比' : 
                  locale === 'en' ? 'View Compare' :
                  locale === 'vi' ? 'Xem so sánh' :
@@ -372,7 +241,15 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
               locale === 'ms' ? 'dipilih' :
               locale === 'tr' ? 'seçildi' :
               'مختار',
-  };
+  }), [locale]);
+
+  // Memoized table headers
+  const tableHeaderLabels = useMemo(() => ({
+    image: locale === 'zh' ? '产品图片' : locale === 'en' ? 'Image' : locale === 'vi' ? 'Hình ảnh' : locale === 'th' ? 'รูปภาพ' : locale === 'ms' ? 'Gambar' : locale === 'tr' ? 'Görsel' : 'الصورة',
+    series: locale === 'zh' ? '系列名称' : locale === 'en' ? 'Series' : locale === 'vi' ? 'Dòng sản phẩm' : locale === 'th' ? 'ซีรี่ส์' : locale === 'ms' ? 'Siri' : locale === 'tr' ? 'Seri' : 'السلسلة',
+    size: locale === 'zh' ? '尺寸' : locale === 'en' ? 'Size' : locale === 'vi' ? 'Kích thước' : locale === 'th' ? 'ขนาด' : locale === 'ms' ? 'Saiz' : locale === 'tr' ? 'Boyut' : 'الحجم',
+    action: locale === 'zh' ? '操作' : locale === 'en' ? 'Action' : locale === 'vi' ? 'Thao tác' : locale === 'th' ? 'การดำเนินการ' : locale === 'ms' ? 'Tindakan' : locale === 'tr' ? 'İşlem' : 'الإجراء',
+  }), [locale]);
 
   return (
     <div className="product-showcase">
@@ -381,12 +258,9 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
         <h3 className="showcase-title">{t.title}</h3>
         <p className="showcase-subtitle">{t.subtitle}</p>
         
-        {/* Compare Actions */}
         {compareList.length > 0 && (
           <div className="compare-actions-bar">
-            <span className="compare-count">
-              {compareList.length} {t.selected}
-            </span>
+            <span className="compare-count">{compareList.length} {t.selected}</span>
             <button className="view-compare-btn" onClick={() => setShowCompareModal(true)}>
               {t.viewCompare}
             </button>
@@ -402,15 +276,15 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
         <table className="product-table">
           <thead>
             <tr>
-              <th>{locale === 'zh' ? '产品图片' : locale === 'en' ? 'Image' : locale === 'vi' ? 'Hình ảnh' : locale === 'th' ? 'รูปภาพ' : locale === 'ms' ? 'Gambar' : locale === 'tr' ? 'Görsel' : 'الصورة'}</th>
-              <th>{locale === 'zh' ? '系列名称' : locale === 'en' ? 'Series' : locale === 'vi' ? 'Dòng sản phẩm' : locale === 'th' ? 'ซีรี่ส์' : locale === 'ms' ? 'Siri' : locale === 'tr' ? 'Seri' : 'السلسلة'}</th>
-              <th>{locale === 'zh' ? '尺寸' : locale === 'en' ? 'Size' : locale === 'vi' ? 'Kích thước' : locale === 'th' ? 'ขนาด' : locale === 'ms' ? 'Saiz' : locale === 'tr' ? 'Boyut' : 'الحجم'}</th>
+              <th>{tableHeaderLabels.image}</th>
+              <th>{tableHeaderLabels.series}</th>
+              <th>{tableHeaderLabels.size}</th>
               <th>{t.voltage}</th>
               <th>{t.speed}</th>
               <th>{t.airflow}</th>
               <th>{t.noise}</th>
               <th>{t.bearing}</th>
-              <th>{locale === 'zh' ? '操作' : locale === 'en' ? 'Action' : locale === 'vi' ? 'Thao tác' : locale === 'th' ? 'การดำเนินการ' : locale === 'ms' ? 'Tindakan' : locale === 'tr' ? 'İşlem' : 'الإجراء'}</th>
+              <th>{tableHeaderLabels.action}</th>
             </tr>
           </thead>
           <tbody>
@@ -424,18 +298,8 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                 >
                   <td className="table-cell-image">
                     <LazyImage
-                      src={getProductImage(series.id, true)}
+                      src={getProductImage(series.id)}
                       alt={series.name}
-                      width={80}
-                      height={60}
-                      onError={(e) => {
-                        const failedSrc = (e.target as HTMLImageElement).src;
-                        // Try GitHub Raw URL as fallback
-                        if (!failedSrc.includes('raw.githubusercontent.com')) {
-                          const rawUrl = getGitHubRawImage(series.id, true);
-                          (e.target as HTMLImageElement).src = rawUrl;
-                        }
-                      }}
                     />
                   </td>
                   <td className="table-cell-name">{series.name}</td>
@@ -446,7 +310,10 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   <td className="table-cell-param">{summary.noiseRange}</td>
                   <td className="table-cell-param">{summary.bearingType}</td>
                   <td className="table-cell-action">
-                    <button className="view-detail-btn" onClick={(e) => { e.stopPropagation(); setSelectedSeries(series.id); }}>
+                    <button 
+                      className="view-detail-btn" 
+                      onClick={(e) => { e.stopPropagation(); setSelectedSeries(series.id); }}
+                    >
                       {t.viewDetails}
                     </button>
                   </td>
@@ -459,9 +326,12 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
 
       {/* Detail Modal */}
       {currentSeries && (
-        <div className="detail-modal-overlay" onClick={() => setSelectedSeries(null)}>
+        <div 
+          className="detail-modal-overlay" 
+          onClick={() => setSelectedSeries(null)}
+          style={{ willChange: 'opacity' }}
+        >
           <div className="detail-modal" onClick={e => e.stopPropagation()}>
-            {/* Modal Header */}
             <div className="detail-modal-header">
               <div className="modal-title-section">
                 <h3>{currentSeries.name}</h3>
@@ -471,20 +341,18 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
               <button className="modal-close-btn" onClick={() => setSelectedSeries(null)}>×</button>
             </div>
             
-            {/* Modal Content */}
             <div className="detail-modal-content">
-              {/* Left Side - Product Images */}
               <div className="modal-images-column">
                 {getAllProductImages(currentSeries.id).map((imageUrl, index) => (
                   <ModalImage
                     key={index}
                     imageUrl={imageUrl}
-                    alt={`${currentSeries.name} - Image ${index + 1}`}
+                    alt={`${currentSeries.name} - ${index + 1}`}
+                    index={index}
                   />
                 ))}
               </div>
               
-              {/* Right Side - Specifications Table */}
               <div className="modal-specs-section">
                 <h4 className="modal-specs-title">
                   {locale === 'zh' ? '技术参数表' : 
@@ -501,8 +369,8 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                     <thead>
                       <tr>
                         <th>{headers[0]}</th>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <th key={idx}>
+                        {currentSeries.variants.map((variant) => (
+                          <th key={variant.model}>
                             <div className="model-header-with-checkbox">
                               <input 
                                 type="checkbox" 
@@ -518,96 +386,38 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td className="param-label">{headers[1]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{locale === 'zh' ? variant.bearing : features[variant.bearingType]}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[2]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{variant.voltage}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[3]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{variant.power}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[4]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{variant.frequency}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[5]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{variant.current}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[6]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{variant.speed}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[7]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{variant.airflow}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[8]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{variant.noise}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[9]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{variant.insulationClass}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[10]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{variant.insulation}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[11]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{variant.dielectricStrength}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[12]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{variant.weight}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[13]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{materials[variant.coilMaterial as keyof typeof materials]}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[14]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{materials[variant.housingMaterial as keyof typeof materials]}</td>
-                        ))}
-                      </tr>
-                      <tr>
-                        <td className="param-label">{headers[15]}</td>
-                        {currentSeries.variants.map((variant, idx) => (
-                          <td key={idx}>{materials[variant.bladeMaterial as keyof typeof materials]}</td>
-                        ))}
-                      </tr>
+                      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map((rowIdx) => (
+                        <tr key={rowIdx}>
+                          <td className="param-label">{headers[rowIdx]}</td>
+                          {currentSeries.variants.map((variant) => {
+                            const values = [
+                              variant.bearingType,
+                              variant.voltage,
+                              variant.power,
+                              variant.frequency,
+                              variant.current,
+                              variant.speed,
+                              variant.airflow,
+                              variant.noise,
+                              variant.insulationClass,
+                              variant.insulation,
+                              variant.dielectricStrength,
+                              variant.weight,
+                              variant.coilMaterial,
+                              variant.housingMaterial,
+                              variant.bladeMaterial,
+                            ];
+                            const value = values[rowIdx - 1];
+                            // Translate material and bearing values
+                            let displayValue = value;
+                            if (rowIdx === 1) displayValue = features[value as keyof typeof features] || value;
+                            if ([13, 14, 15].includes(rowIdx)) {
+                              displayValue = materials[value as keyof typeof materials] || value;
+                            }
+                            return <td key={variant.model}>{displayValue}</td>;
+                          })}
+                        </tr>
+                      ))}
                     </tbody>
                   </table>
                 </div>
@@ -619,7 +429,11 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
 
       {/* Compare Modal */}
       {showCompareModal && compareList.length > 0 && (
-        <div className="compare-modal-overlay" onClick={() => setShowCompareModal(false)}>
+        <div 
+          className="compare-modal-overlay" 
+          onClick={() => setShowCompareModal(false)}
+          style={{ willChange: 'opacity' }}
+        >
           <div className="compare-modal" onClick={e => e.stopPropagation()}>
             <div className="compare-modal-header">
               <h3>
@@ -638,102 +452,43 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                 <thead>
                   <tr>
                     <th>{headers[0]}</th>
-                    {getCompareProducts().map((p, i) => (
-                      <th key={i} className="compare-model-header">{p.model}</th>
+                    {compareProducts.map((p) => (
+                      <th key={p.model} className="compare-model-header">{p.model}</th>
                     ))}
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>{headers[1]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{locale === 'zh' ? p.bearing : features[p.bearingType]}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[2]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.voltage}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[3]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.power}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[4]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.frequency}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[5]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.current}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[6]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.speed}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[7]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.airflow}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[8]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.noise}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[9]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.insulationClass}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[10]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.insulation}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[11]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.dielectricStrength}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[12]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.weight}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[13]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{materials[p.coilMaterial as keyof typeof materials]}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[14]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{materials[p.housingMaterial as keyof typeof materials]}</td>
-                    ))}
-                  </tr>
-                  <tr>
-                    <td>{headers[15]}</td>
-                    {getCompareProducts().map((p, i) => (
-                      <td key={i}>{materials[p.bladeMaterial as keyof typeof materials]}</td>
-                    ))}
-                  </tr>
+                  {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map((rowIdx) => (
+                    <tr key={rowIdx}>
+                      <td>{headers[rowIdx]}</td>
+                      {compareProducts.map((p) => {
+                        const values = [
+                          p.bearingType,
+                          p.voltage,
+                          p.power,
+                          p.frequency,
+                          p.current,
+                          p.speed,
+                          p.airflow,
+                          p.noise,
+                          p.insulationClass,
+                          p.insulation,
+                          p.dielectricStrength,
+                          p.weight,
+                          p.coilMaterial,
+                          p.housingMaterial,
+                          p.bladeMaterial,
+                        ];
+                        const value = values[rowIdx - 1];
+                        let displayValue = value;
+                        if (rowIdx === 1) displayValue = features[value as keyof typeof features] || value;
+                        if ([13, 14, 15].includes(rowIdx)) {
+                          displayValue = materials[value as keyof typeof materials] || value;
+                        }
+                        return <td key={p.model}>{displayValue}</td>;
+                      })}
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
