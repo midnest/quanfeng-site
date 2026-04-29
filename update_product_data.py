@@ -11,7 +11,8 @@ import re
 def parse_model(model):
     """解析型号，提取系列ID"""
     # QA8025HBL1 -> qa8025
-    match = re.match(r'(QA\d+)', model)
+    # QA22090YHBL2D -> qa22090y (带Y后缀的型号)
+    match = re.match(r'(QA\d+Y?)', model)
     if match:
         return match.group(1).lower()
     return None
