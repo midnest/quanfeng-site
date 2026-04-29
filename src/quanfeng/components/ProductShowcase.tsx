@@ -178,19 +178,19 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     const airflows = series.variants.map(v => v.airflow);
     const noises = series.variants.map(v => v.noise);
     
-    const bearingTypes = [...new Set(series.variants.map(v => v.bearingType))];
-    const bearingDisplay = bearingTypes.length === 1 
-      ? features[bearingTypes[0]] 
-      : bearingTypes.map(t => features[t]).join('/');
+    const bladeMaterials = [...new Set(series.variants.map(v => v.bladeMaterial))];
+    const bladeDisplay = bladeMaterials.length === 1 
+      ? materials[bladeMaterials[0]] 
+      : bladeMaterials.map(m => materials[m]).join('/');
     
     return {
       voltageRange: voltages.join('/'),
       speedRange: getRange(speeds) + 'RPM',
       airflowRange: getRange(airflows),
       noiseRange: getRange(noises) + 'dB',
-      bearingType: bearingDisplay,
+      bladeMaterial: bladeDisplay,
     };
-  }, [features]);
+  }, [materials]);
 
   const toggleCompare = useCallback((model: string) => {
     setCompareList(prev => {
@@ -302,13 +302,13 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
            locale === 'ms' ? 'Bunyi' :
            locale === 'tr' ? 'Gürültü' :
            'الضوضاء',
-    bearing: locale === 'zh' ? '轴承' : 
-             locale === 'en' ? 'Bearing' :
-             locale === 'vi' ? 'Ổ bi' :
-             locale === 'th' ? 'ลูกปืน' :
-             locale === 'ms' ? 'Bearing' :
-             locale === 'tr' ? 'Rulman' :
-             'المحمل',
+    bladeMaterial: locale === 'zh' ? '扇叶材质' : 
+                   locale === 'en' ? 'Blade Material' :
+                   locale === 'vi' ? 'Vật liệu cánh' :
+                   locale === 'th' ? 'วัสดุใบพัด' :
+                   locale === 'ms' ? 'Bahan Bilah' :
+                   locale === 'tr' ? 'Kanat Malzemesi' :
+                   'مaterial الريش',
     viewDetails: locale === 'zh' ? '查看详情' : 
                  locale === 'en' ? 'View Details' :
                  locale === 'vi' ? 'Xem chi tiết' :
@@ -586,7 +586,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
               <th>{t.speed}</th>
               <th>{t.airflow}</th>
               <th>{t.noise}</th>
-              <th>{t.bearing}</th>
+              <th>{t.bladeMaterial}</th>
               <th>{tableHeaderLabels.action}</th>
             </tr>
           </thead>
@@ -611,7 +611,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   <td className="table-cell-param">{summary.speedRange}</td>
                   <td className="table-cell-param">{summary.airflowRange} m³/min</td>
                   <td className="table-cell-param">{summary.noiseRange}</td>
-                  <td className="table-cell-param">{summary.bearingType}</td>
+                  <td className="table-cell-param">{summary.bladeMaterial}</td>
                   <td className="table-cell-action">
                     <button 
                       className="view-detail-btn" 
