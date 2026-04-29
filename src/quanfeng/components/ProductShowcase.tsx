@@ -13,6 +13,8 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
   const [compareMode, setCompareMode] = useState(false);
   const [compareList, setCompareList] = useState<string[]>([]);
   const [showCompareModal, setShowCompareModal] = useState(false);
+  const [showParamImage, setShowParamImage] = useState(false);
+  const [imageZoom, setImageZoom] = useState(1);
 
   const headers = tableHeaders[locale as keyof typeof tableHeaders] || tableHeaders.zh;
   const features = featureTranslations[locale as keyof typeof featureTranslations] || featureTranslations.zh;
@@ -40,8 +42,18 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     return compareList.map(model => allVariants.find(v => v.model === model)).filter(Boolean) as typeof allVariants;
   };
 
-  // Get PDF page for current series
-  const getPdfPage = (pageNum: number) => withBasePath(`/pdf_pages/page_${pageNum}.png`);
+  // Parameter image path
+  const paramImagePath = withBasePath('/images/quanfeng/product-parameters.png');
+
+  // Handle image download
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = paramImagePath;
+    link.download = 'quanfeng-parameters.png';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <div className="product-showcase">
@@ -83,13 +95,41 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
           <p className="product-detail-desc">{getProductDescription(currentSeries.id, locale)}</p>
         </div>
 
-        {/* PDF Page Display */}
-        <div className="product-pdf-display">
-          <img 
-            src={getPdfPage(currentSeries.pdfPage)} 
-            alt={`${currentSeries.name} catalog page`}
-            className="pdf-page-image"
-          />
+        {/* Parameter Image Preview */}
+        <div className="product-param-preview">
+          <div className="param-image-container" onClick={() => setShowParamImage(true)}>
+            <img 
+              src={paramImagePath} 
+              alt="Product Parameters"
+              className="param-thumbnail"
+            />
+            <div className="param-image-overlay">
+              <span className="zoom-icon">🔍</span>
+              <span className="zoom-text">
+                {locale === 'zh' ? '点击放大' : 
+                 locale === 'en' ? 'Click to zoom' :
+                 locale === 'vi' ? 'Nhấp để phóng to' :
+                 locale === 'th' ? 'คลิกเพื่อซูม' :
+                 locale === 'ms' ? 'Klik untuk zum' :
+                 locale === 'tr' ? 'Yakınlaştırmak için tıklayın' :
+                 'انقر للتكبير'}
+              </span>
+            </div>
+          </div>
+          <button className="param-download-btn" onClick={handleDownload}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            {locale === 'zh' ? '下载参数表' : 
+             locale === 'en' ? 'Download Parameters' :
+             locale === 'vi' ? 'Tải bảng thông số' :
+             locale === 'th' ? 'ดาวน์โหลดพารามิเตอร์' :
+             locale === 'ms' ? 'Muat turun parameter' :
+             locale === 'tr' ? 'Parametreleri İndir' :
+             'تحميل المعلمات'}
+          </button>
         </div>
 
         {/* Features Tags */}
@@ -523,6 +563,51 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   </tr>
                 </tbody>
               </table>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Parameter Image Modal with Zoom */}
+      {showParamImage && (
+        <div 
+          className="param-image-modal" 
+          onClick={() => {
+            setShowParamImage(false);
+            setImageZoom(1);
+          }}
+        >
+          <div className="param-image-modal-content" onClick={e => e.stopPropagation()}>
+            <div className="param-image-toolbar">
+              <button 
+                className="zoom-btn" 
+                onClick={() => setImageZoom(prev => Math.max(0.5, prev - 0.25))}
+                disabled={imageZoom <= 0.5}
+              >
+                −
+              </button>
+              <span className="zoom-level">{Math.round(imageZoom * 100)}%</span>
+              <button 
+                className="zoom-btn" 
+                onClick={() => setImageZoom(prev => Math.min(3, prev + 0.25))}
+                disabled={imageZoom >= 3}
+              >
+                +
+              </button>
+              <button className="param-modal-close" onClick={() => {
+                setShowParamImage(false);
+                setImageZoom(1);
+              }}>
+                ✕
+              </button>
+            </div>
+            <div className="param-image-wrapper">
+              <img 
+                src={paramImagePath} 
+                alt="Product Parameters"
+                className="param-zoomed-image"
+                style={{ transform: `scale(${imageZoom})` }}
+              />
             </div>
           </div>
         </div>
