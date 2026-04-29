@@ -223,7 +223,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
   const toggleCompare = (model: string) => {
     if (compareList.includes(model)) {
       setCompareList(compareList.filter(m => m !== model));
-    } else if (compareList.length < 4) {
+    } else if (compareList.length < 6) {
       setCompareList([...compareList, model]);
     }
   };
@@ -541,7 +541,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                                 type="checkbox" 
                                 checked={compareList.includes(variant.model)}
                                 onChange={() => toggleCompare(variant.model)}
-                                disabled={!compareList.includes(variant.model) && compareList.length >= 4}
+                                disabled={!compareList.includes(variant.model) && compareList.length >= 6}
                                 onClick={e => e.stopPropagation()}
                               />
                               <span>{variant.model}</span>
