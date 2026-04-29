@@ -35,45 +35,27 @@ function LazyImage({ src, alt }: { src: string; alt: string }) {
   );
 }
 
-// Modal image with staggered loading
+// Modal image component
 function ModalImage({ 
   imageUrl, 
-  alt,
-  index 
+  alt
 }: { 
   imageUrl: string; 
   alt: string;
-  index: number;
 }) {
-  const [loaded, setLoaded] = useState(false);
-  const [error, setError] = useState(false);
+  const [hidden, setHidden] = useState(false);
   
-  if (error) return null;
-  
-  // First image loads immediately, others lazy
-  const loading = index === 0 ? "eager" : "lazy";
+  if (hidden) return null;
   
   return (
-    <div 
-      className="modal-img-wrapper"
-      style={{ 
-        minHeight: index === 0 ? 300 : 200,
-        backgroundColor: loaded ? 'transparent' : '#f0f0f0',
-      }}
-    >
+    <div className="modal-pdf-section">
       <img 
         src={imageUrl} 
         alt={alt}
-        loading={loading}
+        className="modal-pdf-image"
+        loading="lazy"
         decoding="async"
-        style={{ 
-          width: '100%',
-          height: 'auto',
-          opacity: loaded ? 1 : 0,
-          transition: 'opacity 0.3s'
-        }}
-        onLoad={() => setLoaded(true)}
-        onError={() => setError(true)}
+        onError={() => setHidden(true)}
       />
     </div>
   );
@@ -348,7 +330,6 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                     key={index}
                     imageUrl={imageUrl}
                     alt={`${currentSeries.name} - ${index + 1}`}
-                    index={index}
                   />
                 ))}
               </div>
