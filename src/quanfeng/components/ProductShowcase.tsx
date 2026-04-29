@@ -122,7 +122,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
   };
 
   // Get all product images (excluding thumbnail), sorted by number
-  // Priority: JPEG > JPG > PNG (JPEG is compressed and smaller)
+  // Only use JPEG format (compressed, smaller file size)
   const getAllProductImages = (seriesId: string): string[] => {
     const folderMap: Record<string, string> = {
       'qa8025': '8025', 'qa9225': '9225', 'qa11025': '11025', 'qa12025': '12025',
@@ -133,17 +133,9 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     const folder = folderMap[seriesId];
     if (!folder) return [];
 
-    // Define possible image files in order (JPEG first for better compression)
-    const possibleImages = [
-      '1.jpg', '1.jpeg', '1.png',
-      '2.jpg', '2.jpeg', '2.png',
-      '3.jpg', '3.jpeg', '3.png',
-      '4.jpg', '4.jpeg', '4.png',
-      '5.jpg', '5.jpeg', '5.png',
-      '6.jpg', '6.jpeg', '6.png',
-    ];
-
-    return possibleImages.map(name => withBasePath(`/extracted_docx_images/${folder}/${name}`));
+    // Only use JPEG format (compressed)
+    const imageNumbers = [1, 2, 3, 4, 5, 6];
+    return imageNumbers.map(num => withBasePath(`/extracted_docx_images/${folder}/${num}.jpg`));
   };
 
   // Translations
