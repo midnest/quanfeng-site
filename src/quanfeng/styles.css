@@ -3734,7 +3734,7 @@ body.menu-locked {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.9);
-  z-index: 2000;
+  z-index: 12000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3785,7 +3785,7 @@ body.menu-locked {
   align-items: center;
   justify-content: center;
   transition: all 0.2s;
-  z-index: 2001;
+  z-index: 12001;
 }
 
 .image-viewer-close:hover {
