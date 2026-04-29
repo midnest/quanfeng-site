@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { productSeries, tableHeaders, featureTranslations, getProductDescription, getProductFeatures } from '../lib/productData';
+import { productSeries, tableHeaders, featureTranslations, materialTranslations, getProductDescription, getProductFeatures } from '../lib/productData';
 import { withBasePath } from '@/quanfeng/lib/base-path';
 
 interface ProductShowcaseProps {
@@ -16,6 +16,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
 
   const headers = tableHeaders[locale as keyof typeof tableHeaders] || tableHeaders.zh;
   const features = featureTranslations[locale as keyof typeof featureTranslations] || featureTranslations.zh;
+  const materials = materialTranslations[locale as keyof typeof materialTranslations] || materialTranslations.zh;
 
   const currentSeries = useMemo(() => 
     productSeries.find(s => s.id === selectedSeries) || productSeries[0],
@@ -272,19 +273,19 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                 <tr>
                   <td className="param-label">{headers[13]}</td>
                   {currentSeries.variants.map((variant, idx) => (
-                    <td key={idx}>{variant.coilMaterial}</td>
+                    <td key={idx}>{materials[variant.coilMaterial as keyof typeof materials]}</td>
                   ))}
                 </tr>
                 <tr>
                   <td className="param-label">{headers[14]}</td>
                   {currentSeries.variants.map((variant, idx) => (
-                    <td key={idx}>{variant.housingMaterial}</td>
+                    <td key={idx}>{materials[variant.housingMaterial as keyof typeof materials]}</td>
                   ))}
                 </tr>
                 <tr>
                   <td className="param-label">{headers[15]}</td>
                   {currentSeries.variants.map((variant, idx) => (
-                    <td key={idx}>{variant.bladeMaterial}</td>
+                    <td key={idx}>{materials[variant.bladeMaterial as keyof typeof materials]}</td>
                   ))}
                 </tr>
               </tbody>
@@ -357,15 +358,15 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   </div>
                   <div className="mobile-spec-row">
                     <span className="mobile-spec-label">{headers[13]}</span>
-                    <span className="mobile-spec-value">{variant.coilMaterial}</span>
+                    <span className="mobile-spec-value">{materials[variant.coilMaterial as keyof typeof materials]}</span>
                   </div>
                   <div className="mobile-spec-row">
                     <span className="mobile-spec-label">{headers[14]}</span>
-                    <span className="mobile-spec-value">{variant.housingMaterial}</span>
+                    <span className="mobile-spec-value">{materials[variant.housingMaterial as keyof typeof materials]}</span>
                   </div>
                   <div className="mobile-spec-row">
                     <span className="mobile-spec-label">{headers[15]}</span>
-                    <span className="mobile-spec-value">{variant.bladeMaterial}</span>
+                    <span className="mobile-spec-value">{materials[variant.bladeMaterial as keyof typeof materials]}</span>
                   </div>
                 </div>
               </div>
@@ -506,19 +507,19 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   <tr>
                     <td>{headers[13]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.coilMaterial}</td>
+                      <td key={i}>{materials[p.coilMaterial as keyof typeof materials]}</td>
                     ))}
                   </tr>
                   <tr>
                     <td>{headers[14]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.housingMaterial}</td>
+                      <td key={i}>{materials[p.housingMaterial as keyof typeof materials]}</td>
                     ))}
                   </tr>
                   <tr>
                     <td>{headers[15]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.bladeMaterial}</td>
+                      <td key={i}>{materials[p.bladeMaterial as keyof typeof materials]}</td>
                     ))}
                   </tr>
                 </tbody>

@@ -100,6 +100,15 @@ def main():
         bearing_type = 'ball' if 'Ball' in bearing_raw or '婊氱彔' in bearing_raw else 'sleeve'
         bearing = '滚珠' if bearing_type == 'ball' else '含油'
         
+        # 解析材质为key
+        coil_raw = format_value(row.iloc[13])
+        housing_raw = format_value(row.iloc[14])
+        blade_raw = format_value(row.iloc[15])
+        
+        coil_key = 'copper' if 'Copper' in coil_raw or '铜' in coil_raw else 'copper'
+        housing_key = 'aluminum' if 'Aluminum' in housing_raw or '铝' in housing_raw else 'aluminum'
+        blade_key = 'iron' if 'Iron' in blade_raw or '铁' in blade_raw else 'pbt'
+        
         # 构建variant
         variant = {
             'model': model,
@@ -116,9 +125,9 @@ def main():
             'insulation': format_value(row.iloc[9]),
             'dielectricStrength': format_value(row.iloc[10]).replace('V/min', '').replace('V', ''),
             'weight': format_value(row.iloc[11]),
-            'coilMaterial': format_value(row.iloc[13]),
-            'housingMaterial': format_value(row.iloc[14]),
-            'bladeMaterial': format_value(row.iloc[15]),
+            'coilMaterial': coil_key,
+            'housingMaterial': housing_key,
+            'bladeMaterial': blade_key,
         }
         
         series_groups[series_id]['variants'].append(variant)
@@ -161,9 +170,9 @@ export interface ProductVariant {
   insulation: string;
   dielectricStrength: string;
   weight: string;
-  coilMaterial: string;
-  housingMaterial: string;
-  bladeMaterial: string;
+  coilMaterial: 'copper';
+  housingMaterial: 'aluminum';
+  bladeMaterial: 'pbt' | 'iron';
 }
 
 export interface ProductSeries {
@@ -255,6 +264,17 @@ export const featureTranslations = {
   ms: { ball: 'Bebola', sleeve: 'Lengan' },
   tr: { ball: 'Bilyalı', sleeve: 'Burç' },
   ar: { ball: 'كروي', sleeve: 'كم' },
+};
+
+// Material translations
+export const materialTranslations = {
+  zh: { copper: '铜线', aluminum: '铝合金', pbt: 'PBT（V0级阻燃）', iron: '铁片' },
+  en: { copper: 'Enameled Copper Wire', aluminum: 'Aluminum Alloy', pbt: 'PBT (V0 Flame Retardant)', iron: 'Iron' },
+  vi: { copper: 'Dây đồng', aluminum: 'Hợp kim nhôm', pbt: 'PBT (Chống cháy V0)', iron: 'Sắt' },
+  th: { copper: 'ลวดทองแดง', aluminum: 'อัลลอยอะลูมิเนียม', pbt: 'PBT (retardant เปลวไฟ V0)', iron: 'เหล็ก' },
+  ms: { copper: 'Wayar kuprum', aluminum: 'Aluminium aloi', pbt: 'PBT (Retardan api V0)', iron: 'Besi' },
+  tr: { copper: 'Emaye bakır tel', aluminum: 'Alüminyum alaşımı', pbt: 'PBT (V0 Alev geciktirici)', iron: 'Demir' },
+  ar: { copper: 'سلك نحاسي', aluminum: 'سبيكة الألومنيوم', pbt: 'PBT (مثبط اللهب V0)', iron: 'حديد' },
 };
 '''
     
