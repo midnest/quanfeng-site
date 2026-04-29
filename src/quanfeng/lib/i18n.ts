@@ -77,7 +77,7 @@ export const translations = {
     },
     products: {
       title: '产品中心',
-      subtitle: '圆筒型铝合金外壳 · PBT塑料风叶 · 体积小 · 免维护 · 安装便捷',
+      subtitle: '',
       items: [
         { 
           name: '交流轴流风机', 
@@ -302,7 +302,7 @@ export const translations = {
     },
     products: {
       title: 'Product Center',
-      subtitle: 'Cylindrical aluminum housing · PBT plastic blades · Compact · Maintenance-free · Easy installation',
+      subtitle: '',
       items: [
         { 
           name: 'AC Axial Fans', 
@@ -522,7 +522,7 @@ export const translations = {
     },
     products: {
       title: 'Trung Tâm Sản Phẩm',
-      subtitle: 'Vỏ nhôm hình trụ · Cánh quạt nhựa PBT · Nhỏ gọn · Không bảo trì',
+      subtitle: '',
       items: [
         { 
           name: 'Quạt Trục AC', 
@@ -726,7 +726,7 @@ export const translations = {
     },
     products: {
       title: 'ศูนย์ผลิตภัณฑ์',
-      subtitle: 'ตัวถังอลูมิเนียมทรงกระบอก · ใบพัดพลาสติก PBT · กะทัดรัด · ไม่ต้องบำรุงรักษา',
+      subtitle: '',
       items: [
         { 
           name: 'พัดลมแกน AC', 
@@ -930,7 +930,7 @@ export const translations = {
     },
     products: {
       title: 'Pusat Produk',
-      subtitle: 'Casing aluminium silinder · Bilah plastik PBT · Padat · Tanpa penyelenggaraan',
+      subtitle: '',
       items: [
         { 
           name: 'Kipak Paksi AC', 
@@ -1134,7 +1134,7 @@ export const translations = {
     },
     products: {
       title: 'Ürün Merkezi',
-      subtitle: 'Silindirik alüminyum gövde · PBT plastik kanatlar · Kompakt · Bakımsız',
+      subtitle: '',
       items: [
         { 
           name: 'AC Eksenel Fanlar', 
@@ -1338,7 +1338,7 @@ export const translations = {
     },
     products: {
       title: 'مركز المنتجات',
-      subtitle: 'هيكل ألومنيوم أسطواني · شفرات بلاستيكية PBT · مدمجة · صيانة مجانية',
+      subtitle: '',
       items: [
         { 
           name: 'مراوح محورية AC', 
