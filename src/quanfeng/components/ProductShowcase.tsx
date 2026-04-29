@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback, useRef } from 'react';
+import { useState, useMemo, useCallback, useRef, useEffect } from 'react';
 import { productSeries, tableHeaders, featureTranslations, materialTranslations, getProductDescription } from '../lib/productData';
 import { withBasePath } from '@/quanfeng/lib/base-path';
 
