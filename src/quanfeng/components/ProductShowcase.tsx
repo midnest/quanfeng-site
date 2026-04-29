@@ -8,44 +8,66 @@ interface ProductShowcaseProps {
   locale: string;
 }
 
-// Lazy loading image component with Intersection Observer
+// Lazy loading image component with Intersection Observer - non-blocking
 function LazyImage({ 
   src, 
   alt, 
   width, 
   height, 
-  onError 
+  onError,
+  priority = false
 }: { 
   src: string; 
   alt: string; 
   width: number; 
   height: number;
   onError?: (e: React.SyntheticEvent<HTMLImageElement>) => void;
+  priority?: boolean;
 }) {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(priority);
   const [hasLoaded, setHasLoaded] = useState(false);
   const imgRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
+    if (priority) return;
+
+    const scheduleObservation = () => {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            // Use requestIdleCallback to avoid blocking main thread
+            if ('requestIdleCallback' in window) {
+              window.requestIdleCallback(() => setIsVisible(true), { timeout: 100 });
+            } else {
+              setTimeout(() => setIsVisible(true), 0);
+            }
+            observer.disconnect();
+          }
+        },
+        { 
+          rootMargin: '100px',
+          threshold: 0 
         }
-      },
-      { 
-        rootMargin: '50px', // Start loading 50px before entering viewport
-        threshold: 0 
+      );
+
+      if (imgRef.current) {
+        observer.observe(imgRef.current);
       }
-    );
 
-    if (imgRef.current) {
-      observer.observe(imgRef.current);
+      return observer;
+    };
+
+    // Defer observer setup to avoid blocking initial render
+    if ('requestIdleCallback' in window) {
+      const id = window.requestIdleCallback(scheduleObservation, { timeout: 50 });
+      return () => {
+        window.cancelIdleCallback(id);
+      };
+    } else {
+      const timeoutId = setTimeout(scheduleObservation, 0);
+      return () => clearTimeout(timeoutId);
     }
-
-    return () => observer.disconnect();
-  }, []);
+  }, [priority]);
 
   return (
     <div 
@@ -72,6 +94,80 @@ function LazyImage({
           }}
           onLoad={() => setHasLoaded(true)}
           onError={onError}
+        />
+      )}
+    </div>
+  );
+}
+
+// Modal image component - handles multiple images with non-blocking load
+function ModalImage({ 
+  imageUrl, 
+  alt, 
+  priority = false 
+}: { 
+  imageUrl: string; 
+  alt: string;
+  priority?: boolean;
+}) {
+  const [shouldLoad, setShouldLoad] = useState(priority);
+  const [hasError, setHasError] = useState(false);
+  const [hasLoaded, setHasLoaded] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (priority) return;
+
+    // Use Intersection Observer to detect when image enters viewport
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          // Defer loading to avoid blocking
+          if ('requestIdleCallback' in window) {
+            window.requestIdleCallback(() => setShouldLoad(true), { timeout: 200 });
+          } else {
+            setTimeout(() => setShouldLoad(true), 50);
+          }
+          observer.disconnect();
+        }
+      },
+      { rootMargin: '200px', threshold: 0 }
+    );
+
+    if (containerRef.current) {
+      observer.observe(containerRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, [priority]);
+
+  // Don't render container if image failed to load
+  if (hasError) return null;
+
+  return (
+    <div 
+      ref={containerRef}
+      className="modal-pdf-section"
+      style={{ 
+        minHeight: '200px',
+        backgroundColor: hasLoaded ? 'transparent' : '#f5f5f5',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}
+    >
+      {shouldLoad && (
+        <img 
+          src={imageUrl} 
+          alt={alt}
+          className="modal-pdf-image"
+          decoding="async"
+          style={{ 
+            opacity: hasLoaded ? 1 : 0,
+            transition: 'opacity 0.3s ease-in-out'
+          }}
+          onLoad={() => setHasLoaded(true)}
+          onError={() => setHasError(true)}
         />
       )}
     </div>
@@ -412,19 +508,12 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
               {/* Left Side - Product Images */}
               <div className="modal-images-column">
                 {getAllProductImages(currentSeries.id).map((imageUrl, index) => (
-                  <div key={index} className="modal-pdf-section">
-                    <img 
-                      src={imageUrl} 
-                      alt={`${currentSeries.name} - Image ${index + 1}`}
-                      className="modal-pdf-image"
-                      loading={index === 0 ? "eager" : "lazy"}
-                      decoding="async"
-                      onError={(e) => {
-                        // Hide this image if it doesn't exist
-                        (e.currentTarget.parentElement as HTMLElement).style.display = 'none';
-                      }}
-                    />
-                  </div>
+                  <ModalImage
+                    key={index}
+                    imageUrl={imageUrl}
+                    alt={`${currentSeries.name} - Image ${index + 1}`}
+                    priority={index === 0}
+                  />
                 ))}
               </div>
               
