@@ -1,0 +1,78 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Tdf7,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>Operation points of axial flow fan</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：4114 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;Test run
+</p>
+<p>
+	&emsp;&emsp;1. After the fan is installed, the flexibility of fan rotation should be checked before starting, and whether the blade is jammed and rubbed by hand. Check whether there are tools and other debris left in the fan and adjacent pipes.
+</p>
+<p>
+	&emsp;&emsp;2. Check whether the air door in the pipe is open.
+</p>
+<p>
+	&emsp;&emsp;3. Personnel should stay away from the fan.
+</p>
+<p>
+	&emsp;&emsp;4. Jog the fan to check whether the rotation direction of the fan is consistent with the rotation mark. After passing the inspection, stop the fan after 10-30 minutes of trial operation. Check whether the blades are loose, and whether the connecting bolts between the shock absorption seat and the foundation are loose. After everything is normal, the fan can be officially started and put into operation.
+</p>
+<p>
+	&emsp;&emsp;Normal operation of fan
+</p>
+<p>
+	&emsp;&emsp;During the normal operation of the fan, the motor current is mainly monitored. The current is not only the sign of the fan load, but also the prediction of some abnormal accidents. Secondly, it is necessary to check whether the vibration of motor and fan is normal and whether there is friction and abnormal noise. For fans running in parallel, it is necessary to monitor whether the fans are running in surge State. In normal operation, stop the machine immediately for inspection in case of the following conditions:
+</p>
+<p>
+	&emsp;&emsp;1. The fan has strong vibration or rubbing sound.
+</p>
+<p>
+	&emsp;&emsp;2. The motor current suddenly rises and exceeds the rated current of the motor.
+</p>
+<p>
+	&emsp;&emsp;3. The temperature of motor bearing rises sharply.
+</p>
+<p>
+	&emsp;&emsp;Maintenance and maintenance
+</p>
+<p>
+	&emsp;&emsp;1. It can operate without fault only when the fan equipment is completely normal.
+</p>
+<p>
+	&emsp;&emsp;2. Regularly check whether the fan blade is loose and whether the clearance between the blade and the air duct is normal.
+</p>
+<p>
+	&emsp;&emsp;3. Regularly check the fastening of the connecting bolts between the motor and the casing, and check whether the connection between the damping seat and the foundation is in good condition.
+</p>
+<p>
+	&emsp;&emsp;4. Remove dust and dirt on the surface of blade regularly.
+</p>
+<p>
+	&emsp;&emsp;5. Regularly replace the lubricating grease for the motor bearing, generally adding oil once every three months, or changing the lubricating grease according to the actual situation.
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/751'>Prev：What is the difference between the total heat exchanger of fresh air ventilator and fresh air unit</a></div>
+        <div class='next'><a href='/en/show/749'>Next：Mould industry is still cold</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/750","url":"http://quanfeng.com/en/show/750","title":"Operation points of axial flow fan_News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/750"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

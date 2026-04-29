@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+3:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/category/95","url":"http://quanfeng.com/cn/category/95","title":"公司结构_泉州泉风电机有限公司","mainHtml":"<div class=\"main col-xs-12 \">\r\n                <div class=\"crumb hidden-xs clearfix\"><span>您所在的位置是：首页 &gt; 走进泉风 &gt; 公司结构</span></div>\r\n                <div class=\"article\">\r\n                    <p align=\"center\">\r\n\t<img alt=\"\" src=\"/upload/editor/image/20200826/20200826164000_7512.jpg\" />\r\n</p>\r\n<p>\r\n\t&nbsp;\r\n</p>\r\n                </div>\r\n            </div>"},"pathname":"/cn/category/95"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+5:null

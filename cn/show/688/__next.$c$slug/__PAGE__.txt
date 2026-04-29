@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T6af,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>关于消防高温排烟风机运行温度的说明</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2020-08-27</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：5234 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content">&emsp;&emsp;排烟风机在我们的厨房中应用是比较广泛的，一般在酒店、餐厅、排档等场所中用于厨房中 加工食物过程中产生的异味、高温、油烟气体迅速排走的一种设备。<br />
+&emsp;&emsp;这种设备其实也是一种消防风机设备，当今较为流行使用的就是HTF消防高温排烟风机。它 的耐高温性能优良，能在300℃高温条件下连续运行60分钟以上，100℃温度条件下连续20小时/ 次不损坏,广泛应用于高级民用建筑、烘箱、地下车库、隧道等场合。<br />
+&emsp;&emsp;这就是高温排烟风机的主要特点，所以消防高温排烟风机在当今才会如此受欢迎。</div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/689'>轴流风机和直流风机区别</a></div>
+         <div class='nexts'>下一篇：<a href='/cn/show/687'>风机保养</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/688","url":"http://quanfeng.com/cn/show/688","title":"关于消防高温排烟风机运行温度的说明_技术应用_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/688"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

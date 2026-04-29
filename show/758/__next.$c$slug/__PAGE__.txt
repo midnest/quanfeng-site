@@ -1,0 +1,53 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:Tbc6,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>Fan maintenance</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：3762 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;1、 Open the shell of the equipment, then turn on the fan, turn off the power supply of the equipment, and blow the fan with the air gun 2cm away from the fan; then wipe the dirt on the fan blade with industrial alcohol, then tilt the fuselage to adjust the gap position, and then blow out the dust in the equipment with the air gun after adjustment. From the front of the equipment to the back of the equipment, it needs to be cleaned, and then rotate repeatedly until it is clean.
+</p>
+<p>
+	The wind speed of AC fan is determined by many factors. Two important reasons are the bearing of AC fan
+</p>
+<p>
+	&emsp;&emsp;2.1 ball bearing: air ions in the air for a long time to oxidize the bearing, dirt and dust accumulation, which will lead to the increase of bearing friction resistance and the gradual decrease of fan speed.
+</p>
+<p>
+	&emsp;&emsp;2.2. Oil bearing: the AC fan with oil bearing mainly relies on the mutual friction between stator and coil, and the oil in the bearing is gradually reduced with the use of fan, non-stop operation and time consumption, resulting in the wind speed becoming slower and slower when using the fan.
+</p>
+<p>
+	&emsp;&emsp;Thirdly, the service life of the fan will be different according to the different service environment. It is assumed that the fan works in the standard environment
+</p>
+<p>
+	&emsp;&emsp;The service life of general AC ball fans is about 50000 hours, and the products of different manufacturers will also be different: the product life of EBM in Germany, Sunon in Taiwan, Nidec, Shenzhen Tongsheng and Shenzhen yongyechang will be 50000-60000 hours;
+</p>
+<p>
+	&emsp;&emsp;The service life of general AC oil-bearing fan is 25000 hours. Due to the repeated rotation of its bearing, the service life will be shortened, and the service life of high-quality manufacturers will reach 30000-35000 hours;
+</p>
+<p>
+	&emsp;&emsp;equipment needs to be cleaned at least once a month. The air inlet net should be kept clean to prevent blocking the air flow. It can be cleaned with soft brush or compressed air.
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/759'>Prev：On the operation temperature of high temperature smoke exhaust fan</a></div>
+        
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/758","url":"http://quanfeng.com/en/show/758","title":"Fan maintenance_Technology_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/758"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],"$L4"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

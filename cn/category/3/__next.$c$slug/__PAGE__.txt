@@ -1,0 +1,141 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T143e,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 产品展示</span></div>
+                <div class="article">
+                    <div class="list-img">
+    <ul class="clearfix">
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/815">
+                        <div class="img_area">
+                            <img src="/upload/128/134206260619884394.jpg" alt="">
+                        </div>
+                        <div class="text_area">过滤网组FB98系列</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/638">
+                        <div class="img_area">
+                            <img src="/upload/128/132429627882044955.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-200-Y</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/637">
+                        <div class="img_area">
+                            <img src="/upload/128/132429627879230712.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-200</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/636">
+                        <div class="img_area">
+                            <img src="/upload/128/132429627876887107.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-180</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/635">
+                        <div class="img_area">
+                            <img src="/upload/128/132429627873449860.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-172</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/634">
+                        <div class="img_area">
+                            <img src="/upload/128/132429627870793293.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-150</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/633">
+                        <div class="img_area">
+                            <img src="/upload/128/132429627868449870.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-135</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/632">
+                        <div class="img_area">
+                            <img src="/upload/128/132429627865637261.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-120</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/631">
+                        <div class="img_area">
+                            <img src="/upload/128/132429627863450360.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-110</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/630">
+                        <div class="img_area">
+                            <img src="/upload/128/132429627860021606.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-92</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/629">
+                        <div class="img_area">
+                            <img src="/upload/128/132429627856106818.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-80</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/628">
+                        <div class="img_area">
+                            <img src="/upload/128/132429627853761830.jpg" alt="">
+                        </div>
+                        <div class="text_area">17250-Y</div>
+                    </a>
+
+
+            </li>
+
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li><a href='/cn/category/3?page=2&q='>2</a></li><li><a href='/cn/category/3?page=3&q='>3</a></li><li><a href='/cn/category/3?page=4&q='>4</a></li><li><a href='/cn/category/3?page=5&q='>5</a></li><li> <a href='/cn/category/3?page=2&q=' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/category/3","url":"http://quanfeng.com/cn/category/3","title":"产品展示_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/category/3"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

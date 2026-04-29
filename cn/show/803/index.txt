@@ -1,0 +1,52 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","cn","show","803",""],"q":"","i":false,"f":[[["",{"children":[["slug","cn/show/803","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:Ta1b,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>风机盘管的工作原理是什么</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2020-10-19</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：4906 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	风机盘管主要依靠风机的强制作用，使空气通过加热器表面时被加热，因而强化了散热器与空气间的对流换热器，能够迅速加热房间的空气。风机盘管是空调系统的末端装置，其工作原理是机组内不断的再循环所在房间的空气，使空气通过冷水（热水）盘管后被冷却（加热），以保持房间温度的恒定。通常，通过新风机组处理后送入室内，以满足空调房间新风量的需要。
+</p>
+<p>
+	由于这种采暖方式只基于对流换热，而致使室内达不到佳的舒适水平，故只适用于人停留时间较短的场所，如：办公室及宾馆，而不用于普通住宅。由于增加了风机，提高了造价和运行费用，设备的维护和管理也较为复杂。
+</p>
+<p>
+	风机盘管控制多采用就地控制的方案，分简单控制和温度控制两种。简单控制使用三速开关直接手动控制风机的三速转换与启停。温度控制会根据设定温度与实际检测温度的比较、运算，自动控制STV系列电动两/三通阀的开闭，风机的三速转换，或直接控制风机的三速转换与启停，从而通过控制系统水流或风量达到恒温的目的。
+</p>
+<p>
+	风机盘管做为中央空调的末端设备，其质量的好坏决定了室内的空调效果。性能主要是送冷（热）量的保障、送风量的保障，噪音的数值比、冷凝水不泄漏及电器、钣金件设计的合理性等等。
+</p></div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/804'>离心排烟风机验收要点有哪些？</a></div>
+         <div class='nexts'>下一篇：<a href='/cn/show/786'>中秋巧遇华诞，在此预祝大家双节快乐，阖家欢乐！</a></div>
+    </div>
+</div>
+
+      </div>4:["$","$Lf",null,{"page":{"locale":"cn","pathname":"/cn/show/803","url":"http://quanfeng.com/cn/show/803","title":"风机盘管的工作原理是什么_新闻动态_泉州泉风电机有限公司","mainHtml":"$10"},"pathname":"/cn/show/803"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"风机盘管的工作原理是什么_新闻动态_泉州泉风电机有限公司"}],["$","meta","1",{"name":"description","content":"风机盘管的工作原理是什么_新闻动态_泉州泉风电机有限公司"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

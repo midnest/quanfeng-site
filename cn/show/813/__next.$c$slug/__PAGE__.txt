@@ -1,0 +1,53 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T10ff,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>离心风机、轴流风机、混流风机的区别</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2023-05-29</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：2118 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content">&emsp;&emsp;离心风机、轴流风机、混流风机的区别<br />
+&emsp;&emsp;1、 离心风机 依靠输入的机械能，提高气体压力并排送气体的机械，它是一种从动的流体机械。<br />
+&emsp;&emsp;离心风机广泛用于：<br />
+&emsp;&emsp;①工厂、矿井、隧道、冷却塔、车辆、船舶和建筑物的通风、排尘和冷却;<br />
+&emsp;&emsp;②锅炉和工业炉窑的通风和引风;<br />
+&emsp;&emsp;③空气调节设备和家用电器设备中的冷却和通风;<br />
+&emsp;&emsp;④谷物的烘干和选送;<br />
+&emsp;&emsp;⑤风洞风源和气垫船的充气和推进等<br />
+&emsp;&emsp;2、轴流风机 就是与风叶的轴同方向的气流，如电风扇，空调外机风扇就是轴流方式运行风机。之所以称为“轴流式”，是因为气体平行于风机轴流动。<br />
+&emsp;&emsp;轴流式风机通常用在流量要求较高而压力要求较低的场合。<br />
+&emsp;&emsp;轴流式风机固定位置并使空气移动。<br />
+&emsp;&emsp;特点： 小型轴流风机：功耗低、散热快、噪音低、节能环保等。由于体积小用途比较广泛。<br />
+&emsp;&emsp;大型轴流风机：具有结构简单、稳固可靠、噪声小、风量大、功能选择范围广等特点。<br />
+&emsp;&emsp;3、斜流风机 / 混流风机 介于轴流风机和离心风机之间的风机，斜流风机的叶轮让空气既做离心运动又做轴向运动，壳内空气的运动混合了轴流与离心两种运动形式。 结合了轴流式和离心式风机的特征，尽管它看起来更像传统的轴流式风机。将弯曲板形叶片焊接在圆锥形钢轮毂上。通过改变叶轮上游入口外壳中的叶片角度来改 变流量。机壳可具有敞开的入口，但更常见的情况是，它具有直角弯曲形状，使电机可以放在管道外部。排泄壳缓慢膨胀，以放慢空气或气体流的速度，并将动能转 换为有用的静态压力。 主要用于矿井通风和隧道通风。<br />
+&emsp;&emsp;区别：<br />
+&emsp;&emsp;1、 离心风机改变了风管内介质的流向，而轴流风机不改变风管内 介质的流向;<br />
+&emsp;&emsp;2、 前者安装较复杂<br />
+&emsp;&emsp;3、 前者电机与风机一般是通过皮带带动转动轮连接的，后者电机 一般在风机内;<br />
+&emsp;&emsp;4、 前者常安装在空调机组进、出口处，锅炉鼓、引风机，等等。 后者常安装在风管当中、或风管出口前端。<br />
+&emsp;&emsp;5、 前者是空气收入后加压，后者是正压驱动。<br />
+&emsp;&emsp;斜流(混流)风机:<br />
+&emsp;&emsp;1、风压系数比轴流风机高，流量系数比离心风机大。<br />
+&emsp;&emsp;2、填补了轴流风机和离心风机之间的空白。<br />
+&emsp;&emsp;3、安装简单方便。<br />
+&emsp;&emsp;离心风机跟轴流风机在启动时的差别： 离心风机的运转功率随着风量的增加而增加，所以离心风机在启动时风门要全关，然后再逐渐打开，避免风机电流过大而烧毁电机。 轴流风机的运转功率随着风量的增加而减少，所以轴流风机在启动时，风门要全开，然后再逐步关闭到所需的风量值。</div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/806'>调价通知：继2019年12月及2021年3月调价后，10月份再次调价</a></div>
+         <div class='nexts'>下一篇：<a href='/cn/show/812'>防爆轴流式通风机安装注意事项</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/813","url":"http://quanfeng.com/cn/show/813","title":"离心风机、轴流风机、混流风机的区别_新闻动态_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/813"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T74b,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>轴流风机和直流风机区别</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2020-08-27</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：5865 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content">&emsp;&emsp;轴流风机，用途非常广泛，就是与风叶的轴同方向的气流，如电风扇，空调外机风扇就是轴流方式运行风机。之所以称为"轴流式"，是因为气体平行于风机轴流动。轴流式风机通常用在流量要求较高而压力要求较低的场合。轴流式风机固定位置并使空气移动。轴流风机主要由风机叶轮和机壳组成，结构简单但是数据要求非常高。<br />
+&emsp;&emsp;风机按出风方向可分为轴流，离心和混流，也就是直进直出，直进90度出，直进45度出。<br />
+&emsp;&emsp;直流风机是指通过输入直流电能，使直流电动机旋转以带动风机叶轮旋转，从而实现直流电能向机械能转换过程的风机。直流风机的特点是选配了直流电动机。</div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/690'>直流风机与交流风机各有什么优点与不足？</a></div>
+         <div class='nexts'>下一篇：<a href='/cn/show/688'>关于消防高温排烟风机运行温度的说明</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/689","url":"http://quanfeng.com/cn/show/689","title":"轴流风机和直流风机区别_技术应用_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/689"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

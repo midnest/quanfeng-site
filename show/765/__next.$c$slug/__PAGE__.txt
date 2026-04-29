@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T42b,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>About the anti-counterfeiting QR code can not be recognized notice</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：3934 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p align="center">
+	<img alt="" src="/upload/editor/image/20200827/20200827104802_0480.jpg" /> 
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/799'>Prev：Statement</a></div>
+        <div class='next'><a href='/en/show/764'>Next：9000</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/765","url":"http://quanfeng.com/en/show/765","title":"About the anti-counterfeiting QR code can not be recognized notice_Notice_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/765"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

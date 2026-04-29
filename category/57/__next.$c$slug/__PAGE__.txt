@@ -1,0 +1,141 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T14c0,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; Products</span></div>
+                <div class="article">
+                    <div class="list-img">
+    <ul class="clearfix">
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/787">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428683782175.jpg" alt="">
+                        </div>
+                        <div class="text_area">Undertake die casting processing</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/789">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428690657300.jpg" alt="">
+                        </div>
+                        <div class="text_area">Various die castings</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/790">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428693782177.jpg" alt="">
+                        </div>
+                        <div class="text_area">Die casting of aluminum alloy lamps</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/794">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428705969374.jpg" alt="">
+                        </div>
+                        <div class="text_area">Motor bracket</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/796">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428713001106.jpg" alt="">
+                        </div>
+                        <div class="text_area">Platform components</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/793">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428703782365.jpg" alt="">
+                        </div>
+                        <div class="text_area">Aluminum alloy frame</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/795">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428709407336.jpg" alt="">
+                        </div>
+                        <div class="text_area">Coupler die casting</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/791">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428696594694.jpg" alt="">
+                        </div>
+                        <div class="text_area">Aluminum alloy end cover</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/788">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428686282347.jpg" alt="">
+                        </div>
+                        <div class="text_area">Aluminum panel of walkie talkie</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/798">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428720501012.jpg" alt="">
+                        </div>
+                        <div class="text_area">Fire accessories</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/792">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428700032279.jpg" alt="">
+                        </div>
+                        <div class="text_area">Aluminum alloy wind blade</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/797">
+                        <div class="img_area">
+                            <img src="/upload/137/132458428717063483.jpg" alt="">
+                        </div>
+                        <div class="text_area">Telephone die casting</div>
+                    </a>
+
+
+            </li>
+
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li><a href='/en/category/57?page=2&q='>2</a></li><li><a href='/en/category/57?page=3&q='>3</a></li><li><a href='/en/category/57?page=4&q='>4</a></li><li> <a href='/en/category/57?page=2&q=' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/57","url":"http://quanfeng.com/en/category/57","title":"Products_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/57"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

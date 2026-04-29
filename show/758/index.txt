@@ -1,0 +1,64 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","show","758",""],"q":"","i":false,"f":[[["",{"children":[["slug","show/758","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:Tbc6,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>Fan maintenance</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：3762 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;1、 Open the shell of the equipment, then turn on the fan, turn off the power supply of the equipment, and blow the fan with the air gun 2cm away from the fan; then wipe the dirt on the fan blade with industrial alcohol, then tilt the fuselage to adjust the gap position, and then blow out the dust in the equipment with the air gun after adjustment. From the front of the equipment to the back of the equipment, it needs to be cleaned, and then rotate repeatedly until it is clean.
+</p>
+<p>
+	The wind speed of AC fan is determined by many factors. Two important reasons are the bearing of AC fan
+</p>
+<p>
+	&emsp;&emsp;2.1 ball bearing: air ions in the air for a long time to oxidize the bearing, dirt and dust accumulation, which will lead to the increase of bearing friction resistance and the gradual decrease of fan speed.
+</p>
+<p>
+	&emsp;&emsp;2.2. Oil bearing: the AC fan with oil bearing mainly relies on the mutual friction between stator and coil, and the oil in the bearing is gradually reduced with the use of fan, non-stop operation and time consumption, resulting in the wind speed becoming slower and slower when using the fan.
+</p>
+<p>
+	&emsp;&emsp;Thirdly, the service life of the fan will be different according to the different service environment. It is assumed that the fan works in the standard environment
+</p>
+<p>
+	&emsp;&emsp;The service life of general AC ball fans is about 50000 hours, and the products of different manufacturers will also be different: the product life of EBM in Germany, Sunon in Taiwan, Nidec, Shenzhen Tongsheng and Shenzhen yongyechang will be 50000-60000 hours;
+</p>
+<p>
+	&emsp;&emsp;The service life of general AC oil-bearing fan is 25000 hours. Due to the repeated rotation of its bearing, the service life will be shortened, and the service life of high-quality manufacturers will reach 30000-35000 hours;
+</p>
+<p>
+	&emsp;&emsp;equipment needs to be cleaned at least once a month. The air inlet net should be kept clean to prevent blocking the air flow. It can be cleaned with soft brush or compressed air.
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/759'>Prev：On the operation temperature of high temperature smoke exhaust fan</a></div>
+        
+    </div>
+</div>
+
+      </div>4:["$","$Lf",null,{"page":{"locale":"en","pathname":"/en/show/758","url":"http://quanfeng.com/en/show/758","title":"Fan maintenance_Technology_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$10"},"pathname":"/show/758"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"Fan maintenance_Technology_Quanzhou Quanfeng Motor Co., Ltd"}],["$","meta","1",{"name":"description","content":"Fan maintenance_Technology_Quanzhou Quanfeng Motor Co., Ltd"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

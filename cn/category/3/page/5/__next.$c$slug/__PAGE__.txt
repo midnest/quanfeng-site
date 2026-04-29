@@ -1,0 +1,29 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T4aa,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 产品展示</span></div>
+                <div class="article">
+                    <div class="list-img">
+    <ul class="clearfix">
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/662">
+                        <div class="img_area">
+                            <img src="/upload/20210826/132744427604117743.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA8025</div>
+                    </a>
+
+
+            </li>
+
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'> <li> <a href='/cn/category/3?page=4&q=' aria-label='Previous'> <span aria-hidden='true'>&laquo;</span> </a> </li><li><a href='/cn/category/3?page=1&q='>1</a></li><li><a href='/cn/category/3?page=2&q='>2</a></li><li><a href='/cn/category/3?page=3&q='>3</a></li><li><a href='/cn/category/3?page=4&q='>4</a></li> <li class='active'><a href=''>5</a></li><li> <a href='' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/category/3","url":"http://quanfeng.com/cn/category/3?page=5","title":"产品展示_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/category/3/page/5"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

@@ -1,0 +1,107 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","category","60",""],"q":"","i":false,"f":[[["",{"children":[["slug","category/60","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:Tee9,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; Feedback</span></div>
+                <div class="article">
+               
+
+<div class="feedback-form ">
+    <div class="title">
+       Dear customer</br>
+
+If you have any comments and suggestions on our work, you are welcome to let us know at any time. Our staff will deal with it in time. Thank you for your advice and help!
+    </div>
+    <form action="/en/feedback" method="post" class="form-horizontal col-xs-12">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Title：</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="title" name="title" placeholder="Please enter the title">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Name：</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Please enter the name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Tel/Phone：</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="tel" name="tel" placeholder="Please enter the tel">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Email：</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Please enter the Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Content：</label>
+                <div class="col-sm-10">
+                    <textarea id="contents" name="content" class="form-control" rows="3" placeholder="Please enter the content"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Code：</label>
+                <div class="col-sm-10  form-inline">
+                    <input type="text" class="form-control" id="checkcode" name="checkcode" placeholder="Please enter the Code">
+                    <img src="/common/code" onclick="this.src='/common/code?r='+new Date().getTime()" class="yzm1" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Submit" class="sure" onclick="return checkForm()">
+                </div>
+            </div>
+        </form>
+</div>
+
+<script src="/js/layer/layer.js"></script>
+<script>
+    function checkForm() {
+        if ($('#title').val() == '') {
+            layer.msg("Please enter the title");
+            return false;
+        }
+        if ($('#name').val() == '') {
+            layer.msg("Please enter the name");
+            return false;
+        }
+        if ($('#tel').val() == '') {
+            layer.msg("Please enter the tel");
+            return false;
+        }
+        if ($('#email').val() == '') {
+            layer.msg("Please enter the email");
+            return false;
+        }
+        if ($('#contents').val() == '') {
+            layer.msg("Please enter the content");
+            return false;
+        }
+        if ($('#checkcode').val() == '') {
+            layer.msg("Please enter the code");
+            return false;
+        }
+        return true;
+    }
+</script>
+
+            </div>
+        </div>4:["$","$Lf",null,{"page":{"locale":"en","pathname":"/en/category/60","url":"http://quanfeng.com/en/category/60","title":"Feedback_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$10"},"pathname":"/category/60"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"Feedback_Quanzhou Quanfeng Motor Co., Ltd"}],["$","meta","1",{"name":"description","content":"Feedback_Quanzhou Quanfeng Motor Co., Ltd"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

@@ -1,0 +1,56 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","cn","show","678",""],"q":"","i":false,"f":[[["",{"children":[["slug","cn/show/678","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:Tb7e,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>轴流风机运行要点</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2020-08-27</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：4020 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content">&emsp;&emsp;◆试运转&nbsp; <br />
+&emsp;&emsp;1、风机安装完毕后，在启动前应检查风机转动的灵活性，用手拨动叶片是否有卡住摩擦现象。检查风机及相邻管道内是否有遗留工具和其它杂物。&nbsp; <br />
+&emsp;&emsp;2、检查管道内的风门是否处于开启状态。&nbsp; <br />
+&emsp;&emsp;3、人员应远离风机。&nbsp; <br />
+&emsp;&emsp;4、点动风机，查看风机转向是否与旋转标记相符，在检查合格后，试运行10-30分钟后停止，检查叶片有无松动现象，减振座与基础联接螺栓有无松动，一切正常后，才正式启动，投入运行。 <br />
+&emsp;&emsp;◆风机正常运行&nbsp; <br />
+风机在正常运行中，主要监视电机的电流，电流不仅是风机负荷的标志，也是一些异常事故预报。其次要经常检查电机与风机的振动是否正常及有无摩擦、异常响声。对并联运行的风机应注意监视风机是否在喘振状态情况下运行。&nbsp; 在正常运行中，如遇下列情况应立即停机检查： <br />
+&emsp;&emsp;1、风机发生强烈振动或碰擦声。&nbsp; <br />
+&emsp;&emsp;2、电机电流突然上升，并超过电机的额定电流。&nbsp; <br />
+&emsp;&emsp;3、电机轴承温度急剧上升。&nbsp; <br />
+&emsp;&emsp;◆维护与保养&nbsp; <br />
+&emsp;&emsp;1、不带故障运行，只有在风机设备完全正常的情况下方可运转。&nbsp; <br />
+&emsp;&emsp;2、定期检查风机叶片是否松动，叶片与风筒间隙是否正常。&nbsp;&nbsp; <br />
+&emsp;&emsp;3、定期检查电机与机壳联接螺栓紧固情况，检查减振座与基础联接是否完好。&nbsp; <br />
+&emsp;&emsp;4、定期清除叶片表面积灰、污垢。&nbsp; <br />
+&emsp;&emsp;5、定期为电机轴承更换润滑脂，一般为三个月加一次油，也可按实际情况更换润滑脂。</div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/679'>新风换气机 新风机组 全热换热器有什么区别</a></div>
+         <div class='nexts'>下一篇：<a href='/cn/show/677'>模具行业乍暖还寒</a></div>
+    </div>
+</div>
+
+      </div>4:["$","$Lf",null,{"page":{"locale":"cn","pathname":"/cn/show/678","url":"http://quanfeng.com/cn/show/678","title":"轴流风机运行要点_新闻动态_泉州泉风电机有限公司","mainHtml":"$10"},"pathname":"/cn/show/678"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"轴流风机运行要点_新闻动态_泉州泉风电机有限公司"}],["$","meta","1",{"name":"description","content":"轴流风机运行要点_新闻动态_泉州泉风电机有限公司"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

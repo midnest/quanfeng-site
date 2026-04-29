@@ -1,0 +1,91 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tfec,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>铝合金正压送风口相关知识介绍</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2020-08-27</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：4956 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	铝合金正压送风口用于通风空调系统的末端，其动作温度为70℃。火灾时需在送排风口隔断火源；若与风机联动的应选用带双微动开关装置。
+</p>
+<p>
+	&emsp;&emsp;铝合金正压送风口主要有以下四大特性：
+</p>
+<p>
+	&emsp;&emsp;一：铝合金正压送风口选用主要控制以及规格等。 &emsp;&emsp;
+</p>
+<p>
+	&emsp;&emsp;二：防火风口用于通风空调系统的末端，其动作温度为70℃。火灾时需在送排风口隔断火源。 &emsp;&emsp;
+</p>
+<p>
+	&emsp;&emsp;三：防火风口若与风机联动时应采用双微动开关装置。 &emsp;&emsp;
+</p>
+<p>
+	&emsp;&emsp;四：风口为铝合金不燃材料制作，转动部件应采用耐腐蚀的金属材料，并转动灵活。易融部件应符合消防部门的认可标准。
+</p>
+<p>
+	&emsp;&emsp;在安装时需要注意的六大事项：
+</p>
+<p>
+	&emsp;&emsp;一、在安装铝合金正压送风口前应详细检查风机是否有损坏变形，如有损坏变形，待修理妥善后，方可进行安装。
+</p>
+<p>
+	&emsp;&emsp;二、安装时要注意检查各不如部分有无松动，叶片与风筒间隙应均匀，不得相碰。
+</p>
+<p>
+	&emsp;&emsp;三、 连接风口管道的重量不应由风机的风筒承受，安装时应另加支撑。
+</p>
+<p>
+	&emsp;&emsp;四、在风机风口端要装集风器，并安装防护网。
+</p>
+<p>
+	&emsp;&emsp;五、风机底座要与地基平面自然接合，不得敲打底座强制联接，以防底座变形，安装时应校正机座，加垫铁片、保持水平位置，然后拧紧地脚螺栓。
+</p>
+<p>
+	&emsp;&emsp;六、安装完毕后，要先进行实验，待运行正常后，才允许正式使用。
+</p>
+<p>
+	&emsp;&emsp;其他各种风机是按照什么区分的
+</p>
+<p>
+	&emsp;&emsp;1、根据风机所使用的材质可分为，玻璃纤维增强塑料风机，塑料风机，钢制风机，不锈钢风机，模压风机。
+</p>
+<p>
+	&emsp;&emsp;2、根据气体流动的方向，分为离心式，轴流式，斜流式（混合型）和贯流式等类型。
+</p>
+<p>
+	&emsp;&emsp;3、根据气流进入叶轮的流动方向分为：轴流风机，离心风机，斜流式风机（混流风机）。
+</p>
+<p>
+	&emsp;&emsp;4、按用途分为压入式局部通风机（以下简称压风机）和隔爆电机放在外或内的流道，隔爆电机防爆密封腔，抽出式局部通风机（以下简称排气风扇）。
+</p>
+<p>
+	&emsp;&emsp;5、根据压力表也可以是单，双或多个加压风机。如果4 - 72是一个单级压缩，罗茨鼓风机是一种多级增压风机.
+</p>
+<p>
+	&emsp;&emsp;6、根据用途可分为：轴流式风机，屋顶风机，空调风机。
+</p>
+<p>
+	&emsp;&emsp;7、根据压力可分为低压风机，中压风机，高压鼓风机性能参数的风机的性能参数主要流量，压力，功率，效率和速度。
+</p></div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/681'>本司以新型节能高效风机荣获“发现.２０１７全国科技创新优秀成果奖”</a></div>
+         <div class='nexts'>下一篇：<a href='/cn/show/679'>新风换气机 新风机组 全热换热器有什么区别</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/680","url":"http://quanfeng.com/cn/show/680","title":"铝合金正压送风口相关知识介绍_新闻动态_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/680"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

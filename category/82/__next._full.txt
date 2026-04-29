@@ -1,0 +1,105 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","category","82",""],"q":"","i":false,"f":[[["",{"children":[["slug","category/82","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:Td70,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; About Us &gt; Enterprise honor</span></div>
+                <div class="article">
+                    <p>
+	<span style="line-height:2.5;font-size:16px;">
+</p>
+<p>
+	In March 2000, it passed China electrical product certification (Great Wall certification)
+</p>
+<p>
+	In December 2001, it passed IS09001:2000 international quality system certification.
+</p>
+<p>
+	In December 2001, it passed UL product certification in USA and cul product safety certification in Canada
+</p>
+<p>
+	In December 2001, it was named "Fujian famous science and technology enterprise" by Fujian science and Technology Commission
+</p>
+<p>
+	In January 2002, it was rated as "best selling brand in Chinese market" by China market forum
+</p>
+<p>
+	In March 2002, it passed China CCC compulsory certification and European CE certification
+</p>
+<p>
+	In March 2002, it was rated as "advanced quality management enterprise" by Fengze District Government of Quanzhou City
+</p>
+<p>
+	In 2002, it was awarded the title of "top ten reliable brand in fan industry" by China Technology Association
+</p>
+<p>
+	In December 2002, it was awarded "qualified unit of industry supervision and spot check" and "excellent unit of quality level in the Ninth Five Year Plan" by the national micro motor product testing center.
+</p>
+<p>
+	In March 2003, it was determined as "key enterprise at district level" by Fengze District Government of Quanzhou City.
+</p>
+<p>
+	In December 2003, it was rated as "high standard and high quality" enterprise by Fujian Standardization Association.
+</p>
+<p>
+	In October 2005, "Quanfeng" brand products passed the Fujian provincial new product appraisal.
+</p>
+<p>
+	In December 2005, he won the "Fujian Province Science and Technology Achievement Award".
+</p>
+<p>
+	In March 2006, he won the "Fujian science and Technology Progress Award".
+</p>
+<p>
+	In April 2006, he won the "Fujian excellent new product award".
+</p>
+<p>
+	In August 2006, it was determined as "Fujian provincial high tech enterprise" by Fujian Province.
+</p>
+<p>
+	In October 2006, "Quanfeng" trademark was recognized as "Quanzhou famous trademark" by Quanzhou Municipal government.
+</p>
+<p>
+	In 2009, "Quanfeng" brand trademark was rated as "Fujian famous trademark".
+</p>
+<p>
+	In 2017, "fzy-qa small axial flow fan" won the third prize of regional science and technology.
+</p>
+<p>
+	In 2017, it was awarded the high-tech enterprise certification certificate by the Provincial Department of science and technology.
+</p>
+<p>
+	In 2017, Quanfeng "new energy-saving and efficient fan" won the annual outstanding scientific and technological innovation achievements.
+</p>
+<p>
+	In 2019, it passed the FCC product certification of the United States.
+</p>
+<p>
+	From 2002 to 2019, it has been listed as a key enterprise in Fengze District of Quanzhou for many consecutive years.
+</p>
+</span> 
+<p align="center">
+	&nbsp;
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200929/20200929165545_5657.jpg" /><img alt="" src="/upload/editor/image/20200929/20200929165622_2376.png" />
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200929/20200929165659_9251.png" />&nbsp;
+</p>
+<span style="line-height:2.5;font-size:16px;"></span>
+                </div>
+            </div>4:["$","$Lf",null,{"page":{"locale":"en","pathname":"/en/category/82","url":"http://quanfeng.com/en/category/82","title":"Enterprise honor_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$10"},"pathname":"/category/82"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"Enterprise honor_Quanzhou Quanfeng Motor Co., Ltd"}],["$","meta","1",{"name":"description","content":"Enterprise honor_Quanzhou Quanfeng Motor Co., Ltd"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

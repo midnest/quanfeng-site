@@ -1,0 +1,119 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","category","78",""],"q":"","i":false,"f":[[["",{"children":[["slug","category/78","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:T2582,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; Technology</span></div>
+                <div class="article">
+                    <p align="center">
+	<img alt="" src="/upload/editor/image/20200826/20200826164820_4231.jpg" /> 
+</p>
+<p align="center">
+	<span style="line-height:2.5;font-size:16px;">Quanzhou Quanzhou wind turbine testing technology center is the companys own set of scientific research, testing engineering technology testing center, advanced equipment, is the first domestic private enterprise fan testing technology center. The center, together with Fuzhou University, Huaqiao University and Fujian Provincial Center Inspection Institute, is a technical center that can serve many wind turbine enterprises. The main detection items include: air volume test, noise detection, high temperature detection, low temperature detection, constant temperature detection, constant humidity test, salt spray test, dynamic balance test, drop impact test, vibration impact test, coaxiality test, concentricity test, balance degree test, load test, inter turn withstand voltage test, voltage detection, frequency detection and current detection Dozens of testing equipment, such as testing, power testing, power factor testing, withstand voltage testing and aging testing, can fully meet the requirements of various rotating parts such as axial flow fan, centrifugal fan and cross flow fan. Welcome people from all walks of life to visit and guide.</span>
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200826/20200826164916_4542.jpg" /><img alt="" src="/upload/editor/image/20200826/20200826164922_0169.jpg" /> 
+</p>
+<p align="center">
+	<span style="line-height:2.5;font-size:16px;">Drop tester</span> 
+</p>
+<p align="left">
+	<span style="line-height:2.5;font-size:16px;">The equipment can test the anti vibration strength of the product after falling from a height. Place the product at a height of 1 meter and then make it fall freely. Then test whether the strength of the product shell and the fastening degree of the internal structure of the motor change.</span> 
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200826/20200826164928_9699.jpg" /> 
+</p>
+<p align="center">
+	<span style="line-height:2.5;font-size:16px;">High low temperature constant humidity testing machine</span> 
+</p>
+<div style="text-align:left;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;"> 
+	<p>
+		This equipment is suitable for the performance reliability test of fans and industrial electronic products, with a large temperature control range, and the performance indexes all meet the requirements of GB 10592-93 "technical conditions for high and low temperature test chambers", and GB 10586-93 "technical conditions for damp heat test chambers", and is applicable to gb2423-93 "basic environmental test procedures for electrical and electronic products" and "low temperature a: test method; high temperature test" B: Test Method "and constant and alternating damp heat tests can effectively carry out high and low temperature and damp heat tests on products.
+	</p>
+	<p>
+		1. The temperature control range is - 70 ℃ - 150 ℃ (adjustable);
+	</p>
+	<p>
+		2. Humidity regulation range: 30% - 98% R.H (temperature 30 ℃ - 85 ℃);
+	</p>
+	<p>
+		3. Refrigeration mode: Double cascade compression refrigeration (air cooling);
+	</p>
+	<p>
+		4. Temperature and humidity fluctuation: ≤± 0.5 ℃, ≤± 2% R.H;
+	</p>
+	<p>
+		5. Temperature and humidity uniformity: ≤± 2 ℃, ≤± 2% R.H;
+	</p>
+</span> 
+</div>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200826/20200826164938_4543.jpg" /> 
+</p>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">Vibration test equipment</span> 
+</div>
+<p align="center">
+	<span style="line-height:2.5;font-size:16px;">&emsp;&emsp;The equipment can simulate various vibration and shock tests in the process of vehicle transportation and handling. The maximum amplitude is 5mm (sine wave), the maximum acceleration is 20g, the frequency range is 1-400hz, and the time control is 315 × 105 s.</span>
+</p>
+<p align="center">
+	&nbsp;
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200826/20200826164944_8136.jpg" /> 
+</p>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">Dynamic balance testing machine</span>
+</div>
+<p align="center">
+	<span style="line-height:2.5;font-size:16px;">This equipment adopts the national gb7662-87 standard, which can be used to detect the vibration of rotating parts of rotating machinery, such as motor, fan, blower, etc. It is mainly applicable to: flywheel, fan, impeller and other parts for positive balance, with magnetoelectric speed sensor as the electromechanical energy exchange structure, which is more in line with the force measuring principle of balancing machine. The measuring system adopts computer and international general digital and analog integrated circuit. The speed, value and phase are all displayed by digital. After starting, the unbalance value and its phase can be displayed correctly, and the memory display can be realized. With the correction device, the unbalance can be removed. The operation is simple, convenient and efficient.</span>
+</p>
+<p align="center">
+	&nbsp;
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200826/20200826164952_7199.jpg" /> 
+</p>
+<p align="center">
+	<span style="line-height:2.5;font-size:16px;">Salt spray testing machine</span> 
+</p>
+<div style="text-align:left;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">&emsp;&emsp;The equipment adopts iec68-2-11 standard, conforms to gb2421, gb2422, gb2424.10 national standards, and meets the requirements of iso-376837693770, astm-b117, b268, jis-d0201, h8502, h8610, K5400 and CNS standards. The corrosion resistance of the products was tested after the surface of various materials was treated with paint, coating, electroplating anode treatment, rust prevention and insulation. Temperature range: room temperature + 5 ℃ - 55 ℃ humidity range: 85-95% salt spray deposition: 1-2 ㏕ 80 cm2. H.</span>
+</div>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200826/20200826164958_8293.jpg" /> 
+</p>
+<p align="center">
+	<span style="line-height:2.5;font-size:16px;">Air volume detection equipment</span>
+</p>
+<div style="text-align:left;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">&emsp;&emsp;The equipment is designed according to the requirements of GB / t2658-1995, GB / t1236-2000, GB / t7725-96, jis-8330, amca210-85, ashrae51-75 and iso5801-1996. It can measure the air pressure and air volume of various axial-flow fans, cross-flow fans, centrifugal fans and other products, and conduct intelligent testing and drawing of all-round performance curves. The air volume test range is 0.1-50m3/min, the wind pressure test range is 0-1000pa, and the rotation speed is 0-3000rpm.</span>
+</div>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200826/20200826165005_9230.jpg" /> 
+</p>
+<p align="center">
+	<span style="line-height:2.5;font-size:16px;">Noise detection equipment</span>
+</p>
+<div style="text-align:left;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">The noise tester is a multifunctional, portable and precise noise measurement and spectrum analysis instrument. The instrument adopts modular design and can be configured with different hardware and software modules. It is suitable for various industrial noise measurement, spectrum analysis and reverberation time measurement. The instrument adopts digital detection technology and switched capacitor filter technology, with high precision, good stability, and high stability High reliability. The display adopts 128 × 64 lattice liquid crystal display and menu operation interface.</span>
+</div>
+<p>
+	&nbsp;
+</p>
+                </div>
+            </div>4:["$","$Lf",null,{"page":{"locale":"en","pathname":"/en/category/78","url":"http://quanfeng.com/en/category/78","title":"Technology_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$10"},"pathname":"/category/78"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"Technology_Quanzhou Quanfeng Motor Co., Ltd"}],["$","meta","1",{"name":"description","content":"Technology_Quanzhou Quanfeng Motor Co., Ltd"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

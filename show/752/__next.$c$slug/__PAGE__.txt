@@ -1,0 +1,90 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T13c6,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>Knowledge introduction of aluminum alloy positive pressure air supply outlet</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：4186 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;Aluminum alloy positive pressure air supply outlet is used at the end of ventilation and air conditioning system, and its operating temperature is 70 ℃. In case of fire, it is necessary to isolate the fire source at the air supply and exhaust outlet; if it is linked with the fan, the double micro switch device shall be selected.
+</p>
+<p>
+	&emsp;&emsp;The positive pressure air supply outlet of aluminum alloy mainly has the following four characteristics:
+</p>
+<p>
+	&emsp;&emsp;1.In case of fire, the fire source should be isolated at the air supply and exhaust outlet. &emsp;&emsp;
+</p>
+<p>
+	&emsp;&emsp;2.double micro switch device shall be used if the fire prevention tuyere is linked with the fan. &emsp;&emsp;
+</p>
+<p>
+	&emsp;&emsp;3. the tuyere is made of aluminum alloy non combustible material, and the rotating parts shall be made of corrosion-resistant metal materials, and can rotate flexibly. Fusible parts shall meet the approved standards of fire department.
+</p>
+<p>
+	&emsp;&emsp;six matters needing attention during installation:
+</p>
+<p>
+	&emsp;&emsp;1. Before installing aluminum alloy positive pressure air supply outlet, the fan shall be carefully inspected for damage and deformation. If there is damage and deformation, it can be installed after proper repair.
+</p>
+<p>
+	&emsp;&emsp;2. During installation, pay attention to check whether the inferior parts are loose, and the gap between the blade and the air duct should be even and not collide.
+</p>
+<p>
+	&emsp;&emsp;3. The weight of the duct connecting the tuyere shall not be borne by the air duct of the fan, and additional support shall be added during installation.
+</p>
+<p>
+	&emsp;&emsp;Fourthly, the air collector and protective net should be installed at the air outlet end of the fan.
+</p>
+<p>
+	&emsp;&emsp;v. the fan base shall be naturally connected with the foundation plane, and it is not allowed to knock the base for forced connection, so as to prevent the deformation of the base. During installation, the base shall be corrected, the iron pad shall be added, and the horizontal position shall be maintained, and then the anchor bolts shall be tightened.
+</p>
+<p>
+	&emsp;&emsp;Vi. after the installation, the experiment should be carried out first. After the operation is normal, it can be used formally.
+</p>
+<p>
+	&emsp;&emsp;what is the classification of other fans
+</p>
+<p>
+	&emsp;&emsp;1. According to the material used, the fan can be divided into glass fiber reinforced plastic fan, plastic fan, steel fan, stainless steel fan and molding fan.
+</p>
+<p>
+	&emsp;&emsp;According to the direction of gas flow, it can be divided into centrifugal type, axial flow type, oblique flow type (mixed type) and tubular type.
+</p>
+<p>
+	&emsp;&emsp;3. According to the flow direction of airflow into impeller, it can be divided into axial flow fan, centrifugal fan and diagonal flow fan (mixed flow fan).
+</p>
+<p>
+	&emsp;&emsp;4. According to the use, it can be divided into press in type local fan (hereinafter referred to as pressure fan) and flow passage with flameproof motor placed outside or inside, explosion-proof sealing cavity of explosion-proof motor and extraction type local fan (hereinafter referred to as exhaust fan).
+</p>
+<p>
+	&emsp;&emsp;According to the pressure gauge, it can also be single, double or multiple pressure fans. If 4 - 72 is a single - stage compression, roots blower is a multi - stage booster fan
+</p>
+<p>
+	&emsp;&emsp;According to the use, it can be divided into axial flow fan, roof fan and air conditioner fan.
+</p>
+<p>
+	&emsp;&emsp;7. According to the pressure, it can be divided into low pressure fan, medium pressure fan and high pressure blower. The main performance parameters of fan are flow, pressure, power, efficiency and speed.
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/753'>Prev：The company won the "discovery. 2017 National Science and technology innovation outstanding achievement award" with a new energy-saving and high-efficiency fan</a></div>
+        <div class='next'><a href='/en/show/751'>Next：What is the difference between the total heat exchanger of fresh air ventilator and fresh air unit</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/752","url":"http://quanfeng.com/en/show/752","title":"Knowledge introduction of aluminum alloy positive pressure air supply outlet_News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/752"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

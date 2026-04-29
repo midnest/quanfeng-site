@@ -1,0 +1,46 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T6c0,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>Anti counterfeiting marks will be added from July 19, 2019</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：4139 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	Since July 18, 2019, all fans produced by our company have been attached with QR code anti-counterfeiting label. Scratch off the coating can be scanned by mobile phone. One machine, one yard, the first scan shows the genuine Quanfeng. Scanning for the second time will prompt non first query, beware of counterfeiting.
+</p>
+<p>
+	&nbsp;
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200827/20200827103438_2980.jpg" /> 
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200827/20200827103447_8022.jpg" /> 
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200827/20200827103455_0793.jpg" /> 
+</p>
+<p>
+	<br />
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/805'>Prev：What are the acceptance points of centrifugal smoke exhaust fan?</a></div>
+        <div class='next'><a href='/en/show/756'>Next：On two kinds of CCC marks of trademark</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/757","url":"http://quanfeng.com/en/show/757","title":"Anti counterfeiting marks will be added from July 19, 2019_News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/757"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

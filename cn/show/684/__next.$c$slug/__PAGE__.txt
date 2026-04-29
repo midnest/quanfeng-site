@@ -1,0 +1,45 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T6f9,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>关于商标两种CCC标志</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2020-08-27</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：5784 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;依据国家认监委关于强制性产品认证标志改革事项的公告（2018年第10号）<br />
+&emsp;&emsp;第三条，简化整合CCC标志的类别&nbsp; 自2018年3月20日起，CCC标志不再标注S（安全产品）、EMC（电磁兼容）、S&amp;E（安全与电磁兼容）、F（消防）、I（信息安全）等细分类别，原有CCC标志可根据模具更换周期及产品库存等情况自然过渡淘汰。<br />
+&emsp;&emsp;泉州泉风电机所以系列产品，产品商标上所贴CCC标志，在一段时间内会出现 CCCs和CCC，两种标志。
+</p>
+<p align="center">
+	&nbsp;
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200827/20200827102911_2356.jpg" />&nbsp;
+</p>
+<p>
+	&nbsp;
+</p>
+<p>
+	&nbsp;
+</p></div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/685'>声明</a></div>
+         <div class='nexts'>下一篇：<a href='/cn/show/683'>18年CCC抽检报告已出。需要请联系。</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/684","url":"http://quanfeng.com/cn/show/684","title":"关于商标两种CCC标志_新闻动态_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/684"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

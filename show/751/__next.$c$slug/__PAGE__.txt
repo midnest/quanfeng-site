@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T99d,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>What is the difference between the total heat exchanger of fresh air ventilator and fresh air unit</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：4021 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;The sensible heat exchanger or total heat exchanger is built in the fresh air ventilator to recover part of the energy discharged from the outdoor air, so as not to increase the indoor energy consumption too much. It is characterized by forcing the replacement of new "old" wind, which is only a simple energy exchange between the new "old" wind. Wind road can be understood as two ways, one is fresh air, the other is indoor "old" wind. It is often used in small space occasions, such as family, hospital ward, small conference room, etc.
+</p>
+<p>
+	&emsp;&emsp;fresh air unit is an air conditioning terminal equipment that uses cold and heat sources to heat and humidity the outdoor fresh air. The fresh air is sent into the room after being treated to the set temperature and humidity conditions. There is only one fresh air in the wind road. It is commonly used in large space or multi room places, such as auditorium, hotel rooms on a certain floor, etc.
+</p>
+<p>
+	&emsp;&emsp;total heat exchanger is a component used in such as fresh air ventilator or combined air conditioner. With the help of additional fan, part of heat and moisture exchange between two air streams is completed. There are both energy transfer and mass transfer between the two air streams. (sensible heat exchanger has only energy transfer, not mass transfer).
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/752'>Prev：Knowledge introduction of aluminum alloy positive pressure air supply outlet</a></div>
+        <div class='next'><a href='/en/show/750'>Next：Operation points of axial flow fan</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/751","url":"http://quanfeng.com/en/show/751","title":"What is the difference between the total heat exchanger of fresh air ventilator and fresh air unit_News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/751"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

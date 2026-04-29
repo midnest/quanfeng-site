@@ -1,0 +1,51 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T131f,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 走进泉风 &gt; 企业文化</span></div>
+                <div class="article">
+                    <div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">公司文化</span>
+</div>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">快乐工作、和谐共存、健康发展</span><br />
+</div>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">员工学习观</span>
+</div>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">求知若渴、永不止步</span><br />
+</div>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">产品观</span>
+</div>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">持续改善、精益求精</span><br />
+</div>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">产品质量观</span>
+</div>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">品质至上、追求零缺陷</span><br />
+</div>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">服务观</span>
+</div>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">诚心、耐心、细心</span><br />
+</div>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">人才观</span>
+</div>
+<div style="text-align:center;widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;">
+	<span style="line-height:2.5;font-size:16px;">能者下、平者让、庸者下</span>
+</div>
+<p>
+	&nbsp;
+</p>
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/category/96","url":"http://quanfeng.com/cn/category/96","title":"企业文化_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/category/96"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

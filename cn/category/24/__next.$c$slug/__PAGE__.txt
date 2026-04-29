@@ -1,0 +1,69 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tadd,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 视频中心</span></div>
+                <div class="article">
+                    <div class="list-img">
+    <ul class="clearfix">
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/upload/editor/file/20200908/20200908153452_4633.mp4" target="_blank" >
+                        <div class="img_area">
+                            <img src="/upload/20200908/132440240338071566.png" alt="">
+                        </div>
+                        <div class="text_area">外框铝合金压铸</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/upload/editor/file/20200908/20200908142147_8227.mp4" target="_blank" >
+                        <div class="img_area">
+                            <img src="/upload/20200908/132440198165102709.png" alt="">
+                        </div>
+                        <div class="text_area">多头自动绕线</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/upload/editor/file/20200907/20200907100700_6664.mp4" target="_blank" >
+                        <div class="img_area">
+                            <img src="/upload/20200907/132439180931196697.png" alt="">
+                        </div>
+                        <div class="text_area">自动钻孔攻牙</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/upload/editor/file/20200907/20200907095246_4946.mp4" target="_blank" >
+                        <div class="img_area">
+                            <img src="/upload/20200907/132439172914946690.png" alt="">
+                        </div>
+                        <div class="text_area">轴承室数控加工</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/upload/editor/file/20200901/20200901163334_3219.mp4" target="_blank" >
+                        <div class="img_area">
+                            <img src="/upload/24/132433362186525575.JPG" alt="">
+                        </div>
+                        <div class="text_area">泉风电机视频</div>
+                    </a>
+
+
+            </li>
+
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li> <a href='' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/category/24","url":"http://quanfeng.com/cn/category/24","title":"视频中心_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/category/24"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

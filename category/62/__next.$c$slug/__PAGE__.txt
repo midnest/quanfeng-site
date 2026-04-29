@@ -1,0 +1,19 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tb47,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; About Us &gt; Company profile</span></div>
+                <div class="article">
+                    <p>
+	<span style="line-height:2;font-size:14px;">&emsp;&emsp;</span><span style="line-height:2;font-size:14px;">Quanzhou Quanfeng Motor Co., Ltd. is one of the enterprises invested and founded by Hong Kong Quanfeng industry in Quanzhou, a famous city on the west coast of the Straits. The company mainly produces "Quanfeng", "Lixun" brand AC, DC axial fan, micro special motor and protective net cover. The company has mold, injection molding, hardware, aluminum alloy die casting and other supporting plants.</span> 
+</p>
+<p>
+	<span style="line-height:2;font-size:14px;">&emsp;&emsp;</span><span style="line-height:2;font-size:14px;">T</span><span style="line-height:2;font-size:14px;">he company aims to establish a modern enterprise and adheres to the principle of "science and technology is the primary productivity". In 2000, the company passed the ISO9001:2000 international quality system certification, the products have obtained CCC compulsory certification, and the safety certification of the United States UL, Canada cul, EU CE, etc. It has been awarded "qualified unit of industry supervision and spot check" and "excellent unit of quality level in the Ninth Five Year Plan" by national micro motor product testing center, and "Quanfeng" brand fan has been determined as "top 10 reliable brand in fan industry" and "top 10 famous and excellent brand of axial flow fan in China" by China Technical Association. "Quanfeng" brand products have passed the appraisal of new products in Fujian Province and won "Fujian Province Science and Technology Achievement Award", "provincial excellent new product award" and "provincial science and Technology Progress Award". &emsp;&emsp;</span><span style="line-height:2;font-size:14px;">In 2006, it was recognized as "Fujian high-tech enterprise", "advanced enterprise of scientific and technological progress" and "Fujian well-known scientific and technological enterprise". "Quanfeng" brand trademark has been rated as "Quanzhou famous trademark". In 2009, "Quanfeng" brand trademark was rated as "Fujian famous trademark".</span> 
+</p>
+<p>
+	<span style="line-height:2;font-size:14px;">&emsp;&emsp;</span><span style="line-height:2;font-size:14px;">In line with the business philosophy of "continuous innovation and sustainable operation" and the enterprise spirit of high efficiency, dedication, hard work and innovation, all the staff of the company warmly welcome all walks of life and domestic and foreign merchants to negotiate business with us for mutual benefit and create a better future with thoughtful and warm service and honest style.</span> 
+</p>
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/62","url":"http://quanfeng.com/en/category/62","title":"Company profile_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/62"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

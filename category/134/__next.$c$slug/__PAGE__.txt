@@ -1,0 +1,141 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T135e,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; Products &gt; AC fan</span></div>
+                <div class="article">
+                    <div class="list-img">
+    <ul class="clearfix">
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/746">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868537004811.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA22090</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/745">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868534660703.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA20060-Y</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/744">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868532160743.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA20060</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/743">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868528254470.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA18060</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/742">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868525442090.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA17250</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/741">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868522942077.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA15050</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/740">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868519660666.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA13538</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/739">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868516692020.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA12038</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/738">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868513098172.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA12025</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/737">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868510910730.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA11025</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/736">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868508566918.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA9225</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/735">
+                        <div class="img_area">
+                            <img src="/upload/134/132434868505129408.jpg" alt="">
+                        </div>
+                        <div class="text_area">QA8025</div>
+                    </a>
+
+
+            </li>
+
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li> <a href='' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/134","url":"http://quanfeng.com/en/category/134","title":"AC fan_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/134"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

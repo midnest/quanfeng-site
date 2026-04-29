@@ -1,0 +1,236 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T2747,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; News</span></div>
+                <div class="article">
+                    <div class="list_news_texts">
+    <ul>
+            <li class="">
+                <a href="/en/show/805">
+                    <h2>
+                        What are the acceptance points of centrifugal smoke exhaust fan?
+                    </h2>
+                    <div class="list_text">
+                        What are the acceptance points of centrifugal smoke exhaust fan:1. The appearance of the centrifugal smoke exhaust fan shall conform to the drawing size;2. The design of the housing and legs of the smoke exhaust fan shall ensure sufficient strength and stiffness. When the external force and external …
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-11-30
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/802">
+                    <h2>
+                        Can undertake aluminum alloy die casting processing
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-29
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/801">
+                    <h2>
+                        About the anti-counterfeiting QR code can not be recognized notice
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-29
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/800">
+                    <h2>
+                        New FCC certification for AC series
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-29
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/799">
+                    <h2>
+                        Statement
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-29
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/765">
+                    <h2>
+                        About the anti-counterfeiting QR code can not be recognized notice
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/764">
+                    <h2>
+                        9000
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/763">
+                    <h2>
+                        CE certification
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/762">
+                    <h2>
+                        What is the standard injection mold development process like?
+                    </h2>
+                    <div class="list_text">
+                        1、 Draw mold drawingBefore drawing the die assembly drawing, the process drawing should be drawn and meet the requirements of the part drawing and process data. The size guaranteed by the next process shall be marked with "process size" on the drawing. If there is no other machining except repairing…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/761">
+                    <h2>
+                        What are the advantages and disadvantages of DC fan and AC fan?
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;Axial flow fan, widely used, is the air flow in the same direction with the axis of the fan blade, such as electric fan. The fan of external unit of air conditioner is axial flow fan. It is called "axial flow" because the gas flows parallel to the fan axis. Axial flow fan is usually used …
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/760">
+                    <h2>
+                        What is the difference between axial fan and DC fan?
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;Axial flow fan, widely used, is the air flow in the same direction with the axis of the fan blade, such as electric fan. The fan of external unit of air conditioner is axial flow fan. It is called "axial flow" because the gas flows parallel to the fan axis. Axial flow fan is usually used …
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/759">
+                    <h2>
+                        On the operation temperature of high temperature smoke exhaust fan
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;Smoke exhaust fan is widely used in our kitchen. It is generally used in hotels, restaurants, stalls and other places. It is a kind of equipment which can quickly exhaust the odor, high temperature and lampblack gas produced in the process of food processing in the kitchen.&emsp;&emsp;thi…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li><a href='/en/category/55?page=2&q='>2</a></li><li> <a href='/en/category/55?page=2&q=' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/55","url":"http://quanfeng.com/en/category/55","title":"News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/55"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

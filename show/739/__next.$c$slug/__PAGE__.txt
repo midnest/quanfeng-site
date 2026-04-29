@@ -1,0 +1,537 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Tafe3,<div class="col-sm-9 col-xs-12 main">
+         <div class="product_detail">
+    <div class="title">
+        <h3>QA12038</h3>
+        <div class="box clearfix">
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="product_detail_images">
+        <a href='/en/show/740#cfocus'><img src='/res/cn/images/global/left_btn.png' /></a>
+        <div class="product_detail_img my-gallery">
+                <div class="product_detail_pic ">
+                    <img src="/upload/134/132434868516692020.jpg" alt="Image description" />
+                </div>
+        </div>
+        <a href='/en/show/738#cfocus'><img src='/res/cn/images/global/right_btn.png' /></a>
+    </div>
+    <div class="product_detail_content">
+        <div class="product_detail_content2"><p align="center">
+	<img alt="" src="/upload/editor/image/20200921/20200921143431_3659.jpg" /> 
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200921/20200921143544_8346.jpg" /> 
+</p>
+<p align="center">
+	&nbsp;
+	<table style="border-bottom:medium none;border-left:medium none;width:900px;border-collapse:collapse;border-top:medium none;border-right:medium none;" class="ke-zeroborder" border="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#b7dee8;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="125">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">型号</span> 
+					</p>
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">Model</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#8db4e2;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">轴承</span> 
+					</p>
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">Beaing Sleeve.Ball </span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#8db4e2;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="78">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">电压 Voltage V</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#8db4e2;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="101">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">输入功率 Inputpower W</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#8db4e2;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="90">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">频率 Frequency HZ</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#8db4e2;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="91">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">电流 Curent AMP</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#8db4e2;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="89">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">转速 Speed R/min</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#8db4e2;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">风量</span> 
+					</p>
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">Air flow m³/min</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#8db4e2;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">噪声 Noise dB(A)</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#8db4e2;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="100">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">绝缘电阻 Insulation Resistance</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#8db4e2;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">耐压</span> 
+					</p>
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">Resist Strength</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#8db4e2;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="99">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">重量</span> 
+					</p>
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">Weinght </span> 
+					</p>
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">KG</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#b7dee8;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="125">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">QA12038HSL1</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">S</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="78">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">110</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="101">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">21/20</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="90">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">50/60</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="91">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.28/0.26</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="89">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2600/2900</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2.3/2.7</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">48/50</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="100">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">AC1500V- 100MΩ</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">1500</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.53</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#b7dee8;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="125">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">QA12038HSL2</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">S</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="78">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">220</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="101">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">21/20</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="90">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">50/60</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="91">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.14/0.13</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="89">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2600/2900</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2.3/2.7</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">48/50</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="100">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">AC1500V- 100MΩ</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">1500</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.53</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#b7dee8;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="125">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">QA12038HSL3</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">S</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="78">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">380</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="101">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">23</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="90">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">50/60</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="91">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.11</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="89">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2600/2900</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2.3/2.7</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">48/50</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="100">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">AC1800V- 100MΩ</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">1800</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.53</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#b7dee8;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="125">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">QA12038HBL1</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">B</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="78">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">110</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="101">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">21/20</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="90">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">50/60</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="91">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.28/0.26</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="89">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2600/2900</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2.3/2.7</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">54/56</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="100">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">AC1500V- 100MΩ</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">1500</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.53</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#b7dee8;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="125">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">QA12038BL2</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">B</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="78">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">220</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="101">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">21/20</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="90">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">50/60</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="91">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.14/0.13</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="89">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2600/2900</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2.3/2.7</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">54/56</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="100">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">AC1500V- 100MΩ</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">1500</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.53</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;background:#b7dee8;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="125">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">QA12038HBL3</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">B</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="78">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">380</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="101">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">23</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="90">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">50/60</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="91">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.11</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="89">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2600/2900</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">2.3/2.7</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="72">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">54/56</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="100">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">AC1800V- 100MΩ</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle" width="80">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">1800</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+				<td style="border-bottom:#000000 1pt solid;border-left:#000000 1pt solid;border-top:#000000 1pt solid;border-right:#000000 1pt solid;" valign="middle">
+					<p style="text-align:center;vertical-align:middle;" class="MsoNormal" align="center">
+						<span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;">0.53</span><span style="font-style:normal;font-family:宋体;color:#000000;font-size:11pt;"></span> 
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</p></div>
+        <div class="pageTurning">
+            <div class='prev'><a href='/en/show/740'>Prev：QA13538</a></div>
+            <div class='next'><a href='/en/show/738'>Next：QA12025</a></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp.查看图片的插件容器 -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/739","url":"http://quanfeng.com/en/show/739","title":"QA12038_AC fan_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/739"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,0 +1,85 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","show","747",""],"q":"","i":false,"f":[[["",{"children":[["slug","show/747","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:T12e4,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>General situation and development trend of die steel</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：4034 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;In order to meet the special requirements for the technological properties of steel in the process of plastic mold manufacturing, the following four types of special plastic mold steel are developed.
+</p>
+<p>
+	&emsp;&emsp;1) the plastic mould steel for mirror grinding has high purity, high density, good material uniformity and high hardness after quenching and tempering. It is suitable for making transparent products of optical instruments and electronic equipment. Such as Swedish material S136, Japan Datong special steel company s-star, etc.
+</p>
+<p>
+	&emsp;&emsp;2) non quenched and tempered pre hardened plastic die steel can obtain the required hardness directly after forging (rolling), which is generally 30-40hrc. Such as 3cr2mnmo vs steel in China.
+</p>
+<p>
+	&emsp;&emsp;3) high weldability plastic mould steel, which has good weldability, can avoid or simplify the pre welding preheating or post welding treatment process, so as to facilitate the surfacing repair of the mold. Such as pxz, px5 and nak55 developed by Japan Datong special steel company.
+</p>
+<p>
+	&emsp;&emsp;4) free cutting plastic die steel this kind of steel not only improves the cutting performance of steel, but also restrains the adverse effect of sulfur on the mechanical properties and hot working properties of the steel due to the addition of S and other easy cutting elements as well as the addition of Ca and other denaturants. For example, nak55, dha2f of Datong special steel company of Japan, 5nicas of China, etc.
+</p>
+<p>
+	&emsp;&emsp;Development of varieties and specifications of &emsp; 3.1.3 die steel
+</p>
+<p>
+	&emsp;&emsp;Die and mold manufacturing industry is developing towards generalization, standardization, serialization, high efficiency and short manufacturing cycle. In order to meet the needs of these development, die steel, which is frequently used as die material, is developing rapidly in the direction of multi variety, fine material and product. For example, the continuous investment of new flat steel continuous rolling mill and the improvement of technical transformation of wide and heavy plate rolling mill, the variety and specification of die steel are more and more diversified.
+</p>
+<p>
+	&emsp;&emsp;3.1.4 development of die steel production process and equipment.
+</p>
+<p>
+	&emsp;&emsp;the working conditions of die and mold are increasingly harsh, and higher requirements are put forward for the quality level of die materials, especially for the purity and isotropy of die steel. Due to the high cost of mold processing, it is required to improve the dimensional accuracy of steel, reduce the processing tolerance, improve its cutting performance, so as to reduce the production cost of the die. Domestic and foreign special steel enterprises are aiming at the above requirements A lot of work has been done on the production process and equipment of die steel, and remarkable achievements have been made.
+</p>
+<p>
+	&emsp;&emsp;has the following aspects:
+</p>
+<p>
+	&emsp;&emsp;Continuous improvement of smelting process and equipment; production of high purity die steel by electric furnace and secondary refining.
+</p>
+<p>
+	&emsp;&emsp;2. Select more reasonable heat sealing process; adopt advanced rolling and forging technology to improve the yield of steel.
+</p>
+<p>
+	&emsp;&emsp;3. The heat treatment method which can further refine the steel structure is adopted to improve the homogeneity and isotropy of the steel.
+</p>
+<p>
+	&emsp;&emsp;4. Equipped with deep processing equipment which can produce high value-added die steel; process high-value-added template, module, mold base and mold standard parts.
+</p>
+<p>
+	&emsp;&emsp;5. It is convenient to form a large-scale and fully functional die steel production base by changing the production of die steel from dispersion to centralization.
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/748'>Prev：The advantage of ceramic blade in die hard milling is analyzed</a></div>
+        
+    </div>
+</div>
+
+      </div>4:["$","$Lf",null,{"page":{"locale":"en","pathname":"/en/show/747","url":"http://quanfeng.com/en/show/747","title":"General situation and development trend of die steel_News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$10"},"pathname":"/show/747"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"General situation and development trend of die steel_News_Quanzhou Quanfeng Motor Co., Ltd"}],["$","meta","1",{"name":"description","content":"General situation and development trend of die steel_News_Quanzhou Quanfeng Motor Co., Ltd"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

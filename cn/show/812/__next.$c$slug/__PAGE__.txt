@@ -1,0 +1,35 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T7e3,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>防爆轴流式通风机安装注意事项</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2022-10-21</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：2983 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content">&emsp;&emsp;防爆轴流式通风机防爆安装注意事项<br />
+&emsp;&emsp;一、在安装防爆轴流风机之前，要对风机进行仔细的检查，如果出现了破损和变形，要进行维修以后才可以进行安装。<br />
+&emsp;&emsp;二、在安装防爆轴流风机的时候，要仔细检查每一个联接部分是否有松动，叶片与风筒之间的空隙要均匀，不得相互之间有接触。<br />
+&emsp;&emsp;三、通风口管路的重量不应由风机风筒承担，安装时应附加支架。<br />
+&emsp;&emsp;四、在防爆风机的风口端部，要安装集风装置，并要安装防护网。<br />
+&emsp;&emsp;风扇底座要自然地与基础平面相连，不能用敲打的方式连接，以免基础发生变形，安装时应对机座进行校正，加入垫铁，基本保持水平位置，然后拧紧地脚螺栓。<br />
+&emsp;&emsp;五、安装完成后，要进行试验，直到风扇正常工作后，才能正式使用。</div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/813'>离心风机、轴流风机、混流风机的区别</a></div>
+         <div class='nexts'>下一篇：<a href='/cn/show/810'>如何选择排烟风机</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/812","url":"http://quanfeng.com/cn/show/812","title":"防爆轴流式通风机安装注意事项_新闻动态_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/812"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

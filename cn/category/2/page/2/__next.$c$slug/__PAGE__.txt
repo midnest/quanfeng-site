@@ -1,0 +1,128 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T1951,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 新闻动态</span></div>
+                <div class="article">
+                    <div class="list_news_texts">
+    <ul>
+            <li class="">
+                <a href="/cn/show/693">
+                    <h2>
+                        9000质量管理体系认证证书
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/692">
+                    <h2>
+                        CE认证
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/813">
+                    <h2>
+                        离心风机、轴流风机、混流风机的区别
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;离心风机、轴流风机、混流风机的区别&emsp;&emsp;1、 离心风机 依靠输入的机械能，提高气体压力并排送气体的机械，它是一种从动的流体机械。&emsp;&emsp;离心风机广泛用于：&emsp;&emsp;①工厂、矿井、隧道、冷却塔、车辆、船舶和建筑物的通风、排尘和冷却;&emsp;&emsp;②锅炉和工业炉窑的通风和引风;&emsp;&ems…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2023-05-29
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/812">
+                    <h2>
+                        防爆轴流式通风机安装注意事项
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;防爆轴流式通风机防爆安装注意事项&emsp;&emsp;一、在安装防爆轴流风机之前，要对风机进行仔细的检查，如果出现了破损和变形，要进行维修以后才可以进行安装。&emsp;&emsp;二、在安装防爆轴流风机的时候，要仔细检查每一个联接部分是否有松动，叶片与风筒之间的空隙要均匀，不得相互之间有接触。&emsp;&emsp;三、…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2022-10-21
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/810">
+                    <h2>
+                        如何选择排烟风机
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;根据厨房空间大小和排烟罩的布置情况选择风机所需要的风量&emsp;&emsp;排烟风机计算方法如下：&emsp;&emsp;一、 总体排风量、根据厨房空间、每小时换气40-60次。&emsp;&emsp;例如厨房总面积160平米，高度3米。则需要通风量为160X3X60=28800m3/h。 2、 局部根据厨房排烟罩迎风面（排烟罩周长减去靠墙的长度），每…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2022-07-23
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/809">
+                    <h2>
+                        风机的保养
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;一、打开设备的外壳，随后打开风机，关闭设备电源，用风枪距离风扇2CM处，吹动风扇；继而用工业酒精擦拭风扇扇叶上面的污垢，然后倾斜机身调整间隙位置，调好后再用风枪吹出设备内灰尘。从设备正面到设备身后，均需要清洁，再反复转动，直到清洁干净。&emsp;&emsp;二、交流风机的风速由多种因素所决定，重要的两…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2022-04-13
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'> <li> <a href='/cn/category/2?page=1&q=' aria-label='Previous'> <span aria-hidden='true'>&laquo;</span> </a> </li><li><a href='/cn/category/2?page=1&q='>1</a></li> <li class='active'><a href=''>2</a></li><li><a href='/cn/category/2?page=3&q='>3</a></li><li><a href='/cn/category/2?page=4&q='>4</a></li><li><a href='/cn/category/2?page=5&q='>5</a></li><li><a href='/cn/category/2?page=6&q='>6</a></li><li> <a href='/cn/category/2?page=3&q=' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/category/2","url":"http://quanfeng.com/cn/category/2?page=2","title":"新闻动态_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/category/2/page/2"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

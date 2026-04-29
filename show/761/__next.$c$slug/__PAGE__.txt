@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T867,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>What are the advantages and disadvantages of DC fan and AC fan?</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：4007 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;Axial flow fan, widely used, is the air flow in the same direction with the axis of the fan blade, such as electric fan. The fan of external unit of air conditioner is axial flow fan. It is called "axial flow" because the gas flows parallel to the fan axis. Axial flow fan is usually used in the situation of high flow demand and low pressure requirement. Axial flow fan fixed position and make the air move. Axial flow fan is mainly composed of fan impeller and casing, with simple structure but high data requirements.
+</p>
+<p>
+	&emsp;&emsp;fans can be divided into axial flow, centrifugal flow and mixed flow according to the air outlet direction, that is, straight in and straight out, straight in and out at 90 degrees, and straight in and out at 45 degrees.
+</p>
+<p>
+	&emsp;&emsp;DC fan is a kind of fan which makes DC motor rotate to drive the fan impeller to rotate by inputting DC electric energy, so as to realize the conversion process from DC electric energy to mechanical energy. The characteristic of DC fan is that it is equipped with DC motor.
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/762'>Prev：What is the standard injection mold development process like?</a></div>
+        <div class='next'><a href='/en/show/760'>Next：What is the difference between axial fan and DC fan?</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/761","url":"http://quanfeng.com/en/show/761","title":"What are the advantages and disadvantages of DC fan and AC fan?_Technology_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/761"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

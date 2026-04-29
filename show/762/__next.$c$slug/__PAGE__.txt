@@ -1,0 +1,144 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T20f6,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>What is the standard injection mold development process like?</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：3580 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	1、 Draw mold drawing
+</p>
+<p>
+	Before drawing the die assembly drawing, the process drawing should be drawn and meet the requirements of the part drawing and process data. The size guaranteed by the next process shall be marked with "process size" on the drawing. If there is no other machining except repairing burr after forming, then the process drawing is exactly the same as the part drawing.
+</p>
+<p>
+	Mark the part number, name, material, material shrinkage, drawing scale, etc. under the process diagram. The process is usually drawn on the die assembly drawing. The proportion of 1:1 should be adopted in the drawing of general assembly drawing. The drawing should start from the cavity, and the main view and other views should be drawn at the same time.
+</p>
+<p>
+	2、 Proofreading and drawing review
+</p>
+<p>
+	Relationship between mould and its parts and drawing of plastic parts
+</p>
+<p>
+	Whether the material, hardness, dimensional accuracy and structure of the mould and its parts meet the requirements of the plastic part drawing.
+</p>
+<p>
+	Plastic parts
+</p>
+<p>
+	Whether the flow of plastic material flow, shrinkage cavity, weld line, crack, demoulding slope and so on affect the performance, dimensional accuracy and surface quality of plastic parts. Whether the pattern design is insufficient, whether the processing is simple, whether the shrinkage rate of molding material is selected correctly.
+</p>
+<p>
+	Molding equipment
+</p>
+<p>
+	Whether the injection volume, injection pressure and mold locking force are enough, whether there are problems in the mold installation, the South core of plastic parts and demoulding, and whether the nozzle of the injection machine is in correct contact with the mouthpiece.
+</p>
+<p>
+	Mold structure
+</p>
+<p>
+	1. Whether the parting surface position and finish machining accuracy meet the requirements, whether there will be overflow, and whether the plastic parts can be kept on the side of the mold with ejection device after opening the mold.
+</p>
+<p>
+	2. Whether the demoulding method is correct, whether the size, position and quantity of the promotion rod and push tube are appropriate, whether the push plate will be stuck by the core, and whether the forming parts will be scratched.
+</p>
+<p>
+	3. Mold temperature adjustment. Whether the power and quantity of the heater and the flow line position, size and quantity of the cooling medium are appropriate.
+</p>
+<p>
+	4. How to deal with the side concave of plastic parts and whether the mechanism of side concave shedding is appropriate, such as whether the slider and push rod in the core pulling mechanism of inclined guide pillar interfere with each other.
+</p>
+<p>
+	5. Whether the location and size of pouring and exhaust system are appropriate.
+</p>
+<p>
+	Design drawings
+</p>
+<p>
+	1. Whether the placement position of each mold part on the assembly drawing is appropriate, whether the indication is clear and whether there is any omission;
+</p>
+<p>
+	2. The part number, name, production quantity, internal or external parts on the part drawing, standard parts or non-standard parts, parts matching processing accuracy, correction processing and allowance of high-precision dimension of molded plastic parts, and whether the material, heat treatment, surface treatment and surface finishing degree of mold parts are marked and described clearly.
+</p>
+<p>
+	3. Working dimensions and matching dimensions of main parts and forming parts. The size figures should be correct, do not make the producer convert.
+</p>
+<p>
+	4. Check the view position of all parts drawings and general assembly drawings, whether the projection is correct, whether the drawing method conforms to the drawing national standard, and whether there are missing dimensions.
+</p>
+<p>
+	Check machining performance
+</p>
+<p>
+	Is the geometry, drawing method and dimension scale of all parts conducive to machining
+</p>
+<p>
+	Recalculate the main working dimensions of auxiliary tools
+</p>
+<p>
+	1. In principle, professional proofreading should be carried out according to the designers self proofreading project, but it should focus on structural principle, process performance and operation safety. When drawing, first digest the figure, draw according to the requirements of national standards, and fill in all dimensions and technical requirements. Self proofread and sign.
+</p>
+<p>
+	2. It is a common practice to send the traced base map to the designer for proofreading and signature. It is a common practice that the relevant technical personnel of the tool manufacturing unit shall review, countersign and check the manufacturing process before sending it to the sun.
+</p>
+<p>
+	Preparation of manufacturing process card
+</p>
+<p>
+	The technical personnel of tool manufacturing unit shall prepare the manufacturing process card and prepare for manufacturing.
+</p>
+<p>
+	In the manufacturing process of mold parts, the inspection should be strengthened and the focus of inspection should be on the dimensional accuracy. After the completion of the mold assembly, the inspector will inspect according to the mold inspection table, mainly to check whether the performance of the mold parts is good, only in this way can the manufacturing quality of the mold be guaranteed.
+</p>
+<p>
+	3、 Mold test and repair
+</p>
+<p>
+	Although it is in the selection of molding materials, molding equipment, under the expected process conditions for mold design, but peoples understanding is often not perfect, so after the completion of mold processing, test the mold to see how the quality of the molded parts. After the discovery, repair the mold to eliminate errors.
+</p>
+<p>
+	There are many kinds of defects in plastic parts, and the reasons are very complex. There are some reasons for the mold and the reasons for the process conditions. The two are often combined together.
+</p>
+<p>
+	Before the mold repair, the plastic parts should be carefully analyzed and studied according to the actual situation of the plastic parts, and the causes of the defects of the plastic parts should be found out, and the remedial measures should be put forward. Because the forming conditions are easy to change, the general method is to change the molding conditions first. When changing the forming conditions can not solve the problem, then consider repairing the mold.
+</p>
+<p>
+	Repair mold should be more careful, do not act rashly without a very good grasp. The reason is that once the mold conditions are changed, it is impossible to make major transformation and restore to the original state.
+</p>
+<p>
+	Whether the performance of the parts is good or not, only in this way can the manufacturing quality of the mould be achieved.
+</p>
+<p>
+	4、 Organize and file the data
+</p>
+<p>
+	If the mould is not used for the time being after the test, it should completely wipe off the demoulding dregs, dust, oil, etc., and coat it with butter or other antirust oil or antirust agent, and put it in the storage place.
+</p>
+<p>
+	The technical data generated during the period from the beginning of mold design to the successful mold processing and qualified inspection, such as task statement, part drawing, technical specification, mold assembly drawing, mold part drawing, base drawing, mold design specification, inspection record sheet, mold trial repair record, etc., shall be systematically sorted out
+</p></div>
+    <div class="pageTurning">
+        
+        <div class='next'><a href='/en/show/761'>Next：What are the advantages and disadvantages of DC fan and AC fan?</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/762","url":"http://quanfeng.com/en/show/762","title":"What is the standard injection mold development process like?_Technology_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/762"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

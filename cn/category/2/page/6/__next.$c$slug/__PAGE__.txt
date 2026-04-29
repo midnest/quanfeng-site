@@ -1,0 +1,54 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Tc18,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 新闻动态</span></div>
+                <div class="article">
+                    <div class="list_news_texts">
+    <ul>
+            <li class="">
+                <a href="/cn/show/676">
+                    <h2>
+                        分析陶瓷刀片在模具硬铣削加工中的优势
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;为了在当今全球中保持竞争优势，模具制造商必须在极短的时间周期内不断生产出高质量的产品。为了达到这一目标，必须开发先进的制造工艺技术和切削刀具材料，使模具加工车间能始终处于竞争的优势地位。硬铣削作为这些先进制造技术中的一项，一直在不断发展之中。前几年，由于受到当时机床和切削刀具的局限，模具制…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/674">
+                    <h2>
+                        模具钢概况及其发展动向
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;为了适应塑料模具制造过程中的一些对钢的工艺性能的特殊要求，发展了以下四类专用的特种塑料模具钢种。 &emsp;&emsp;1）镜面磨削用塑料模具钢 纯净度、致密度高，材质均匀性好，且淬回火硬度较高。适用于制做光学仪器、电子设备的透明制品。如瑞典材料S136，日本大同特殊钢公司的S-STAR等。 &emsp;&emsp;2）非调…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'> <li> <a href='/cn/category/2?page=5&q=' aria-label='Previous'> <span aria-hidden='true'>&laquo;</span> </a> </li><li><a href='/cn/category/2?page=1&q='>1</a></li>  <li><a href=''>..</a></li><li><a href='/cn/category/2?page=2&q='>2</a></li><li><a href='/cn/category/2?page=3&q='>3</a></li><li><a href='/cn/category/2?page=4&q='>4</a></li><li><a href='/cn/category/2?page=5&q='>5</a></li> <li class='active'><a href=''>6</a></li><li> <a href='' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/category/2","url":"http://quanfeng.com/cn/category/2?page=6","title":"新闻动态_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/category/2/page/6"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

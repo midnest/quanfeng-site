@@ -1,0 +1,110 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T17fb,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 新闻动态 &gt; 技术应用</span></div>
+                <div class="article">
+                    <div class="list_news_texts">
+    <ul>
+            <li class="">
+                <a href="/cn/show/691">
+                    <h2>
+                        标准注塑模具开发流程是什么样子的？
+                    </h2>
+                    <div class="list_text">
+                        一、绘制模具图在画模具总装图之前，应绘制工序图，并要符合制件图和工艺资料的要求。由下道工序保证的尺寸，应在图上标写注明"工艺尺寸"字样。如果成型后除了修理毛刺之外，再不进行其他机械加工，那么工序图就与制件图完全相同。在工序图下面标出制件编号、名称、材料、材料收缩率、绘图比例等。通常就把工序图画在模具总装…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/690">
+                    <h2>
+                        直流风机与交流风机各有什么优点与不足？
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;轴流风机，用途非常广泛，就是与风叶的轴同方向的气流，如电风扇，空调外机风扇就是轴流方式运行风机。之所以称为"轴流式"，是因为气体平行于风机轴流动。轴流式风机通常用在流量要求较高而压力要求较低的场合。轴流式风机固定位置并使空气移动。轴流风机主要由风机叶轮和机壳组成，结构简单但是数据要求非常高。…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/689">
+                    <h2>
+                        轴流风机和直流风机区别
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;轴流风机，用途非常广泛，就是与风叶的轴同方向的气流，如电风扇，空调外机风扇就是轴流方式运行风机。之所以称为"轴流式"，是因为气体平行于风机轴流动。轴流式风机通常用在流量要求较高而压力要求较低的场合。轴流式风机固定位置并使空气移动。轴流风机主要由风机叶轮和机壳组成，结构简单但是数据要求非常高。…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/688">
+                    <h2>
+                        关于消防高温排烟风机运行温度的说明
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;排烟风机在我们的厨房中应用是比较广泛的，一般在酒店、餐厅、排档等场所中用于厨房中 加工食物过程中产生的异味、高温、油烟气体迅速排走的一种设备。&emsp;&emsp;这种设备其实也是一种消防风机设备，当今较为流行使用的就是HTF消防高温排烟风机。它 的耐高温性能优良，能在300℃高温条件下连续运行60分钟以上，…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/687">
+                    <h2>
+                        风机保养
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;一、打开设备的外壳，随后打开风机，关闭设备电源，用风枪距离风扇2CM处，吹动风扇；继而用工业酒精擦拭风扇扇叶上面的污垢，然后倾斜机身调整间隙位置，调好后再用风枪吹出设备内灰尘。从设备正面到设备身后，均需要清洁，再反复转动，直到清洁干净。&emsp;&emsp;二、交流风机的风速由多种因素所决定，重要的两…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li> <a href='' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/category/5","url":"http://quanfeng.com/cn/category/5","title":"技术应用_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/category/5"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

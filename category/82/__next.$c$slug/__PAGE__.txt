@@ -1,0 +1,95 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Td70,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; About Us &gt; Enterprise honor</span></div>
+                <div class="article">
+                    <p>
+	<span style="line-height:2.5;font-size:16px;">
+</p>
+<p>
+	In March 2000, it passed China electrical product certification (Great Wall certification)
+</p>
+<p>
+	In December 2001, it passed IS09001:2000 international quality system certification.
+</p>
+<p>
+	In December 2001, it passed UL product certification in USA and cul product safety certification in Canada
+</p>
+<p>
+	In December 2001, it was named "Fujian famous science and technology enterprise" by Fujian science and Technology Commission
+</p>
+<p>
+	In January 2002, it was rated as "best selling brand in Chinese market" by China market forum
+</p>
+<p>
+	In March 2002, it passed China CCC compulsory certification and European CE certification
+</p>
+<p>
+	In March 2002, it was rated as "advanced quality management enterprise" by Fengze District Government of Quanzhou City
+</p>
+<p>
+	In 2002, it was awarded the title of "top ten reliable brand in fan industry" by China Technology Association
+</p>
+<p>
+	In December 2002, it was awarded "qualified unit of industry supervision and spot check" and "excellent unit of quality level in the Ninth Five Year Plan" by the national micro motor product testing center.
+</p>
+<p>
+	In March 2003, it was determined as "key enterprise at district level" by Fengze District Government of Quanzhou City.
+</p>
+<p>
+	In December 2003, it was rated as "high standard and high quality" enterprise by Fujian Standardization Association.
+</p>
+<p>
+	In October 2005, "Quanfeng" brand products passed the Fujian provincial new product appraisal.
+</p>
+<p>
+	In December 2005, he won the "Fujian Province Science and Technology Achievement Award".
+</p>
+<p>
+	In March 2006, he won the "Fujian science and Technology Progress Award".
+</p>
+<p>
+	In April 2006, he won the "Fujian excellent new product award".
+</p>
+<p>
+	In August 2006, it was determined as "Fujian provincial high tech enterprise" by Fujian Province.
+</p>
+<p>
+	In October 2006, "Quanfeng" trademark was recognized as "Quanzhou famous trademark" by Quanzhou Municipal government.
+</p>
+<p>
+	In 2009, "Quanfeng" brand trademark was rated as "Fujian famous trademark".
+</p>
+<p>
+	In 2017, "fzy-qa small axial flow fan" won the third prize of regional science and technology.
+</p>
+<p>
+	In 2017, it was awarded the high-tech enterprise certification certificate by the Provincial Department of science and technology.
+</p>
+<p>
+	In 2017, Quanfeng "new energy-saving and efficient fan" won the annual outstanding scientific and technological innovation achievements.
+</p>
+<p>
+	In 2019, it passed the FCC product certification of the United States.
+</p>
+<p>
+	From 2002 to 2019, it has been listed as a key enterprise in Fengze District of Quanzhou for many consecutive years.
+</p>
+</span> 
+<p align="center">
+	&nbsp;
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200929/20200929165545_5657.jpg" /><img alt="" src="/upload/editor/image/20200929/20200929165622_2376.png" />
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200929/20200929165659_9251.png" />&nbsp;
+</p>
+<span style="line-height:2.5;font-size:16px;"></span>
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/82","url":"http://quanfeng.com/en/category/82","title":"Enterprise honor_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/82"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

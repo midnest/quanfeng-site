@@ -1,0 +1,36 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T9ff,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>风机保养</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2020-08-27</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：4988 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content">&emsp;&emsp;一、打开设备的外壳，随后打开风机，关闭设备电源，用风枪距离风扇2CM处，吹动风扇；继而用工业酒精擦拭风扇扇叶上面的污垢，然后倾斜机身调整间隙位置，调好后再用风枪吹出设备内灰尘。从设备正面到设备身后，均需要清洁，再反复转动，直到清洁干净。<br />
+&emsp;&emsp;二、交流风机的风速由多种因素所决定，重要的两个原因，是交流风机的轴承<br />
+&emsp;&emsp;2.1、滚珠轴承：空气中气离子长期对轴承的氧化、污垢灰尘的积淀，会导致轴承的磨蹭阻力增加，致使风机的转速逐渐下降。<br />
+&emsp;&emsp;2.2、含油轴承：含油轴承的交流风机，主要靠定子与线圈之间的相互摩擦转动，而轴承内的油，随着风扇的使用，不停的工作和时间的消耗，逐渐减少，致使用风机进行工作时，风速越来越慢。<br />
+&emsp;&emsp;三、风机寿命根据不同的使用环境会有不同的差别，假设在标准的环境下工作<br />
+&emsp;&emsp;3.1、一般的交流滚珠风扇寿命为5万小时左右，不同厂家的产品也会有区分：德国EBM、台湾SUNON、NIDEC、深圳统赢家、深圳永业昌等厂家的产品寿命会在5万-6万个小时；<br />
+&emsp;&emsp;3.2、一般的交流含油风扇寿命为2.5万小时，由于其轴承反复转动，磨损会使寿命减短，优质厂家寿命会到3万-3.5万小时；<br />
+&emsp;&emsp;设备需要清洁干净,每月至少一次。空气入口网应保持清洁以防止阻塞气流,可以用软毛刷清洁或压缩空气清洁。</div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/688'>关于消防高温排烟风机运行温度的说明</a></div>
+        
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/687","url":"http://quanfeng.com/cn/show/687","title":"风机保养_技术应用_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/687"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

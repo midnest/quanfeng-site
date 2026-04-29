@@ -1,0 +1,246 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","cn","category","4",""],"q":"","i":false,"f":[[["",{"children":[["slug","cn/category/4","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:T2dae,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 新闻动态 &gt; 新闻动态</span></div>
+                <div class="article">
+                    <div class="list_news_texts">
+    <ul>
+            <li class="">
+                <a href="/cn/show/814">
+                    <h2>
+                        泉风轴流风机标签及标准号更新
+                    </h2>
+                    <div class="list_text">
+                        一、标签更新内容1、CCC标签由原来的镭射贴标更改为整体印刷2、认证标志更新为ISC、CCC、CE、FCC二、标准号变更标准号更新为Q/QFDJ001-2024具体如下图所示：
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2024-05-30
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/785">
+                    <h2>
+                        交流系列新增FCC认证
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-25
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/806">
+                    <h2>
+                        调价通知：继2019年12月及2021年3月调价后，10月份再次调价
+                    </h2>
+                    <div class="list_text">
+                          
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2021-03-16
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/813">
+                    <h2>
+                        离心风机、轴流风机、混流风机的区别
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;离心风机、轴流风机、混流风机的区别&emsp;&emsp;1、 离心风机 依靠输入的机械能，提高气体压力并排送气体的机械，它是一种从动的流体机械。&emsp;&emsp;离心风机广泛用于：&emsp;&emsp;①工厂、矿井、隧道、冷却塔、车辆、船舶和建筑物的通风、排尘和冷却;&emsp;&emsp;②锅炉和工业炉窑的通风和引风;&emsp;&ems…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2023-05-29
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/812">
+                    <h2>
+                        防爆轴流式通风机安装注意事项
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;防爆轴流式通风机防爆安装注意事项&emsp;&emsp;一、在安装防爆轴流风机之前，要对风机进行仔细的检查，如果出现了破损和变形，要进行维修以后才可以进行安装。&emsp;&emsp;二、在安装防爆轴流风机的时候，要仔细检查每一个联接部分是否有松动，叶片与风筒之间的空隙要均匀，不得相互之间有接触。&emsp;&emsp;三、…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2022-10-21
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/810">
+                    <h2>
+                        如何选择排烟风机
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;根据厨房空间大小和排烟罩的布置情况选择风机所需要的风量&emsp;&emsp;排烟风机计算方法如下：&emsp;&emsp;一、 总体排风量、根据厨房空间、每小时换气40-60次。&emsp;&emsp;例如厨房总面积160平米，高度3米。则需要通风量为160X3X60=28800m3/h。 2、 局部根据厨房排烟罩迎风面（排烟罩周长减去靠墙的长度），每…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2022-07-23
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/804">
+                    <h2>
+                        离心排烟风机验收要点有哪些？
+                    </h2>
+                    <div class="list_text">
+                        离心排烟风机验收要点有哪些：1、离心排烟风机的外形须要符合图纸尺寸；2、排烟风机的机壳和支腿的设计需要保障足够的强度和刚度,当接口法兰处的外力及外力矩达到较大允许值时,应该不要影响到风机的正常运行；3、叶轮与轴的连接结构型式,必须保证在较高工作转速下直至跳闸转速时,不致改变转子的平衡状态；4、在距风机主体1米…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-11-30
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/803">
+                    <h2>
+                        风机盘管的工作原理是什么
+                    </h2>
+                    <div class="list_text">
+                        风机盘管主要依靠风机的强制作用，使空气通过加热器表面时被加热，因而强化了散热器与空气间的对流换热器，能够迅速加热房间的空气。风机盘管是空调系统的末端装置，其工作原理是机组内不断的再循环所在房间的空气，使空气通过冷水（热水）盘管后被冷却（加热），以保持房间温度的恒定。通常，通过新风机组处理后送入室内，以…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-10-19
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/786">
+                    <h2>
+                        中秋巧遇华诞，在此预祝大家双节快乐，阖家欢乐！
+                    </h2>
+                    <div class="list_text">
+                        中秋巧遇华诞，在此预祝大家双节快乐，阖家欢乐！
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-29
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/686">
+                    <h2>
+                        2019年7月19日起增加防伪标志
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;2019年7月18日开始，所以我司生产的风机，均增贴二维码防伪标。刮开涂层可以手机扫描。一机一码，首次扫描显示泉风正品。扫描第二次会提示非首次查询，谨防假冒。 
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/685">
+                    <h2>
+                        声明
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/684">
+                    <h2>
+                        关于商标两种CCC标志
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;依据国家认监委关于强制性产品认证标志改革事项的公告（2018年第10号）&emsp;&emsp;第三条，简化整合CCC标志的类别  自2018年3月20日起，CCC标志不再标注S（安全产品）、EMC（电磁兼容）、S&E（安全与电磁兼容）、F（消防）、I（信息安全）等细分类别，原有CCC标志可根据模具更换周期及产品库存等情况自然过渡淘…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li><a href='/cn/category/4?page=2&q='>2</a></li><li> <a href='/cn/category/4?page=2&q=' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>4:["$","$Lf",null,{"page":{"locale":"cn","pathname":"/cn/category/4","url":"http://quanfeng.com/cn/category/4","title":"新闻动态_泉州泉风电机有限公司","mainHtml":"$10"},"pathname":"/cn/category/4"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"新闻动态_泉州泉风电机有限公司"}],["$","meta","1",{"name":"description","content":"新闻动态_泉州泉风电机有限公司"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

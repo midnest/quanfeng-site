@@ -1,0 +1,141 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T13b7,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; Products &gt; Protective net</span></div>
+                <div class="article">
+                    <div class="list-img">
+    <ul class="clearfix">
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/712">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866506223307.JPG" alt="">
+                        </div>
+                        <div class="text_area">Filter group9803-9805</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/711">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866503723241.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-200-Y</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/710">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866500442014.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-200</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/709">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866497629477.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-180</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/708">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866494035755.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-172</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/707">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866491692184.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-150</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/706">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866489192126.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-135</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/705">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866486223271.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-120</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/704">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866484035959.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-110</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/703">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866481067143.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-92</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/702">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866478098177.jpg" alt="">
+                        </div>
+                        <div class="text_area">QF-80</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/701">
+                        <div class="img_area">
+                            <img src="/upload/140/132434866475442057.jpg" alt="">
+                        </div>
+                        <div class="text_area">17250-Y</div>
+                    </a>
+
+
+            </li>
+
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li><a href='/en/category/140?page=2&q='>2</a></li><li> <a href='/en/category/140?page=2&q=' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/140","url":"http://quanfeng.com/en/category/140","title":"Protective net_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/140"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

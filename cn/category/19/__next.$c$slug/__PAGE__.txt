@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T522,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 联系我们</span></div>
+                <div class="article">
+                    <p>
+	<span style="line-height:2.5;font-size:16px;"><strong>公司名称：</strong></span><span style="line-height:2.5;font-size:16px;"><strong>泉州泉风电机有限公司</strong></span> 
+</p>
+<p>
+	<span style="line-height:2.5;font-size:16px;">地址：福建泉州北峰工业区丰发路1号</span><br />
+<span style="line-height:2.5;font-size:16px;">电话：0595-22683818</span><br />
+<span style="line-height:2.5;font-size:16px;">传真：0595-22684818</span><br />
+<span style="line-height:2.5;font-size:16px;">邮编：362000</span><br />
+<span style="line-height:2.5;font-size:16px;">微信：18659808020（销售部）</span> 
+</p>
+<p>
+	<span style="line-height:2.5;font-size:16px;">网址：</span><a href="http://www.quanfeng.com"><span style="line-height:2.5;font-size:16px;">http://www.quanfeng.com</span></a><br />
+<span style="line-height:2.5;font-size:16px;">邮箱：</span><a href="mailto:quanfeng22683818@126.com"><span style="line-height:2.5;font-size:16px;">quanfeng22683818@126.com</span></a> 
+</p>
+<p>
+	<br />
+</p>
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/category/19","url":"http://quanfeng.com/cn/category/19","title":"联系我们_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/category/19"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

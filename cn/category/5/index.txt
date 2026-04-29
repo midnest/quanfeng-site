@@ -1,0 +1,120 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","cn","category","5",""],"q":"","i":false,"f":[[["",{"children":[["slug","cn/category/5","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:T17fb,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 新闻动态 &gt; 技术应用</span></div>
+                <div class="article">
+                    <div class="list_news_texts">
+    <ul>
+            <li class="">
+                <a href="/cn/show/691">
+                    <h2>
+                        标准注塑模具开发流程是什么样子的？
+                    </h2>
+                    <div class="list_text">
+                        一、绘制模具图在画模具总装图之前，应绘制工序图，并要符合制件图和工艺资料的要求。由下道工序保证的尺寸，应在图上标写注明"工艺尺寸"字样。如果成型后除了修理毛刺之外，再不进行其他机械加工，那么工序图就与制件图完全相同。在工序图下面标出制件编号、名称、材料、材料收缩率、绘图比例等。通常就把工序图画在模具总装…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/690">
+                    <h2>
+                        直流风机与交流风机各有什么优点与不足？
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;轴流风机，用途非常广泛，就是与风叶的轴同方向的气流，如电风扇，空调外机风扇就是轴流方式运行风机。之所以称为"轴流式"，是因为气体平行于风机轴流动。轴流式风机通常用在流量要求较高而压力要求较低的场合。轴流式风机固定位置并使空气移动。轴流风机主要由风机叶轮和机壳组成，结构简单但是数据要求非常高。…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/689">
+                    <h2>
+                        轴流风机和直流风机区别
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;轴流风机，用途非常广泛，就是与风叶的轴同方向的气流，如电风扇，空调外机风扇就是轴流方式运行风机。之所以称为"轴流式"，是因为气体平行于风机轴流动。轴流式风机通常用在流量要求较高而压力要求较低的场合。轴流式风机固定位置并使空气移动。轴流风机主要由风机叶轮和机壳组成，结构简单但是数据要求非常高。…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/688">
+                    <h2>
+                        关于消防高温排烟风机运行温度的说明
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;排烟风机在我们的厨房中应用是比较广泛的，一般在酒店、餐厅、排档等场所中用于厨房中 加工食物过程中产生的异味、高温、油烟气体迅速排走的一种设备。&emsp;&emsp;这种设备其实也是一种消防风机设备，当今较为流行使用的就是HTF消防高温排烟风机。它 的耐高温性能优良，能在300℃高温条件下连续运行60分钟以上，…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cn/show/687">
+                    <h2>
+                        风机保养
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;一、打开设备的外壳，随后打开风机，关闭设备电源，用风枪距离风扇2CM处，吹动风扇；继而用工业酒精擦拭风扇扇叶上面的污垢，然后倾斜机身调整间隙位置，调好后再用风枪吹出设备内灰尘。从设备正面到设备身后，均需要清洁，再反复转动，直到清洁干净。&emsp;&emsp;二、交流风机的风速由多种因素所决定，重要的两…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-08-27
+                        </div>
+                        <div class="more">
+                            查看详情>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li> <a href='' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>4:["$","$Lf",null,{"page":{"locale":"cn","pathname":"/cn/category/5","url":"http://quanfeng.com/cn/category/5","title":"技术应用_泉州泉风电机有限公司","mainHtml":"$10"},"pathname":"/cn/category/5"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"技术应用_泉州泉风电机有限公司"}],["$","meta","1",{"name":"description","content":"技术应用_泉州泉风电机有限公司"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

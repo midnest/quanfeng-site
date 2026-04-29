@@ -1,0 +1,88 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","show","750",""],"q":"","i":false,"f":[[["",{"children":[["slug","show/750","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:Tdf7,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>Operation points of axial flow fan</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：4114 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;Test run
+</p>
+<p>
+	&emsp;&emsp;1. After the fan is installed, the flexibility of fan rotation should be checked before starting, and whether the blade is jammed and rubbed by hand. Check whether there are tools and other debris left in the fan and adjacent pipes.
+</p>
+<p>
+	&emsp;&emsp;2. Check whether the air door in the pipe is open.
+</p>
+<p>
+	&emsp;&emsp;3. Personnel should stay away from the fan.
+</p>
+<p>
+	&emsp;&emsp;4. Jog the fan to check whether the rotation direction of the fan is consistent with the rotation mark. After passing the inspection, stop the fan after 10-30 minutes of trial operation. Check whether the blades are loose, and whether the connecting bolts between the shock absorption seat and the foundation are loose. After everything is normal, the fan can be officially started and put into operation.
+</p>
+<p>
+	&emsp;&emsp;Normal operation of fan
+</p>
+<p>
+	&emsp;&emsp;During the normal operation of the fan, the motor current is mainly monitored. The current is not only the sign of the fan load, but also the prediction of some abnormal accidents. Secondly, it is necessary to check whether the vibration of motor and fan is normal and whether there is friction and abnormal noise. For fans running in parallel, it is necessary to monitor whether the fans are running in surge State. In normal operation, stop the machine immediately for inspection in case of the following conditions:
+</p>
+<p>
+	&emsp;&emsp;1. The fan has strong vibration or rubbing sound.
+</p>
+<p>
+	&emsp;&emsp;2. The motor current suddenly rises and exceeds the rated current of the motor.
+</p>
+<p>
+	&emsp;&emsp;3. The temperature of motor bearing rises sharply.
+</p>
+<p>
+	&emsp;&emsp;Maintenance and maintenance
+</p>
+<p>
+	&emsp;&emsp;1. It can operate without fault only when the fan equipment is completely normal.
+</p>
+<p>
+	&emsp;&emsp;2. Regularly check whether the fan blade is loose and whether the clearance between the blade and the air duct is normal.
+</p>
+<p>
+	&emsp;&emsp;3. Regularly check the fastening of the connecting bolts between the motor and the casing, and check whether the connection between the damping seat and the foundation is in good condition.
+</p>
+<p>
+	&emsp;&emsp;4. Remove dust and dirt on the surface of blade regularly.
+</p>
+<p>
+	&emsp;&emsp;5. Regularly replace the lubricating grease for the motor bearing, generally adding oil once every three months, or changing the lubricating grease according to the actual situation.
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/751'>Prev：What is the difference between the total heat exchanger of fresh air ventilator and fresh air unit</a></div>
+        <div class='next'><a href='/en/show/749'>Next：Mould industry is still cold</a></div>
+    </div>
+</div>
+
+      </div>4:["$","$Lf",null,{"page":{"locale":"en","pathname":"/en/show/750","url":"http://quanfeng.com/en/show/750","title":"Operation points of axial flow fan_News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$10"},"pathname":"/show/750"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"Operation points of axial flow fan_News_Quanzhou Quanfeng Motor Co., Ltd"}],["$","meta","1",{"name":"description","content":"Operation points of axial flow fan_News_Quanzhou Quanfeng Motor Co., Ltd"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

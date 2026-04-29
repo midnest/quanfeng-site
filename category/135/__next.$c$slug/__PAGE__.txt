@@ -1,0 +1,91 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Tc42,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; Products &gt; DC fan</span></div>
+                <div class="article">
+                    <div class="list-img">
+    <ul class="clearfix">
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/734">
+                        <div class="img_area">
+                            <img src="/upload/135/132434868383723137.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD12038</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/733">
+                        <div class="img_area">
+                            <img src="/upload/135/132434868381692181.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD12025</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/732">
+                        <div class="img_area">
+                            <img src="/upload/135/132434868379660682.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD9225</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/731">
+                        <div class="img_area">
+                            <img src="/upload/135/132434868377785743.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD8025</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/730">
+                        <div class="img_area">
+                            <img src="/upload/135/132434868373879459.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD6020</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/729">
+                        <div class="img_area">
+                            <img src="/upload/135/132434868371066900.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD5010</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/en/show/728">
+                        <div class="img_area">
+                            <img src="/upload/135/132434868368879443.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD4010</div>
+                    </a>
+
+
+            </li>
+
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li> <a href='' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/135","url":"http://quanfeng.com/en/category/135","title":"DC fan_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/135"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

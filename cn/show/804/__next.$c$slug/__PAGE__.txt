@@ -1,0 +1,43 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T971,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>离心排烟风机验收要点有哪些？</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2020-11-30</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：5094 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	离心排烟风机验收要点有哪些：<br />
+1、离心排烟风机的外形须要符合图纸尺寸；<br />
+2、排烟风机的机壳和支腿的设计需要保障足够的强度和刚度,当接口法兰处的外力及外力矩达到较大允许值时,应该不要影响到风机的正常运行；<br />
+3、叶轮与轴的连接结构型式,必须保证在较高工作转速下直至跳闸转速时,不致改变转子的平衡状态；<br />
+4、在距风机主体1米处噪声不大于使用地点的较低噪声标准要求；<br />
+5、电机按较大操作条件设计,电机额定功率至少不小于较大操作工况所需较大功率的1.1倍。并且电机可在较小流量下启动且满足频繁启动要求；
+</p>
+<p>
+	6、离心风机所配电动机需符合国标,目前较低的防护等级也要是IP44。F级绝缘、温升满足B级绝缘要求,电机接线盒防护等级IP65；<br />
+7、风机电机能够保证在电网短路失电不大于0.5秒而后立即恢复正常时电机能够在满载情况下连续运行；<br />
+8、风机电机在正常运行时当电压下降到85%,持续时间20秒的电压波动下,能够在额定功率下持续运转而不超温；<br />
+9、标注电动机型号标准清晰,便于验货,需要标注电机轴承型号,便于维修；<br />
+10、联轴器防护罩的防护宽度须要满足安全规范。
+</p></div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/810'>如何选择排烟风机</a></div>
+         <div class='nexts'>下一篇：<a href='/cn/show/803'>风机盘管的工作原理是什么</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/804","url":"http://quanfeng.com/cn/show/804","title":"离心排烟风机验收要点有哪些？_新闻动态_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/804"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

@@ -1,0 +1,146 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T13f6,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; News &gt; Notice</span></div>
+                <div class="article">
+                    <div class="list_news_texts">
+    <ul>
+            <li class="">
+                <a href="/en/show/802">
+                    <h2>
+                        Can undertake aluminum alloy die casting processing
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-29
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/801">
+                    <h2>
+                        About the anti-counterfeiting QR code can not be recognized notice
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-29
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/800">
+                    <h2>
+                        New FCC certification for AC series
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-29
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/799">
+                    <h2>
+                        Statement
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-29
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/765">
+                    <h2>
+                        About the anti-counterfeiting QR code can not be recognized notice
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/764">
+                    <h2>
+                        9000
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/763">
+                    <h2>
+                        CE certification
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li> <a href='' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/56","url":"http://quanfeng.com/en/category/56","title":"Notice_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/56"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

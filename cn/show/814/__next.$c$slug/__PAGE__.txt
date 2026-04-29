@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T6f5,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>泉风轴流风机标签及标准号更新</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2024-05-30</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：2931 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p style="text-align:center;">
+	<strong><span style="font-size:32px;">泉风轴流风机标签及标准号更新</span></strong><strong><span style="font-size:24px;"></span></strong> 
+</p>
+<p style="text-align:center;">
+	<br />
+</p>
+<p>
+	<span style="font-size:18px;">一、标签更新内容</span> 
+</p>
+<p>
+	<span style="font-size:18px;">1、CCC标签由原来的镭射贴标更改为整体印刷</span> 
+</p>
+<p>
+	<span style="font-size:18px;">2、认证标志更新为ISO、CCC、CE、FCC</span> 
+</p>
+<p>
+	<span style="font-size:18px;">二、标准号变更</span> 
+</p>
+<p>
+	<span style="font-size:18px;">标准号更新为Q/QFDJ001-2024</span> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<span style="font-size:18px;">具体如下图所示：</span> 
+</p>
+<p>
+	<img src="/upload/editor/image/20240530/20240530102643_4337.jpg" alt="" /> 
+</p></div>
+    <div class="pageTurning">
+        
+         <div class='nexts'>下一篇：<a href='/cn/show/785'>交流系列新增FCC认证</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/814","url":"http://quanfeng.com/cn/show/814","title":"泉风轴流风机标签及标准号更新_新闻动态_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/814"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

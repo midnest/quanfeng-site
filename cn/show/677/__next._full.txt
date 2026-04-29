@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","cn","show","677",""],"q":"","i":false,"f":[[["",{"children":[["slug","cn/show/677","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:T104a,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>模具行业乍暖还寒</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2020-08-27</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：4061 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content">&emsp;&emsp;模具工业一直被看做是工业之母。在金融危机发生一周年的时候，作为上游行业的模具业已经悄悄迎来了回暖的春天。但记者昨日从“Asiamold-广州国际模具应用与设计及制造技术展览会”上获悉，模具行业在回暖的同时，却遭遇到融资和技工短缺等难题。<br />
+&emsp;&emsp;模具出口意外回暖<br />
+&emsp;&emsp;金融危机对国内模具厂商造成了不同程度的影响，但情况却在今年年初出现了拐点。香港模具业协会会长陶伟洪告诉记者，在经济危机下，很多行业的出口都有所减少，但是模具业情况有所不同。今年上半年广东省模具出口额2.69亿美元，比2008年同期的1.7亿美元增长了近60%。广东省模具工业协会副会长杨国庆也坦言，目前整个模具行业还是在增长。去年，广东模具贸易进口多，出口少，而今年上半年基本已经实现了贸易平衡。<br />
+&emsp;&emsp;陶伟洪表示，模具出口不降反升，主要是因为欧美市场的拉动。广东模具企业超过一半以上是生产汽车相关模具。而在经济危机下，欧美汽车市场大大萎缩，汽车厂商为压缩成本，转而向中国采购模具。广东的模具生产一方面很多已经达到了国际水平，另一方面制作成本相对较低。以在粤的港资模具生产企业为例，目前大部分企业均以接欧美订单为主。<br />
+&emsp;&emsp;但杨国庆认为，增长的速度是有所减慢的，而且情况仍不是十分乐观。因为经济危机对实体经济的影响有滞后，因此，对模具行业的影响又更滞后，同样，如果经济有望复苏，那么模具行业的复苏也会滞后。<br />
+&emsp;&emsp;技工短缺融资困难<br />
+&emsp;&emsp;记者在会展上了解到，在出口增长的同时，也有不少模具厂商遭遇到融资等难题。“国家虽然出台了相关的政策措施，但执行上还是有障碍，中间环节很多，融资门槛和融资成本很高。”深圳一家模具公司的有关工作人员告诉记者，一些生产模具产品的中小企业因为融资问题解决不了，无法增加设备、拓展研发和扩充产能，只能眼睁睁地看着一些订单丢失。香港模具协会名誉主席李玉成也表示，金融危机之后，银行进一步收紧了信贷，香港的中小模具企业同样面临着融资难的问题。<br />
+&emsp;&emsp;经济回暖，订单增加，企业的用工缺口突然扩大，而且亟需的专业人员、技工是缺口较大的。惠州协益五金有限公司的有关负责人告诉记者，该公司招聘的人员以技术工居多，但目前来应聘的人员技术水平大都达不到企业的用工要求。<br />
+&emsp;&emsp;上海市模具技术协会常务副理事长董方元认为，国内一些高校和培训机构对企业需求缺乏了解，课程设计脱离实际，学生毕业后到工作单位很多简单的产品都不会设计。中国模具在大型、精密、长使用寿命等几个方面落后于国外，这都需要专才去研究提高。</div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/678'>轴流风机运行要点</a></div>
+         <div class='nexts'>下一篇：<a href='/cn/show/676'>分析陶瓷刀片在模具硬铣削加工中的优势</a></div>
+    </div>
+</div>
+
+      </div>4:["$","$Lf",null,{"page":{"locale":"cn","pathname":"/cn/show/677","url":"http://quanfeng.com/cn/show/677","title":"模具行业乍暖还寒_新闻动态_泉州泉风电机有限公司","mainHtml":"$10"},"pathname":"/cn/show/677"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"模具行业乍暖还寒_新闻动态_泉州泉风电机有限公司"}],["$","meta","1",{"name":"description","content":"模具行业乍暖还寒_新闻动态_泉州泉风电机有限公司"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

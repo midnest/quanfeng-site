@@ -1,0 +1,75 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T12e4,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>General situation and development trend of die steel</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：4034 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;In order to meet the special requirements for the technological properties of steel in the process of plastic mold manufacturing, the following four types of special plastic mold steel are developed.
+</p>
+<p>
+	&emsp;&emsp;1) the plastic mould steel for mirror grinding has high purity, high density, good material uniformity and high hardness after quenching and tempering. It is suitable for making transparent products of optical instruments and electronic equipment. Such as Swedish material S136, Japan Datong special steel company s-star, etc.
+</p>
+<p>
+	&emsp;&emsp;2) non quenched and tempered pre hardened plastic die steel can obtain the required hardness directly after forging (rolling), which is generally 30-40hrc. Such as 3cr2mnmo vs steel in China.
+</p>
+<p>
+	&emsp;&emsp;3) high weldability plastic mould steel, which has good weldability, can avoid or simplify the pre welding preheating or post welding treatment process, so as to facilitate the surfacing repair of the mold. Such as pxz, px5 and nak55 developed by Japan Datong special steel company.
+</p>
+<p>
+	&emsp;&emsp;4) free cutting plastic die steel this kind of steel not only improves the cutting performance of steel, but also restrains the adverse effect of sulfur on the mechanical properties and hot working properties of the steel due to the addition of S and other easy cutting elements as well as the addition of Ca and other denaturants. For example, nak55, dha2f of Datong special steel company of Japan, 5nicas of China, etc.
+</p>
+<p>
+	&emsp;&emsp;Development of varieties and specifications of &emsp; 3.1.3 die steel
+</p>
+<p>
+	&emsp;&emsp;Die and mold manufacturing industry is developing towards generalization, standardization, serialization, high efficiency and short manufacturing cycle. In order to meet the needs of these development, die steel, which is frequently used as die material, is developing rapidly in the direction of multi variety, fine material and product. For example, the continuous investment of new flat steel continuous rolling mill and the improvement of technical transformation of wide and heavy plate rolling mill, the variety and specification of die steel are more and more diversified.
+</p>
+<p>
+	&emsp;&emsp;3.1.4 development of die steel production process and equipment.
+</p>
+<p>
+	&emsp;&emsp;the working conditions of die and mold are increasingly harsh, and higher requirements are put forward for the quality level of die materials, especially for the purity and isotropy of die steel. Due to the high cost of mold processing, it is required to improve the dimensional accuracy of steel, reduce the processing tolerance, improve its cutting performance, so as to reduce the production cost of the die. Domestic and foreign special steel enterprises are aiming at the above requirements A lot of work has been done on the production process and equipment of die steel, and remarkable achievements have been made.
+</p>
+<p>
+	&emsp;&emsp;has the following aspects:
+</p>
+<p>
+	&emsp;&emsp;Continuous improvement of smelting process and equipment; production of high purity die steel by electric furnace and secondary refining.
+</p>
+<p>
+	&emsp;&emsp;2. Select more reasonable heat sealing process; adopt advanced rolling and forging technology to improve the yield of steel.
+</p>
+<p>
+	&emsp;&emsp;3. The heat treatment method which can further refine the steel structure is adopted to improve the homogeneity and isotropy of the steel.
+</p>
+<p>
+	&emsp;&emsp;4. Equipped with deep processing equipment which can produce high value-added die steel; process high-value-added template, module, mold base and mold standard parts.
+</p>
+<p>
+	&emsp;&emsp;5. It is convenient to form a large-scale and fully functional die steel production base by changing the production of die steel from dispersion to centralization.
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/748'>Prev：The advantage of ceramic blade in die hard milling is analyzed</a></div>
+        
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/747","url":"http://quanfeng.com/en/show/747","title":"General situation and development trend of die steel_News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/747"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

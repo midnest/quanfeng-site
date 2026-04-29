@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T806,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>新风换气机 新风机组 全热换热器有什么区别</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/cn/images/global/time.png" alt="" />
+                2020-08-27</div>
+            <div class="eye">
+                <img src="/res/cn/images/global/eye.png" alt="" />
+                浏览次数：4044 次</div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/cn/images/global/back.png" alt="" />
+                返回列表</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;新风换气机内置显热换热器或全热换热器，将排出室外空气中的部分能量回收，不使室内能耗增加太多。特点是强制室内新“旧”风的置换，仅是新“旧”风之间简单的能量交换。风路可以理解为有两路，一路是新风，一路是室内“旧”风。常用于小空间场合，如家庭、医院病房、小型会议室等。
+</p>
+<p>
+	&emsp;&emsp;新风机组是利用冷热源将室外新风集中进行热湿处理的空调末端设备，新风处理到设定的温湿度条件后送入室内。风路只有一路新风。常见于大空间或多房间场所，如礼堂、某层宾馆客房等。
+</p>
+<p>
+	&emsp;&emsp;全热换热器是用在诸如新风换气机或组合式空调器上的一个部件，借助外加的风机完成两路风之间的部分热湿交换，两路风之间既有能量的转移，也有质量的转移。(显热换热器只有能量之间的转移，而无质量方面的转移)。
+</p></div>
+    <div class="pageTurning">
+         <div class='prevs'>上一篇：<a href='/cn/show/680'>铝合金正压送风口相关知识介绍</a></div>
+         <div class='nexts'>下一篇：<a href='/cn/show/678'>轴流风机运行要点</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/679","url":"http://quanfeng.com/cn/show/679","title":"新风换气机 新风机组 全热换热器有什么区别_新闻动态_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/679"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

@@ -1,0 +1,64 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","show","749",""],"q":"","i":false,"f":[[["",{"children":[["slug","show/749","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:T148b,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>Mould industry is still cold</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：3993 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	Mold industry has always been regarded as the mother of industry. In the first anniversary of the financial crisis, as an upstream industry, mold industry has quietly ushered in a warmer spring. However, the reporter learned from the "asiamold Guangzhou International Mould application and design and manufacturing technology exhibition" yesterday that, while the mold industry is recovering, it has encountered problems such as financing and shortage of technicians.
+</p>
+<p>
+	Unexpected warming up of mold outlet
+</p>
+<p>
+	The financial crisis has affected domestic mould manufacturers to varying degrees, but the situation has turned around at the beginning of this year. Tao Weihong, President of the Hong Kong Mold Industry Association, told reporters that under the economic crisis, the export of many industries has decreased, but the situation of the mold industry is different. In the first half of this year, Guangdongs mould export volume reached 269 million US dollars, an increase of nearly 60% compared with 170 million US dollars in the same period of 2008. Guangdong Province Mold Industry Association vice president Yang Guoqing also said frankly, at present the entire mold industry is still growing. Last year, Guangdong mould trade import more, export less, and the first half of this year has basically achieved trade balance.
+</p>
+<p>
+	&emsp;&emsp;The main reason why Weihong did not promote the export of molds in Europe and the United States was that they did not. More than half of Guangdong mold enterprises are producing automobile related molds. In the economic crisis, the European and American automobile market has shrunk greatly. In order to reduce costs, automobile manufacturers turn to China to purchase molds. On the one hand, many mold production in Guangdong has reached the international level, on the other hand, the production cost is relatively low. Take the Hong Kong funded mould manufacturing enterprises in Guangdong as an example. At present, most of the enterprises take orders from Europe and America.
+</p>
+<p>
+	&emsp;&emsp;However, Yang Guoqing believes that the growth rate has slowed down, and the situation is still not very optimistic. Because the impact of the economic crisis on the real economy lags behind, so the impact on the mold industry is more lagging. Similarly, if the economy is expected to recover, the recovery of the mold industry will also lag behind.
+</p>
+<p>
+	&emsp;&emsp;Shortage of skilled workers and financing difficulties. "Although the state has issued relevant policies and measures, there are still obstacles in the implementation. There are many intermediate links, and the financing threshold and financing cost are very high." A staff member of a mould company in Shenzhen told reporters that some small and medium-sized enterprises producing mould products could not increase equipment, expand R &amp; D and expand production capacity because of financing problems, and could only watch some orders lost. Li Yucheng, honorary chairman of the Hong Kong Mould Association, also said that after the financial crisis, banks have further tightened credit, and small and medium-sized mould enterprises in Hong Kong are also facing difficulties in financing.
+</p>
+<p>
+	&emsp;&emsp;the economy is picking up, orders are increasing, the employment gap of enterprises is suddenly expanding, and there is a large gap of professionals and technicians in urgent need. The person in charge of Huizhou Xieyi Hardware Co., Ltd. told the reporter that most of the employees recruited by the company are technical workers, but the technical level of the personnel applied for at present can not meet the employment requirements of the enterprise.
+</p>
+<p>
+	&emsp;&emsp;Dong Fangyuan, executive vice president of Shanghai Mold Technology Association, believes that some domestic universities and training institutions lack understanding of enterprise needs, curriculum design is divorced from reality, and students will not design many simple products when they go to work units after graduation. Chinas mould lags behind foreign countries in large-scale, precision, long service life and other aspects, which need professionals to study and improve.
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/750'>Prev：Operation points of axial flow fan</a></div>
+        <div class='next'><a href='/en/show/748'>Next：The advantage of ceramic blade in die hard milling is analyzed</a></div>
+    </div>
+</div>
+
+      </div>4:["$","$Lf",null,{"page":{"locale":"en","pathname":"/en/show/749","url":"http://quanfeng.com/en/show/749","title":"Mould industry is still cold_News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$10"},"pathname":"/show/749"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"Mould industry is still cold_News_Quanzhou Quanfeng Motor Co., Ltd"}],["$","meta","1",{"name":"description","content":"Mould industry is still cold_News_Quanzhou Quanfeng Motor Co., Ltd"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

@@ -1,0 +1,49 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T7e8,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>On two kinds of CCC marks of trademark</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：4243 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;According to the announcement of CNCA on the reform of compulsory product certification mark (No. 10 in 2018)
+</p>
+<p>
+	&emsp;&emsp;Article 3, simplify and integrate the categories of CCC logo. Since March 20, 2018, CCC logo will no longer be labeled with s (safety products), EMC (electromagnetic compatibility), S &amp; E (safety and electromagnetic compatibility), f (fire protection), I (Information Security), etc. the original CCC logo can be naturally phased out according to the mold replacement cycle and product inventory.
+</p>
+<p>
+	&emsp;&emsp;For a series of products of Quanzhou Quanfeng Electric Machinery Co., Ltd., two kinds of signs, namely CCC and CCC, will appear on the product trademarks for a period of time.
+</p>
+<p align="center">
+	<br />
+</p>
+<p align="center">
+	<img alt="" src="/upload/editor/image/20200827/20200827102911_2356.jpg" />&nbsp;
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<br />
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/757'>Prev：Anti counterfeiting marks will be added from July 19, 2019</a></div>
+        <div class='next'><a href='/en/show/755'>Next：The report of CCC sampling inspection in 18 years has been published. Please contact if necessary.</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/756","url":"http://quanfeng.com/en/show/756","title":"On two kinds of CCC marks of trademark_News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/756"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

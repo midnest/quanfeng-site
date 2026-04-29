@@ -1,0 +1,73 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Tbe0,<div class="col-sm-9 col-xs-12 main">
+         <div class="product_detail">
+    <div class="title">
+        <h3>Coupler die casting</h3>
+        <div class="box clearfix">
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="product_detail_images">
+        <a href='/en/show/793#cfocus'><img src='/res/cn/images/global/left_btn.png' /></a>
+        <div class="product_detail_img my-gallery">
+                <div class="product_detail_pic ">
+                    <img src="/upload/137/132458428709407336.jpg" alt="Image description" />
+                </div>
+        </div>
+        <a href='/en/show/791#cfocus'><img src='/res/cn/images/global/right_btn.png' /></a>
+    </div>
+    <div class="product_detail_content">
+        <div class="product_detail_content2"></div>
+        <div class="pageTurning">
+            <div class='prev'><a href='/en/show/793'>Prev：Aluminum alloy frame</a></div>
+            <div class='next'><a href='/en/show/791'>Next：Aluminum alloy end cover</a></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp.查看图片的插件容器 -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/795","url":"http://quanfeng.com/en/show/795","title":"Coupler die casting_Die casting_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/795"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

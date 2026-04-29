@@ -1,0 +1,91 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Tc53,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 产品展示 &gt; 直流风机</span></div>
+                <div class="article">
+                    <div class="list-img">
+    <ul class="clearfix">
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/661">
+                        <div class="img_area">
+                            <img src="/upload/123/132429628679074519.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD12038</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/660">
+                        <div class="img_area">
+                            <img src="/upload/123/132429628677199820.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD12025</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/659">
+                        <div class="img_area">
+                            <img src="/upload/123/132429628674855566.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD9225</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/658">
+                        <div class="img_area">
+                            <img src="/upload/123/132429628672668076.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD8025</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/657">
+                        <div class="img_area">
+                            <img src="/upload/123/132429628670793416.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD6020</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/656">
+                        <div class="img_area">
+                            <img src="/upload/123/132429628668762113.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD5010</div>
+                    </a>
+
+
+            </li>
+            <li class="col-sm-3 col-xs-6">
+                    <a href="/cn/show/655">
+                        <div class="img_area">
+                            <img src="/upload/123/132429628666159481.jpg" alt="">
+                        </div>
+                        <div class="text_area">QD4010</div>
+                    </a>
+
+
+            </li>
+
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'><li> <a href='' aria-label='Previous'> <span aria-hidden='true'>«</span> </a> </li> <li class='active'><a href=''>1</a></li><li> <a href='' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/category/123","url":"http://quanfeng.com/cn/category/123","title":"直流风机_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/category/123"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

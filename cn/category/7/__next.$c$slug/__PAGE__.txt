@@ -1,0 +1,16 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Taaa,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>您所在的位置是：首页 &gt; 走进泉风 &gt; 公司简介</span></div>
+                <div class="article">
+                    <span style="line-height:2;font-size:16px;">&emsp;&emsp;</span><span style="line-height:2;font-size:16px;">泉州泉风电机有限公司系香港泉风实业在海峡西岸名城—泉州投资创办的企业之一。公司主要生产“泉风”、“力迅”牌交、直流轴流风机、微特电机及防护网罩。公司下设有模具、注塑、五金、铝合金压铸等配套厂。</span><br style="widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;" data-filtered="filtered" />
+<span style="line-height:2;font-size:16px;">&emsp;&emsp;</span><span style="line-height:2;font-size:16px;">公司以建立现代化企业为目标，坚持“科技是首要生产力”，于2000年通过了ISO9001：2000国际质量体系认证、产品已获得CCC强制性认证；美国UL、加拿大CUL、欧盟CE等安全认证。并获得国家微电机产品检测中心授予“行业监督抽查合格单位”及“九五质量水平优秀单位”，“泉风”牌风机被中国技术协会确定为 “风机行业质量十佳放心品牌”、“中国轴流风机十佳名优品牌”。“泉风”牌产品已通过福建省新产品鉴定并获得“福建省科技成果奖”、“省级优秀新产品奖”、“省级科技进步奖”。 2006年度被福建省确认为“福建省高新技术企业”、“科技进步先进企业、“福建知名科技企业”。 “泉风”牌商标被评为“泉州市知名商标”。 2009年“泉风”牌商标被评为“福建省著名商标”。 </span><br style="widows:2;text-transform:none;letter-spacing:normal;font-family:;white-space:normal;orphans:2;color:;word-spacing:0px;font-variant-ligatures:normal;font-variant-caps:normal;-webkit-text-stroke-width:0px;text-decoration-style:initial;text-decoration-color:initial;" data-filtered="filtered" />
+<span style="line-height:2;font-size:16px;">&emsp;&emsp;</span><span style="line-height:2;font-size:16px;">公司本着：“不断创新、永续经营”的经营理念和高效、敬业、拼搏、创新的企业精神，公司全体员工以周到热情的服务、诚实的作风，热忱欢迎社会各界和国内外客商前来洽谈业务，互惠互利、共创明天。&emsp;</span> 
+<p>
+	&nbsp;
+</p>
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/category/7","url":"http://quanfeng.com/cn/category/7","title":"公司简介_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/category/7"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

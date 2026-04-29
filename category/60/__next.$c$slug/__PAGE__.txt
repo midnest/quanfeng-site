@@ -1,0 +1,97 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:Tee9,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; Feedback</span></div>
+                <div class="article">
+               
+
+<div class="feedback-form ">
+    <div class="title">
+       Dear customer</br>
+
+If you have any comments and suggestions on our work, you are welcome to let us know at any time. Our staff will deal with it in time. Thank you for your advice and help!
+    </div>
+    <form action="/en/feedback" method="post" class="form-horizontal col-xs-12">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Title：</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="title" name="title" placeholder="Please enter the title">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Name：</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Please enter the name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Tel/Phone：</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="tel" name="tel" placeholder="Please enter the tel">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Email：</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Please enter the Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Content：</label>
+                <div class="col-sm-10">
+                    <textarea id="contents" name="content" class="form-control" rows="3" placeholder="Please enter the content"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">* Code：</label>
+                <div class="col-sm-10  form-inline">
+                    <input type="text" class="form-control" id="checkcode" name="checkcode" placeholder="Please enter the Code">
+                    <img src="/common/code" onclick="this.src='/common/code?r='+new Date().getTime()" class="yzm1" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <input type="submit" value="Submit" class="sure" onclick="return checkForm()">
+                </div>
+            </div>
+        </form>
+</div>
+
+<script src="/js/layer/layer.js"></script>
+<script>
+    function checkForm() {
+        if ($('#title').val() == '') {
+            layer.msg("Please enter the title");
+            return false;
+        }
+        if ($('#name').val() == '') {
+            layer.msg("Please enter the name");
+            return false;
+        }
+        if ($('#tel').val() == '') {
+            layer.msg("Please enter the tel");
+            return false;
+        }
+        if ($('#email').val() == '') {
+            layer.msg("Please enter the email");
+            return false;
+        }
+        if ($('#contents').val() == '') {
+            layer.msg("Please enter the content");
+            return false;
+        }
+        if ($('#checkcode').val() == '') {
+            layer.msg("Please enter the code");
+            return false;
+        }
+        return true;
+    }
+</script>
+
+            </div>
+        </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/60","url":"http://quanfeng.com/en/category/60","title":"Feedback_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/60"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

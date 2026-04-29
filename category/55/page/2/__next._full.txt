@@ -1,0 +1,246 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+3:I[37457,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default"]
+5:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"ViewportBoundary"]
+b:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"MetadataBoundary"]
+d:I[68027,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"default",1]
+:HL["/_next/static/chunks/1168.lzqs82nb.css","style"]
+0:{"P":null,"c":["","category","55","page","2",""],"q":"","i":false,"f":[[["",{"children":[["slug","category/55/page/2","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/01xlw8hd842-c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0_t29vi~hh.tn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"h-full antialiased","children":["$","body",null,{"className":"min-h-full","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],null]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1168.lzqs82nb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"APwMRrEqdZytYxSTymZr7"}
+e:[]
+8:"$We"
+f:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+10:T2e20,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; News</span></div>
+                <div class="article">
+                    <div class="list_news_texts">
+    <ul>
+            <li class="">
+                <a href="/en/show/758">
+                    <h2>
+                        Fan maintenance
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;1、 Open the shell of the equipment, then turn on the fan, turn off the power supply of the equipment, and blow the fan with the air gun 2cm away from the fan; then wipe the dirt on the fan blade with industrial alcohol, then tilt the fuselage to adjust the gap position, and then blow out…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/757">
+                    <h2>
+                        Anti counterfeiting marks will be added from July 19, 2019
+                    </h2>
+                    <div class="list_text">
+                        Since July 18, 2019, all fans produced by our company have been attached with QR code anti-counterfeiting label. Scratch off the coating can be scanned by mobile phone. One machine, one yard, the first scan shows the genuine Quanfeng. Scanning for the second time will prompt non first query, beware o…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/756">
+                    <h2>
+                        On two kinds of CCC marks of trademark
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;According to the announcement of CNCA on the reform of compulsory product certification mark (No. 10 in 2018)&emsp;&emsp;Article 3, simplify and integrate the categories of CCC logo. Since March 20, 2018, CCC logo will no longer be labeled with s (safety products), EMC (electromagnetic co…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/755">
+                    <h2>
+                        The report of CCC sampling inspection in 18 years has been published. Please contact if necessary.
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/754">
+                    <h2>
+                        CQC quality management system certification renewal completed
+                    </h2>
+                    <div class="list_text">
+                        
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/753">
+                    <h2>
+                        The company won the "discovery. 2017 National Science and technology innovation outstanding achievement award" with a new energy-saving and high-efficiency fan
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;Hong Junshan, the technical department of our company, has been awarded the second prize of excellent papers in the 14th China Science Forum and was invited to attend the 14th China Science Forum in Beijing. With a new energy-saving and high-efficiency fan (Patent No.: zl2014 2 0507207.3)…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/752">
+                    <h2>
+                        Knowledge introduction of aluminum alloy positive pressure air supply outlet
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;Aluminum alloy positive pressure air supply outlet is used at the end of ventilation and air conditioning system, and its operating temperature is 70 ℃. In case of fire, it is necessary to isolate the fire source at the air supply and exhaust outlet; if it is linked with the fan, the dou…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/751">
+                    <h2>
+                        What is the difference between the total heat exchanger of fresh air ventilator and fresh air unit
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;The sensible heat exchanger or total heat exchanger is built in the fresh air ventilator to recover part of the energy discharged from the outdoor air, so as not to increase the indoor energy consumption too much. It is characterized by forcing the replacement of new "old" wind, which is …
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/750">
+                    <h2>
+                        Operation points of axial flow fan
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;Test run&emsp;&emsp;1. After the fan is installed, the flexibility of fan rotation should be checked before starting, and whether the blade is jammed and rubbed by hand. Check whether there are tools and other debris left in the fan and adjacent pipes.&emsp;&emsp;2. Check whether the air …
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/749">
+                    <h2>
+                        Mould industry is still cold
+                    </h2>
+                    <div class="list_text">
+                        Mold industry has always been regarded as the mother of industry. In the first anniversary of the financial crisis, as an upstream industry, mold industry has quietly ushered in a warmer spring. However, the reporter learned from the "asiamold Guangzhou International Mould application and design and …
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/748">
+                    <h2>
+                        The advantage of ceramic blade in die hard milling is analyzed
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;In order to maintain competitive advantage in the world today, mold manufacturers need to continuously produce high-quality products in a very short period of time. In order to achieve this goal, we should develop advanced manufacturing technology and cutting tool materials, so that the m…
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="/en/show/747">
+                    <h2>
+                        General situation and development trend of die steel
+                    </h2>
+                    <div class="list_text">
+                        &emsp;&emsp;In order to meet the special requirements for the technological properties of steel in the process of plastic mold manufacturing, the following four types of special plastic mold steel are developed.&emsp;&emsp;1) the plastic mould steel for mirror grinding has high purity, high density, …
+                    </div>
+                    <div class="list_bottom clearfix">
+                        <div class="time">
+                            post time：2020-09-02
+                        </div>
+                        <div class="more">
+                            More>>
+                        </div>
+                    </div>
+                </a>
+            </li>
+    </ul>
+</div>
+<div class="page_box">
+    <ul  class='pagination'> <li> <a href='/en/category/55?page=1&q=' aria-label='Previous'> <span aria-hidden='true'>&laquo;</span> </a> </li><li><a href='/en/category/55?page=1&q='>1</a></li> <li class='active'><a href=''>2</a></li><li> <a href='' aria-label='Next'> <span aria-hidden='true'>»</span> </a> </li></ul>
+</div>
+
+                </div>
+            </div>4:["$","$Lf",null,{"page":{"locale":"en","pathname":"/en/category/55","url":"http://quanfeng.com/en/category/55?page=2","title":"News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$10"},"pathname":"/category/55/page/2"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+11:I[27201,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"News_Quanzhou Quanfeng Motor Co., Ltd"}],["$","meta","1",{"name":"description","content":"News_Quanzhou Quanfeng Motor Co., Ltd"}],["$","link","2",{"rel":"icon","href":"/images/quanfeng/logo.png"}],["$","$L11","3",{}]]

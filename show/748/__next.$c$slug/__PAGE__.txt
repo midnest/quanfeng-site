@@ -1,0 +1,60 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+6:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T155b,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>The advantage of ceramic blade in die hard milling is analyzed</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：4210 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;In order to maintain competitive advantage in the world today, mold manufacturers need to continuously produce high-quality products in a very short period of time. In order to achieve this goal, we should develop advanced manufacturing technology and cutting tool materials, so that the mold processing workshop can always be in a competitive advantage. As one of these advanced manufacturing technologies, hard milling has been developing continuously. In the past few years, due to the limitations of machine tools and cutting tools at that time, mold manufacturers failed to adopt hard milling process. Today, however, most of the modern machining centers equipped with high rigidity, high-speed spindle system and advanced processors are proficient in cutting hard materials. At the same time, the advanced CAM software package has designed the tool path (tool path) function which can optimize the tool life for the specific machining cycle of hard milling.
+</p>
+<p>
+	Selection of hard milling tools
+</p>
+<p>
+	&emsp;&emsp;&nbsp;three types of milling tools are commonly used in the mold workshop: solid carbide end mills, indexable carbide inserts and developed indexable ceramic inserts. In different machining applications, these three kinds of cutting tools have their own advantages and disadvantages.
+</p>
+<p>
+	&emsp;&emsp;. When the tool becomes blunt, regrinding and recoating are carried out. However, the cutting performance of the repaired end mill is not as good as that of the new cutter.
+</p>
+<p>
+	&emsp;&emsp;. In most cases, the carbide grades and geometrical parameters of the inserts are not designed for hard milling, so they can not provide tool life and productivity when machining hardened materials.
+</p>
+<p>
+	&emsp;&emsp;. The use of a tool system with indexable ceramic inserts can bring many benefits, including shortening the processing cycle and reducing the number of processes per workpiece. However, the use of this tool system requires both programmers and operators to reconsider the processing technology and pay attention to some details that may not be considered when using other tools.
+</p>
+<p>
+	&emsp;&emsp;the mould processing workshop can rough process the hardened blank into a part and finish machining in one installation by using a series of hard milling tools (including indexable inserts for milling surface, cavity and contour) with full set of whisker reinforced ceramic blades. Milling cutters with ceramic inserts (indexable ceramic inserts are used from large face milling cutters to small diameter end mills) can achieve safe high-speed milling. It is very important to ensure the safety of the tool clamping when using the ceramic blade milling cutter designed for hard milling in high speed cutting.
+</p>
+<p>
+	&emsp;&emsp;high speed milling cutter is developed based on the safety and reproducibility of ceramic blade milling speed. At present, the melting point of whisker reinforced ceramics is over 2000 ℃, which means that the ceramic blade can be machined at a cutting speed far higher than the failure point of cemented carbide inserts. In fact, the whisker reinforced ceramic blade can work normally at a temperature higher than the melting point of the cemented carbide blade. It is not recommended to use coolant in hard milling with ceramic blades, but air cooling method is recommended, especially in cavity milling, to avoid secondary cutting of chips. Reducing the use of coolant and waste disposal costs is also an additional benefit of using ceramic inserts in hard milling.
+</p>
+<p>
+	&emsp;&emsp;use ceramic blade to reduce processing cost
+</p>
+<p>
+	&emsp;&emsp;hard milling with ceramic blades can help mold workshops reduce production costs in a variety of ways. One process can replace multiple processes. When the ceramic blade is used for hard milling, the steel parts can be quenched first, and then the workpiece can be milled in the hardened state, so as to replace the previous three processes of machining, quenching and reprocessing. By reducing the time of installing and handling the workpiece in different processing stages, the processing cycle can be shortened and the operation path can be improved. In addition, rough milling hardened workpiece with ceramic blade can avoid expensive and time-consuming EDM (electrical discharge machine tool) machining, without making one or more electrodes.
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/749'>Prev：Mould industry is still cold</a></div>
+        <div class='next'><a href='/en/show/747'>Next：General situation and development trend of die steel</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/748","url":"http://quanfeng.com/en/show/748","title":"The advantage of ceramic blade in die hard milling is analyzed_News_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/748"}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

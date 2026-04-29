@@ -1,0 +1,61 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T71b,<div class="main col-xs-12 ">
+                <div class="crumb hidden-xs clearfix"><span>Your location is：Home &gt; About Us &gt; Corporate culture</span></div>
+                <div class="article">
+                    <p align="center">
+	<span style="font-size:14px;">Corporate culture</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">Happy work, harmonious coexistence and healthy development</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">&nbsp;</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">Staff learning concept</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">Thirst for knowledge, never stop</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">&nbsp;</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">Product view</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">Continuous improvement and improvement</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">&nbsp;</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">Product quality concept</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">Quality first, pursuit of zero defect</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">&nbsp;</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">Service concept</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">Sincere, patient and careful</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">&nbsp;</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">Talent view</span>
+</p>
+<p align="center">
+	<span style="font-size:14px;">Those who are able to go down, those who are mediocre will give up, and those who are mediocre will go down</span>
+</p>
+                </div>
+            </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/category/131","url":"http://quanfeng.com/en/category/131","title":"Corporate culture_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/category/131"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null

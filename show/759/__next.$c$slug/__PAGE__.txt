@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[29790,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js","/_next/static/chunks/0owd~8r2_t~4..js"],"QuanfengInnerPage"]
+4:I[97367,["/_next/static/chunks/01xlw8hd842-c.js","/_next/static/chunks/0_t29vi~hh.tn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T758,<div class="col-sm-9 col-xs-12 main">
+         <div class="news_detail page">
+    <div class="title">
+        <h3>On the operation temperature of high temperature smoke exhaust fan</h3>
+        <div class="box clearfix">
+            <div class="time">
+                <img src="/res/en/images/global/time.png" alt="" />
+                2020-09-02</div>
+            <div class="eye">
+                <img src="/res/en/images/global/eye.png" alt="" />
+                Viewed：4058 </div>
+            <a class="back" href="javascript:;" onclick="window.history.go(-1);">
+                <img src="/res/en/images/global/back.png" alt="" />
+                return</a>
+        </div>
+    </div>
+    <div class="news_detail_content"><p>
+	&emsp;&emsp;Smoke exhaust fan is widely used in our kitchen. It is generally used in hotels, restaurants, stalls and other places. It is a kind of equipment which can quickly exhaust the odor, high temperature and lampblack gas produced in the process of food processing in the kitchen.
+</p>
+<p>
+	&emsp;&emsp;this kind of equipment is also a kind of fire fan. Nowadays, HTF high temperature smoke exhaust fan is more popular. It has excellent high temperature resistance and can run continuously for more than 60 minutes at 300 ℃ and without damage for 20 hours at 100 ℃. It is widely used in advanced civil buildings, ovens, underground garages, tunnels and other occasions.
+</p>
+<p>
+	&emsp;&emsp;this is the main feature of high-temperature smoke exhaust fan, so fire-fighting high-temperature smoke exhaust fan will be so popular today.
+</p></div>
+    <div class="pageTurning">
+        <div class='prev'><a href='/en/show/760'>Prev：What is the difference between axial fan and DC fan?</a></div>
+        <div class='next'><a href='/en/show/758'>Next：Fan maintenance</a></div>
+    </div>
+</div>
+
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"en","pathname":"/en/show/759","url":"http://quanfeng.com/en/show/759","title":"On the operation temperature of high temperature smoke exhaust fan_Technology_Quanzhou Quanfeng Motor Co., Ltd","mainHtml":"$3"},"pathname":"/show/759"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+6:null
