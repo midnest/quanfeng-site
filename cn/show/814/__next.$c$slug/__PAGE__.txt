@@ -54,5 +54,5 @@
     </div>
 </div>
 
-      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/814","url":"http://quanfeng.com/cn/show/814","title":"泉风轴流风机标签及标准号更新_新闻动态_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/814"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"APwMRrEqdZytYxSTymZr7"}
+      </div>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"page":{"locale":"cn","pathname":"/cn/show/814","url":"http://quanfeng.com/cn/show/814","title":"泉风轴流风机标签及标准号更新_新闻动态_泉州泉风电机有限公司","mainHtml":"$3"},"pathname":"/cn/show/814"}],[["$","script","script-0",{"src":"/_next/static/chunks/0owd~8r2_t~4..js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"j3i3h59cGYmDDRWttELvV"}
 6:null
