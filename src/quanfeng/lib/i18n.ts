@@ -50,7 +50,7 @@ export const translations = {
     hero: {
       title: '专业轴流风机制造商',
       subtitle: '香港泉风实业投资企业 · 25年专注散热风机研发制造 · 产品畅销全球60+国家和地区',
-      cta: '查看产品图册',
+      cta: '在线预览',
     },
     company: {
       title: '关于泉风',
@@ -104,7 +104,7 @@ export const translations = {
           image: '/images/quanfeng/products/qa22090.jpg'
         },
       ],
-      viewCatalog: '查看完整产品图册',
+      viewCatalog: '在线预览',
       productTable: {
         title: '产品规格参数表',
         description: '泉风QA系列交流轴流风机主要技术参数，详细规格请参考产品图册',
@@ -275,7 +275,7 @@ export const translations = {
     hero: {
       title: 'Professional Axial Fan Manufacturer',
       subtitle: 'Hong Kong Quanfeng Industrial Investment · 25 Years of Expertise · Exported to 60+ Countries',
-      cta: 'View Product Catalog',
+      cta: 'Preview Online',
     },
     company: {
       title: 'About Quanfeng',
@@ -329,7 +329,7 @@ export const translations = {
           image: '/images/quanfeng/products/qa22090.jpg'
         },
       ],
-      viewCatalog: 'View Full Catalog',
+      viewCatalog: 'Preview Online',
       productTable: {
         title: 'Product Specifications',
         description: 'Quanfeng QA Series AC Axial Fans Technical Parameters',
@@ -495,7 +495,7 @@ export const translations = {
     hero: {
       title: 'Nhà Sản Xuất Quạt Trục Chuyên Nghiệp',
       subtitle: 'Đầu tư từ Hong Kong · 25 năm kinh nghiệm · Xuất khẩu 60+ quốc gia',
-      cta: 'Xem Catalog',
+      cta: 'Xem trước',
     },
     company: {
       title: 'Về Quanfeng',
@@ -549,7 +549,7 @@ export const translations = {
           image: '/images/quanfeng/products/qa22090.jpg'
         },
       ],
-      viewCatalog: 'Xem Catalog Đầy Đủ',
+      viewCatalog: 'Xem trước',
       productTable: {
         title: 'Thông Số Kỹ Thuật',
         description: 'Thông số quạt trục AC dòng QA của Quanfeng',
@@ -699,7 +699,7 @@ export const translations = {
     hero: {
       title: 'ผู้ผลิตพัดลมแกนคุณภาพสูง',
       subtitle: 'การลงทุนจากฮ่องกง · 25 ปีประสบการณ์ · ส่งออก 60+ ประเทศ',
-      cta: 'ดูแคตตาล็อก',
+      cta: 'ดูตัวอย่างออนไลน์',
     },
     company: {
       title: 'เกี่ยวกับ Quanfeng',
@@ -753,7 +753,7 @@ export const translations = {
           image: '/images/quanfeng/products/qa22090.jpg'
         },
       ],
-      viewCatalog: 'ดูแคตตาล็อกทั้งหมด',
+      viewCatalog: 'ดูตัวอย่างออนไลน์',
       productTable: {
         title: 'ข้อมูลจำเพาะทางเทคนิค',
         description: 'ข้อมูลจำเพาะพัดลมแกน AC ซีรีส์ QA',
@@ -903,7 +903,7 @@ export const translations = {
     hero: {
       title: 'Pengeluar Kipas Paksi Profesional',
       subtitle: 'Pelaburan Hong Kong · 25 tahun kepakaran · Eksport 60+ negara',
-      cta: 'Lihat Katalog',
+      cta: 'Pratonton Dalam Talian',
     },
     company: {
       title: 'Tentang Quanfeng',
@@ -957,7 +957,7 @@ export const translations = {
           image: '/images/quanfeng/products/qa22090.jpg'
         },
       ],
-      viewCatalog: 'Lihat Katalog Penuh',
+      viewCatalog: 'Pratonton Dalam Talian',
       productTable: {
         title: 'Spesifikasi Teknikal',
         description: 'Spesifikasi kipas paksi AC Siri QA Quanfeng',
@@ -1107,7 +1107,7 @@ export const translations = {
     hero: {
       title: 'Profesyonel Eksenel Fan Üreticisi',
       subtitle: 'Hong Kong Yatırımı · 25 yıllık uzmanlık · 60+ ülkeye ihracat',
-      cta: 'Kataloğu Görüntüle',
+      cta: 'Çevrimiçi Önizleme',
     },
     company: {
       title: 'Quanfeng Hakkında',
@@ -1161,7 +1161,7 @@ export const translations = {
           image: '/images/quanfeng/products/qa22090.jpg'
         },
       ],
-      viewCatalog: 'Tam Kataloğu Görüntüle',
+      viewCatalog: 'Çevrimiçi Önizleme',
       productTable: {
         title: 'Teknik Özellikler',
         description: 'Quanfeng QA Serisi AC Eksenel Fan Teknik Verileri',
@@ -1311,7 +1311,7 @@ export const translations = {
     hero: {
       title: 'مصنع محترف لمرواح المحور',
       subtitle: 'استثمار هونغ كونغ · 25 عاماً من الخبرة · التصدير إلى 60+ دولة',
-      cta: 'عرض الكتالوج',
+      cta: 'معاينة عبر الإنترنت',
     },
     company: {
       title: 'عن تشوان فنغ',
@@ -1365,7 +1365,7 @@ export const translations = {
           image: '/images/quanfeng/products/qa22090.jpg'
         },
       ],
-      viewCatalog: 'عرض الكتالوج الكامل',
+      viewCatalog: 'معاينة عبر الإنترنت',
       productTable: {
         title: 'المواصفات الفنية',
         description: 'المواصفات الفنية لمرواح المحور AC سلسلة QA',
