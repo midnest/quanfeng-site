@@ -108,7 +108,7 @@ export const translations = {
       productTable: {
         title: '产品规格参数表',
         description: '泉风QA系列交流轴流风机主要技术参数，详细规格请参考产品图册',
-        headers: ['型号', '电压(V)', '频率(Hz)', '电流(A)', '功率(W)', '转速(RPM)', '风量(CFM)', '噪音(dB)', '轴承类型', '尺寸(mm)'],
+        headers: ['型号', '电压(V)', '频率(Hz)', '电流(A)', '功率(W)', '转速(RPM)', '风量(CFM)', '噪音(dB)', '扇叶材质', '尺寸(mm)'],
         products: [
           { model: 'QA9225', voltage: '220', frequency: '50/60', current: '0.08/0.07', power: '15/14', speed: '2500/2700', airflow: '35/40', noise: '32/35', bearing: '含油/滚珠', size: '92×92×25' },
           { model: 'QA12025', voltage: '220', frequency: '50/60', current: '0.10/0.09', power: '18/17', speed: '2300/2500', airflow: '55/62', noise: '34/37', bearing: '含油/滚珠', size: '120×120×25' },
@@ -333,7 +333,7 @@ export const translations = {
       productTable: {
         title: 'Product Specifications',
         description: 'Quanfeng QA Series AC Axial Fans Technical Parameters',
-        headers: ['Model', 'Voltage(V)', 'Freq(Hz)', 'Current(A)', 'Power(W)', 'Speed(RPM)', 'Airflow(CFM)', 'Noise(dB)', 'Bearing', 'Size(mm)'],
+        headers: ['Model', 'Voltage(V)', 'Freq(Hz)', 'Current(A)', 'Power(W)', 'Speed(RPM)', 'Airflow(CFM)', 'Noise(dB)', 'Blade Material', 'Size(mm)'],
         products: [
           { model: 'QA9225', voltage: '220', frequency: '50/60', current: '0.08/0.07', power: '15/14', speed: '2500/2700', airflow: '35/40', noise: '32/35', bearing: 'Sleeve/Ball', size: '92×92×25' },
           { model: 'QA12025', voltage: '220', frequency: '50/60', current: '0.10/0.09', power: '18/17', speed: '2300/2500', airflow: '55/62', noise: '34/37', bearing: 'Sleeve/Ball', size: '120×120×25' },
@@ -553,7 +553,7 @@ export const translations = {
       productTable: {
         title: 'Thông Số Kỹ Thuật',
         description: 'Thông số quạt trục AC dòng QA của Quanfeng',
-        headers: ['Model', 'Điện áp(V)', 'Tần số(Hz)', 'Dòng điện(A)', 'Công suất(W)', 'Tốc độ(RPM)', 'Lưu lượng(CFM)', 'Ồn(dB)', 'Vòng bi', 'Kích thước(mm)'],
+        headers: ['Model', 'Điện áp(V)', 'Tần số(Hz)', 'Dòng điện(A)', 'Công suất(W)', 'Tốc độ(RPM)', 'Lưu lượng(CFM)', 'Ồn(dB)', 'Vật liệu cánh', 'Kích thước(mm)'],
         products: [
           { model: 'QA9225', voltage: '220', frequency: '50/60', current: '0.08/0.07', power: '15/14', speed: '2500/2700', airflow: '35/40', noise: '32/35', bearing: 'Bạc/Bi', size: '92×92×25' },
           { model: 'QA12025', voltage: '220', frequency: '50/60', current: '0.10/0.09', power: '18/17', speed: '2300/2500', airflow: '55/62', noise: '34/37', bearing: 'Bạc/Bi', size: '120×120×25' },
@@ -757,7 +757,7 @@ export const translations = {
       productTable: {
         title: 'ข้อมูลจำเพาะทางเทคนิค',
         description: 'ข้อมูลจำเพาะพัดลมแกน AC ซีรีส์ QA',
-        headers: ['รุ่น', 'แรงดัน(V)', 'ความถี่(Hz)', 'กระแส(A)', 'กำลัง(W)', 'รอบ(RPM)', 'อากาศ(CFM)', 'เสียง(dB)', 'ตลับลูกปืน', 'ขนาด(mm)'],
+        headers: ['รุ่น', 'แรงดัน(V)', 'ความถี่(Hz)', 'กระแส(A)', 'กำลัง(W)', 'รอบ(RPM)', 'อากาศ(CFM)', 'เสียง(dB)', 'วัสดุใบพัด', 'ขนาด(mm)'],
         products: [
           { model: 'QA9225', voltage: '220', frequency: '50/60', current: '0.08/0.07', power: '15/14', speed: '2500/2700', airflow: '35/40', noise: '32/35', bearing: 'ซับ/บอล', size: '92×92×25' },
           { model: 'QA12025', voltage: '220', frequency: '50/60', current: '0.10/0.09', power: '18/17', speed: '2300/2500', airflow: '55/62', noise: '34/37', bearing: 'ซับ/บอล', size: '120×120×25' },
@@ -961,7 +961,7 @@ export const translations = {
       productTable: {
         title: 'Spesifikasi Teknikal',
         description: 'Spesifikasi kipas paksi AC Siri QA Quanfeng',
-        headers: ['Model', 'Voltan(V)', 'Frekuensi(Hz)', 'Arus(A)', 'Kuasa(W)', 'Kelajuan(RPM)', 'Aliran(CFM)', 'Bunyi(dB)', 'Galas', 'Saiz(mm)'],
+        headers: ['Model', 'Voltan(V)', 'Frekuensi(Hz)', 'Arus(A)', 'Kuasa(W)', 'Kelajuan(RPM)', 'Aliran(CFM)', 'Bunyi(dB)', 'Bahan Bilah', 'Saiz(mm)'],
         products: [
           { model: 'QA9225', voltage: '220', frequency: '50/60', current: '0.08/0.07', power: '15/14', speed: '2500/2700', airflow: '35/40', noise: '32/35', bearing: 'Lengan/Bola', size: '92×92×25' },
           { model: 'QA12025', voltage: '220', frequency: '50/60', current: '0.10/0.09', power: '18/17', speed: '2300/2500', airflow: '55/62', noise: '34/37', bearing: 'Lengan/Bola', size: '120×120×25' },
@@ -1165,7 +1165,7 @@ export const translations = {
       productTable: {
         title: 'Teknik Özellikler',
         description: 'Quanfeng QA Serisi AC Eksenel Fan Teknik Verileri',
-        headers: ['Model', 'Voltaj(V)', 'Frekans(Hz)', 'Akım(A)', 'Güç(W)', 'Devir(RPM)', 'Hava Akışı(CFM)', 'Gürültü(dB)', 'Rulman', 'Boyut(mm)'],
+        headers: ['Model', 'Voltaj(V)', 'Frekans(Hz)', 'Akım(A)', 'Güç(W)', 'Devir(RPM)', 'Hava Akışı(CFM)', 'Gürültü(dB)', 'Kanat Malzemesi', 'Boyut(mm)'],
         products: [
           { model: 'QA9225', voltage: '220', frequency: '50/60', current: '0.08/0.07', power: '15/14', speed: '2500/2700', airflow: '35/40', noise: '32/35', bearing: 'Burç/Bilya', size: '92×92×25' },
           { model: 'QA12025', voltage: '220', frequency: '50/60', current: '0.10/0.09', power: '18/17', speed: '2300/2500', airflow: '55/62', noise: '34/37', bearing: 'Burç/Bilya', size: '120×120×25' },
@@ -1369,7 +1369,7 @@ export const translations = {
       productTable: {
         title: 'المواصفات الفنية',
         description: 'المواصفات الفنية لمرواح المحور AC سلسلة QA',
-        headers: ['الموديل', 'الجهد(V)', 'التردد(Hz)', 'التيار(A)', 'القدرة(W)', 'السرعة(RPM)', 'التدفق(CFM)', 'الضوضاء(dB)', 'المحمل', 'الحجم(mm)'],
+        headers: ['الموديل', 'الجهد(V)', 'التردد(Hz)', 'التيار(A)', 'القدرة(W)', 'السرعة(RPM)', 'التدفق(CFM)', 'الضوضاء(dB)', 'مادة الريش', 'الحجم(mm)'],
         products: [
           { model: 'QA9225', voltage: '220', frequency: '50/60', current: '0.08/0.07', power: '15/14', speed: '2500/2700', airflow: '35/40', noise: '32/35', bearing: 'كمي/كروي', size: '92×92×25' },
           { model: 'QA12025', voltage: '220', frequency: '50/60', current: '0.10/0.09', power: '18/17', speed: '2300/2500', airflow: '55/62', noise: '34/37', bearing: 'كمي/كروي', size: '120×120×25' },
