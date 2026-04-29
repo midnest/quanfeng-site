@@ -135,15 +135,35 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
               </span>
             </label>
             {compareList.length > 0 && (
-              <span className="specs-compare-count">
-                {compareList.length} {locale === 'zh' ? '个已选' : 
-                  locale === 'en' ? 'selected' :
-                  locale === 'vi' ? 'đã chọn' :
-                  locale === 'th' ? 'ที่เลือก' :
-                  locale === 'ms' ? 'dipilih' :
-                  locale === 'tr' ? 'seçildi' :
-                  'مختار'}
-              </span>
+              <>
+                <span className="specs-compare-count">
+                  {compareList.length} {locale === 'zh' ? '个已选' : 
+                    locale === 'en' ? 'selected' :
+                    locale === 'vi' ? 'đã chọn' :
+                    locale === 'th' ? 'ที่เลือก' :
+                    locale === 'ms' ? 'dipilih' :
+                    locale === 'tr' ? 'seçildi' :
+                    'مختار'}
+                </span>
+                <button className="desktop-view-compare-btn" onClick={() => setShowCompareModal(true)}>
+                  {locale === 'zh' ? '查看对比' : 
+                   locale === 'en' ? 'View Compare' :
+                   locale === 'vi' ? 'Xem So Sánh' :
+                   locale === 'th' ? 'ดูการเปรียบเทียบ' :
+                   locale === 'ms' ? 'Lihat Perbandingan' :
+                   locale === 'tr' ? 'Karşılaştırmayı Gör' :
+                   'عرض المقارنة'}
+                </button>
+                <button className="desktop-clear-compare-btn" onClick={clearCompare}>
+                  {locale === 'zh' ? '清除' : 
+                   locale === 'en' ? 'Clear' :
+                   locale === 'vi' ? 'Xóa' :
+                   locale === 'th' ? 'ล้าง' :
+                   locale === 'ms' ? 'Padam' :
+                   locale === 'tr' ? 'Temizle' :
+                   'مسح'}
+                </button>
+              </>
             )}
           </div>
 

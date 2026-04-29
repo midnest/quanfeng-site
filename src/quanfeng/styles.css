@@ -2992,6 +2992,49 @@ body.menu-locked {
   font-size: 14px;
 }
 
+.desktop-view-compare-btn {
+  background: linear-gradient(135deg, var(--accent) 0%, #d4a84b 100%);
+  color: #1a365d;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 8px;
+}
+
+.desktop-view-compare-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(201, 162, 39, 0.4);
+}
+
+.desktop-clear-compare-btn {
+  background: transparent;
+  color: var(--text-light);
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 8px;
+}
+
+.desktop-clear-compare-btn:hover {
+  border-color: #dc2626;
+  color: #dc2626;
+}
+
+@media (max-width: 1024px) {
+  .desktop-view-compare-btn,
+  .desktop-clear-compare-btn {
+    display: none;
+  }
+}
+
 /* Desktop Transposed Table */
 .specs-table-transposed {
   min-width: auto;
