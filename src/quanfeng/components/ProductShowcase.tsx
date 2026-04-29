@@ -101,11 +101,25 @@ function getRange(values: string[]): string {
   return min === max ? values[0] : `${min}~${max}`;
 }
 
+// Extract unique sizes and voltages for filter options
+const SIZE_OPTIONS = [...new Set(productSeries.map(s => s.size))].sort();
+const VOLTAGE_OPTIONS = [...new Set(productSeries.flatMap(s => s.variants.map(v => v.voltage)))].sort();
+
 export function ProductShowcase({ locale }: ProductShowcaseProps) {
   const [selectedSeries, setSelectedSeries] = useState<string | null>(null);
   const [compareList, setCompareList] = useState<string[]>([]);
   const [showCompareModal, setShowCompareModal] = useState(false);
   const [viewerImage, setViewerImage] = useState<{ url: string; alt: string } | null>(null);
+
+  // Filter states
+  const [selectedSize, setSelectedSize] = useState<string>('');
+  const [selectedVoltage, setSelectedVoltage] = useState<string>('');
+  const [minSpeed, setMinSpeed] = useState<string>('');
+  const [minAirflow, setMinAirflow] = useState<string>('');
+  const [maxNoise, setMaxNoise] = useState<string>('');
+
+  // Ref for scrolling to product table
+  const productTableRef = useRef<HTMLDivElement>(null);
 
   // Memoized values
   const headers = useMemo(() => tableHeaders[locale as keyof typeof tableHeaders] || tableHeaders.zh, [locale]);
@@ -116,6 +130,40 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     selectedSeries ? productSeries.find(s => s.id === selectedSeries) || null : null,
     [selectedSeries]
   );
+
+  // Filtered product series
+  const filteredSeries = useMemo(() => {
+    return productSeries.filter(series => {
+      // Filter by size
+      if (selectedSize && series.size !== selectedSize) return false;
+      
+      // Filter by voltage - check if any variant matches
+      if (selectedVoltage && !series.variants.some(v => v.voltage === selectedVoltage)) return false;
+      
+      // Filter by minimum speed
+      if (minSpeed) {
+        const minSpeedVal = parseInt(minSpeed);
+        const seriesMaxSpeed = Math.max(...series.variants.map(v => parseInt(v.speed) || 0));
+        if (seriesMaxSpeed < minSpeedVal) return false;
+      }
+      
+      // Filter by minimum airflow
+      if (minAirflow) {
+        const minAirflowVal = parseFloat(minAirflow);
+        const seriesMaxAirflow = Math.max(...series.variants.map(v => parseFloat(v.airflow) || 0));
+        if (seriesMaxAirflow < minAirflowVal) return false;
+      }
+      
+      // Filter by maximum noise (user wants noise less than value)
+      if (maxNoise) {
+        const maxNoiseVal = parseInt(maxNoise);
+        const seriesMinNoise = Math.min(...series.variants.map(v => parseInt(v.noise) || 999));
+        if (seriesMinNoise > maxNoiseVal) return false;
+      }
+      
+      return true;
+    });
+  }, [selectedSize, selectedVoltage, minSpeed, minAirflow, maxNoise]);
 
   // Get compare products - memoized
   const compareProducts = useMemo(() => {
@@ -157,6 +205,20 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
 
   const clearCompare = useCallback(() => {
     setCompareList([]);
+  }, []);
+
+  // Filter handlers
+  const handleApplyFilter = useCallback(() => {
+    // Scroll to product table
+    productTableRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, []);
+
+  const handleResetFilter = useCallback(() => {
+    setSelectedSize('');
+    setSelectedVoltage('');
+    setMinSpeed('');
+    setMinAirflow('');
+    setMaxNoise('');
   }, []);
 
   // Get product image
@@ -275,6 +337,104 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
               locale === 'ms' ? 'dipilih' :
               locale === 'tr' ? 'seçildi' :
               'مختار',
+    filterTitle: locale === 'zh' ? '产品筛选' : 
+                 locale === 'en' ? 'Product Filter' :
+                 locale === 'vi' ? 'Lọc Sản Phẩm' :
+                 locale === 'th' ? 'กรองสินค้า' :
+                 locale === 'ms' ? 'Penapis Produk' :
+                 locale === 'tr' ? 'Ürün Filtresi' :
+                 'تصفية المنتج',
+    sizeLabel: locale === 'zh' ? '尺寸' : 
+               locale === 'en' ? 'Size' :
+               locale === 'vi' ? 'Kích thước' :
+               locale === 'th' ? 'ขนาด' :
+               locale === 'ms' ? 'Saiz' :
+               locale === 'tr' ? 'Boyut' :
+               'الحجم',
+    voltageLabel: locale === 'zh' ? '电压' : 
+                  locale === 'en' ? 'Voltage' :
+                  locale === 'vi' ? 'Điện áp' :
+                  locale === 'th' ? 'แรงดัน' :
+                  locale === 'ms' ? 'Voltan' :
+                  locale === 'tr' ? 'Voltaj' :
+                  'الجهد',
+    minSpeedLabel: locale === 'zh' ? '转速 ≥' : 
+                   locale === 'en' ? 'Speed ≥' :
+                   locale === 'vi' ? 'Tốc độ ≥' :
+                   locale === 'th' ? 'ความเร็ว ≥' :
+                   locale === 'ms' ? 'Kelajuan ≥' :
+                   locale === 'tr' ? 'Hız ≥' :
+                   'السرعة ≥',
+    minAirflowLabel: locale === 'zh' ? '风量 ≥' : 
+                     locale === 'en' ? 'Airflow ≥' :
+                     locale === 'vi' ? 'Lưu lượng ≥' :
+                     locale === 'th' ? 'ปริมาณลม ≥' :
+                     locale === 'ms' ? 'Aliran ≥' :
+                     locale === 'tr' ? 'Hava Akışı ≥' :
+                     'تدفق الهواء ≥',
+    maxNoiseLabel: locale === 'zh' ? '噪声 ≤' : 
+                   locale === 'en' ? 'Noise ≤' :
+                   locale === 'vi' ? 'Ồn ≤' :
+                   locale === 'th' ? 'เสียง ≤' :
+                   locale === 'ms' ? 'Bunyi ≤' :
+                   locale === 'tr' ? 'Gürültü ≤' :
+                   'الضوضاء ≤',
+    applyFilter: locale === 'zh' ? '确定' : 
+                 locale === 'en' ? 'Apply' :
+                 locale === 'vi' ? 'Áp dụng' :
+                 locale === 'th' ? 'นำไปใช้' :
+                 locale === 'ms' ? 'Gunakan' :
+                 locale === 'tr' ? 'Uygula' :
+                 'تطبيق',
+    resetFilter: locale === 'zh' ? '重置' : 
+                 locale === 'en' ? 'Reset' :
+                 locale === 'vi' ? 'Đặt lại' :
+                 locale === 'th' ? 'รีเซ็ต' :
+                 locale === 'ms' ? 'Tetap semula' :
+                 locale === 'tr' ? 'Sıfırla' :
+                 'إعادة تعيين',
+    allSizes: locale === 'zh' ? '全部尺寸' : 
+              locale === 'en' ? 'All Sizes' :
+              locale === 'vi' ? 'Tất cả kích thước' :
+              locale === 'th' ? 'ทุกขนาด' :
+              locale === 'ms' ? 'Semua saiz' :
+              locale === 'tr' ? 'Tüm Boyutlar' :
+              'جميع الأحجام',
+    allVoltages: locale === 'zh' ? '全部电压' : 
+                 locale === 'en' ? 'All Voltages' :
+                 locale === 'vi' ? 'Tất cả điện áp' :
+                 locale === 'th' ? 'ทุกแรงดัน' :
+                 locale === 'ms' ? 'Semua voltan' :
+                 locale === 'tr' ? 'Tüm Voltajlar' :
+                 'جميع الجهود',
+    rpmUnit: locale === 'zh' ? ' RPM' : 
+             locale === 'en' ? ' RPM' :
+             locale === 'vi' ? ' RPM' :
+             locale === 'th' ? ' RPM' :
+             locale === 'ms' ? ' RPM' :
+             locale === 'tr' ? ' RPM' :
+             ' RPM',
+    airflowUnit: locale === 'zh' ? ' m³/min' : 
+                 locale === 'en' ? ' m³/min' :
+                 locale === 'vi' ? ' m³/min' :
+                 locale === 'th' ? ' m³/min' :
+                 locale === 'ms' ? ' m³/min' :
+                 locale === 'tr' ? ' m³/min' :
+                 ' m³/min',
+    noiseUnit: locale === 'zh' ? ' dB' : 
+               locale === 'en' ? ' dB' :
+               locale === 'vi' ? ' dB' :
+               locale === 'th' ? ' dB' :
+               locale === 'ms' ? ' dB' :
+               locale === 'tr' ? ' dB' :
+               ' dB',
+    filterResults: locale === 'zh' ? '筛选结果' : 
+                   locale === 'en' ? 'Filtered Results' :
+                   locale === 'vi' ? 'Kết quả lọc' :
+                   locale === 'th' ? 'ผลลัพธ์ที่กรอง' :
+                   locale === 'ms' ? 'Keputusan penapisan' :
+                   locale === 'tr' ? 'Filtrelenmiş Sonuçlar' :
+                   'النتائج المصفاة',
   }), [locale]);
 
   // Memoized table headers
@@ -287,10 +447,119 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
 
   return (
     <div className="product-showcase">
+      {/* Filter Section */}
+      <div className="product-filter-section">
+        <h4 className="filter-title">{t.filterTitle}</h4>
+        <div className="filter-grid">
+          {/* Size Dropdown */}
+          <div className="filter-item">
+            <label className="filter-label">{t.sizeLabel}</label>
+            <select 
+              className="filter-select"
+              value={selectedSize}
+              onChange={(e) => setSelectedSize(e.target.value)}
+            >
+              <option value="">{t.allSizes}</option>
+              {SIZE_OPTIONS.map(size => (
+                <option key={size} value={size}>{size}</option>
+              ))}
+            </select>
+          </div>
+
+          {/* Voltage Dropdown */}
+          <div className="filter-item">
+            <label className="filter-label">{t.voltageLabel}</label>
+            <select 
+              className="filter-select"
+              value={selectedVoltage}
+              onChange={(e) => setSelectedVoltage(e.target.value)}
+            >
+              <option value="">{t.allVoltages}</option>
+              {VOLTAGE_OPTIONS.map(voltage => (
+                <option key={voltage} value={voltage}>{voltage}V</option>
+              ))}
+            </select>
+          </div>
+
+          {/* Min Speed Input */}
+          <div className="filter-item">
+            <label className="filter-label">{t.minSpeedLabel}</label>
+            <div className="filter-input-wrapper">
+              <input
+                type="number"
+                className="filter-input"
+                value={minSpeed}
+                onChange={(e) => setMinSpeed(e.target.value)}
+                placeholder="0"
+                min="0"
+              />
+              <span className="filter-unit">{t.rpmUnit}</span>
+            </div>
+          </div>
+
+          {/* Min Airflow Input */}
+          <div className="filter-item">
+            <label className="filter-label">{t.minAirflowLabel}</label>
+            <div className="filter-input-wrapper">
+              <input
+                type="number"
+                className="filter-input"
+                value={minAirflow}
+                onChange={(e) => setMinAirflow(e.target.value)}
+                placeholder="0"
+                min="0"
+                step="0.1"
+              />
+              <span className="filter-unit">{t.airflowUnit}</span>
+            </div>
+          </div>
+
+          {/* Max Noise Input */}
+          <div className="filter-item">
+            <label className="filter-label">{t.maxNoiseLabel}</label>
+            <div className="filter-input-wrapper">
+              <input
+                type="number"
+                className="filter-input"
+                value={maxNoise}
+                onChange={(e) => setMaxNoise(e.target.value)}
+                placeholder="80"
+                min="0"
+              />
+              <span className="filter-unit">{t.noiseUnit}</span>
+            </div>
+          </div>
+
+          {/* Filter Actions */}
+          <div className="filter-item filter-actions">
+            <label className="filter-label">&nbsp;</label>
+            <div className="filter-buttons">
+              <button className="filter-btn-apply" onClick={handleApplyFilter}>
+                {t.applyFilter}
+              </button>
+              <button className="filter-btn-reset" onClick={handleResetFilter}>
+                {t.resetFilter}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Header */}
-      <div className="product-showcase-header">
+      <div className="product-showcase-header" ref={productTableRef}>
         <h3 className="showcase-title">{t.title}</h3>
         <p className="showcase-subtitle">{t.subtitle}</p>
+        
+        {(selectedSize || selectedVoltage || minSpeed || minAirflow || maxNoise) && (
+          <div className="filter-results-info">
+            <span className="filter-results-count">
+              {t.filterResults}: {filteredSeries.length}
+            </span>
+            <button className="filter-clear-btn" onClick={handleResetFilter}>
+              {t.resetFilter}
+            </button>
+          </div>
+        )}
         
         {compareList.length > 0 && (
           <div className="compare-actions-bar">
@@ -322,7 +591,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
             </tr>
           </thead>
           <tbody>
-            {productSeries.map((series) => {
+            {filteredSeries.map((series) => {
               const summary = getSeriesSummary(series);
               return (
                 <tr 
