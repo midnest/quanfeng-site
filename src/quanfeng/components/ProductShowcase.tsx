@@ -259,9 +259,13 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                     <img
                       src={getProductImage(series.id, true)}
                       alt={series.name}
-                      loading="lazy"
                       width="80"
                       height="60"
+                      onError={(e) => {
+                        console.error('Image failed to load:', series.id, e.currentTarget.src);
+                        // Fallback to original image if thumbnail fails
+                        e.currentTarget.src = getProductImage(series.id, false);
+                      }}
                     />
                   </td>
                   <td className="table-cell-name">{series.name}</td>
