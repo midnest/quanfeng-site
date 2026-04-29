@@ -96,8 +96,8 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
 
     const folder = folderMap[seriesId];
     if (folder) {
-      // Use thumbnail for table, full image for detail modal
-      const imageName = useThumbnail ? 'thumb.jpg' : '1.png';
+      // Use thumbnail for table, JPEG for detail modal (smaller file size)
+      const imageName = useThumbnail ? 'thumb.jpg' : '1.jpg';
       return withBasePath(`/extracted_docx_images/${folder}/${imageName}`);
     }
     // Fallback to PDF page if no folder mapping
@@ -115,13 +115,14 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     };
     const folder = folderMap[seriesId];
     if (folder) {
-      const imageName = useThumbnail ? 'thumb.jpg' : '1.png';
+      const imageName = useThumbnail ? 'thumb.jpg' : '1.jpg';
       return `https://raw.githubusercontent.com/midnest/quanfeng-site/main/public/extracted_docx_images/${folder}/${imageName}`;
     }
     return '';
   };
 
   // Get all product images (excluding thumbnail), sorted by number
+  // Priority: JPEG > JPG > PNG (JPEG is compressed and smaller)
   const getAllProductImages = (seriesId: string): string[] => {
     const folderMap: Record<string, string> = {
       'qa8025': '8025', 'qa9225': '9225', 'qa11025': '11025', 'qa12025': '12025',
@@ -131,17 +132,17 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     };
     const folder = folderMap[seriesId];
     if (!folder) return [];
-    
-    // Define possible image files in order (1.png/jpeg, 2.png/jpeg, etc.)
+
+    // Define possible image files in order (JPEG first for better compression)
     const possibleImages = [
-      '1.png', '1.jpeg', '1.jpg',
-      '2.png', '2.jpeg', '2.jpg',
-      '3.png', '3.jpeg', '3.jpg',
-      '4.png', '4.jpeg', '4.jpg',
-      '5.png', '5.jpeg', '5.jpg',
-      '6.png', '6.jpeg', '6.jpg',
+      '1.jpg', '1.jpeg', '1.png',
+      '2.jpg', '2.jpeg', '2.png',
+      '3.jpg', '3.jpeg', '3.png',
+      '4.jpg', '4.jpeg', '4.png',
+      '5.jpg', '5.jpeg', '5.png',
+      '6.jpg', '6.jpeg', '6.png',
     ];
-    
+
     return possibleImages.map(name => withBasePath(`/extracted_docx_images/${folder}/${name}`));
   };
 
