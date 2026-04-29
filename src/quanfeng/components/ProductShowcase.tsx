@@ -123,8 +123,8 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     return '';
   };
 
-  // Get technical drawing image (2.jpeg)
-  const getTechnicalDrawing = (seriesId: string) => {
+  // Get all product images (excluding thumbnail), sorted by number
+  const getAllProductImages = (seriesId: string): string[] => {
     const folderMap: Record<string, string> = {
       'qa8025': '8025', 'qa9225': '9225', 'qa11025': '11025', 'qa12025': '12025',
       'qa12038': '12038', 'qa13538': '13538', 'qa15050': '15050', 'qa17250': '17250',
@@ -132,10 +132,19 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
       'qa22090y': '22090Y', 'qa22580': '22580', 'qa28080': '28080',
     };
     const folder = folderMap[seriesId];
-    if (folder) {
-      return withBasePath(`/extracted_docx_images/${folder}/2.jpeg`);
-    }
-    return '';
+    if (!folder) return [];
+    
+    // Define possible image files in order (1.png/jpeg, 2.png/jpeg, etc.)
+    const possibleImages = [
+      '1.png', '1.jpeg', '1.jpg',
+      '2.png', '2.jpeg', '2.jpg',
+      '3.png', '3.jpeg', '3.jpg',
+      '4.png', '4.jpeg', '4.jpg',
+      '5.png', '5.jpeg', '5.jpg',
+      '6.png', '6.jpeg', '6.jpg',
+    ];
+    
+    return possibleImages.map(name => withBasePath(`/extracted_docx_images/${folder}/${name}`));
   };
 
   // Translations
@@ -344,36 +353,20 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
             
             {/* Modal Content */}
             <div className="detail-modal-content">
-              {/* Product Image */}
-              <div className="modal-pdf-section">
-                <img 
-                  src={getProductImage(currentSeries.id)} 
-                  alt={currentSeries.name}
-                  className="modal-pdf-image"
-                />
-              </div>
-              
-              {/* Technical Drawing */}
-              <div className="modal-drawing-section">
-                <h4 className="modal-drawing-title">
-                  {locale === 'zh' ? '技术图纸' : 
-                   locale === 'en' ? 'Technical Drawing' :
-                   locale === 'vi' ? 'Bản Vẽ Kỹ Thuật' :
-                   locale === 'th' ? 'แบบเบื้องต้นทางเทคนิค' :
-                   locale === 'ms' ? 'Lukisan Teknikal' :
-                   locale === 'tr' ? 'Teknik Çizim' :
-                   'الرسم الفني'}
-                </h4>
-                <img 
-                  src={getTechnicalDrawing(currentSeries.id)} 
-                  alt={`${currentSeries.name} - Technical Drawing`}
-                  className="modal-drawing-image"
-                  onError={(e) => {
-                    // Hide the entire section if technical drawing doesn't exist
-                    (e.currentTarget.parentElement as HTMLElement).style.display = 'none';
-                  }}
-                />
-              </div>
+              {/* Product Images - Display all images in order */}
+              {getAllProductImages(currentSeries.id).map((imageUrl, index) => (
+                <div key={index} className="modal-pdf-section">
+                  <img 
+                    src={imageUrl} 
+                    alt={`${currentSeries.name} - Image ${index + 1}`}
+                    className="modal-pdf-image"
+                    onError={(e) => {
+                      // Hide this image if it doesn't exist
+                      (e.currentTarget.parentElement as HTMLElement).style.display = 'none';
+                    }}
+                  />
+                </div>
+              ))}
               
               {/* Specifications Table */}
               <div className="modal-specs-section">
