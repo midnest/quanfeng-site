@@ -74,6 +74,35 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
   // Get PDF page for series
   const getPdfPage = (pageNum: number) => withBasePath(`/pdf_pages/page_${pageNum}.png`);
 
+  // Get product image from extracted_docx_images folder
+  const getProductImage = (seriesId: string) => {
+    // Map series id to folder name
+    const folderMap: Record<string, string> = {
+      'qa8025': '8025',
+      'qa9225': '9225',
+      'qa11025': '11025',
+      'qa12025': '12025',
+      'qa12038': '12038',
+      'qa13538': '13538',
+      'qa15050': '15050',
+      'qa17250': '17250',
+      'qa18060': '18060',
+      'qa20060': '20060',
+      'qa20060y': '20060Y',
+      'qa22090y': '22090Y',
+      'qa22580': '22580',
+      'qa28080': '28080',
+    };
+    
+    const folder = folderMap[seriesId];
+    if (folder) {
+      return withBasePath(`/extracted_docx_images/${folder}/1.png`);
+    }
+    // Fallback to PDF page if no folder mapping
+    const series = productSeries.find(s => s.id === seriesId);
+    return series ? getPdfPage(series.pdfPage) : '';
+  };
+
   // Translations
   const t = {
     title: locale === 'zh' ? '产品选型' : 
@@ -226,7 +255,7 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                 >
                   <td className="table-cell-image">
                     <img 
-                      src={getPdfPage(series.pdfPage)} 
+                      src={getProductImage(series.id)} 
                       alt={series.name}
                       loading="lazy"
                     />
@@ -266,10 +295,10 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
             
             {/* Modal Content */}
             <div className="detail-modal-content">
-              {/* PDF Image */}
+              {/* Product Image */}
               <div className="modal-pdf-section">
                 <img 
-                  src={getPdfPage(currentSeries.pdfPage)} 
+                  src={getProductImage(currentSeries.id)} 
                   alt={currentSeries.name}
                   className="modal-pdf-image"
                 />
