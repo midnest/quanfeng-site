@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { withBasePath } from "@/quanfeng/lib/base-path";
 import { locales, translations, type Locale } from "@/quanfeng/lib/i18n";
 import { ProductShowcase } from "./ProductShowcase";
@@ -13,6 +14,7 @@ const heroSlides = [
 
 export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale }) {
   const [locale, setLocale] = useState<Locale>(initialLocale);
+  const router = useRouter();
   const [isScrolled, setIsScrolled] = useState(false);
   const [showPdfModal, setShowPdfModal] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -90,7 +92,13 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
           <div className="simple-lang-wrapper">
             <select
               value={locale}
-              onChange={(e) => setLocale(e.target.value as Locale)}
+              onChange={(e) => {
+                const newLocale = e.target.value as Locale;
+                setLocale(newLocale);
+                // Navigate to corresponding language URL
+                const path = newLocale === 'zh' ? '/' : `/${newLocale}`;
+                router.push(withBasePath(path));
+              }}
               className="simple-lang-select"
             >
               {locales.map((l) => (
