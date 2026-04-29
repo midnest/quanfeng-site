@@ -248,25 +248,25 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                 <tr>
                   <td className="param-label">{headers[9]}</td>
                   {currentSeries.variants.map((variant, idx) => (
-                    <td key={idx}>{variant.insulation}</td>
+                    <td key={idx}>{variant.insulationClass}</td>
                   ))}
                 </tr>
                 <tr>
                   <td className="param-label">{headers[10]}</td>
                   {currentSeries.variants.map((variant, idx) => (
-                    <td key={idx}>{variant.dielectricStrength}</td>
+                    <td key={idx}>{variant.insulation}</td>
                   ))}
                 </tr>
                 <tr>
                   <td className="param-label">{headers[11]}</td>
                   {currentSeries.variants.map((variant, idx) => (
-                    <td key={idx}>{variant.weight}</td>
+                    <td key={idx}>{variant.dielectricStrength}</td>
                   ))}
                 </tr>
                 <tr>
                   <td className="param-label">{headers[12]}</td>
                   {currentSeries.variants.map((variant, idx) => (
-                    <td key={idx}>{variant.insulationClass}</td>
+                    <td key={idx}>{variant.weight}</td>
                   ))}
                 </tr>
                 <tr>
@@ -341,19 +341,19 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   </div>
                   <div className="mobile-spec-row">
                     <span className="mobile-spec-label">{headers[9]}</span>
-                    <span className="mobile-spec-value">{variant.insulation}</span>
+                    <span className="mobile-spec-value">{variant.insulationClass}</span>
                   </div>
                   <div className="mobile-spec-row">
                     <span className="mobile-spec-label">{headers[10]}</span>
-                    <span className="mobile-spec-value">{variant.dielectricStrength}</span>
+                    <span className="mobile-spec-value">{variant.insulation}</span>
                   </div>
                   <div className="mobile-spec-row">
                     <span className="mobile-spec-label">{headers[11]}</span>
-                    <span className="mobile-spec-value">{variant.weight}</span>
+                    <span className="mobile-spec-value">{variant.dielectricStrength}</span>
                   </div>
                   <div className="mobile-spec-row">
                     <span className="mobile-spec-label">{headers[12]}</span>
-                    <span className="mobile-spec-value">{variant.insulationClass}</span>
+                    <span className="mobile-spec-value">{variant.weight}</span>
                   </div>
                   <div className="mobile-spec-row">
                     <span className="mobile-spec-label">{headers[13]}</span>
@@ -482,25 +482,25 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
                   <tr>
                     <td>{headers[9]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.insulation}</td>
+                      <td key={i}>{p.insulationClass}</td>
                     ))}
                   </tr>
                   <tr>
                     <td>{headers[10]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.dielectricStrength}</td>
+                      <td key={i}>{p.insulation}</td>
                     ))}
                   </tr>
                   <tr>
                     <td>{headers[11]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.weight}</td>
+                      <td key={i}>{p.dielectricStrength}</td>
                     ))}
                   </tr>
                   <tr>
                     <td>{headers[12]}</td>
                     {getCompareProducts().map((p, i) => (
-                      <td key={i}>{p.insulationClass}</td>
+                      <td key={i}>{p.weight}</td>
                     ))}
                   </tr>
                   <tr>
