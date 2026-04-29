@@ -482,6 +482,47 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
           </div>
         </div>
       )}
+
+      {/* Fixed Bottom Compare Bar */}
+      {compareList.length > 0 && (
+        <div className="fixed-compare-bar">
+          <div className="fixed-compare-content">
+            <div className="fixed-compare-info">
+              <span className="fixed-compare-icon">📊</span>
+              <span className="fixed-compare-count">
+                {locale === 'zh' ? `已选择 ${compareList.length} 个型号对比` :
+                 locale === 'en' ? `${compareList.length} models selected for comparison` :
+                 locale === 'vi' ? `Đã chọn ${compareList.length} mẫu để so sánh` :
+                 locale === 'th' ? `เลือก ${compareList.length} รุ่นเพื่อเปรียบเทียบ` :
+                 locale === 'ms' ? `${compareList.length} model dipilih untuk perbandingan` :
+                 locale === 'tr' ? `Karşılaştırma için ${compareList.length} model seçildi` :
+                 `تم اختيار ${compareList.length} نموذج للمقارنة`}
+              </span>
+              <span className="fixed-compare-max">(max 6)</span>
+            </div>
+            <div className="fixed-compare-actions">
+              <button className="fixed-compare-view-btn" onClick={() => setShowCompareModal(true)}>
+                {locale === 'zh' ? '查看对比' :
+                 locale === 'en' ? 'View Compare' :
+                 locale === 'vi' ? 'Xem so sánh' :
+                 locale === 'th' ? 'ดูการเปรียบเทียบ' :
+                 locale === 'ms' ? 'Lihat perbandingan' :
+                 locale === 'tr' ? 'Karşılaştır' :
+                 'عرض المقارنة'}
+              </button>
+              <button className="fixed-compare-clear-btn" onClick={clearCompare}>
+                {locale === 'zh' ? '清空' :
+                 locale === 'en' ? 'Clear' :
+                 locale === 'vi' ? 'Xóa' :
+                 locale === 'th' ? 'ล้าง' :
+                 locale === 'ms' ? 'Padam' :
+                 locale === 'tr' ? 'Temizle' :
+                 'مسح'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -3897,3 +3897,129 @@ body.menu-locked {
     padding: 16px;
   }
 }
+
+/* Fixed Bottom Compare Bar */
+.fixed-compare-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+  color: white;
+  padding: 16px 24px;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.fixed-compare-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.fixed-compare-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+}
+
+.fixed-compare-icon {
+  font-size: 24px;
+}
+
+.fixed-compare-count {
+  font-weight: 600;
+}
+
+.fixed-compare-max {
+  font-size: 13px;
+  opacity: 0.8;
+  color: #fbbf24;
+}
+
+.fixed-compare-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.fixed-compare-view-btn {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  color: #1a365d;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(251, 191, 36, 0.3);
+}
+
+.fixed-compare-view-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(251, 191, 36, 0.4);
+}
+
+.fixed-compare-clear-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.fixed-compare-clear-btn:hover {
+  background: rgba(220, 38, 38, 0.8);
+  border-color: #dc2626;
+}
+
+@media (max-width: 768px) {
+  .fixed-compare-bar {
+    padding: 12px 16px;
+  }
+  
+  .fixed-compare-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .fixed-compare-info {
+    font-size: 14px;
+    justify-content: center;
+  }
+  
+  .fixed-compare-icon {
+    font-size: 20px;
+  }
+  
+  .fixed-compare-actions {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .fixed-compare-view-btn,
+  .fixed-compare-clear-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    flex: 1;
+    max-width: 140px;
+  }
+}
