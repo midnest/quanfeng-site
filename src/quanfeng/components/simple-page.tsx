@@ -285,7 +285,7 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
             <p className="simple-section-subtitle">{t.technology.subtitle}</p>
           </div>
           
-          {/* Certifications Grid with Professional SVG Logos */}
+          {/* Certifications Grid - Official Standard Designs */}
           {(t.technology as any).certifications && (
             <div className="simple-cert-list-section">
               <h3 className="simple-cert-section-title">
@@ -293,147 +293,83 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                 {(t.technology as any).certifications.title}
               </h3>
               <div className="simple-cert-grid">
-                {/* ISO 9001 - Professional Badge */}
+                {/* ISO 9001 - Standard Text Badge */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 100 100" className="cert-svg iso9001">
-                      <defs>
-                        <linearGradient id="isoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#c9a227"/>
-                          <stop offset="50%" stopColor="#e8d179"/>
-                          <stop offset="100%" stopColor="#c9a227"/>
-                        </linearGradient>
-                        <filter id="isoShadow">
-                          <feDropShadow dx="0" dy="1" stdDeviation="1" floodColor="#000" floodOpacity="0.2"/>
-                        </filter>
-                      </defs>
-                      <circle cx="50" cy="50" r="44" fill="url(#isoGrad)" stroke="#a08020" strokeWidth="2"/>
-                      <circle cx="50" cy="50" r="38" fill="none" stroke="#fff" strokeWidth="0.5" opacity="0.5"/>
-                      <text x="50" y="38" textAnchor="middle" fontSize="13" fontWeight="800" fill="#1a1a1a" fontFamily="Arial, Helvetica, sans-serif" letterSpacing="2" filter="url(#isoShadow)">ISO</text>
-                      <text x="50" y="58" textAnchor="middle" fontSize="22" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" filter="url(#isoShadow)">9001</text>
-                      <path d="M30 68 Q50 78 70 68" fill="none" stroke="#1a1a1a" strokeWidth="1.5" opacity="0.4"/>
+                    <svg viewBox="0 0 120 80" className="cert-svg iso9001">
+                      <rect x="2" y="2" width="116" height="76" rx="4" fill="#fff" stroke="#1a1a1a" strokeWidth="1.5"/>
+                      <text x="60" y="32" textAnchor="middle" fontSize="22" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="2">ISO</text>
+                      <text x="60" y="58" textAnchor="middle" fontSize="26" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif">9001</text>
+                      <rect x="15" y="65" width="90" height="2" fill="#1a1a1a"/>
                     </svg>
                   </div>
                   <span className="simple-cert-name">ISO 9001</span>
                   <span className="simple-cert-desc">{(t.technology as any).certifications.items[0]?.desc}</span>
                 </div>
 
-                {/* CCC - China Compulsory Certification */}
+                {/* CCC - China Compulsory Certification Official Logo */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 100 100" className="cert-svg ccc">
-                      <defs>
-                        <linearGradient id="cccGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#c41e3a"/>
-                          <stop offset="50%" stopColor="#e85d75"/>
-                          <stop offset="100%" stopColor="#c41e3a"/>
-                        </linearGradient>
-                        <filter id="cccShadow">
-                          <feDropShadow dx="0" dy="1" stdDeviation="1" floodColor="#000" floodOpacity="0.2"/>
-                        </filter>
-                      </defs>
-                      <circle cx="50" cy="50" r="44" fill="url(#cccGrad)" stroke="#9a1830" strokeWidth="2"/>
-                      <circle cx="50" cy="50" r="38" fill="none" stroke="#fff" strokeWidth="0.5" opacity="0.4"/>
-                      <text x="50" y="48" textAnchor="middle" fontSize="28" fontWeight="900" fill="#fff" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="3" filter="url(#cccShadow)">CCC</text>
-                      <text x="50" y="66" textAnchor="middle" fontSize="7" fontWeight="700" fill="#fff" fontFamily="Arial, sans-serif" letterSpacing="1" opacity="0.9">中国强制认证</text>
+                    <svg viewBox="0 0 100 80" className="cert-svg ccc">
+                      <ellipse cx="50" cy="40" rx="46" ry="36" fill="#1a1a1a" stroke="#1a1a1a" strokeWidth="2"/>
+                      <ellipse cx="50" cy="40" rx="42" ry="32" fill="none" stroke="#fff" strokeWidth="0.8" opacity="0.3"/>
+                      <text x="50" y="48" textAnchor="middle" fontSize="28" fontWeight="900" fill="#fff" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="3">CCC</text>
                     </svg>
                   </div>
                   <span className="simple-cert-name">CCC</span>
                   <span className="simple-cert-desc">{(t.technology as any).certifications.items[1]?.desc}</span>
                 </div>
 
-                {/* UL - Professional Badge */}
+                {/* UL Listed - Official Mark */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 100 100" className="cert-svg ul">
-                      <defs>
-                        <linearGradient id="ulGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#1a3a5c"/>
-                          <stop offset="50%" stopColor="#2d5a8a"/>
-                          <stop offset="100%" stopColor="#1a3a5c"/>
-                        </linearGradient>
-                        <filter id="ulShadow">
-                          <feDropShadow dx="0" dy="1" stdDeviation="1" floodColor="#000" floodOpacity="0.2"/>
-                        </filter>
-                      </defs>
-                      <circle cx="50" cy="50" r="44" fill="url(#ulGrad)" stroke="#0f2440" strokeWidth="2"/>
-                      <circle cx="50" cy="50" r="38" fill="none" stroke="#fff" strokeWidth="0.5" opacity="0.3"/>
-                      <text x="50" y="48" textAnchor="middle" fontSize="32" fontWeight="900" fill="#fff" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="2" filter="url(#ulShadow)">UL</text>
-                      <text x="50" y="66" textAnchor="middle" fontSize="8" fontWeight="700" fill="#c9a227" fontFamily="Arial, sans-serif" letterSpacing="2">LISTED</text>
+                    <svg viewBox="0 0 80 100" className="cert-svg ul">
+                      <circle cx="40" cy="32" r="26" fill="none" stroke="#1a1a1a" strokeWidth="3.5"/>
+                      <text x="40" y="42" textAnchor="middle" fontSize="24" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="1">UL</text>
+                      <text x="40" y="72" textAnchor="middle" fontSize="10" fontWeight="700" fill="#1a1a1a" fontFamily="Arial, sans-serif" letterSpacing="2">LISTED</text>
+                      <text x="40" y="88" textAnchor="middle" fontSize="7" fontWeight="600" fill="#666" fontFamily="Arial, sans-serif" letterSpacing="0.5">SAFETY</text>
                     </svg>
                   </div>
                   <span className="simple-cert-name">UL</span>
                   <span className="simple-cert-desc">{(t.technology as any).certifications.items[2]?.desc}</span>
                 </div>
 
-                {/* C-UL - Professional Badge */}
+                {/* C-UL - Canada/US Mark */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 100 100" className="cert-svg cul">
-                      <defs>
-                        <linearGradient id="culGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#1a3a5c"/>
-                          <stop offset="50%" stopColor="#2d5a8a"/>
-                          <stop offset="100%" stopColor="#1a3a5c"/>
-                        </linearGradient>
-                        <filter id="culShadow">
-                          <feDropShadow dx="0" dy="1" stdDeviation="1" floodColor="#000" floodOpacity="0.2"/>
-                        </filter>
-                      </defs>
-                      <circle cx="50" cy="50" r="44" fill="url(#culGrad)" stroke="#0f2440" strokeWidth="2"/>
-                      <circle cx="50" cy="50" r="38" fill="none" stroke="#fff" strokeWidth="0.5" opacity="0.3"/>
-                      <text x="50" y="46" textAnchor="middle" fontSize="24" fontWeight="900" fill="#fff" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="1" filter="url(#culShadow)">C-UL</text>
-                      <text x="50" y="64" textAnchor="middle" fontSize="8" fontWeight="700" fill="#c9a227" fontFamily="Arial, sans-serif" letterSpacing="1">US • CANADA</text>
+                    <svg viewBox="0 0 80 100" className="cert-svg cul">
+                      <circle cx="40" cy="32" r="26" fill="none" stroke="#1a1a1a" strokeWidth="3.5"/>
+                      <text x="40" y="42" textAnchor="middle" fontSize="18" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="0.5">C-UL</text>
+                      <text x="40" y="72" textAnchor="middle" fontSize="10" fontWeight="700" fill="#1a1a1a" fontFamily="Arial, sans-serif" letterSpacing="2">LISTED</text>
+                      <text x="40" y="88" textAnchor="middle" fontSize="7" fontWeight="600" fill="#666" fontFamily="Arial, sans-serif" letterSpacing="0.5">US • CANADA</text>
                     </svg>
                   </div>
                   <span className="simple-cert-name">C-UL</span>
                   <span className="simple-cert-desc">{(t.technology as any).certifications.items[3]?.desc}</span>
                 </div>
 
-                {/* CE - European Conformity */}
+                {/* CE - European Conformity Official Mark */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 100 100" className="cert-svg ce">
-                      <defs>
-                        <linearGradient id="ceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#1a3a5c"/>
-                          <stop offset="50%" stopColor="#2d5a8a"/>
-                          <stop offset="100%" stopColor="#1a3a5c"/>
-                        </linearGradient>
-                        <filter id="ceShadow">
-                          <feDropShadow dx="0" dy="1" stdDeviation="1" floodColor="#000" floodOpacity="0.2"/>
-                        </filter>
-                      </defs>
-                      <circle cx="50" cy="50" r="44" fill="url(#ceGrad)" stroke="#0f2440" strokeWidth="2"/>
-                      <circle cx="50" cy="50" r="38" fill="none" stroke="#fff" strokeWidth="0.5" opacity="0.3"/>
-                      <text x="52" y="56" textAnchor="middle" fontSize="38" fontWeight="900" fill="#fff" fontFamily="Arial Black, Arial, sans-serif" filter="url(#ceShadow)">CE</text>
-                      <path d="M22 34 L32 34 M22 50 L30 50 M22 66 L32 66" stroke="#c9a227" strokeWidth="4" strokeLinecap="round"/>
-                      <path d="M22 34 Q14 50 22 66" fill="none" stroke="#c9a227" strokeWidth="3.5" strokeLinecap="round"/>
+                    <svg viewBox="0 0 100 80" className="cert-svg ce">
+                      <rect x="2" y="2" width="96" height="76" rx="2" fill="#fff" stroke="#ddd" strokeWidth="0.5"/>
+                      <path d="M18 22 L30 22 M18 40 L28 40 M18 58 L30 58" stroke="#1a1a1a" strokeWidth="5" strokeLinecap="round"/>
+                      <path d="M18 22 Q8 40 18 58" fill="none" stroke="#1a1a1a" strokeWidth="4.5" strokeLinecap="round"/>
+                      <text x="62" y="52" textAnchor="middle" fontSize="42" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif">CE</text>
                     </svg>
                   </div>
                   <span className="simple-cert-name">CE</span>
                   <span className="simple-cert-desc">{(t.technology as any).certifications.items[4]?.desc}</span>
                 </div>
 
-                {/* RoHS - Environmental Badge */}
+                {/* RoHS - Standard Text Mark */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 100 100" className="cert-svg rohs">
-                      <defs>
-                        <linearGradient id="rohsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#2d7d32"/>
-                          <stop offset="50%" stopColor="#4caf50"/>
-                          <stop offset="100%" stopColor="#2d7d32"/>
-                        </linearGradient>
-                        <filter id="rohsShadow">
-                          <feDropShadow dx="0" dy="1" stdDeviation="1" floodColor="#000" floodOpacity="0.2"/>
-                        </filter>
-                      </defs>
-                      <circle cx="50" cy="50" r="44" fill="url(#rohsGrad)" stroke="#1b5e20" strokeWidth="2"/>
-                      <circle cx="50" cy="50" r="38" fill="none" stroke="#fff" strokeWidth="0.5" opacity="0.4"/>
-                      <text x="50" y="46" textAnchor="middle" fontSize="16" fontWeight="900" fill="#fff" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="1" filter="url(#rohsShadow)">RoHS</text>
-                      <text x="50" y="62" textAnchor="middle" fontSize="7" fontWeight="600" fill="#fff" fontFamily="Arial, sans-serif" letterSpacing="0.5" opacity="0.9">COMPLIANT</text>
-                      <path d="M30 72 Q50 80 70 72" fill="none" stroke="#fff" strokeWidth="1" opacity="0.3"/>
+                    <svg viewBox="0 0 120 80" className="cert-svg rohs">
+                      <rect x="2" y="2" width="116" height="76" rx="4" fill="#2d7d32" stroke="#1b5e20" strokeWidth="1.5"/>
+                      <text x="60" y="38" textAnchor="middle" fontSize="20" fontWeight="900" fill="#fff" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="1">RoHS</text>
+                      <text x="60" y="58" textAnchor="middle" fontSize="11" fontWeight="700" fill="#fff" fontFamily="Arial, sans-serif" letterSpacing="1.5">COMPLIANT</text>
+                      <text x="60" y="72" textAnchor="middle" fontSize="7" fontWeight="600" fill="#a5d6a7" fontFamily="Arial, sans-serif" letterSpacing="0.5">2011/65/EU</text>
                     </svg>
                   </div>
                   <span className="simple-cert-name">RoHS</span>
