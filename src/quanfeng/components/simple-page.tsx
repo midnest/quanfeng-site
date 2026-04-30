@@ -359,10 +359,8 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                   <div className="simple-cert-logo">
                     <svg viewBox="0 0 100 80" className="cert-svg ce">
                       <rect x="2" y="2" width="96" height="76" rx="2" fill="#fff" stroke="#ddd" strokeWidth="0.5"/>
-                      {/* CE mark: C as semicircle with open right side, E with middle bar shorter */}
-                      <path d="M42 20 A18 18 0 1 0 42 56" fill="none" stroke="#1a1a1a" strokeWidth="7" strokeLinecap="round"/>
-                      <path d="M48 20 L72 20 M48 38 L68 38 M48 56 L72 56" stroke="#1a1a1a" strokeWidth="7" strokeLinecap="round"/>
-                      <path d="M48 20 L48 56" stroke="#1a1a1a" strokeWidth="7" strokeLinecap="round"/>
+                      {/* Standard CE mark - C and E letters */}
+                      <text x="50" y="56" textAnchor="middle" fontSize="52" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="2">CE</text>
                     </svg>
                   </div>
                   <span className="simple-cert-name">CE</span>
