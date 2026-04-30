@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import "@/quanfeng/styles.css";
 import { withBasePath } from "@/quanfeng/lib/base-path";
@@ -11,6 +11,18 @@ export const metadata: Metadata = {
   icons: {
     icon: withBasePath("/images/quanfeng/logo.png"),
   },
+  // Preconnect to common domains for faster resource loading
+  other: {
+    preconnect: [
+      "https://quanfeng.co",
+    ],
+  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#1a365d",
 };
 
 export default function RootLayout({
@@ -20,6 +32,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
+      <head>
+        <link rel="preconnect" href="https://quanfeng.co" />
+        <link rel="dns-prefetch" href="https://quanfeng.co" />
+      </head>
       <body className="min-h-full">{children}</body>
     </html>
   );
