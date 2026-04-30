@@ -1971,11 +1971,11 @@ body.menu-locked {
 }
 
 /* Certifications Grid */
-/* Certification Grid with SVG Logos */
+/* Certification Grid with Professional SVG Badges */
 .simple-cert-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 24px;
+  gap: 20px;
   margin-bottom: 60px;
 }
 
@@ -1984,23 +1984,25 @@ body.menu-locked {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 24px 16px;
-  background: #fff;
-  border-radius: 12px;
+  padding: 20px 14px;
+  background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 16px;
   border: 1px solid var(--border);
   transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
 .simple-cert-item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.12);
   border-color: var(--accent);
 }
 
 .simple-cert-logo {
-  width: 88px;
-  height: 88px;
-  margin-bottom: 14px;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 12px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
 }
 
 .simple-cert-logo svg {
@@ -2013,14 +2015,14 @@ body.menu-locked {
 }
 
 .simple-cert-name {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--primary);
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 4px;
 }
 
 .simple-cert-desc {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text-light);
   line-height: 1.4;
 }
@@ -2029,30 +2031,53 @@ body.menu-locked {
 @media (max-width: 1200px) {
   .simple-cert-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 16px;
   }
 }
 
 @media (max-width: 768px) {
   .simple-cert-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    gap: 12px;
   }
   
   .simple-cert-item {
-    padding: 20px 12px;
+    padding: 16px 10px;
   }
   
   .simple-cert-logo {
-    width: 64px;
-    height: 64px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .simple-cert-name {
+    font-size: 13px;
   }
 }
 
 @media (max-width: 480px) {
   .simple-cert-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    gap: 10px;
+  }
+  
+  .simple-cert-item {
+    padding: 14px 8px;
+    border-radius: 12px;
+  }
+  
+  .simple-cert-logo {
+    width: 52px;
+    height: 52px;
+    margin-bottom: 8px;
+  }
+  
+  .simple-cert-name {
+    font-size: 12px;
+  }
+  
+  .simple-cert-desc {
+    font-size: 10px;
   }
 }
 
