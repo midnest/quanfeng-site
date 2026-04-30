@@ -311,9 +311,9 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
                     <svg viewBox="0 0 100 80" className="cert-svg ccc">
-                      <ellipse cx="50" cy="40" rx="46" ry="36" fill="#1a1a1a" stroke="#1a1a1a" strokeWidth="2"/>
-                      <ellipse cx="50" cy="40" rx="42" ry="32" fill="none" stroke="#fff" strokeWidth="0.8" opacity="0.3"/>
-                      <text x="50" y="48" textAnchor="middle" fontSize="28" fontWeight="900" fill="#fff" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="3">CCC</text>
+                      <ellipse cx="50" cy="40" rx="46" ry="36" fill="#fff" stroke="#1a1a1a" strokeWidth="2.5"/>
+                      <ellipse cx="50" cy="40" rx="42" ry="32" fill="none" stroke="#1a1a1a" strokeWidth="1" opacity="0.3"/>
+                      <text x="50" y="48" textAnchor="middle" fontSize="28" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="3">CCC</text>
                     </svg>
                   </div>
                   <span className="simple-cert-name">CCC</span>
@@ -353,9 +353,10 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                   <div className="simple-cert-logo">
                     <svg viewBox="0 0 100 80" className="cert-svg ce">
                       <rect x="2" y="2" width="96" height="76" rx="2" fill="#fff" stroke="#ddd" strokeWidth="0.5"/>
-                      <path d="M18 22 L30 22 M18 40 L28 40 M18 58 L30 58" stroke="#1a1a1a" strokeWidth="5" strokeLinecap="round"/>
-                      <path d="M18 22 Q8 40 18 58" fill="none" stroke="#1a1a1a" strokeWidth="4.5" strokeLinecap="round"/>
-                      <text x="62" y="52" textAnchor="middle" fontSize="42" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif">CE</text>
+                      {/* CE mark: C as semicircle with open right side, E with middle bar shorter */}
+                      <path d="M42 20 A18 18 0 1 0 42 56" fill="none" stroke="#1a1a1a" strokeWidth="7" strokeLinecap="round"/>
+                      <path d="M48 20 L72 20 M48 38 L68 38 M48 56 L72 56" stroke="#1a1a1a" strokeWidth="7" strokeLinecap="round"/>
+                      <path d="M48 20 L48 56" stroke="#1a1a1a" strokeWidth="7" strokeLinecap="round"/>
                     </svg>
                   </div>
                   <span className="simple-cert-name">CE</span>
