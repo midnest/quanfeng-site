@@ -334,17 +334,23 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                   <span className="simple-cert-desc">{(t.technology as any).certifications.items[2]?.desc}</span>
                 </div>
 
-                {/* C-UL - Canada/US Mark */}
+                {/* C-UL US - Canada/US Mark */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 80 100" className="cert-svg cul">
-                      <circle cx="40" cy="32" r="26" fill="none" stroke="#1a1a1a" strokeWidth="3.5"/>
-                      <text x="40" y="42" textAnchor="middle" fontSize="18" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="0.5">C-UL</text>
-                      <text x="40" y="72" textAnchor="middle" fontSize="10" fontWeight="700" fill="#1a1a1a" fontFamily="Arial, sans-serif" letterSpacing="2">LISTED</text>
-                      <text x="40" y="88" textAnchor="middle" fontSize="7" fontWeight="600" fill="#666" fontFamily="Arial, sans-serif" letterSpacing="0.5">US • CANADA</text>
+                    <svg viewBox="0 0 120 100" className="cert-svg cul">
+                      {/* C on the left */}
+                      <text x="14" y="40" textAnchor="middle" fontSize="22" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif">C</text>
+                      {/* Circle in the middle */}
+                      <circle cx="60" cy="32" r="24" fill="none" stroke="#1a1a1a" strokeWidth="4"/>
+                      {/* UL inside circle */}
+                      <text x="60" y="42" textAnchor="middle" fontSize="22" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="1">UL</text>
+                      {/* US on the right */}
+                      <text x="106" y="40" textAnchor="middle" fontSize="22" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif">US</text>
+                      {/* LISTED below */}
+                      <text x="60" y="78" textAnchor="middle" fontSize="14" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="3">LISTED</text>
                     </svg>
                   </div>
-                  <span className="simple-cert-name">C-UL</span>
+                  <span className="simple-cert-name">C-UL US</span>
                   <span className="simple-cert-desc">{(t.technology as any).certifications.items[3]?.desc}</span>
                 </div>
 
