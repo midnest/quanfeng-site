@@ -18,6 +18,7 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
   const [isScrolled, setIsScrolled] = useState(false);
   const [showPdfModal, setShowPdfModal] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [currentBgSlide, setCurrentBgSlide] = useState(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showDistributorModal, setShowDistributorModal] = useState(false);
   const t = translations[locale];
@@ -63,6 +64,14 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
     }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
+  // Showcase background slideshow auto-play
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentBgSlide((prev) => (prev + 1) % 4);
+    }, 6000);
     return () => clearInterval(timer);
   }, []);
 
@@ -219,14 +228,25 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
             <h2>{t.company.title}</h2>
           </div>
           <div className="simple-company-logo-showcase">
-            <img
-              src={withBasePath(
-                locale === "zh" ? "/images/quanfeng/cn/logo.png" : "/images/quanfeng/logo.png"
-              )}
-              alt={t.companyName}
-              className="simple-company-main-logo"
-            />
-            <p className="simple-company-honors">{(t.company as any).honors}</p>
+            {/* Background Image Slideshow */}
+            <div className="simple-showcase-bg-slideshow">
+              <div className={`simple-showcase-bg-slide ${currentBgSlide === 0 ? "active" : ""}`} style={{ backgroundImage: `url(${withBasePath("/images/quanfeng/cn/about/scenes/scene-1.png")})` }} />
+              <div className={`simple-showcase-bg-slide ${currentBgSlide === 1 ? "active" : ""}`} style={{ backgroundImage: `url(${withBasePath("/images/quanfeng/cn/about/scenes/scene-2.png")})` }} />
+              <div className={`simple-showcase-bg-slide ${currentBgSlide === 2 ? "active" : ""}`} style={{ backgroundImage: `url(${withBasePath("/images/quanfeng/cn/about/scenes/scene-3.png")})` }} />
+              <div className={`simple-showcase-bg-slide ${currentBgSlide === 3 ? "active" : ""}`} style={{ backgroundImage: `url(${withBasePath("/images/quanfeng/cn/about/scenes/scene-4.png")})` }} />
+              <div className="simple-showcase-bg-overlay" />
+            </div>
+            {/* Content */}
+            <div className="simple-showcase-content">
+              <img
+                src={withBasePath(
+                  locale === "zh" ? "/images/quanfeng/cn/logo.png" : "/images/quanfeng/logo.png"
+                )}
+                alt={t.companyName}
+                className="simple-company-main-logo"
+              />
+              <p className="simple-company-honors">{(t.company as any).honors}</p>
+            </div>
           </div>
           <div className="simple-company-grid">
             <div className="simple-company-content">
