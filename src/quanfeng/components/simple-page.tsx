@@ -196,6 +196,25 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
         </div>
       </section>
 
+      {/* Products Section */}
+      <section id="products" className="simple-section">
+        <div className="simple-container">
+          <div className="simple-section-header">
+            <h2>{t.products.title}</h2>
+            <p className="simple-section-subtitle">{(t.products as any).subtitle}</p>
+          </div>
+          <ProductShowcase locale={locale} />
+          <div className="simple-center" style={{ marginTop: '40px' }}>
+            <button
+              onClick={() => setShowPdfModal(true)}
+              className="simple-btn-primary"
+            >
+              {t.products.viewCatalog}
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* Company Section */}
       <section id="company" className="simple-section simple-section-alt">
         <div className="simple-container">
@@ -232,12 +251,10 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
             </div>
             <div className="simple-company-image">
               <img
-                src={withBasePath(
-                  locale === "zh"
-                    ? "/images/quanfeng/cn/about/video-cover.jpg"
-                    : "/images/quanfeng/about/video-cover.jpg"
-                )}
+                src={withBasePath("/images/quanfeng/cn/about/company-exterior.png")}
                 alt={t.company.title}
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>
@@ -255,25 +272,6 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
               </div>
             </div>
           )}
-        </div>
-      </section>
-
-      {/* Products Section */}
-      <section id="products" className="simple-section">
-        <div className="simple-container">
-          <div className="simple-section-header">
-            <h2>{t.products.title}</h2>
-            <p className="simple-section-subtitle">{(t.products as any).subtitle}</p>
-          </div>
-          <ProductShowcase locale={locale} />
-          <div className="simple-center" style={{ marginTop: '40px' }}>
-            <button
-              onClick={() => setShowPdfModal(true)}
-              className="simple-btn-primary"
-            >
-              {t.products.viewCatalog}
-            </button>
-          </div>
         </div>
       </section>
 
