@@ -299,7 +299,7 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
             <p className="simple-section-subtitle">{t.technology.subtitle}</p>
           </div>
           
-          {/* Certifications Grid - Official Standard Designs */}
+          {/* Certifications Grid - Using Official Certification Images */}
           {(t.technology as any).certifications && (
             <div className="simple-cert-list-section">
               <h3 className="simple-cert-section-title">
@@ -307,109 +307,74 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                 {(t.technology as any).certifications.title}
               </h3>
               <div className="simple-cert-grid">
-                {/* ISO 9001 - Official Logo with Globe */}
+                {/* ISO 9001 */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 120 100" className="cert-svg iso9001">
-                      {/* Globe arcs */}
-                      <ellipse cx="60" cy="38" rx="28" ry="28" fill="none" stroke="#003399" strokeWidth="1.5"/>
-                      <path d="M38 20 Q60 38 82 20" fill="none" stroke="#003399" strokeWidth="1"/>
-                      <path d="M32 38 Q60 38 88 38" fill="none" stroke="#003399" strokeWidth="1"/>
-                      <path d="M38 56 Q60 38 82 56" fill="none" stroke="#003399" strokeWidth="1"/>
-                      <line x1="60" y1="10" x2="60" y2="66" stroke="#003399" strokeWidth="1"/>
-                      {/* ISO text */}
-                      <text x="60" y="48" textAnchor="middle" fontSize="28" fontWeight="900" fill="#003399" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="2">ISO</text>
-                      {/* 9001 below */}
-                      <text x="60" y="86" textAnchor="middle" fontSize="22" fontWeight="900" fill="#003399" fontFamily="Arial Black, Arial, sans-serif">9001</text>
-                    </svg>
+                    <img 
+                      src={withBasePath("/images/quanfeng/certifications/ISO.png")} 
+                      alt="ISO 9001"
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </div>
                   <span className="simple-cert-name">ISO 9001</span>
                   <span className="simple-cert-desc">{(t.technology as any).certifications.items[0]?.desc}</span>
                 </div>
 
-                {/* CCC - China Compulsory Certification Official Logo */}
+                {/* CCC */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 100 80" className="cert-svg ccc">
-                      <ellipse cx="50" cy="40" rx="46" ry="36" fill="#fff" stroke="#1a1a1a" strokeWidth="3"/>
-                      {/* Three C shapes */}
-                      <path d="M32 22 A14 14 0 1 0 32 54" fill="none" stroke="#1a1a1a" strokeWidth="7" strokeLinecap="butt"/>
-                      <path d="M50 22 A14 14 0 1 0 50 54" fill="none" stroke="#1a1a1a" strokeWidth="7" strokeLinecap="butt"/>
-                      <path d="M68 22 A14 14 0 1 0 68 54" fill="none" stroke="#1a1a1a" strokeWidth="7" strokeLinecap="butt"/>
-                    </svg>
+                    <img 
+                      src={withBasePath("/images/quanfeng/certifications/CCC.png")} 
+                      alt="CCC"
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </div>
                   <span className="simple-cert-name">CCC</span>
                   <span className="simple-cert-desc">{(t.technology as any).certifications.items[1]?.desc}</span>
                 </div>
 
-                {/* UL Listed - Official Mark with R symbol */}
+                {/* CE */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 80 90" className="cert-svg ul">
-                      <circle cx="40" cy="32" r="28" fill="none" stroke="#1a1a1a" strokeWidth="4"/>
-                      <text x="40" y="44" textAnchor="middle" fontSize="26" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="1">UL</text>
-                      {/* Registered trademark symbol */}
-                      <circle cx="58" cy="18" r="5" fill="none" stroke="#1a1a1a" strokeWidth="1"/>
-                      <text x="58" y="21" textAnchor="middle" fontSize="6" fontWeight="700" fill="#1a1a1a" fontFamily="Arial, sans-serif">R</text>
-                      <text x="40" y="78" textAnchor="middle" fontSize="11" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="2">LISTED</text>
-                    </svg>
+                    <img 
+                      src={withBasePath("/images/quanfeng/certifications/CE.png")} 
+                      alt="CE"
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </div>
-                  <span className="simple-cert-name">UL</span>
+                  <span className="simple-cert-name">CE</span>
                   <span className="simple-cert-desc">{(t.technology as any).certifications.items[2]?.desc}</span>
                 </div>
 
-                {/* C-UL US - Canada/US Mark */}
+                {/* FC */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 120 100" className="cert-svg cul">
-                      {/* C on the left */}
-                      <text x="14" y="40" textAnchor="middle" fontSize="22" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif">C</text>
-                      {/* Circle in the middle */}
-                      <circle cx="60" cy="32" r="24" fill="none" stroke="#1a1a1a" strokeWidth="4"/>
-                      {/* UL inside circle */}
-                      <text x="60" y="42" textAnchor="middle" fontSize="22" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="1">UL</text>
-                      {/* US on the right */}
-                      <text x="106" y="40" textAnchor="middle" fontSize="22" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif">US</text>
-                      {/* LISTED below */}
-                      <text x="60" y="78" textAnchor="middle" fontSize="14" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="3">LISTED</text>
-                    </svg>
+                    <img 
+                      src={withBasePath("/images/quanfeng/certifications/FC.png")} 
+                      alt="FC"
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </div>
-                  <span className="simple-cert-name">C-UL US</span>
+                  <span className="simple-cert-name">FC</span>
                   <span className="simple-cert-desc">{(t.technology as any).certifications.items[3]?.desc}</span>
                 </div>
 
-                {/* CE - European Conformity Official Mark */}
+                {/* RoHS */}
                 <div className="simple-cert-item">
                   <div className="simple-cert-logo">
-                    <svg viewBox="0 0 100 80" className="cert-svg ce">
-                      <rect x="2" y="2" width="96" height="76" rx="2" fill="#fff" stroke="#ddd" strokeWidth="0.5"/>
-                      <text x="50" y="56" textAnchor="middle" fontSize="52" fontWeight="900" fill="#1a1a1a" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="2">CE</text>
-                    </svg>
-                  </div>
-                  <span className="simple-cert-name">CE</span>
-                  <span className="simple-cert-desc">{(t.technology as any).certifications.items[4]?.desc}</span>
-                </div>
-
-                {/* RoHS - Green Leaf Logo */}
-                <div className="simple-cert-item">
-                  <div className="simple-cert-logo">
-                    <svg viewBox="0 0 100 100" className="cert-svg rohs">
-                      {/* Outer circle */}
-                      <circle cx="50" cy="42" r="32" fill="none" stroke="#4caf50" strokeWidth="2"/>
-                      <circle cx="50" cy="42" r="28" fill="none" stroke="#4caf50" strokeWidth="1"/>
-                      {/* Leaf shape */}
-                      <path d="M50 18 Q72 30 72 48 Q72 62 50 66 Q28 62 28 48 Q28 30 50 18Z" fill="#4caf50"/>
-                      {/* Leaf veins */}
-                      <path d="M50 22 L50 62" stroke="#fff" strokeWidth="1.5" fill="none"/>
-                      <path d="M50 34 L62 28" stroke="#fff" strokeWidth="1" fill="none"/>
-                      <path d="M50 42 L64 38" stroke="#fff" strokeWidth="1" fill="none"/>
-                      <path d="M50 50 L62 54" stroke="#fff" strokeWidth="1" fill="none"/>
-                      {/* RoHS text below */}
-                      <text x="50" y="90" textAnchor="middle" fontSize="16" fontWeight="900" fill="#4caf50" fontFamily="Arial Black, Arial, sans-serif" letterSpacing="1">RoHS</text>
-                    </svg>
+                    <img 
+                      src={withBasePath("/images/quanfeng/certifications/ROHS.png")} 
+                      alt="RoHS"
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </div>
                   <span className="simple-cert-name">RoHS</span>
-                  <span className="simple-cert-desc">{(t.technology as any).certifications.items[5]?.desc}</span>
+                  <span className="simple-cert-desc">{(t.technology as any).certifications.items[4]?.desc}</span>
                 </div>
               </div>
             </div>
