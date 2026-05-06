@@ -19,6 +19,7 @@ export const translations = {
       factory: '工厂实力',
       technology: '技术认证',
       catalog: '产品图册',
+      contact: '联系我们',
     },
     distributor: {
       btnText: '🤝 代理招募',
@@ -50,7 +51,7 @@ export const translations = {
     hero: {
       title: '专业轴流风机制造商',
       subtitle: '香港泉风实业投资企业 · 25年专注散热风机研发制造 · 产品畅销全球60+国家和地区',
-      cta: '在线预览',
+      cta: '联系我们',
     },
     company: {
       title: '关于泉风',
@@ -244,6 +245,7 @@ export const translations = {
       factory: 'Factory',
       technology: 'Certifications',
       catalog: 'Catalog',
+      contact: 'Contact',
     },
     distributor: {
       btnText: '🤝 Distributor',
@@ -275,7 +277,7 @@ export const translations = {
     hero: {
       title: 'Professional Axial Fan Manufacturer',
       subtitle: 'Hong Kong Quanfeng Industrial Investment · 25 Years of Expertise · Exported to 60+ Countries',
-      cta: 'Preview Online',
+      cta: 'Contact Us',
     },
     company: {
       title: 'About Quanfeng',
@@ -464,6 +466,7 @@ export const translations = {
       factory: 'Nhà máy',
       technology: 'Chứng nhận',
       catalog: 'Catalog',
+      contact: 'Liên hệ',
     },
     distributor: {
       btnText: '🤝 Tuyển Đại Lý',
@@ -495,7 +498,7 @@ export const translations = {
     hero: {
       title: 'Nhà Sản Xuất Quạt Trục Chuyên Nghiệp',
       subtitle: 'Đầu tư từ Hong Kong · 25 năm kinh nghiệm · Xuất khẩu 60+ quốc gia',
-      cta: 'Xem trước',
+      cta: 'Liên Hệ',
     },
     company: {
       title: 'Về Quanfeng',
@@ -668,6 +671,7 @@ export const translations = {
       factory: 'โรงงาน',
       technology: 'การรับรอง',
       catalog: 'แคตตาล็อก',
+      contact: 'ติดต่อ',
     },
     distributor: {
       btnText: '🤝 รับสมัครตัวแทน',
@@ -699,7 +703,7 @@ export const translations = {
     hero: {
       title: 'ผู้ผลิตพัดลมแกนคุณภาพสูง',
       subtitle: 'การลงทุนจากฮ่องกง · 25 ปีประสบการณ์ · ส่งออก 60+ ประเทศ',
-      cta: 'ดูตัวอย่างออนไลน์',
+      cta: 'ติดต่อเรา',
     },
     company: {
       title: 'เกี่ยวกับ Quanfeng',
@@ -872,6 +876,7 @@ export const translations = {
       factory: 'Kilang',
       technology: 'Pensijilan',
       catalog: 'Katalog',
+      contact: 'Hubungi',
     },
     distributor: {
       btnText: '🤝 Pengambilan Distributor',
@@ -903,7 +908,7 @@ export const translations = {
     hero: {
       title: 'Pengeluar Kipas Paksi Profesional',
       subtitle: 'Pelaburan Hong Kong · 25 tahun kepakaran · Eksport 60+ negara',
-      cta: 'Pratonton Dalam Talian',
+      cta: 'Hubungi Kami',
     },
     company: {
       title: 'Tentang Quanfeng',
@@ -1076,6 +1081,7 @@ export const translations = {
       factory: 'Fabrika',
       technology: 'Sertifikalar',
       catalog: 'Katalog',
+      contact: 'İletişim',
     },
     distributor: {
       btnText: '🤝 Distribütör Alımı',
@@ -1107,7 +1113,7 @@ export const translations = {
     hero: {
       title: 'Profesyonel Eksenel Fan Üreticisi',
       subtitle: 'Hong Kong Yatırımı · 25 yıllık uzmanlık · 60+ ülkeye ihracat',
-      cta: 'Çevrimiçi Önizleme',
+      cta: 'Bize Ulaşın',
     },
     company: {
       title: 'Quanfeng Hakkında',
@@ -1280,6 +1286,7 @@ export const translations = {
       factory: 'المصنع',
       technology: 'الشهادات',
       catalog: 'الكتالوج',
+      contact: 'اتصل بنا',
     },
     distributor: {
       btnText: '🤝 توزيع',
@@ -1311,7 +1318,7 @@ export const translations = {
     hero: {
       title: 'مصنع محترف لمرواح المحور',
       subtitle: 'استثمار هونغ كونغ · 25 عاماً من الخبرة · التصدير إلى 60+ دولة',
-      cta: 'معاينة عبر الإنترنت',
+      cta: 'اتصل بنا',
     },
     company: {
       title: 'عن تشوان فنغ',

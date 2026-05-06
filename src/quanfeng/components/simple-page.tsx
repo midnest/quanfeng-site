@@ -44,6 +44,7 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
     { id: "products", label: t.nav.products },
     { id: "technology", label: t.nav.technology },
     { id: "catalog", label: t.nav.catalog },
+    { id: "contact", label: t.nav.contact },
   ];
 
   const handleNavClick = (id: string) => {
@@ -234,7 +235,7 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
           <p>{t.hero.subtitle}</p>
           <div className="simple-hero-buttons">
             <button
-              onClick={() => setShowPdfModal(true)}
+              onClick={() => scrollToSection("contact")}
               className="simple-btn-primary"
             >
               {t.hero.cta}
@@ -514,6 +515,41 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section id="contact" className="simple-section simple-section-alt">
+        <div className="simple-container">
+          <div className="simple-section-header">
+            <span className="simple-section-tag">{t.footer.contact}</span>
+            <h2>{t.footer.contact}</h2>
+          </div>
+          <div className="simple-contact-content">
+            <div className="simple-contact-info">
+              <div className="simple-contact-item">
+                <span className="simple-contact-icon">📍</span>
+                <div>
+                  <h4>{locale === 'zh' ? '公司地址' : locale === 'en' ? 'Address' : t.footer.contact}</h4>
+                  <p>{t.footer.address}</p>
+                </div>
+              </div>
+              <div className="simple-contact-item">
+                <span className="simple-contact-icon">📞</span>
+                <div>
+                  <h4>{locale === 'zh' ? '联系电话' : locale === 'en' ? 'Phone' : t.footer.contact}</h4>
+                  <p>{t.footer.phone}</p>
+                </div>
+              </div>
+              <div className="simple-contact-item">
+                <span className="simple-contact-icon">✉️</span>
+                <div>
+                  <h4>{locale === 'zh' ? '电子邮箱' : locale === 'en' ? 'Email' : t.footer.contact}</h4>
+                  <p>{t.footer.email}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="simple-footer">
         <div className="simple-container">
@@ -531,15 +567,6 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
               <p className="simple-footer-tagline">{t.companyName}</p>
               <p className="simple-footer-honors">{(t.company as any).footerHonors}</p>
             </div>
-            {/* Contact info hidden - will be available after official launch */}
-            {/*
-            <div className="simple-footer-contact">
-              <h4>{t.footer.contact}</h4>
-              <p>{t.footer.address}</p>
-              <p>{t.footer.phone}</p>
-              <p>{t.footer.email}</p>
-            </div>
-            */}
           </div>
           <div className="simple-footer-bottom">
             <p>{t.footer.copyright}</p>
