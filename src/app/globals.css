@@ -152,3 +152,75 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* Performance Optimizations */
+
+/* Font display swap for faster text rendering */
+@font-face {
+  font-family: 'Microsoft YaHei';
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-display: swap;
+}
+
+/* Content visibility for off-screen elements */
+.simple-section:not(:first-child) {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 500px;
+}
+
+/* GPU acceleration for animated elements */
+.simple-hero-bg,
+.simple-showcase-bg-slide,
+.product-table tbody tr {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Image loading optimization */
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+img[loading="lazy"].loaded,
+img[loading="lazy"]:not([src=""]) {
+  opacity: 1;
+}
+
+/* Smooth scrolling only when user hasn't set preference */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Optimize paint performance */
+.simple-header,
+.product-filter-section,
+.product-table-wrapper {
+  contain: layout style paint;
+}
+
+/* Debounce hover effects on touch devices */
+@media (hover: hover) {
+  .view-detail-btn:hover,
+  .filter-btn-apply:hover,
+  .filter-btn-reset:hover {
+    transform: translateY(-1px);
+  }
+}

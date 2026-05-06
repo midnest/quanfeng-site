@@ -49,7 +49,52 @@ const nextConfig: NextConfig = {
           },
         ],
       },
+      // Cache HTML pages for 1 hour with stale-while-revalidate
+      {
+        source: "/:path*.html",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=3600, stale-while-revalidate=86400",
+          },
+        ],
+      },
+      // Cache extracted_docx_images
+      {
+        source: "/extracted_docx_images/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
     ];
+  },
+  // Webpack optimizations for production
+  webpack: (config, { isServer }) => {
+    // Optimize bundle size
+    if (!isServer) {
+      config.optimization = {
+        ...config.optimization,
+        splitChunks: {
+          chunks: "all",
+          cacheGroups: {
+            vendor: {
+              test: /[\\/]node_modules[\\/]/,
+              name: "vendors",
+              chunks: "all",
+            },
+            common: {
+              minChunks: 2,
+              chunks: "all",
+              enforce: true,
+            },
+          },
+        },
+      };
+    }
+    return config;
   },
 };
 

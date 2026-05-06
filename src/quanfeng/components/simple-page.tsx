@@ -51,28 +51,82 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
     setMobileMenuOpen(false);
   };
 
+  // Optimized scroll handler with throttling using requestAnimationFrame
   useEffect(() => {
+    let ticking = false;
+    let lastScrollY = 0;
+    
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      lastScrollY = window.scrollY;
+      
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          setIsScrolled(lastScrollY > 50);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
-    window.addEventListener("scroll", handleScroll);
+    
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Hero slideshow auto-play
+  // Hero slideshow auto-play - optimized with requestAnimationFrame
   useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
-    }, 5000);
-    return () => clearInterval(timer);
+    let timer: NodeJS.Timeout;
+    let rafId: number;
+    
+    const startTimer = () => {
+      timer = setInterval(() => {
+        rafId = requestAnimationFrame(() => {
+          setCurrentSlide((prev) => (prev + 1) % heroSlides.length);
+        });
+      }, 5000);
+    };
+    
+    startTimer();
+    
+    return () => {
+      clearInterval(timer);
+      if (rafId) cancelAnimationFrame(rafId);
+    };
   }, []);
 
-  // Showcase background slideshow auto-play
+  // Showcase background slideshow auto-play - optimized
   useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentBgSlide((prev) => (prev + 1) % 4);
-    }, 6000);
-    return () => clearInterval(timer);
+    let timer: NodeJS.Timeout;
+    let rafId: number;
+    
+    const startTimer = () => {
+      timer = setInterval(() => {
+        rafId = requestAnimationFrame(() => {
+          setCurrentBgSlide((prev) => (prev + 1) % 4);
+        });
+      }, 6000);
+    };
+    
+    startTimer();
+    
+    return () => {
+      clearInterval(timer);
+      if (rafId) cancelAnimationFrame(rafId);
+    };
+  }, []);
+
+  // Preload critical images for better performance
+  useEffect(() => {
+    // Preload hero images
+    heroSlides.forEach((slide) => {
+      const img = new Image();
+      img.src = withBasePath(slide.image);
+    });
+    
+    // Preload background images
+    for (let i = 1; i <= 4; i++) {
+      const img = new Image();
+      img.src = withBasePath(`/images/quanfeng/cn/about/scenes/scene-${i}.png`);
+    }
   }, []);
 
   const scrollToSection = (id: string) => {

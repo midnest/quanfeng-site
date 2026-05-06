@@ -16,17 +16,49 @@ const FOLDER_MAP: Record<string, string> = {
   'qa22090y': '22090Y', 'qa22580': '22580', 'qa28080': '28080',
 };
 
-// Simple lazy image component - minimal overhead
+// Optimized lazy image component with IntersectionObserver
 function LazyImage({ src, alt }: { src: string; alt: string }) {
+  const [isLoaded, setIsLoaded] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
+  
+  useEffect(() => {
+    // Use IntersectionObserver for better performance than native lazy loading
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && imgRef.current) {
+            imgRef.current.src = src;
+            observer.disconnect();
+          }
+        });
+      },
+      {
+        rootMargin: '50px', // Start loading 50px before visible
+        threshold: 0.01,
+      }
+    );
+    
+    if (imgRef.current) {
+      observer.observe(imgRef.current);
+    }
+    
+    return () => observer.disconnect();
+  }, [src]);
+  
   return (
     <img
-      src={src}
+      ref={imgRef}
       alt={alt}
       width={80}
       height={60}
       loading="lazy"
       decoding="async"
-      style={{ objectFit: 'contain' }}
+      style={{ 
+        objectFit: 'contain',
+        opacity: isLoaded ? 1 : 0,
+        transition: 'opacity 0.3s ease',
+      }}
+      onLoad={() => setIsLoaded(true)}
       onError={(e) => {
         // Hide broken images
         (e.target as HTMLImageElement).style.display = 'none';
@@ -35,7 +67,7 @@ function LazyImage({ src, alt }: { src: string; alt: string }) {
   );
 }
 
-// Modal image component - click to view full size
+// Modal image component - click to view full size with optimized loading
 function ModalImage({ 
   imageUrl, 
   alt,
@@ -46,6 +78,7 @@ function ModalImage({
   onClick?: () => void;
 }) {
   const [hidden, setHidden] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
   
   if (hidden) return null;
   
@@ -57,6 +90,11 @@ function ModalImage({
         className="modal-pdf-image"
         loading="lazy"
         decoding="async"
+        style={{
+          opacity: isLoaded ? 1 : 0,
+          transition: 'opacity 0.3s ease',
+        }}
+        onLoad={() => setIsLoaded(true)}
         onError={() => setHidden(true)}
       />
     </div>
