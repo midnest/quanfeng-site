@@ -3559,10 +3559,20 @@ body.menu-locked {
 }
 
 .showcase-title {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--text);
-  margin-bottom: 8px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.showcase-title::before {
+  content: '📋';
+  font-size: 20px;
 }
 
 .showcase-subtitle {
@@ -3609,8 +3619,9 @@ body.menu-locked {
   }
 
   .showcase-title {
-    font-size: 20px;
-    margin-bottom: 6px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
   }
 
   .showcase-subtitle {
@@ -3644,7 +3655,9 @@ body.menu-locked {
   }
 
   .showcase-title {
-    font-size: 18px;
+    font-size: 15px;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
   }
 
   .showcase-subtitle {
