@@ -523,6 +523,18 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
             <h2>{t.footer.contact}</h2>
           </div>
           <div className="simple-contact-content">
+            <div className="simple-contact-placeholder">
+              <p>{
+                locale === 'zh' ? '联系方式即将上线，敬请期待' :
+                locale === 'en' ? 'Contact information coming soon, stay tuned' :
+                locale === 'vi' ? 'Thông tin liên hệ sắp ra mắt, hãy đón chờ' :
+                locale === 'th' ? 'ข้อมูลการติดต่อจะเปิดให้เร็วๆ นี้ โปรดติดตาม' :
+                locale === 'ms' ? 'Maklumat hubungan akan datang tidak lama lagi' :
+                locale === 'tr' ? 'İletişim bilgileri yakında yayında, takipte kalın' :
+                'معلومات الاتصال قريباً، ترقبوا'
+              }</p>
+            </div>
+            {/* Contact info hidden - will be available after official launch
             <div className="simple-contact-info">
               <div className="simple-contact-item">
                 <span className="simple-contact-icon">📍</span>
@@ -546,6 +558,7 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                 </div>
               </div>
             </div>
+            */}
           </div>
         </div>
       </section>

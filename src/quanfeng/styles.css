@@ -1481,6 +1481,21 @@ body.menu-locked {
   margin: 0 auto;
 }
 
+.simple-contact-placeholder {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid var(--border);
+}
+
+.simple-contact-placeholder p {
+  font-size: 16px;
+  color: var(--text-light);
+  margin: 0;
+}
+
 .simple-contact-info {
   display: flex;
   flex-direction: column;
