@@ -4668,9 +4668,9 @@ body.menu-locked {
 }
 
 .filter-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr) 2fr;
-  gap: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
   align-items: end;
 }
 
@@ -4678,10 +4678,12 @@ body.menu-locked {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  flex: 1;
+  min-width: 0;
 }
 
 .filter-item.filter-actions {
-  grid-column: span 1;
+  flex: 0 0 auto;
 }
 
 .filter-label {
@@ -4764,11 +4766,12 @@ body.menu-locked {
 
 .filter-buttons {
   display: flex;
-  gap: 12px;
+  gap: 10px;
+  white-space: nowrap;
 }
 
 .filter-btn-apply {
-  flex: 1;
+  flex: 0 0 auto;
   padding: 12px 20px;
   background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
   color: #1a365d;
@@ -4787,7 +4790,7 @@ body.menu-locked {
 }
 
 .filter-btn-reset {
-  flex: 1;
+  flex: 0 0 auto;
   padding: 12px 20px;
   background: #fff;
   color: var(--text-light);
@@ -4844,11 +4847,16 @@ body.menu-locked {
 /* Responsive Filter Section */
 @media (max-width: 1200px) {
   .filter-grid {
-    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+  }
+
+  .filter-item {
+    flex: 1 1 calc(33.333% - 11px);
+    min-width: 140px;
   }
 
   .filter-item.filter-actions {
-    grid-column: span 3;
+    flex: 0 0 auto;
   }
 
   .filter-buttons {
@@ -4876,12 +4884,17 @@ body.menu-locked {
   }
 
   .filter-grid {
-    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
     gap: 16px 12px;
   }
 
+  .filter-item {
+    flex: 1 1 calc(50% - 6px);
+    min-width: 140px;
+  }
+
   .filter-item.filter-actions {
-    grid-column: span 2;
+    flex: 0 0 auto;
   }
 
   .filter-item {
@@ -4960,12 +4973,17 @@ body.menu-locked {
   }
 
   .filter-grid {
-    grid-template-columns: 1fr;
+    flex-direction: column;
     gap: 14px;
   }
 
+  .filter-item {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
   .filter-item.filter-actions {
-    grid-column: span 1;
+    flex: 0 0 auto;
   }
 
   .filter-item {
