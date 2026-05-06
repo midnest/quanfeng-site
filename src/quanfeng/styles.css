@@ -870,13 +870,13 @@ body.menu-locked {
 
 /* Hero V2 */
 .simple-hero-v2 {
-  min-height: 22vh;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #fff;
-  padding: 140px 20px 80px;
+  padding: 80px 20px;
   position: relative;
   overflow: hidden;
 }
