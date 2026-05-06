@@ -199,10 +199,6 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
       {/* Products Section */}
       <section id="products" className="simple-section">
         <div className="simple-container">
-          <div className="simple-section-header">
-            <h2>{t.products.title}</h2>
-            <p className="simple-section-subtitle">{(t.products as any).subtitle}</p>
-          </div>
           <ProductShowcase locale={locale} />
           <div className="simple-center" style={{ marginTop: '40px' }}>
             <button
