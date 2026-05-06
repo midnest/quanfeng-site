@@ -2019,9 +2019,12 @@ body.menu-locked {
 /* Certification Grid with Professional SVG Badges */
 .simple-cert-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
   margin-bottom: 60px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .simple-cert-item {
@@ -2029,7 +2032,7 @@ body.menu-locked {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px 14px;
+  padding: 32px 20px;
   background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
   border-radius: 16px;
   border: 1px solid var(--border);
@@ -2044,9 +2047,9 @@ body.menu-locked {
 }
 
 .simple-cert-logo {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 12px;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2074,24 +2077,26 @@ body.menu-locked {
 /* Responsive for certification grid */
 @media (max-width: 1200px) {
   .simple-cert-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 900px;
   }
 }
 
 @media (max-width: 768px) {
   .simple-cert-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 600px;
   }
   
   .simple-cert-item {
-    padding: 16px 10px;
+    padding: 24px 12px;
   }
   
   .simple-cert-logo {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
   }
   
   .simple-cert-name {
@@ -2102,24 +2107,25 @@ body.menu-locked {
 @media (max-width: 480px) {
   .simple-cert-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 12px;
+    max-width: 100%;
   }
-  
+
   .simple-cert-item {
-    padding: 14px 8px;
+    padding: 20px 10px;
     border-radius: 12px;
   }
-  
+
   .simple-cert-logo {
-    width: 70px;
-    height: 70px;
-    margin-bottom: 8px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
   }
-  
+
   .simple-cert-name {
     font-size: 12px;
   }
-  
+
   .simple-cert-desc {
     font-size: 10px;
   }
