@@ -8,12 +8,30 @@ interface ProductShowcaseProps {
   locale: string;
 }
 
-// Static folder mapping - defined once
+// Static folder mapping - defined once (updated with new HBL folders)
 const FOLDER_MAP: Record<string, string> = {
-  'qa8025': '8025', 'qa9225': '9225', 'qa11025': '11025', 'qa12025': '12025',
-  'qa12038': '12038', 'qa13538': '13538', 'qa15050': '15050', 'qa17250': '17250',
-  'qa18060': '18060', 'qa20060': '20060', 'qa20060y': '20060Y',
-  'qa22090y': '22090Y', 'qa22580': '22580', 'qa28080': '28080',
+  'qa8025': 'QA8025HBL', 'qa9225': 'QA9225HBL', 'qa12025': 'QA12025HBL',
+  'qa12038': 'QA12038HBL', 'qa13538': 'QA13538HBL', 'qa15050': 'QA15050HBL',
+  'qa17250': 'QA17250HBL', 'qa18060': 'QA18060HBL', 'qa20060': 'QA20060HBL',
+  'qa20060y': 'QA20060YHBL', 'qa22090y': 'QA22090YHBL', 'qa22580': 'QA22580HBL',
+  'qa28080': 'QA28080HBL',
+};
+
+// Product images mapping - actual files in each folder
+const PRODUCT_IMAGES: Record<string, { thumb: string; all: string[] }> = {
+  'QA8025HBL': { thumb: 'QA8250HBL2.png', all: ['8025-6.png', '8025-9.png', 'QA8250HBL2.png'] },
+  'QA9225HBL': { thumb: 'QA9225HBL2.png', all: ['9225-6.png', '9225-9.png', 'QA9225HBL2.png'] },
+  'QA12025HBL': { thumb: 'QA12025HBL2.png', all: ['12025-6.png', '12025-9.png', 'QA12025HBL2.png'] },
+  'QA12038HBL': { thumb: 'QA12038HBL2.png', all: ['12038-6.png', '12038-9.png', 'QA12038HBL2.png'] },
+  'QA13538HBL': { thumb: 'QA13538HBL2.png', all: ['13538-6.png', '13538-9.png', 'QA13538HBL2.png'] },
+  'QA15050HBL': { thumb: 'QA15050HBL2.png', all: ['15050-6.png', '15050-9.png', 'QA15050HBL2.png'] },
+  'QA17250HBL': { thumb: 'QA17250HBL2.png', all: ['17250-6.png', '17250-9.png', 'QA17250HBL2.png'] },
+  'QA18060HBL': { thumb: 'QA18060HBL2.png', all: ['18060-6.png', '18060-9.png', 'QA18060HBL2.png'] },
+  'QA20060HBL': { thumb: 'QA20060HBL2.png', all: ['20060-66.png', '20060-9.png', 'QA20060HBL2.png'] },
+  'QA20060YHBL': { thumb: 'QA20060YHBL2.png', all: ['20060Y-6.png', '20060Y-9.png', 'QA20060YHBL2.png'] },
+  'QA22090YHBL': { thumb: 'QA22090YHBL2D.png', all: ['22090YT-6.png', '22090YT-9-0.png', 'QA22090YHBL2D.png'] },
+  'QA22580HBL': { thumb: 'QA22580HBL2D.png', all: ['22580-6.png', '22580-9.png', 'QA22580HBL2D.png'] },
+  'QA28080HBL': { thumb: 'QA28080HBL2D.png', all: ['28080-6.png', '28080-9.png', 'QA28080HBL2D.png'] },
 };
 
 // Optimized lazy image component with IntersectionObserver
@@ -259,41 +277,22 @@ export function ProductShowcase({ locale }: ProductShowcaseProps) {
     setMaxNoise('');
   }, []);
 
-  // Get product image
+  // Get product image (thumbnail)
   const getProductImage = useCallback((seriesId: string) => {
     const folder = FOLDER_MAP[seriesId];
-    if (folder) {
-      return withBasePath(`/extracted_docx_images/${folder}/thumb.jpg`);
+    if (folder && PRODUCT_IMAGES[folder]) {
+      return withBasePath(`/images/quanfeng/products/${folder}/${PRODUCT_IMAGES[folder].thumb}`);
     }
     return '';
   }, []);
 
-  // Get all product images
-  // Static mapping of actual image files in each folder
-  // NOTE: These must match the actual files in public/extracted_docx_images/{folder}/
-  const FOLDER_IMAGES: Record<string, string[]> = {
-    '11025': ['1.jpg', '2.jpeg'],
-    '12025': ['1.jpg', '2.jpeg'],
-    '12038': ['1.jpg', '2.jpeg'],
-    '13538': ['1.jpg', '2.jpeg'],
-    '15050': ['1.jpg', '2.jpeg'],
-    '17250': ['1.jpg', '2.jpeg'],
-    '18060': ['1.jpg', '2.jpeg'],
-    '20060': ['1.jpg', '2.jpeg'],
-    '20060Y': ['1.jpg', '2.jpeg'],
-    '22090Y': ['1.jpg', '2.jpeg', '3.jpg', '4.jpeg'],
-    '22580': ['1.jpg', '2.jpg', '3.jpg'],
-    '28080': ['1.jpg', '2.jpg'],
-    '8025': ['1.jpg', '2.jpeg'],
-    '9225': ['1.jpg', '2.jpeg'],
-  };
-
+  // Get all product images for modal
   const getAllProductImages = useCallback((seriesId: string): string[] => {
     const folder = FOLDER_MAP[seriesId];
-    if (!folder) return [];
-    // Use static mapping of actual files
-    const files = FOLDER_IMAGES[folder] || ['1.jpg'];
-    return files.map(file => withBasePath(`/extracted_docx_images/${folder}/${file}`));
+    if (!folder || !PRODUCT_IMAGES[folder]) return [];
+    return PRODUCT_IMAGES[folder].all.map(file => 
+      withBasePath(`/images/quanfeng/products/${folder}/${file}`)
+    );
   }, []);
 
   // Memoized translations
