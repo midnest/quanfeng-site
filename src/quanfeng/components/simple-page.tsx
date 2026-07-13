@@ -518,54 +518,6 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="simple-section simple-section-alt">
-        <div className="simple-container">
-          <div className="simple-section-header">
-            <span className="simple-section-tag">{t.footer.contact}</span>
-            <h2>{t.footer.contact}</h2>
-          </div>
-          <div className="simple-contact-content">
-            <div className="simple-contact-placeholder">
-              <p>{
-                locale === 'zh' ? '联系方式即将上线，敬请期待' :
-                locale === 'en' ? 'Contact information coming soon, stay tuned' :
-                locale === 'vi' ? 'Thông tin liên hệ sắp ra mắt, hãy đón chờ' :
-                locale === 'th' ? 'ข้อมูลการติดต่อจะเปิดให้เร็วๆ นี้ โปรดติดตาม' :
-                locale === 'ms' ? 'Maklumat hubungan akan datang tidak lama lagi' :
-                locale === 'tr' ? 'İletişim bilgileri yakında yayında, takipte kalın' :
-                'معلومات الاتصال قريباً، ترقبوا'
-              }</p>
-            </div>
-            {/* Contact info hidden - will be available after official launch
-            <div className="simple-contact-info">
-              <div className="simple-contact-item">
-                <span className="simple-contact-icon">📍</span>
-                <div>
-                  <h4>{locale === 'zh' ? '公司地址' : locale === 'en' ? 'Address' : t.footer.contact}</h4>
-                  <p>{t.footer.address}</p>
-                </div>
-              </div>
-              <div className="simple-contact-item">
-                <span className="simple-contact-icon">📞</span>
-                <div>
-                  <h4>{locale === 'zh' ? '联系电话' : locale === 'en' ? 'Phone' : t.footer.contact}</h4>
-                  <p>{t.footer.phone}</p>
-                </div>
-              </div>
-              <div className="simple-contact-item">
-                <span className="simple-contact-icon">✉️</span>
-                <div>
-                  <h4>{locale === 'zh' ? '电子邮箱' : locale === 'en' ? 'Email' : t.footer.contact}</h4>
-                  <p>{t.footer.email}</p>
-                </div>
-              </div>
-            </div>
-            */}
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="simple-footer">
         <div className="simple-container">

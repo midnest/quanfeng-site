@@ -1634,8 +1634,9 @@ body.menu-locked {
 }
 
 .whatsapp-qr-code {
-  width: 120px;
-  height: 120px;
+  max-width: 150px;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
   border: 2px solid rgba(255,255,255,0.2);
 }
