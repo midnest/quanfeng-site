@@ -583,6 +583,18 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
               <p className="simple-footer-tagline">{t.companyName}</p>
               <p className="simple-footer-honors">{(t.company as any).footerHonors}</p>
             </div>
+            <div className="simple-footer-contact">
+              <h4>{t.footer.contact}</h4>
+              <p className="simple-footer-address">{t.footer.address}</p>
+              <p className="simple-footer-email">{t.footer.email}</p>
+              {(t.footer as any).whatsapp && (
+                <p className="simple-footer-whatsapp">
+                  <a href="https://wa.me/86xxxxxxxxxxx" target="_blank" rel="noopener noreferrer">
+                    {(t.footer as any).whatsapp}
+                  </a>
+                </p>
+              )}
+            </div>
           </div>
           <div className="simple-footer-bottom">
             <p>{t.footer.copyright}</p>

@@ -195,8 +195,8 @@ export const productSeries: ProductSeries[] = [
     dimensions: '220×220×90mm',
     pdfPage: 7,
     variants: [
-      { model: 'QA22090YHBL2D', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '75', frequency: '50/60', current: '0.35', speed: '2600', airflow: '20', noise: '72', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2', coilMaterial: 'copper', housingMaterial: 'aluminum', bladeMaterial: 'iron' },
-      { model: 'QA22090YHBL3D', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '75', frequency: '50/60', current: '0.16', speed: '2600', airflow: '20', noise: '72', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2', coilMaterial: 'copper', housingMaterial: 'aluminum', bladeMaterial: 'iron' },
+      { model: 'QA22090YHBL2D', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '90', frequency: '50/60', current: '0.35', speed: '2600', airflow: '20', noise: '72', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2', coilMaterial: 'copper', housingMaterial: 'aluminum', bladeMaterial: 'iron' },
+      { model: 'QA22090YHBL3D', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '90', frequency: '50/60', current: '0.16', speed: '2600', airflow: '20', noise: '72', insulationClass: 'F', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '2', coilMaterial: 'copper', housingMaterial: 'aluminum', bladeMaterial: 'iron' },
     ],
   },
   {

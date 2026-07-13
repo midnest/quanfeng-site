@@ -1596,17 +1596,37 @@ body.menu-locked {
   font-weight: 500;
 }
 
+.simple-footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+  padding-left: 40px;
+}
+
 .simple-footer-contact h4 {
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 16px;
-  color: var(--primary);
+  color: var(--accent);
+  margin-bottom: 8px;
 }
 
-.simple-footer-contact p {
+.simple-footer-address,
+.simple-footer-email,
+.simple-footer-whatsapp {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 8px;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.5;
+}
+
+.simple-footer-whatsapp a {
+  color: #25D366;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.simple-footer-whatsapp a:hover {
+  text-decoration: underline;
 }
 
 .simple-footer-bottom {
@@ -1881,12 +1901,21 @@ body.menu-locked {
 
   .simple-footer-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
   .simple-footer-brand {
     align-items: center;
     text-align: center;
+  }
+
+  .simple-footer-contact {
+    padding-left: 0;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
   }
 
   .simple-modal-content {
