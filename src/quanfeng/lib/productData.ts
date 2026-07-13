@@ -84,19 +84,6 @@ export function getProductFeatures(productId: string, locale: string): string[] 
 // Product data from PDF catalog
 export const productSeries: ProductSeries[] = [
   {
-    id: 'qa11025',
-    name: 'QA11025',
-    nameEn: 'QA11025 Axial Fan',
-    size: '110×110×25mm',
-    dimensions: '110×110×25mm',
-    pdfPage: 2,
-    variants: [
-      { model: 'QA11025HBL1', bearing: '滚珠', bearingType: 'ball', voltage: '110/120', power: '17', frequency: '50/60', current: '0.2', speed: '2200', airflow: '1.25', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.29', coilMaterial: 'copper', housingMaterial: 'aluminum', bladeMaterial: 'pbt' },
-      { model: 'QA11025HBL2', bearing: '滚珠', bearingType: 'ball', voltage: '220/240', power: '17', frequency: '50/60', current: '0.1', speed: '2200', airflow: '1.25', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.29', coilMaterial: 'copper', housingMaterial: 'aluminum', bladeMaterial: 'pbt' },
-      { model: 'QA11025HBL3', bearing: '滚珠', bearingType: 'ball', voltage: '380', power: '17', frequency: '50/60', current: '0.06', speed: '2200', airflow: '1.25', noise: '47', insulationClass: 'B', insulation: 'AC1500V- 100MΩ', dielectricStrength: '1500', weight: '0.29', coilMaterial: 'copper', housingMaterial: 'aluminum', bladeMaterial: 'pbt' },
-    ],
-  },
-  {
     id: 'qa12025',
     name: 'QA12025',
     nameEn: 'QA12025 Axial Fan',

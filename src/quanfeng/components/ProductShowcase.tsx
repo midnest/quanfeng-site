@@ -19,7 +19,7 @@ const FOLDER_MAP: Record<string, string> = {
 
 // Product images mapping - actual files in each folder
 const PRODUCT_IMAGES: Record<string, { thumb: string; all: string[] }> = {
-  'QA8025HBL': { thumb: 'QA8250HBL2.png', all: ['8025-6.png', '8025-9.png', 'QA8250HBL2.png'] },
+  'QA8025HBL': { thumb: 'QA8025HBL2.png', all: ['8025-6.png', '8025-9.png', 'QA8025HBL2.png'] },
   'QA9225HBL': { thumb: 'QA9225HBL2.png', all: ['9225-6.png', '9225-9.png', 'QA9225HBL2.png'] },
   'QA12025HBL': { thumb: 'QA12025HBL2.png', all: ['12025-6.png', '12025-9.png', 'QA12025HBL2.png'] },
   'QA12038HBL': { thumb: 'QA12038HBL2.png', all: ['12038-6.png', '12038-9.png', 'QA12038HBL2.png'] },
