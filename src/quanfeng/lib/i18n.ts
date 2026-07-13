@@ -56,10 +56,11 @@ export const translations = {
     company: {
       title: '关于泉风',
       founded: '始创于1999年',
-      description: '泉州泉风电机有限公司系香港泉风实业在海峡西岸名城—泉州投资创办的企业。公司主要生产"泉风"、"力迅"牌交、直流轴流风机、微特电机及防护网罩。公司下设有模具、注塑、五金、铝合金压铸等配套厂，形成完整的产业链。目前在中国内地及中国香港、韩国、台湾等国家或地区设有80多家授权代理商，出口产品约占总产量的50%。',
-      description2: '公司以建立现代化企业为目标，坚持"科技是第一生产力"，于2000年通过ISO9001：2000国际质量体系认证。产品广泛应用于自动控制装置、电子设备、医疗设备、计算机、电源设备、电焊机、包装印刷设备、卫星通讯、数控机械、办公自动化、配电柜等领域通风散热。',
+      description: '泉州泉风电机有限公司，由香港泉风实业投资设立，坐落于福建泉州。公司主营"泉风""力迅"两大品牌产品，核心涵盖交直流轴流风机、微特电机及防护网罩；内部配套建有模具、注塑、五金、铝合金压铸等生产车间，实现全产业链自主配套。',
+      description2: '公司深耕品质与技术发展，2000年顺利通过ISO9001质量管理体系认证，全系产品先后取得CCC、CE、FCC等多项国内外权威安全认证。企业及产品屡获殊荣：获评行业监督抽查合格单位、九五质量水平优秀单位；"泉风"风机先后荣膺"风机行业质量十佳放心品牌""中国轴流风机十佳名优品牌"。产品通过福建省新产品鉴定，斩获省级科技成果奖、优秀新产品奖、科技进步奖；企业先后被认定为福建省高新技术企业、科技进步先进企业、福建知名科技企业。品牌商标一路进阶，先后获评泉州市知名商标、福建省著名商标。',
       philosophy: '经营理念：不断创新、永续经营',
       spirit: '企业精神：高效、敬业、拼搏、创新',
+      motto: '全体员工以诚信务实的作风、热忱周到的服务，竭诚欢迎海内外客商莅临洽谈合作，携手共赢、共创未来。',
       honors: '🏆 福建省著名商标 · 福建省高新技术企业 · 25年行业经验',
       footerHonors: '🏆 福建省著名商标 · 福建省高新技术企业',
       stats: [
@@ -282,10 +283,11 @@ export const translations = {
     company: {
       title: 'About Quanfeng',
       founded: 'Founded in 1999',
-      description: 'Quanzhou Quanfeng Electric Co., Ltd. is an enterprise invested by Hong Kong Quanfeng Industrial in Quanzhou. We mainly produce "Quanfeng" and "Lixun" brand AC/DC axial fans, micro motors and protective nets. We have supporting factories for molds, injection molding, hardware, and aluminum alloy die-casting. We have over 80 authorized agents in Mainland China, Hong Kong, South Korea, Taiwan and other countries/regions, with exports accounting for approximately 50% of total production.',
-      description2: 'Aiming to establish a modern enterprise, we adhere to "Technology is the primary productive force" and passed ISO9001:2000 certification in 2000. Our products are widely used in automatic control devices, electronic equipment, medical equipment, computers, power supplies, welding machines, packaging and printing equipment, satellite communications, CNC machinery, office automation, and power distribution cabinets for ventilation and heat dissipation.',
+      description: 'Quanzhou Quanfeng Electric Co., Ltd., established by Hong Kong Quanfeng Industrial, is located in Quanzhou, Fujian. The company specializes in "Quanfeng" and "Lixun" brand products, covering AC/DC axial fans, micro motors, and protective nets; with in-house mold, injection molding, hardware, and aluminum alloy die-casting workshops, achieving full产业链自主配套.',
+      description2: 'Deeply committed to quality and technological development, the company passed ISO9001 quality management system certification in 2000, with all products obtaining CCC, CE, FCC and other authoritative domestic and international safety certifications. The company and its products have won numerous honors: rated as Industry Supervision Inspection Qualified Unit and 95 Quality Level Excellent Unit; "Quanfeng" fans have been awarded "Fan Industry Quality Top Ten Trusted Brand" and "China Axial Fan Top Ten Famous Brand". Products passed Fujian Province new product certification, winning provincial science and technology achievement awards, excellent new product awards, and science and technology progress awards; the company has been recognized as Fujian High-Tech Enterprise, Science and Technology Progress Advanced Enterprise, and Fujian Famous Science and Technology Enterprise. The brand trademark has progressively been awarded Quanzhou Famous Trademark and Fujian Province Famous Trademark.',
       philosophy: 'Business Philosophy: Continuous Innovation, Sustainable Operation',
       spirit: 'Enterprise Spirit: Efficiency, Dedication, Hard Work, Innovation',
+      motto: 'All employees, with sincere and pragmatic style and warm and thoughtful service, sincerely welcome domestic and overseas merchants to negotiate cooperation, win-win cooperation and create the future together.',
       honors: '🏆 Famous Trademark of Fujian · High-Tech Enterprise · 25 Years Experience',
       footerHonors: '🏆 Famous Trademark of Fujian · High-Tech Enterprise',
       stats: [

@@ -311,6 +311,9 @@ export function SimplePage({ initialLocale = "zh" }: { initialLocale?: Locale })
                 <p>📋 {(t.company as any).philosophy}</p>
                 <p>💪 {(t.company as any).spirit}</p>
               </div>
+              {(t.company as any).motto && (
+                <p className="simple-company-motto">🤝 {(t.company as any).motto}</p>
+              )}
               <div className="simple-stats">
                 {t.company.stats.map((stat, i) => (
                   <div key={i} className="simple-stat-item">
